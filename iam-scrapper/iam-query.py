@@ -1,6 +1,7 @@
 import sqlite3
 import argparse
 import json
+import os
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--tbl', dest='table', action='store', help='name of sql table')
@@ -10,8 +11,7 @@ parser.add_argument('--query_filter', dest='query_filter', action='store', help=
 args = parser.parse_args()
 
 def main(table:str, database: str, query_filter: str):
-
-    con = sqlite3.connect(f'{database}.db')
+    con = sqlite3.connect(os.path.join(os.path.dirname(os.path.realpath(__file__)),f'{database}.db'))
 
     with con:
         query_result = con.execute(f'SELECT * FROM {table} WHERE {query_filter}') 
