@@ -6,6 +6,7 @@ import glob
 import logging
 import traceback
 import sys
+import os
 
 # https://beautiful-soup-4.readthedocs.io/en/latest/#kinds-of-objects
 # https://www.mssqltips.com/sqlservertip/7041/python-example-web-scraping-project/
@@ -29,9 +30,9 @@ def clear_str(s:str, removespaces: bool=False, tolower:bool=False):
     
     return s
 
-
-con = sqlite3.connect(f'amazon_iam.db')
-services = glob.glob('html\\*.html')
+root_path = os.path.dirname(os.path.realpath(__file__))
+con = sqlite3.connect(os.path.join(root_path,'amazon_iam.db'))
+services = glob.glob(os.path.join(root_path,'html','*.html'))
 logger=logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
@@ -103,12 +104,12 @@ for svc in services:
                             rows[k].insert(x,clear_str(td.text) if td.text else "none")
         # save to db
         for row in rows:
-            if len(row) ==6:
+            if len(row) == 6:
                 with con:
                     con.execute(f'''insert into {db_table}(actions,description,accesslevel,
                                     resourcetypes,conditionkeys,dependentactions) values (?,?,?,?,?,?)''', tuple(row))
             else:
-                logger.error(f'========== eror {svc} row has no 6 columns {row}')
+                logger.error(f'========== error {svc} row has no 6 columns {row}')
     except sqlite3.Error as er:
         exc_type, exc_value, exc_tb = sys.exc_info()
         logger.error(traceback.format_exception(exc_type, exc_value, exc_tb))

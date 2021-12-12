@@ -19,7 +19,7 @@ all_pages = []
 
 for a_list in all_a:
     if len(a_list) > 0:
-        a=a_list[0]
+        a = a_list[0]
         if a.has_attr("href"):
             if './' in a['href']:
                 all_pages.append(a['href'].replace("./",""))
