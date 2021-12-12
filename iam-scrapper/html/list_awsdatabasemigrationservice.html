@@ -1,0 +1,2296 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d363c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="7">
+     <a id="awsdatabasemigrationservice-AddTagsToResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_AddTagsToResource.html">
+      AddTagsToResource
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permission to add metadata tags to DMS resources, including replication instances,
+                                                endpoints, security groups, and migration tasks
+    </td>
+    <td rowspan="7">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Certificate">
+       Certificate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-EventSubscription">
+       EventSubscription
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationSubnetGroup">
+       ReplicationSubnetGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+       dms:req-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ApplyPendingMaintenanceAction">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ApplyPendingMaintenanceAction.html">
+      ApplyPendingMaintenanceAction
+     </a>
+    </td>
+    <td>
+     Grants permission to apply a pending maintenance action to a resource (for example,
+                                                to a replication instance)
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-CancelReplicationTaskAssessmentRun">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_CancelReplicationTaskAssessmentRun.html">
+      CancelReplicationTaskAssessmentRun
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a single premigration assessment run
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTaskAssessmentRun">
+       ReplicationTaskAssessmentRun*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-CreateEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_CreateEndpoint.html">
+      CreateEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to create an endpoint using the provided settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+       dms:req-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-CreateEventSubscription">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_CreateEventSubscription.html">
+      CreateEventSubscription
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS DMS event notification subscription
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+       dms:req-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-CreateReplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_CreateReplicationInstance.html">
+      CreateReplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to create a replication instance using the specified parameters
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+       dms:req-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-CreateReplicationSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_CreateReplicationSubnetGroup.html">
+      CreateReplicationSubnetGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to create a replication subnet group given a list of the subnet
+                                                IDs in a VPC
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+       dms:req-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsdatabasemigrationservice-CreateReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_CreateReplicationTask.html">
+      CreateReplicationTask
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a replication task using the specified parameters
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+       dms:req-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteCertificate.html">
+      DeleteCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified certificate
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Certificate">
+       Certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-DeleteConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteConnection.html">
+      DeleteConnection
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete the specified connection between a replication instance
+                                                and an endpoint
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteEndpoint.html">
+      DeleteEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified endpoint
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteEventSubscription">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteEventSubscription.html">
+      DeleteEventSubscription
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS DMS event subscription
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-EventSubscription">
+       EventSubscription*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteReplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteReplicationInstance.html">
+      DeleteReplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified replication instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteReplicationSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteReplicationSubnetGroup.html">
+      DeleteReplicationSubnetGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to deletes a subnet group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationSubnetGroup">
+       ReplicationSubnetGroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteReplicationTask.html">
+      DeleteReplicationTask
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified replication task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DeleteReplicationTaskAssessmentRun">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DeleteReplicationTaskAssessmentRun.html">
+      DeleteReplicationTaskAssessmentRun
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the record of a single premigration assessment run
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTaskAssessmentRun">
+       ReplicationTaskAssessmentRun*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeAccountAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeAccountAttributes.html">
+      DescribeAccountAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to list all of the AWS DMS attributes for a customer account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-DescribeApplicableIndividualAssessments">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeApplicableIndividualAssessments.html">
+      DescribeApplicableIndividualAssessments
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list individual assessments that you can specify for a new premigration
+                                                assessment run
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeCertificates">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeCertificates.html">
+      DescribeCertificates
+     </a>
+    </td>
+    <td>
+     Grants permission to provide a description of the certificate
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeConnections">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeConnections.html">
+      DescribeConnections
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the status of the connections that have been made between
+                                                the replication instance and an endpoint
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeEndpointSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeEndpointSettings.html">
+      DescribeEndpointSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to return the possible endpoint settings available when you create
+                                                an endpoint for a specific database engine
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeEndpointTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeEndpointTypes.html">
+      DescribeEndpointTypes
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the type of endpoints available
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeEndpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeEndpoints.html">
+      DescribeEndpoints
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the endpoints for your account in the
+                                                current region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeEventCategories">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeEventCategories.html">
+      DescribeEventCategories
+     </a>
+    </td>
+    <td>
+     Grants permission to list categories for all event source types, or, if specified,
+                                                for a specified source type
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeEventSubscriptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeEventSubscriptions.html">
+      DescribeEventSubscriptions
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the event subscriptions for a customer account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeEvents.html">
+      DescribeEvents
+     </a>
+    </td>
+    <td>
+     Grants permission to list events for a given source identifier and source type
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeOrderableReplicationInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeOrderableReplicationInstances.html">
+      DescribeOrderableReplicationInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the replication instance types that
+                                                can be created in the specified region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeRefreshSchemasStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeRefreshSchemasStatus.html">
+      DescribeRefreshSchemasStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to returns the status of the RefreshSchemas operation
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-DescribeReplicationInstanceTaskLogs">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationInstanceTaskLogs.html">
+      DescribeReplicationInstanceTaskLogs
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return information about the task logs for the specified task
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeReplicationInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationInstances.html">
+      DescribeReplicationInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about replication instances for your account
+                                                in the current region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeReplicationSubnetGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationSubnetGroups.html">
+      DescribeReplicationSubnetGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the replication subnet groups
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeReplicationTaskAssessmentResults">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationTaskAssessmentResults.html">
+      DescribeReplicationTaskAssessmentResults
+     </a>
+    </td>
+    <td>
+     Grants permission to return the latest task assessment results from Amazon S3
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsdatabasemigrationservice-DescribeReplicationTaskAssessmentRuns">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationTaskAssessmentRuns.html">
+      DescribeReplicationTaskAssessmentRuns
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to return a paginated list of premigration assessment runs based
+                                                on filter settings
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTaskAssessmentRun">
+       ReplicationTaskAssessmentRun
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-DescribeReplicationTaskIndividualAssessments">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationTaskIndividualAssessments.html">
+      DescribeReplicationTaskIndividualAssessments
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return a paginated list of individual assessments based on filter
+                                                settings
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTaskAssessmentRun">
+       ReplicationTaskAssessmentRun
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeReplicationTasks">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeReplicationTasks.html">
+      DescribeReplicationTasks
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about replication tasks for your account in
+                                                the current region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeSchemas">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeSchemas.html">
+      DescribeSchemas
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the schema for the specified endpoint
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-DescribeTableStatistics">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_DescribeTableStatistics.html">
+      DescribeTableStatistics
+     </a>
+    </td>
+    <td>
+     Grants permission to return table statistics on the database migration task, including
+                                                table name, rows inserted, rows updated, and rows deleted
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ImportCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ImportCertificate.html">
+      ImportCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to upload the specified certificate
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="6">
+     <a id="awsdatabasemigrationservice-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="6">
+     Grants permission to list all tags for an AWS DMS resource
+    </td>
+    <td rowspan="6">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Certificate">
+       Certificate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-EventSubscription">
+       EventSubscription
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationSubnetGroup">
+       ReplicationSubnetGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-ModifyEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ModifyEndpoint.html">
+      ModifyEndpoint
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify the specified endpoint
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Certificate">
+       Certificate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ModifyEventSubscription">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ModifyEventSubscription.html">
+      ModifyEventSubscription
+     </a>
+    </td>
+    <td>
+     Grants permission to modify an existing AWS DMS event notification subscription
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ModifyReplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ModifyReplicationInstance.html">
+      ModifyReplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the replication instance to apply new settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ModifyReplicationSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ModifyReplicationSubnetGroup.html">
+      ModifyReplicationSubnetGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the settings for the specified replication subnet group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ModifyReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ModifyReplicationTask.html">
+      ModifyReplicationTask
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the specified replication task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-MoveReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_MoveReplicationTask.html">
+      MoveReplicationTask
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to move the specified replication task to a different replication
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-RebootReplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_RebootReplicationInstance.html">
+      RebootReplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to reboot a replication instance. Rebooting results in a momentary
+                                                outage, until the replication instance becomes available again
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-RefreshSchemas">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_RefreshSchemas.html">
+      RefreshSchemas
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to populate the schema for the specified endpoint
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ReloadTables">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ReloadTables.html">
+      ReloadTables
+     </a>
+    </td>
+    <td>
+     Grants permission to reload the target database table with the source data
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="awsdatabasemigrationservice-RemoveTagsFromResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_RemoveTagsFromResource.html">
+      RemoveTagsFromResource
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permission to remove metadata tags from a DMS resource
+    </td>
+    <td rowspan="7">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Certificate">
+       Certificate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-EventSubscription">
+       EventSubscription
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationSubnetGroup">
+       ReplicationSubnetGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-StartReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_StartReplicationTask.html">
+      StartReplicationTask
+     </a>
+    </td>
+    <td>
+     Grants permission to start the replication task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-StartReplicationTaskAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_StartReplicationTaskAssessment.html">
+      StartReplicationTaskAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to start the replication task assessment for unsupported data types
+                                                in the source database
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-StartReplicationTaskAssessmentRun">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_StartReplicationTaskAssessmentRun.html">
+      StartReplicationTaskAssessmentRun
+     </a>
+    </td>
+    <td>
+     Grants permission to start a new premigration assessment run for one or more individual
+                                                assessments of a migration task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-StopReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_StopReplicationTask.html">
+      StopReplicationTask
+     </a>
+    </td>
+    <td>
+     Grants permission to stop the replication task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationTask">
+       ReplicationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdatabasemigrationservice-TestConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_TestConnection.html">
+      TestConnection
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to test the connection between the replication instance and the
+                                                endpoint
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-Endpoint">
+       Endpoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-ReplicationInstance">
+       ReplicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d363c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-Certificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_Certificate.html">
+      Certificate
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cert:*
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_cert-tag___TagKey_">
+       dms:cert-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-Endpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_Endpoint.html">
+      Endpoint
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:endpoint:*
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_endpoint-tag___TagKey_">
+       dms:endpoint-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-EventSubscription">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_EventSubscription.html">
+      EventSubscription
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:es:*
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_es-tag___TagKey_">
+       dms:es-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ReplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ReplicationInstance.html">
+      ReplicationInstance
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:rep:*
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_rep-tag___TagKey_">
+       dms:rep-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ReplicationSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ReplicationSubnetGroup.html">
+      ReplicationSubnetGroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:subgrp:*
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_subgrp-tag___TagKey_">
+       dms:subgrp-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ReplicationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ReplicationTask.html">
+      ReplicationTask
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:task:*
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsdatabasemigrationservice-dms_task-tag___TagKey_">
+       dms:task-tag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ReplicationTaskAssessmentRun">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ReplicationTaskAssessmentRun.html">
+      ReplicationTaskAssessmentRun
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:assessment-run:*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-ReplicationTaskIndividualAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/dms/latest/APIReference/API_ReplicationTaskIndividualAssessment.html">
+      ReplicationTaskIndividualAssessment
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:individual-assessment:*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d363c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_cert-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice--dms_cert-tag___TagKey_">
+      dms:cert-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request for Certificate
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_endpoint-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice-dms_endpoint-tag___TagKey_">
+      dms:endpoint-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request for Endpoint
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_es-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice-dms_es-tag___TagKey_">
+      dms:es-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request for EventSubscription
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_rep-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice-dms_rep-tag___TagKey_">
+      dms:rep-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request for ReplicationInstance
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_req-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice-dms_req-tag___TagKey_">
+      dms:req-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_subgrp-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice-dms_subgrp-tag___TagKey_">
+      dms:subgrp-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request for ReplicationSubnetGroup
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdatabasemigrationservice-dms_task-tag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatabasemigrationservice.html#awsdatabasemigrationservice-dms_task-tag___TagKey_">
+      dms:task-tag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request for ReplicationTask
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

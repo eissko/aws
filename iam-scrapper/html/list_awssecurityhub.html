@@ -1,0 +1,2012 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1083c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssecurityhub-AcceptAdministratorInvitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_AcceptAdministratorInvitation.html">
+      AcceptAdministratorInvitation
+     </a>
+    </td>
+    <td>
+     Grants permission to accept Security Hub invitations to become a member account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-AcceptInvitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_AcceptInvitation.html">
+      AcceptInvitation
+     </a>
+    </td>
+    <td>
+     Grants permission to accept Security Hub invitations to become a member account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-BatchDisableStandards">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_BatchDisableStandards.html">
+      BatchDisableStandards
+     </a>
+    </td>
+    <td>
+     Grants permission to disable standards in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-BatchEnableStandards">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_BatchEnableStandards.html">
+      BatchEnableStandards
+     </a>
+    </td>
+    <td>
+     Grants permission to enable standards in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssecurityhub-BatchImportFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_BatchImportFindings.html">
+      BatchImportFindings
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to import findings into Security Hub from an integrated product
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-product">
+       product*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-securityhub_TargetAccount">
+       securityhub:TargetAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssecurityhub-BatchUpdateFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_BatchUpdateFindings.html">
+      BatchUpdateFindings
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update customer-controlled fields for a selected set of Security
+                                                Hub findings
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-securityhub_ASFFSyntaxPath___ASFFSyntaxPath_">
+       securityhub:ASFFSyntaxPath/${ASFFSyntaxPath}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-CreateActionTarget">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_CreateActionTarget.html">
+      CreateActionTarget
+     </a>
+    </td>
+    <td>
+     Grants permission to create custom actions in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-CreateFindingAggregator">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindingAggregator.html">
+      CreateFindingAggregator
+     </a>
+    </td>
+    <td>
+     Grants permission to create a finding aggregator, which contains the cross-Region
+                                                finding aggregation configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-CreateInsight">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_CreateInsight.html">
+      CreateInsight
+     </a>
+    </td>
+    <td>
+     Grants permission to create insights in Security Hub. Insights are collections of
+                                                related findings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-CreateMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_CreateMembers.html">
+      CreateMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to create member accounts in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DeclineInvitations">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeclineInvitations.html">
+      DeclineInvitations
+     </a>
+    </td>
+    <td>
+     Grants permission to decline Security Hub invitations to become a member account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DeleteActionTarget">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeleteActionTarget.html">
+      DeleteActionTarget
+     </a>
+    </td>
+    <td>
+     Grants permission to delete custom actions in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DeleteFindingAggregator">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeleteFindingAggregator.html">
+      DeleteFindingAggregator
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a finding aggregator, which disables finding aggregation
+                                                across Regions
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-finding-aggregator">
+       finding-aggregator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DeleteInsight">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeleteInsight.html">
+      DeleteInsight
+     </a>
+    </td>
+    <td>
+     Grants permission to delete insights from Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DeleteInvitations">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeleteInvitations.html">
+      DeleteInvitations
+     </a>
+    </td>
+    <td>
+     Grants permission to delete Security Hub invitations to become a member account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DeleteMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeleteMembers.html">
+      DeleteMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to delete Security Hub member accounts
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DescribeActionTargets">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeActionTargets.html">
+      DescribeActionTargets
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of custom actions using the API
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DescribeHub">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeHub.html">
+      DescribeHub
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about the hub resource in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DescribeOrganizationConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeOrganizationConfiguration.html">
+      DescribeOrganizationConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the organization configuration for Security Hub
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DescribeProducts">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeProducts.html">
+      DescribeProducts
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about the available Security Hub product
+                                                integrations
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DescribeStandards">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeStandards.html">
+      DescribeStandards
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about Security Hub standards
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DescribeStandardsControls">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeStandardsControls.html">
+      DescribeStandardsControls
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about Security Hub standards controls
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DisableImportFindingsForProduct">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DisableImportFindingsForProduct.html">
+      DisableImportFindingsForProduct
+     </a>
+    </td>
+    <td>
+     Grants permission to disable the findings importing for a Security Hub integrated
+                                                product
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DisableOrganizationAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DisableOrganizationAdminAccount.html">
+      DisableOrganizationAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to remove the Security Hub administrator account for your organization
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:DescribeOrganization
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DisableSecurityHub">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DisableSecurityHub.html">
+      DisableSecurityHub
+     </a>
+    </td>
+    <td>
+     Grants permission to disable Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DisassociateFromAdministratorAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DisassociateFromAdministratorAccount.html">
+      DisassociateFromAdministratorAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to a Security Hub member account to disassociate from the associated
+                                                administrator account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DisassociateFromMasterAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DisassociateFromMasterAccount.html">
+      DisassociateFromMasterAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to a Security Hub member account to disassociate from the associated
+                                                master account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-DisassociateMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DisassociateMembers.html">
+      DisassociateMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate Security Hub member accounts from the associated
+                                                administrator account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-EnableImportFindingsForProduct">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_EnableImportFindingsForProduct.html">
+      EnableImportFindingsForProduct
+     </a>
+    </td>
+    <td>
+     Grants permission to enable the findings importing for a Security Hub integrated product
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-EnableOrganizationAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_EnableOrganizationAdminAccount.html">
+      EnableOrganizationAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to designate a Security Hub administrator account for your organization
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:DescribeOrganization
+     </p>
+     <p>
+      organizations:EnableAWSServiceAccess
+     </p>
+     <p>
+      organizations:RegisterDelegatedAdministrator
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssecurityhub-EnableSecurityHub">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_EnableSecurityHub.html">
+      EnableSecurityHub
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to enable Security Hub
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awssecurityhub-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetAdhocInsightResults">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetAdhocInsightResults.html">
+      GetAdhocInsightResults
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve insight results by providing a set of filters instead
+                                                of an insight ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetAdministratorAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetAdministratorAccount.html">
+      GetAdministratorAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about the Security Hub administrator account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetControlFindingSummary">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetControlFindingSummary.html">
+      GetControlFindingSummary
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a security score and counts of finding and control statuses
+                                                for a security standard
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetEnabledStandards">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetEnabledStandards.html">
+      GetEnabledStandards
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of the standards that are enabled in Security
+                                                Hub
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetFindingAggregator">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetFindingAggregator.html">
+      GetFindingAggregator
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details for a finding aggregator, which configures finding
+                                                aggregation across Regions
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-finding-aggregator">
+       finding-aggregator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetFindings.html">
+      GetFindings
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of findings from Security Hub
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetFreeTrialEndDate">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetFreeTrialEndDate.html">
+      GetFreeTrialEndDate
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve the end date for an account's free trial of Security
+                                                Hub
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetFreeTrialUsage">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetFreeTrialUsage.html">
+      GetFreeTrialUsage
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve information about Security Hub usage during the free
+                                                trial period
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetInsightFindingTrend">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetInsightFindingTrend.html">
+      GetInsightFindingTrend
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve an insight finding trend from Security Hub in order
+                                                to generate a graph
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetInsightResults">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetInsightResults.html">
+      GetInsightResults
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve insight results from Security Hub
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetInsights">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetInsights.html">
+      GetInsights
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve Security Hub insights
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetInvitationsCount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetInvitationsCount.html">
+      GetInvitationsCount
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the count of Security Hub membership invitations sent
+                                                to the account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetMasterAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetMasterAccount.html">
+      GetMasterAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about the Security Hub master account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetMembers.html">
+      GetMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the details of Security Hub member accounts
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-GetUsage">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetUsage.html">
+      GetUsage
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve information about Security Hub usage by accounts
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-InviteMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_InviteMembers.html">
+      InviteMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to invite other AWS accounts to become Security Hub member accounts
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListControlEvaluationSummaries">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_ListControlEvaluationSummaries.html">
+      ListControlEvaluationSummaries
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of controls for a standard, including the control
+                                                IDs, statuses and finding counts
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListEnabledProductsForImport">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_ListEnabledProductsForImport.html">
+      ListEnabledProductsForImport
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the Security Hub integrated products that are currently
+                                                enabled
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListFindingAggregators">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindingAggregator.html">
+      ListFindingAggregators
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of finding aggregators, which contain the cross-Region
+                                                finding aggregation configuration
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListInvitations">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_ListInvitations.html">
+      ListInvitations
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the Security Hub invitations sent to the account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_ListMembers.html">
+      ListMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about Security Hub member accounts associated
+                                                with the administrator account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListOrganizationAdminAccounts">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_ListOrganizationAdminAccounts.html">
+      ListOrganizationAdminAccounts
+     </a>
+    </td>
+    <td>
+     Grants permission to list the Security Hub administrator accounts for your organization
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:DescribeOrganization
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list of tags associated with a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-SendFindingEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_SendFindingEvents.html">
+      SendFindingEvents
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to use a custom action to send Security Hub findings to Amazon EventBridge
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-SendInsightEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_SendInsightEvents.html">
+      SendInsightEvents
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to use a custom action to send Security Hub insights to Amazon EventBridge
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to add tags to a Security Hub resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to remove tags from a Security Hub resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateActionTarget">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateActionTarget.html">
+      UpdateActionTarget
+     </a>
+    </td>
+    <td>
+     Grants permission to update custom actions in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateFindingAggregator">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindingAggregator.html">
+      UpdateFindingAggregator
+     </a>
+    </td>
+    <td>
+     Grants permission to update a finding aggregator, which contains the cross-Region
+                                                finding aggregation configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-finding-aggregator">
+       finding-aggregator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindings.html">
+      UpdateFindings
+     </a>
+    </td>
+    <td>
+     Grants permission to update Security Hub findings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateInsight">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateInsight.html">
+      UpdateInsight
+     </a>
+    </td>
+    <td>
+     Grants permission to update insights in Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateOrganizationConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateOrganizationConfiguration.html">
+      UpdateOrganizationConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update the organization configuration for Security Hub
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateSecurityHubConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateSecurityHubConfiguration.html">
+      UpdateSecurityHubConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update Security Hub configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-UpdateStandardsControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateStandardsControl.html">
+      UpdateStandardsControl
+     </a>
+    </td>
+    <td>
+     Grants permission to update Security Hub standards controls
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-hub">
+       hub
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1083c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssecurityhub-hub">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-access.html#resources">
+      hub
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:securityhub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:hub/default
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awssecurityhub-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-product">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-access.html#resources">
+      product
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:securityhub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:product/$
+      <span>
+       {
+      </span>
+      Company}/$
+      <span>
+       {
+      </span>
+      ProductId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-finding-aggregator">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-access.html#resources">
+      finding-aggregator
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:securityhub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:finding-aggregator/$
+      <span>
+       {
+      </span>
+      FindingAggregatorId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1083c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssecurityhub-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-securityhub_ASFFSyntaxPath___ASFFSyntaxPath_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-asffsyntaxpath">
+      securityhub:ASFFSyntaxPath/${ASFFSyntaxPath}
+     </a>
+    </td>
+    <td>
+     Filters access by the specified fields and values in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssecurityhub-securityhub_TargetAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-access.html#conditions">
+      securityhub:TargetAccount
+     </a>
+    </td>
+    <td>
+     Filters access by the AwsAccountId field that is specified in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

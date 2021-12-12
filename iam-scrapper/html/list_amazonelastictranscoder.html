@@ -1,0 +1,581 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d475c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-CancelJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/cancel-job.html">
+      CancelJob
+     </a>
+    </td>
+    <td>
+     Cancel a job that Elastic Transcoder has not begun to process
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-job">
+       job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelastictranscoder-CreateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/create-job.html">
+      CreateJob
+     </a>
+    </td>
+    <td rowspan="2">
+     Create a job.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-preset">
+       preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-CreatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/create-pipeline.html">
+      CreatePipeline
+     </a>
+    </td>
+    <td>
+     Create a pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-CreatePreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/create-preset.html">
+      CreatePreset
+     </a>
+    </td>
+    <td>
+     Create a preset.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-preset">
+       preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-DeletePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/delete-pipeline.html">
+      DeletePipeline
+     </a>
+    </td>
+    <td>
+     Delete a pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-DeletePreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/delete-preset.html">
+      DeletePreset
+     </a>
+    </td>
+    <td>
+     Delete a preset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-preset">
+       preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ListJobsByPipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/list-jobs-by-pipeline.html">
+      ListJobsByPipeline
+     </a>
+    </td>
+    <td>
+     Get a list of the jobs that you assigned to a pipeline
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ListJobsByStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/list-jobs-by-status.html">
+      ListJobsByStatus
+     </a>
+    </td>
+    <td>
+     Get information about all of the jobs associated with the current AWS account that
+                                                have a specified status
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ListPipelines">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/list-pipelines.html">
+      ListPipelines
+     </a>
+    </td>
+    <td>
+     Get a list of the pipelines associated with the current AWS account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ListPresets">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/list-presets.html">
+      ListPresets
+     </a>
+    </td>
+    <td>
+     Get a list of all presets associated with the current AWS account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ReadJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/get-job.html">
+      ReadJob
+     </a>
+    </td>
+    <td>
+     Get detailed information about a job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-job">
+       job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ReadPipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/get-pipeline.html">
+      ReadPipeline
+     </a>
+    </td>
+    <td>
+     Get detailed information about a pipeline
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-ReadPreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/get-preset.html">
+      ReadPreset
+     </a>
+    </td>
+    <td>
+     Get detailed information about a preset.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-preset">
+       preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-TestRole">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/test-pipeline-role.html">
+      TestRole
+     </a>
+    </td>
+    <td>
+     Test the settings for a pipeline to ensure that Elastic Transcoder can create and
+                                                process jobs
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-UpdatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/update-pipeline.html">
+      UpdatePipeline
+     </a>
+    </td>
+    <td>
+     Update settings for a pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-UpdatePipelineNotifications">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/update-pipeline-notifications.html">
+      UpdatePipelineNotifications
+     </a>
+    </td>
+    <td>
+     Update only Amazon Simple Notification Service (Amazon SNS) notifications for a pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-UpdatePipelineStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/update-pipeline-status.html">
+      UpdatePipelineStatus
+     </a>
+    </td>
+    <td>
+     Pause or reactivate a pipeline, so the pipeline stops or restarts processing jobs,
+                                                update the status for the pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelastictranscoder-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d475c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-job">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/operations-jobs.html">
+      job
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elastictranscoder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:job/$
+      <span>
+       {
+      </span>
+      JobId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-pipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/operations-pipelines.html">
+      pipeline
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elastictranscoder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:pipeline/$
+      <span>
+       {
+      </span>
+      PipelineId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelastictranscoder-preset">
+     </a>
+     <a href="https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/operations-presets.html">
+      preset
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elastictranscoder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:preset/$
+      <span>
+       {
+      </span>
+      PresetId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

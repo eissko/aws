@@ -1,0 +1,844 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d439c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-BatchCheckLayerAvailability">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_BatchCheckLayerAvailability.html">
+      BatchCheckLayerAvailability
+     </a>
+    </td>
+    <td>
+     Grants permission to check the availability of multiple image layers in a specified
+                                                registry and repository
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-BatchDeleteImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_BatchDeleteImage.html">
+      BatchDeleteImage
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a list of specified images within a specified repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-CompleteLayerUpload">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_CompleteLayerUpload.html">
+      CompleteLayerUpload
+     </a>
+    </td>
+    <td>
+     Grants permission to inform Amazon ECR that the image layer upload for a specified
+                                                registry, repository name, and upload ID, has completed
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticcontainerregistrypublic-CreateRepository">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_CreateRepository.html">
+      CreateRepository
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an image repository
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-DeleteRepository">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_DeleteRepository.html">
+      DeleteRepository
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing image repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-DeleteRepositoryPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_DeleteRepositoryPolicy.html">
+      DeleteRepositoryPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the repository policy from a specified repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-DescribeImageTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_DescribeImageTags.html">
+      DescribeImageTags
+     </a>
+    </td>
+    <td>
+     Grants permission to describe all the image tags for a given repository
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-DescribeImages">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_DescribeImages.html">
+      DescribeImages
+     </a>
+    </td>
+    <td>
+     Grants permission to get metadata about the images in a repository, including image
+                                                size, image tags, and creation date
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-DescribeRegistries">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_DescribeRegistries.html">
+      DescribeRegistries
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the catalog data associated with a registry
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-registry">
+       registry*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-DescribeRepositories">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_DescribeRepositories.html">
+      DescribeRepositories
+     </a>
+    </td>
+    <td>
+     Grants permission to describe image repositories in a registry
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-GetAuthorizationToken">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_GetAuthorizationToken.html">
+      GetAuthorizationToken
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a token that is valid for a specified registry for 12
+                                                hours
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-GetRegistryCatalogData">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_GetRegistryCatalogData.html">
+      GetRegistryCatalogData
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the catalog data associated with a registry
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-registry">
+       registry*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-GetRepositoryCatalogData">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_GetRepositoryCatalogData.html">
+      GetRepositoryCatalogData
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the catalog data associated with a repository
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-GetRepositoryPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_GetRepositoryPolicy.html">
+      GetRepositoryPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the repository policy for a specified repository
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-InitiateLayerUpload">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_InitiateLayerUpload.html">
+      InitiateLayerUpload
+     </a>
+    </td>
+    <td>
+     Grants permission to notify Amazon ECR that you intend to upload an image layer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list the tags for an Amazon ECR resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-PutImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_PutImage.html">
+      PutImage
+     </a>
+    </td>
+    <td>
+     Grants permission to create or update the image manifest associated with an image
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-PutRegistryCatalogData">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_PutRegistryCatalogData.html">
+      PutRegistryCatalogData
+     </a>
+    </td>
+    <td>
+     Grants permission to create and update the catalog data associated with a registry
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-registry">
+       registry*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-PutRepositoryCatalogData">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_PutRepositoryCatalogData.html">
+      PutRepositoryCatalogData
+     </a>
+    </td>
+    <td>
+     Grants permission to update the catalog data associated with a repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-SetRepositoryPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_SetRepositoryPolicy.html">
+      SetRepositoryPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to apply a repository policy on a specified repository to control
+                                                access permissions
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticcontainerregistrypublic-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag an Amazon ECR resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticcontainerregistrypublic-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to untag an Amazon ECR resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-UploadLayerPart">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECRPublic/latest/APIReference/API_UploadLayerPart.html">
+      UploadLayerPart
+     </a>
+    </td>
+    <td>
+     Grants permission to upload an image layer part to Amazon ECR Public
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-repository">
+       repository*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d439c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-repository">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/iam-policy-structure.html#ECR-Public_ARN_Format">
+      repository
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ecr-public::$
+      <span>
+       {
+      </span>
+      Account}:repository/$
+      <span>
+       {
+      </span>
+      RepositoryName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticcontainerregistrypublic-ecr-public_ResourceTag___TagKey_">
+       ecr-public:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-registry">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/iam-policy-structure.html#ECR-Public_ARN_Format">
+      registry
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ecr-public::$
+      <span>
+       {
+      </span>
+      Account}:registry/$
+      <span>
+       {
+      </span>
+      RegistryId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d439c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters create requests based on the allowed set of values for each of the tags
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag-value associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters create requests based on the presence of mandatory tags in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticcontainerregistrypublic-ecr-public_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      ecr-public:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag-value associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

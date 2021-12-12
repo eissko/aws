@@ -1,0 +1,873 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d899c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmq-CreateBroker">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-brokers.html#rest-api-brokers-methods-post">
+      CreateBroker
+     </a>
+    </td>
+    <td>
+     Grants permission to create a broker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmq-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:CreateNetworkInterfacePermission
+     </p>
+     <p>
+      ec2:CreateSecurityGroup
+     </p>
+     <p>
+      ec2:CreateVpcEndpoint
+     </p>
+     <p>
+      ec2:DescribeInternetGateways
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfacePermissions
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSecurityGroups
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcEndpoints
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      ec2:ModifyNetworkInterfaceAttribute
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      route53:AssociateVPCWithHostedZone
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-CreateConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-configurations.html#rest-api-configurations-methods-post">
+      CreateConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new configuration for the specified configuration name.
+                                                Amazon MQ uses the default configuration (the engine type and engine version)
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmq-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonmq-CreateTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-tags.html#rest-api-tags-methods-post">
+      CreateTags
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create tags
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmq-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-CreateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-username.html#rest-api-username-methods-post">
+      CreateUser
+     </a>
+    </td>
+    <td>
+     Grants permission to create an ActiveMQ user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DeleteBroker">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-broker.html#rest-api-broker-methods-delete">
+      DeleteBroker
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a broker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterfacePermission
+     </p>
+     <p>
+      ec2:DeleteVpcEndpoints
+     </p>
+     <p>
+      ec2:DetachNetworkInterface
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonmq-DeleteTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-tags.html#rest-api-tags-methods-delete">
+      DeleteTags
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete tags
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DeleteUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-username.html#rest-api-username-methods-delete">
+      DeleteUser
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an ActiveMQ user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DescribeBroker">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-broker.html#rest-api-broker-methods-get">
+      DescribeBroker
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the specified broker
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DescribeBrokerEngineTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/broker-engine-types.html#broker-engine-types-http-methods">
+      DescribeBrokerEngineTypes
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about broker engines
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DescribeBrokerInstanceOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/broker-instance-options.html#broker-engine-types-http-methods">
+      DescribeBrokerInstanceOptions
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the broker instance options
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DescribeConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-configuration.html#rest-api-configuration-methods-get">
+      DescribeConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the specified configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DescribeConfigurationRevision">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-configuration-revision.html#rest-api-configuration-revision-methods-get">
+      DescribeConfigurationRevision
+     </a>
+    </td>
+    <td>
+     Grants permission to return the specified configuration revision for the specified
+                                                configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-DescribeUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-username.html#rest-api-username-methods-get">
+      DescribeUser
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about an ActiveMQ user
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-ListBrokers">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-brokers.html#rest-api-brokers-methods-get">
+      ListBrokers
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of all brokers
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-ListConfigurationRevisions">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-revisions.html#rest-api-revisions-methods-get">
+      ListConfigurationRevisions
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of all existing revisions for the specified configuration
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-ListConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-configurations.html#rest-api-configurations-methods-get">
+      ListConfigurations
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of all configurations
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmq-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-tags.html#rest-api-tags-methods-get">
+      ListTags
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return a list of tags
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-ListUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-users.html#rest-api-users-methods-get">
+      ListUsers
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of all ActiveMQ users
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-RebootBroker">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-restart.html#rest-api-reboot-methods-post">
+      RebootBroker
+     </a>
+    </td>
+    <td>
+     Grants permission to reboot a broker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-UpdateBroker">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-broker.html#rest-api-broker-methods-get">
+      UpdateBroker
+     </a>
+    </td>
+    <td>
+     Grants permission to add a pending configuration change to a broker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-UpdateConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-configuration.html#rest-api-configuration-methods-put">
+      UpdateConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update the specified configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-configurations">
+       configurations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-UpdateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/api-reference/rest-api-username.html#rest-api-username-methods-put">
+      UpdateUser
+     </a>
+    </td>
+    <td>
+     Grants permission to update the information for an ActiveMQ user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-brokers">
+       brokers*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d899c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmq-brokers">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-how-it-works.html">
+      brokers
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mq:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:broker:$
+      <span>
+       {
+      </span>
+      broker-id}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-configurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-how-it-works.html">
+      configurations
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mq:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:configuration:$
+      <span>
+       {
+      </span>
+      configuration-id}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmq-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d899c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmq-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmq-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

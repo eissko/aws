@@ -1,0 +1,178 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d343c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscostandusagereport-DeleteReportDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/delete-report-definition.html">
+      DeleteReportDefinition
+     </a>
+    </td>
+    <td>
+     Delete Cost and Usage Report Definition
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscostandusagereport-cur">
+       cur*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscostandusagereport-DescribeReportDefinitions">
+     </a>
+     <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/describe-report-definitions.html">
+      DescribeReportDefinitions
+     </a>
+    </td>
+    <td>
+     Get Cost and Usage Report Definitions
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscostandusagereport-ModifyReportDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/modify-report-definition.html">
+      ModifyReportDefinition
+     </a>
+    </td>
+    <td>
+     Modify Cost and Usage Report Definition
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscostandusagereport-cur">
+       cur*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscostandusagereport-PutReportDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/put-report-definition.html">
+      PutReportDefinition
+     </a>
+    </td>
+    <td>
+     Write Cost and Usage Report Definition
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscostandusagereport-cur">
+       cur*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d343c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscostandusagereport-cur">
+     </a>
+     <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-reports.html#enhanced-reports">
+      cur
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:cur:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:definition/$
+      <span>
+       {
+      </span>
+      ReportName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

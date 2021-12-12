@@ -1,0 +1,1526 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1015c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-AddDraftAppVersionResourceMappings">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_AddDraftAppVersionResourceMappings.html">
+      AddDraftAppVersionResourceMappings
+     </a>
+    </td>
+    <td>
+     Grants permission to add draft application version resource mappings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      cloudformation:DescribeStacks
+     </p>
+     <p>
+      cloudformation:ListStackResources
+     </p>
+     <p>
+      resource-groups:GetGroup
+     </p>
+     <p>
+      resource-groups:ListGroupResources
+     </p>
+     <p>
+      servicecatalog:GetApplication
+     </p>
+     <p>
+      servicecatalog:ListAssociatedResources
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsresiliencehubservice-CreateApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_CreateApp.html">
+      CreateApp
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create application
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-resiliency-policy">
+       resiliency-policy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsresiliencehubservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsresiliencehubservice-CreateRecommendationTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_CreateRecommendationTemplate.html">
+      CreateRecommendationTemplate
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create recommendation template
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      s3:CreateBucket
+     </p>
+     <p>
+      s3:ListBucket
+     </p>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsresiliencehubservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-CreateResiliencyPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_CreateResiliencyPolicy.html">
+      CreateResiliencyPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to create resiliency policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsresiliencehubservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DeleteApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DeleteApp.html">
+      DeleteApp
+     </a>
+    </td>
+    <td>
+     Grants permission to batch delete application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DeleteAppAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DeleteAppAssessment.html">
+      DeleteAppAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to batch delete application assessment
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DeleteRecommendationTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DeleteRecommendationTemplate.html">
+      DeleteRecommendationTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to batch delete recommendation template
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DeleteResiliencyPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DeleteResiliencyPolicy.html">
+      DeleteResiliencyPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to batch delete resiliency policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-resiliency-policy">
+       resiliency-policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DescribeApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DescribeApp.html">
+      DescribeApp
+     </a>
+    </td>
+    <td>
+     Grants permission to describe application
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DescribeAppAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DescribeAppAssessment.html">
+      DescribeAppAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to describe application assessment
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DescribeAppVersionResourcesResolutionStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DescribeAppVersionResourcesResolutionStatus.html">
+      DescribeAppVersionResourcesResolutionStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to describe application resolution
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DescribeAppVersionTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DescribeAppVersionTemplate.html">
+      DescribeAppVersionTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to describe application version template
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DescribeDraftAppVersionResourcesImportStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DescribeDraftAppVersionResourcesImportStatus.html">
+      DescribeDraftAppVersionResourcesImportStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to describe draft application version resources import status
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-DescribeResiliencyPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_DescribeResiliencyPolicy.html">
+      DescribeResiliencyPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to describe resiliency policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-resiliency-policy">
+       resiliency-policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ImportResourcesToDraftAppVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ImportResourcesToDraftAppVersion.html">
+      ImportResourcesToDraftAppVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to import resources to draft application version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      cloudformation:DescribeStacks
+     </p>
+     <p>
+      cloudformation:ListStackResources
+     </p>
+     <p>
+      resource-groups:GetGroup
+     </p>
+     <p>
+      resource-groups:ListGroupResources
+     </p>
+     <p>
+      servicecatalog:GetApplication
+     </p>
+     <p>
+      servicecatalog:ListAssociatedResources
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAlarmRecommendations">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAlarmRecommendations.html">
+      ListAlarmRecommendations
+     </a>
+    </td>
+    <td>
+     Grants permission to list alarm recommendation
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAppAssessments">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAppAssessments.html">
+      ListAppAssessments
+     </a>
+    </td>
+    <td>
+     Grants permission to list application assessment
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAppComponentCompliances">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAppComponentCompliances.html">
+      ListAppComponentCompliances
+     </a>
+    </td>
+    <td>
+     Grants permission to list app component compliances
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAppComponentRecommendations">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAppComponentRecommendations.html">
+      ListAppComponentRecommendations
+     </a>
+    </td>
+    <td>
+     Grants permission to list app component recommendations
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAppVersionResourceMappings">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAppVersionResourceMappings.html">
+      ListAppVersionResourceMappings
+     </a>
+    </td>
+    <td>
+     Grants permission to application version resource mappings
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAppVersionResources">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAppVersionResources.html">
+      ListAppVersionResources
+     </a>
+    </td>
+    <td>
+     Grants permission to list application resources
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListAppVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListAppVersions.html">
+      ListAppVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to list application version
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListApps">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListApps.html">
+      ListApps
+     </a>
+    </td>
+    <td>
+     Grants permission to list applications
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListRecommendationTemplates">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListRecommendationTemplates.html">
+      ListRecommendationTemplates
+     </a>
+    </td>
+    <td>
+     Grants permission to list recommendation templates
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListResiliencyPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListResiliencyPolicies.html">
+      ListResiliencyPolicies
+     </a>
+    </td>
+    <td>
+     Grants permission to list resiliency policies
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListSopRecommendations">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListSopRecommendations.html">
+      ListSopRecommendations
+     </a>
+    </td>
+    <td>
+     Grants permission to list SOP recommendations
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListSuggestedResiliencyPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListSuggestedResiliencyPolicies.html">
+      ListSuggestedResiliencyPolicies
+     </a>
+    </td>
+    <td>
+     Grants permission to list suggested resiliency policies
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags for a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListTestRecommendations">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListTestRecommendations.html">
+      ListTestRecommendations
+     </a>
+    </td>
+    <td>
+     Grants permission to list test recommendations
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ListUnsupportedAppVersionResources">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ListUnsupportedAppVersionResources.html">
+      ListUnsupportedAppVersionResources
+     </a>
+    </td>
+    <td>
+     Grants permission to list unsupported application version resources
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-PublishAppVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_PublishAppVersion.html">
+      PublishAppVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to publish application version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-PutDraftAppVersionTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_PutDraftAppVersionTemplate.html">
+      PutDraftAppVersionTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to put draft application version template
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-RemoveDraftAppVersionResourceMappings">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_RemoveDraftAppVersionResourceMappings.html">
+      RemoveDraftAppVersionResourceMappings
+     </a>
+    </td>
+    <td>
+     Grants permission to remove draft application version mappings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-ResolveAppVersionResources">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ResolveAppVersionResources.html">
+      ResolveAppVersionResources
+     </a>
+    </td>
+    <td>
+     Grants permission to resolve application version resources
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      cloudformation:DescribeStacks
+     </p>
+     <p>
+      cloudformation:ListStackResources
+     </p>
+     <p>
+      resource-groups:GetGroup
+     </p>
+     <p>
+      resource-groups:ListGroupResources
+     </p>
+     <p>
+      servicecatalog:GetApplication
+     </p>
+     <p>
+      servicecatalog:ListAssociatedResources
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsresiliencehubservice-StartAppAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_StartAppAssessment.html">
+      StartAppAssessment
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create application assessment
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      cloudformation:DescribeStacks
+     </p>
+     <p>
+      cloudformation:ListStackResources
+     </p>
+     <p>
+      cloudwatch:DescribeAlarms
+     </p>
+     <p>
+      cloudwatch:GetMetricData
+     </p>
+     <p>
+      cloudwatch:GetMetricStatistics
+     </p>
+     <p>
+      cloudwatch:PutMetricData
+     </p>
+     <p>
+      fis:GetExperimentTemplate
+     </p>
+     <p>
+      fis:ListExperimentTemplates
+     </p>
+     <p>
+      fis:ListExperiments
+     </p>
+     <p>
+      resource-groups:GetGroup
+     </p>
+     <p>
+      resource-groups:ListGroupResources
+     </p>
+     <p>
+      servicecatalog:GetApplication
+     </p>
+     <p>
+      servicecatalog:ListAssociatedResources
+     </p>
+     <p>
+      ssm:GetParametersByPath
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsresiliencehubservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awsresiliencehubservice-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to assign a resource tag
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-app-assessment">
+       app-assessment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-recommendation-template">
+       recommendation-template
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-resiliency-policy">
+       resiliency-policy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsresiliencehubservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awsresiliencehubservice-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to untag a resource
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-app-assessment">
+       app-assessment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-recommendation-template">
+       recommendation-template
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-resiliency-policy">
+       resiliency-policy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-UpdateApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_UpdateApp.html">
+      UpdateApp
+     </a>
+    </td>
+    <td>
+     Grants permission to update application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-UpdateResiliencyPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_UpdateResiliencyPolicy.html">
+      UpdateResiliencyPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to update resiliency policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-resiliency-policy">
+       resiliency-policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1015c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-resiliency-policy">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_ResiliencyPolicy.html">
+      resiliency-policy
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:resiliencehub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:resiliency-policy/$
+      <span>
+       {
+      </span>
+      ResiliencyPolicyID}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-application">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_App.html">
+      application
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:resiliencehub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:app/$
+      <span>
+       {
+      </span>
+      AppID}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-app-assessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_AppAssessment.html">
+      app-assessment
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:resiliencehub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:app-assessment/$
+      <span>
+       {
+      </span>
+      AppAssessmentID}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-recommendation-template">
+     </a>
+     <a href="https://docs.aws.amazon.com/resilience-hub/latest/APIReference/API_RecommendationTemplate.html">
+      recommendation-template
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:resiliencehub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:recommendation-template/$
+      <span>
+       {
+      </span>
+      RecommendationTemplateID}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsresiliencehubservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1015c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsresiliencehubservice-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

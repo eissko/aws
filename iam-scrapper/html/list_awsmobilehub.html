@@ -1,0 +1,592 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d891c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsmobilehub-CreateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      CreateProject
+     </a>
+    </td>
+    <td>
+     Create a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-CreateServiceRole">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      CreateServiceRole
+     </a>
+    </td>
+    <td>
+     Enable AWS Mobile Hub in the account by creating the required service role
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-DeleteProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      DeleteProject
+     </a>
+    </td>
+    <td>
+     Delete the specified project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmobilehub-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-DeleteProjectSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      DeleteProjectSnapshot
+     </a>
+    </td>
+    <td>
+     Delete a saved snapshot of project configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-DeployToStage">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      DeployToStage
+     </a>
+    </td>
+    <td>
+     Deploy changes to the specified stage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-DescribeBundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      DescribeBundle
+     </a>
+    </td>
+    <td>
+     Describe the download bundle
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ExportBundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ExportBundle
+     </a>
+    </td>
+    <td>
+     Export the download bundle
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ExportProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ExportProject
+     </a>
+    </td>
+    <td>
+     Export the project configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsmobilehub-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-GenerateProjectParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      GenerateProjectParameters
+     </a>
+    </td>
+    <td>
+     Generate project parameters required for code generation
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsmobilehub-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-GetProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      GetProject
+     </a>
+    </td>
+    <td>
+     Get project configuration and resources
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsmobilehub-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-GetProjectSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      GetProjectSnapshot
+     </a>
+    </td>
+    <td>
+     Fetch the previously exported project configuration snapshot
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ImportProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ImportProject
+     </a>
+    </td>
+    <td>
+     Create a new project from the previously exported project configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-InstallBundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      InstallBundle
+     </a>
+    </td>
+    <td>
+     Install a bundle in the project deployments S3 bucket
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ListAvailableConnectors">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ListAvailableConnectors
+     </a>
+    </td>
+    <td>
+     List the available SaaS (Software as a Service) connectors
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ListAvailableFeatures">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ListAvailableFeatures
+     </a>
+    </td>
+    <td>
+     List available features
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ListAvailableRegions">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ListAvailableRegions
+     </a>
+    </td>
+    <td>
+     List available regions for projects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ListBundles">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ListBundles
+     </a>
+    </td>
+    <td>
+     List the available download bundles
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ListProjectSnapshots">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ListProjectSnapshots
+     </a>
+    </td>
+    <td>
+     List saved snapshots of project configuration
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ListProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ListProjects
+     </a>
+    </td>
+    <td>
+     List projects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-SynchronizeProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      SynchronizeProject
+     </a>
+    </td>
+    <td>
+     Synchronize state of resources into project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmobilehub-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-UpdateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      UpdateProject
+     </a>
+    </td>
+    <td>
+     Update project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmobilehub-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-ValidateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      ValidateProject
+     </a>
+    </td>
+    <td>
+     Validate a mobile hub project.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmobilehub-VerifyServiceRole">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/managed-policies.html">
+      VerifyServiceRole
+     </a>
+    </td>
+    <td>
+     Verify AWS Mobile Hub is enabled in the account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d891c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsmobilehub-project">
+     </a>
+     <a href="https://docs.aws.amazon.com/mobile-hub/latest/developerguide/reference-mobile-hub-iam-managed-policies.html">
+      project
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mobilehub:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

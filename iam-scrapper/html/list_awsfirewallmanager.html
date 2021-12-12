@@ -1,0 +1,964 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d547c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-AssociateAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_AssociateAdminAccount.html">
+      AssociateAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to set the AWS Firewall Manager administrator account and enables
+                                                the service in all organization accounts
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-DeleteAppsList">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_DeleteAppsList.html">
+      DeleteAppsList
+     </a>
+    </td>
+    <td>
+     Grants permission to permanently deletes an AWS Firewall Manager applications list
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-applications-list">
+       applications-list*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-DeleteNotificationChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_DeleteNotificationChannel.html">
+      DeleteNotificationChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Firewall Manager association with the IAM role
+                                                and the Amazon Simple Notification Service (SNS) topic that is used to notify the
+                                                FM administrator about major FM events and errors across the organization
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsfirewallmanager-DeletePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_DeletePolicy.html">
+      DeletePolicy
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to permanently delete an AWS Firewall Manager policy
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-DeleteProtocolsList">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_DeleteProtocolsList.html">
+      DeleteProtocolsList
+     </a>
+    </td>
+    <td>
+     Grants permission to permanently deletes an AWS Firewall Manager protocols list
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-protocols-list">
+       protocols-list*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-DisassociateAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_DisassociateAdminAccount.html">
+      DisassociateAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate the account that has been set as the AWS Firewall
+                                                Manager administrator account and and disables the service in all organization accounts
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetAdminAccount.html">
+      GetAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the AWS Organizations master account that is associated
+                                                with AWS Firewall Manager as the AWS Firewall Manager administrator
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetAppsList">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetAppsList.html">
+      GetAppsList
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the specified AWS Firewall Manager applications
+                                                list
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-applications-list">
+       applications-list*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetComplianceDetail">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetComplianceDetail.html">
+      GetComplianceDetail
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve detailed compliance information about the specified
+                                                member account. Details include resources that are in and out of compliance with the
+                                                specified policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetNotificationChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetNotificationChannel.html">
+      GetNotificationChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about the Amazon Simple Notification Service
+                                                (SNS) topic that is used to record AWS Firewall Manager SNS logs
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetPolicy.html">
+      GetPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about the specified AWS Firewall Manager
+                                                policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetProtectionStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetProtectionStatus.html">
+      GetProtectionStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve policy-level attack summary information in the event
+                                                of a potential DDoS attack
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetProtocolsList">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetProtocolsList.html">
+      GetProtocolsList
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about the specified AWS Firewall Manager protocols
+                                                list
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-protocols-list">
+       protocols-list*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-GetViolationDetails">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_GetViolationDetails.html">
+      GetViolationDetails
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve violations for a resource based on the specified AWS
+                                                Firewall Manager policy and AWS account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-ListAppsLists">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ListAppsLists.html">
+      ListAppsLists
+     </a>
+    </td>
+    <td>
+     Grants permission to return an array of AppsListDataSummary objects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-ListComplianceStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ListComplianceStatus.html">
+      ListComplianceStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve an array of PolicyComplianceStatus objects in the response.
+                                                Use PolicyComplianceStatus to get a summary of which member accounts are protected
+                                                by the specified policy
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-ListMemberAccounts">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ListMemberAccounts.html">
+      ListMemberAccounts
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve an array of member account ids if the caller is FMS
+                                                admin account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-ListPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ListPolicies.html">
+      ListPolicies
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve an array of PolicySummary objects in the response
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-ListProtocolsLists">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ListProtocolsLists.html">
+      ListProtocolsLists
+     </a>
+    </td>
+    <td>
+     Grants permission to return an array of ProtocolsListDataSummary objects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list Tags for a given resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsfirewallmanager-PutAppsList">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_PutAppsList.html">
+      PutAppsList
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an AWS Firewall Manager applications list
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-applications-list">
+       applications-list*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsfirewallmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-PutNotificationChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_PutNotificationChannel.html">
+      PutNotificationChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to designate the IAM role and Amazon Simple Notification Service
+                                                (SNS) topic that AWS Firewall Manager (FM) could use to notify the FM administrator
+                                                about major FM events and errors across the organization
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsfirewallmanager-PutPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_PutPolicy.html">
+      PutPolicy
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an AWS Firewall Manager policy
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsfirewallmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsfirewallmanager-PutProtocolsList">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_PutProtocolsList.html">
+      PutProtocolsList
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to creates an AWS Firewall Manager protocols list
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-protocols-list">
+       protocols-list*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsfirewallmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsfirewallmanager-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add a Tag to a given resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsfirewallmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsfirewallmanager-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove a Tag from a given resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-policy">
+       policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d547c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-policy">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_Policy.html">
+      policy
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:policy/$
+      <span>
+       {
+      </span>
+      Id}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-applications-list">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_AppsListData.html">
+      applications-list
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:applications-list/$
+      <span>
+       {
+      </span>
+      Id}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-protocols-list">
+     </a>
+     <a href="https://docs.aws.amazon.com/fms/2018-01-01/APIReference/API_ProtocolsListData.html">
+      protocols-list
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:protocols-list/$
+      <span>
+       {
+      </span>
+      Id}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsfirewallmanager-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d547c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the allowed set of values for each of the tags
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag-value assoicated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsfirewallmanager-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of mandatory tags in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

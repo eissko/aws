@@ -1,0 +1,1266 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d639c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-BatchGetChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_BatchGetChannel.html">
+      BatchGetChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to get multiple channels simultaneously by channel ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-BatchGetStreamKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_BatchGetStreamKey.html">
+      BatchGetStreamKey
+     </a>
+    </td>
+    <td>
+     Grants permission to get multiple stream keys simultaneously by stream key ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazoninteractivevideoservice-CreateChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_CreateChannel.html">
+      CreateChannel
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new channel and an associated stream key
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoninteractivevideoservice-CreateRecordingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_CreateRecordingConfiguration.html">
+      CreateRecordingConfiguration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a a new recording configuration
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoninteractivevideoservice-CreateStreamKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_CreateStreamKey.html">
+      CreateStreamKey
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a stream key
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoninteractivevideoservice-DeleteChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_DeleteChannel.html">
+      DeleteChannel
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a channel and channel's stream keys
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-DeletePlaybackKeyPair">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_DeletePlaybackKeyPair.html">
+      DeletePlaybackKeyPair
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the playback key pair for a specified ARN
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-DeleteRecordingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_DeleteRecordingConfiguration.html">
+      DeleteRecordingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a recording configuration for the specified ARN
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-DeleteStreamKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_DeleteStreamKey.html">
+      DeleteStreamKey
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the stream key for a specified ARN
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-GetChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_GetChannel.html">
+      GetChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to get the channel configuration for a specified channel ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-GetPlaybackKeyPair">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_GetPlaybackKeyPair.html">
+      GetPlaybackKeyPair
+     </a>
+    </td>
+    <td>
+     Grants permission to get the playback keypair information for a specified ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-GetRecordingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_GetRecordingConfiguration.html">
+      GetRecordingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to get the recording configuration for the specified ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-GetStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_GetStream.html">
+      GetStream
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about the active (live) stream on a specified
+                                                channel
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-GetStreamKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_GetStreamKey.html">
+      GetStreamKey
+     </a>
+    </td>
+    <td>
+     Grants permission to get stream-key information for a specified ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-GetStreamSession">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_GetStreamSession.html">
+      GetStreamSession
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about the stream session on a specified channel
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoninteractivevideoservice-ImportPlaybackKeyPair">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ImportPlaybackKeyPair.html">
+      ImportPlaybackKeyPair
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to import the public key
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-ListChannels">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListChannels.html">
+      ListChannels
+     </a>
+    </td>
+    <td>
+     Grants permission to get summary information about channels
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-ListPlaybackKeyPairs">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListPlaybackKeyPairs.html">
+      ListPlaybackKeyPairs
+     </a>
+    </td>
+    <td>
+     Grants permission to get summary information about playback key pairs
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-ListRecordingConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListRecordingConfigurations.html">
+      ListRecordingConfigurations
+     </a>
+    </td>
+    <td>
+     Grants permission to get summary information about recording configurations
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoninteractivevideoservice-ListStreamKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListStreamKeys.html">
+      ListStreamKeys
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to get summary information about stream keys
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-ListStreamSessions">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListStreamSessions.html">
+      ListStreamSessions
+     </a>
+    </td>
+    <td>
+     Grants permission to get summary information about streams sessions on a specified
+                                                channel
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-ListStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListStreams.html">
+      ListStreams
+     </a>
+    </td>
+    <td>
+     Grants permission to get summary information about live streams
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazoninteractivevideoservice-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to get information about the tags for a specified ARN
+    </td>
+    <td rowspan="5">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-PutMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_PutMetadata.html">
+      PutMetadata
+     </a>
+    </td>
+    <td>
+     Grants permission to insert metadata into an RTMP stream for a specified channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-StopStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_StopStream.html">
+      StopStream
+     </a>
+    </td>
+    <td>
+     Grants permission to disconnect a streamer on a specified channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazoninteractivevideoservice-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to add or update tags for a resource with a specified ARN
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazoninteractivevideoservice-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to remove tags for a resource with a specified ARN
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Playback-Key-Pair">
+       Playback-Key-Pair
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Recording-Configuration">
+       Recording-Configuration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Stream-Key">
+       Stream-Key
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-UpdateChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_UpdateChannel.html">
+      UpdateChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to update a channel's configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-Channel">
+       Channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d639c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-Channel">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_Channel.html">
+      Channel
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ivs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:channel/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-Stream-Key">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_StreamKey.html">
+      Stream-Key
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ivs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:stream-key/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-Playback-Key-Pair">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_PlaybackKeyPair.html">
+      Playback-Key-Pair
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ivs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:playback-key/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-Recording-Configuration">
+     </a>
+     <a href="https://docs.aws.amazon.com/ivs/latest/APIReference/API_RecordingConfiguration.html">
+      Recording-Configuration
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ivs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:recording-configuration/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoninteractivevideoservice-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d639c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoninteractivevideoservice-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

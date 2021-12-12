@@ -1,0 +1,952 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d647c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiot1-click-AssociateDeviceWithPlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_AssociateDeviceWithPlacement.html">
+      AssociateDeviceWithPlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to associate a device to a placement
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-ClaimDevicesByClaimCode">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/claims-claimcode.html">
+      ClaimDevicesByClaimCode
+     </a>
+    </td>
+    <td>
+     Grants permission to claim a batch of devices with a claim code
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-CreatePlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_CreatePlacement.html">
+      CreatePlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new placement in a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiot1-click-CreateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_CreateProject.html">
+      CreateProject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new project
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiot1-click-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-DeletePlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_DeletePlacement.html">
+      DeletePlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a placement from a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-DeleteProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_DeleteProject.html">
+      DeleteProject
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-DescribeDevice">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid.html">
+      DescribeDevice
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a device
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-DescribePlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_DescribePlacement.html">
+      DescribePlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a placement
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-DescribeProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_DescribeProject.html">
+      DescribeProject
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a project
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-DisassociateDeviceFromPlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_DissacociateDeviceFromPlacement.html">
+      DisassociateDeviceFromPlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a device from a placement
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiot1-click-FinalizeDeviceClaim">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-finalize-claim.html">
+      FinalizeDeviceClaim
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to finalize a device claim
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiot1-click-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-GetDeviceMethods">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-methods.html">
+      GetDeviceMethods
+     </a>
+    </td>
+    <td>
+     Grants permission to get available methods of a device
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-GetDevicesInPlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_GetDevicesInPlacement.html">
+      GetDevicesInPlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to get devices associated to a placement
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-InitiateDeviceClaim">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-initiate-claim.html">
+      InitiateDeviceClaim
+     </a>
+    </td>
+    <td>
+     Grants permission to initialize a device claim
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-InvokeDeviceMethod">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-methods.html">
+      InvokeDeviceMethod
+     </a>
+    </td>
+    <td>
+     Grants permission to invoke a device method
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-ListDeviceEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-events.html">
+      ListDeviceEvents
+     </a>
+    </td>
+    <td>
+     Grants permission to list past events published by a device
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-ListDevices">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices.html">
+      ListDevices
+     </a>
+    </td>
+    <td>
+     Grants permission to list all devices
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-ListPlacements">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_ListPlacements.html">
+      ListPlacements
+     </a>
+    </td>
+    <td>
+     Grants permission to list placements in a project
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-ListProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_ListProjects.html">
+      ListProjects
+     </a>
+    </td>
+    <td>
+     Grants permission to list all projects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiot1-click-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to lists the tags for a resource
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsiot1-click-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to add or modify the tags of a resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiot1-click-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-UnclaimDevice">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-unclaim.html">
+      UnclaimDevice
+     </a>
+    </td>
+    <td>
+     Grants permission to unclaim a device
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsiot1-click-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to remove the given tags (metadata) from a resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-UpdateDeviceState">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/devices-deviceid-state.html">
+      UpdateDeviceState
+     </a>
+    </td>
+    <td>
+     Grants permission to update device state
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-UpdatePlacement">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_UpdatePlacement.html">
+      UpdatePlacement
+     </a>
+    </td>
+    <td>
+     Grants permission to update a placement
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-UpdateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_UpdateProject.html">
+      UpdateProject
+     </a>
+    </td>
+    <td>
+     Update a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d647c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiot1-click-device">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/resources.html">
+      device
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iot1click:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:devices/$
+      <span>
+       {
+      </span>
+      DeviceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-project">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/API_Operations.html">
+      project
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iot1click:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:projects/$
+      <span>
+       {
+      </span>
+      ProjectName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiot1-click-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d647c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiot1-click-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiot1-click-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,685 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d383c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazondetective-AcceptInvitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_AcceptInvitation.html">
+      AcceptInvitation
+     </a>
+    </td>
+    <td>
+     Grants permission to accept an invitation to become a member of a behavior graph
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-CreateGraph">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_CreateGraph.html">
+      CreateGraph
+     </a>
+    </td>
+    <td>
+     Grants permission to create a behavior graph and begin to aggregate security information
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazondetective-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-CreateMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_CreateMembers.html">
+      CreateMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to request the membership of one or more accounts in a behavior
+                                                graph managed by this account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-DeleteGraph">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_DeleteGraph.html">
+      DeleteGraph
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a behavior graph and stop aggregating security information
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-DeleteMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_DeleteMembers.html">
+      DeleteMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to remove member accounts from a behavior graph managed by this
+                                                account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-DisassociateMembership">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_DisassociateMembership.html">
+      DisassociateMembership
+     </a>
+    </td>
+    <td>
+     Grants permission to remove the association of this account with a behavior graph
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-GetFreeTrialEligibility">
+     </a>
+     GetFreeTrialEligibility [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a behavior graph's eligibility for a free trial period
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-GetGraphIngestState">
+     </a>
+     GetGraphIngestState [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve the data ingestion state of a behavior graph
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-GetMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_GetMembers.html">
+      GetMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details on specified members of a behavior graph
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-GetPricingInformation">
+     </a>
+     GetPricingInformation [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve information about Amazon Detective's pricing
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-GetUsageInformation">
+     </a>
+     GetUsageInformation [permission only]
+    </td>
+    <td>
+     Grants permission to list usage information of a behavior graph
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-ListGraphs">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_ListGraphs.html">
+      ListGraphs
+     </a>
+    </td>
+    <td>
+     Grants permission to list behavior graphs managed by this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-ListInvitations">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_ListInvitations.html">
+      ListInvitations
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details on the behavior graphs to which this account
+                                                has been invited to join
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-ListMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_ListMembers.html">
+      ListMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details on all members of a behavior graph
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondetective-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the tag values that are assigned to a behavior graph
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-RejectInvitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_RejectInvitation.html">
+      RejectInvitation
+     </a>
+    </td>
+    <td>
+     Grants permission to reject an invitation to become a member of a behavior graph
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-SearchGraph">
+     </a>
+     SearchGraph [permission only]
+    </td>
+    <td>
+     Grants permission to search the data stored in a behavior graph
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-StartMonitoringMember">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_StartMonitoringMember.html">
+      StartMonitoringMember
+     </a>
+    </td>
+    <td>
+     Grants permission to start data ingest for a member account that has a status of ACCEPTED_BUT_DISABLED.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondetective-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to assign tag values to a behavior graph
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazondetective-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazondetective-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondetective-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove tag values from a behavior graph
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-Graph">
+       Graph*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d383c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazondetective-Graph">
+     </a>
+     <a href="https://docs.aws.amazon.com/detective/latest/adminguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-resources">
+      Graph
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:detective:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:graph:$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondetective-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d383c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazondetective-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondetective-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,1177 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d799c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedblockchain-CreateMember">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_CreateMember.html">
+      CreateMember
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a member of an Amazon Managed Blockchain network
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-CreateNetwork">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_CreateNetwork.html">
+      CreateNetwork
+     </a>
+    </td>
+    <td>
+     Grants permission to create an Amazon Managed Blockchain network
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonmanagedblockchain-CreateNode">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_CreateNode.html">
+      CreateNode
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a node within a member of an Amazon Managed Blockchain
+                                                network
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedblockchain-CreateProposal">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_CreateProposal.html">
+      CreateProposal
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a proposal that other blockchain network members can vote
+                                                on to add or remove a member in an Amazon Managed Blockchain network
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-DeleteMember">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_DeleteMember.html">
+      DeleteMember
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a member and all associated resources from an Amazon Managed
+                                                Blockchain network
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-DeleteNode">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_DeleteNode.html">
+      DeleteNode
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a node from a member of an Amazon Managed Blockchain network
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-node">
+       node*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-GetMember">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_GetMember.html">
+      GetMember
+     </a>
+    </td>
+    <td>
+     Grants permission to return detailed information about a member of an Amazon Managed
+                                                Blockchain network
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-GetNetwork">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_GetNetwork.html">
+      GetNetwork
+     </a>
+    </td>
+    <td>
+     Grants permission to return detailed information about an Amazon Managed Blockchain
+                                                network
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-GetNode">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_GetNode.html">
+      GetNode
+     </a>
+    </td>
+    <td>
+     Grants permission to return detailed information about a node within a member of an
+                                                Amazon Managed Blockchain network
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-node">
+       node*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-GetProposal">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_GetProposal.html">
+      GetProposal
+     </a>
+    </td>
+    <td>
+     Grants permission to return detailed information about a proposal of an Amazon Managed
+                                                Blockchain network
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-proposal">
+       proposal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-ListInvitations">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListInvitations.html">
+      ListInvitations
+     </a>
+    </td>
+    <td>
+     Grants permission to list the invitations extended to the active AWS account from
+                                                any Managed Blockchain network
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-ListMembers">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListMembers.html">
+      ListMembers
+     </a>
+    </td>
+    <td>
+     Grants permission to list the members of an Amazon Managed Blockchain network and
+                                                the properties of their memberships
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-ListNetworks">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListNetworks.html">
+      ListNetworks
+     </a>
+    </td>
+    <td>
+     Grants permission to list the Amazon Managed Blockchain networks in which the current
+                                                AWS account participates
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedblockchain-ListNodes">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListNodes.html">
+      ListNodes
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the nodes within a member of an Amazon Managed Blockchain
+                                                network
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-ListProposalVotes">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListProposalVotes.html">
+      ListProposalVotes
+     </a>
+    </td>
+    <td>
+     Grants permission to list all votes for a proposal, including the value of the vote
+                                                and the unique identifier of the member that cast the vote for the given Amazon Managed
+                                                Blockchain network
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-proposal">
+       proposal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-ListProposals">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListProposals.html">
+      ListProposals
+     </a>
+    </td>
+    <td>
+     Grants permission to list proposals for the given Amazon Managed Blockchain network
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazonmanagedblockchain-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to view tags associated with an Amazon Managed Blockchain resource
+    </td>
+    <td rowspan="5">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-invitation">
+       invitation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-node">
+       node
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-proposal">
+       proposal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-RejectInvitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_RejectInvitation.html">
+      RejectInvitation
+     </a>
+    </td>
+    <td>
+     Grants permission to reject the invitation to join the blockchain network
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-invitation">
+       invitation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="6">
+     <a id="amazonmanagedblockchain-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="6">
+     Grants permission to add tags to an Amazon Managed Blockchain resource
+    </td>
+    <td rowspan="6">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-invitation">
+       invitation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-node">
+       node
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-proposal">
+       proposal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="6">
+     <a id="amazonmanagedblockchain-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="6">
+     Grants permission to remove tags from an Amazon Managed Blockchain resource
+    </td>
+    <td rowspan="6">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-invitation">
+       invitation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-network">
+       network
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-node">
+       node
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-proposal">
+       proposal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-UpdateMember">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_UpdateMember.html">
+      UpdateMember
+     </a>
+    </td>
+    <td>
+     Grants permission to update a member of an Amazon Managed Blockchain network
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-member">
+       member*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-UpdateNode">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_UpdateNode.html">
+      UpdateNode
+     </a>
+    </td>
+    <td>
+     Grants permission to update a node from a member of an Amazon Managed Blockchain network
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-node">
+       node*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-VoteOnProposal">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_VoteOnProposal.html">
+      VoteOnProposal
+     </a>
+    </td>
+    <td>
+     Grants permission to cast a vote for a proposal on behalf of the blockchain network
+                                                member specified
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-proposal">
+       proposal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d799c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-network">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_Network.html">
+      network
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:managedblockchain:$
+      <span>
+       {
+      </span>
+      Region}::networks/$
+      <span>
+       {
+      </span>
+      NetworkId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-member">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_Member.html">
+      member
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:managedblockchain:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:members/$
+      <span>
+       {
+      </span>
+      MemberId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-node">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_Node.html">
+      node
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:managedblockchain:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:nodes/$
+      <span>
+       {
+      </span>
+      NodeId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-proposal">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_Proposal.html">
+      proposal
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:managedblockchain:$
+      <span>
+       {
+      </span>
+      Region}::proposals/$
+      <span>
+       {
+      </span>
+      ProposalId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-invitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/managed-blockchain/latest/APIReference/API_Invitation.html">
+      invitation
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:managedblockchain:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:invitations/$
+      <span>
+       {
+      </span>
+      InvitationId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedblockchain-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d799c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with an Amazon Managed Blockchain resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedblockchain-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

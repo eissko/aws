@@ -1,0 +1,1004 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1203c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazontimestream-CancelQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_CancelQuery.html">
+      CancelQuery
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel queries in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazontimestream-CreateDatabase">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_CreateDatabase.html">
+      CreateDatabase
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a database in your account
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazontimestream-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-CreateScheduledQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_CreateScheduledQuery.html">
+      CreateScheduledQuery
+     </a>
+    </td>
+    <td>
+     Grants permission to create a scheduled query in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazontimestream-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazontimestream-CreateTable">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_CreateTable.html">
+      CreateTable
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a table in your account
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazontimestream-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DeleteDatabase">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_DeleteDatabase.html">
+      DeleteDatabase
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a database in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DeleteScheduledQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_DeleteScheduledQuery.html">
+      DeleteScheduledQuery
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a scheduled query in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DeleteTable">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_DeleteTable.html">
+      DeleteTable
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a table in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DescribeDatabase">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_DescribeDatabase.html">
+      DescribeDatabase
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a database in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DescribeEndpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_DescribeEndpoints.html">
+      DescribeEndpoints
+     </a>
+    </td>
+    <td>
+     Grants permission to describe timestream endpoints
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DescribeScheduledQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_DescribeScheduledQuery.html">
+      DescribeScheduledQuery
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a scheduled query in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-DescribeTable">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_DescribeTable.html">
+      DescribeTable
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a table in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-ExecuteScheduledQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_ExecuteScheduledQuery.html">
+      ExecuteScheduledQuery
+     </a>
+    </td>
+    <td>
+     Grants permission to execute a scheduled query in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-ListDatabases">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_ListDatabases.html">
+      ListDatabases
+     </a>
+    </td>
+    <td>
+     Grants permission to list databases in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-ListMeasures">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_Query.html">
+      ListMeasures
+     </a>
+    </td>
+    <td>
+     Grants permission to list measures of a table in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-ListScheduledQueries">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_ListScheduledQueries.html">
+      ListScheduledQueries
+     </a>
+    </td>
+    <td>
+     Grants permission to list scheduled queries in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-ListTables">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_ListTables.html">
+      ListTables
+     </a>
+    </td>
+    <td>
+     Grants permission to list tables in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazontimestream-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list tags of a resource in your account
+    </td>
+    <td rowspan="3">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-Select">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_Query.html">
+      Select
+     </a>
+    </td>
+    <td>
+     Grants permission to issue 'select from table' queries
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-SelectValues">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_Query.html">
+      SelectValues
+     </a>
+    </td>
+    <td>
+     Grants permission to issue 'select 1' queries
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazontimestream-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to add tags to a resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazontimestream-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazontimestream-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to remove a tag from a resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-UpdateDatabase">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_UpdateDatabase.html">
+      UpdateDatabase
+     </a>
+    </td>
+    <td>
+     Grants permission to update a database in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-database">
+       database*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-UpdateScheduledQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_query_UpdateScheduledQuery.html">
+      UpdateScheduledQuery
+     </a>
+    </td>
+    <td>
+     Grants permission to update a scheduled query in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-scheduled-query">
+       scheduled-query*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-UpdateTable">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_UpdateTable.html">
+      UpdateTable
+     </a>
+    </td>
+    <td>
+     Grants permission to update a table in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-WriteRecords">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_WriteRecords.html">
+      WriteRecords
+     </a>
+    </td>
+    <td>
+     Grants permission to ingest data to a table in your account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-table">
+       table*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1203c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazontimestream-database">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_Database.html">
+      database
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:timestream:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:database/$
+      <span>
+       {
+      </span>
+      DatabaseName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-table">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_Table.html">
+      table
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:timestream:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:database/$
+      <span>
+       {
+      </span>
+      DatabaseName}/table/$
+      <span>
+       {
+      </span>
+      TableName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-scheduled-query">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API_ScheduledQuery.html">
+      scheduled-query
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:timestream:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:scheduled-query/$
+      <span>
+       {
+      </span>
+      ScheduledQueryName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazontimestream-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1203c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazontimestream-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazontimestream-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

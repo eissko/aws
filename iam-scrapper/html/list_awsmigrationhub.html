@@ -1,0 +1,595 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d875c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-AssociateCreatedArtifact">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_AssociateCreatedArtifact.html">
+      AssociateCreatedArtifact
+     </a>
+    </td>
+    <td>
+     Associate a given AWS artifact to a MigrationTask
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-AssociateDiscoveredResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_AssociateDiscoveredResource.html">
+      AssociateDiscoveredResource
+     </a>
+    </td>
+    <td>
+     Associate a given ADS resource to a MigrationTask
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-CreateHomeRegionControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_CreateHomeRegionControl.html">
+      CreateHomeRegionControl
+     </a>
+    </td>
+    <td>
+     Create a Migration Hub Home Region Control
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-CreateProgressUpdateStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_CreateProgressUpdateStream.html">
+      CreateProgressUpdateStream
+     </a>
+    </td>
+    <td>
+     Create a ProgressUpdateStream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-progressUpdateStream">
+       progressUpdateStream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-DeleteProgressUpdateStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_DeleteProgressUpdateStream.html">
+      DeleteProgressUpdateStream
+     </a>
+    </td>
+    <td>
+     Delete a ProgressUpdateStream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-progressUpdateStream">
+       progressUpdateStream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-DescribeApplicationState">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_DescribeApplicationState.html">
+      DescribeApplicationState
+     </a>
+    </td>
+    <td>
+     Get an Application Discovery Service Application's state
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-DescribeHomeRegionControls">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_DescribeHomeRegionControls.html">
+      DescribeHomeRegionControls
+     </a>
+    </td>
+    <td>
+     List Home Region Controls
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-DescribeMigrationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_DescribeMigrationTask.html">
+      DescribeMigrationTask
+     </a>
+    </td>
+    <td>
+     Describe a MigrationTask
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-DisassociateCreatedArtifact">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_DisassociateCreatedArtifact.html">
+      DisassociateCreatedArtifact
+     </a>
+    </td>
+    <td>
+     Disassociate a given AWS artifact from a MigrationTask
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-DisassociateDiscoveredResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_DisassociateDiscoveredResource.html">
+      DisassociateDiscoveredResource
+     </a>
+    </td>
+    <td>
+     Disassociate a given ADS resource from a MigrationTask
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-GetHomeRegion">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_GetHomeRegion.html">
+      GetHomeRegion
+     </a>
+    </td>
+    <td>
+     Get the Migration Hub Home Region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-ImportMigrationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ImportMigrationTask.html">
+      ImportMigrationTask
+     </a>
+    </td>
+    <td>
+     Import a MigrationTask
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-ListApplicationStates">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ListApplicationStates.html">
+      ListApplicationStates
+     </a>
+    </td>
+    <td>
+     List Application statuses
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-ListCreatedArtifacts">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ListCreatedArtifacts.html">
+      ListCreatedArtifacts
+     </a>
+    </td>
+    <td>
+     List associated created artifacts for a MigrationTask
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-ListDiscoveredResources">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ListDiscoveredResources.html">
+      ListDiscoveredResources
+     </a>
+    </td>
+    <td>
+     List associated ADS resources from MigrationTask
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-ListMigrationTasks">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ListMigrationTasks.html">
+      ListMigrationTasks
+     </a>
+    </td>
+    <td>
+     List MigrationTasks
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-ListProgressUpdateStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ListProgressUpdateStreams.html">
+      ListProgressUpdateStreams
+     </a>
+    </td>
+    <td>
+     List ProgressUpdateStreams
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-NotifyApplicationState">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_NotifyApplicationState.html">
+      NotifyApplicationState
+     </a>
+    </td>
+    <td>
+     Update an Application Discovery Service Application's state
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-NotifyMigrationTaskState">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_NotifyMigrationTaskState.html">
+      NotifyMigrationTaskState
+     </a>
+    </td>
+    <td>
+     Notify latest MigrationTask state
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-PutResourceAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_PutResourceAttributes.html">
+      PutResourceAttributes
+     </a>
+    </td>
+    <td>
+     Put ResourceAttributes
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsmigrationhub-migrationTask">
+       migrationTask*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d875c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-progressUpdateStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_ProgressUpdateStreamSummary.html">
+      progressUpdateStream
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mgh:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:progressUpdateStream/$
+      <span>
+       {
+      </span>
+      Stream}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsmigrationhub-migrationTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/migrationhub/latest/ug/API_MigrationTask.html">
+      migrationTask
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mgh:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:progressUpdateStream/$
+      <span>
+       {
+      </span>
+      Stream}/migrationTask/$
+      <span>
+       {
+      </span>
+      Task}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

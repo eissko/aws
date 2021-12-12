@@ -1,0 +1,1791 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d251c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchDeleteBuilds">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_BatchDeleteBuilds.html">
+      BatchDeleteBuilds
+     </a>
+    </td>
+    <td>
+     Deletes one or more builds
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchGetBuildBatches">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_BatchGetBuildBatches.html">
+      BatchGetBuildBatches
+     </a>
+    </td>
+    <td>
+     Gets information about one or more build batches
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchGetBuilds">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_BatchGetBuilds.html">
+      BatchGetBuilds
+     </a>
+    </td>
+    <td>
+     Gets information about one or more builds
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchGetProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_BatchGetProjects.html">
+      BatchGetProjects
+     </a>
+    </td>
+    <td>
+     Gets information about one or more build projects
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchGetReportGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_BatchGetReportGroups.html">
+      BatchGetReportGroups
+     </a>
+    </td>
+    <td>
+     Returns an array of ReportGroup objects that are specified by the input reportGroupArns
+                                                parameter
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchGetReports">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_BatchGetReports.html">
+      BatchGetReports
+     </a>
+    </td>
+    <td>
+     Returns an array of the Report objects specified by the input reportArns parameter
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchPutCodeCoverages">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      BatchPutCodeCoverages
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Adds or updates information about a report
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-BatchPutTestCases">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      BatchPutTestCases
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Adds or updates information about a report
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-CreateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_CreateProject.html">
+      CreateProject
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a build project
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscodebuild-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-CreateReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      CreateReport
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Creates a report. A report is created when tests specified in the buildspec file for
+                                                a report groups run during the build of a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-CreateReportGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_CreateReportGroup.html">
+      CreateReportGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a report group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscodebuild-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-CreateWebhook">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_CreateWebhook.html">
+      CreateWebhook
+     </a>
+    </td>
+    <td>
+     For an existing AWS CodeBuild build project that has its source code stored in a GitHub
+                                                or Bitbucket repository, enables AWS CodeBuild to start rebuilding the source code
+                                                every time a code change is pushed to the repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteBuildBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteBuildBatch.html">
+      DeleteBuildBatch
+     </a>
+    </td>
+    <td>
+     Deletes a build batch
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteOAuthToken">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      DeleteOAuthToken
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Deletes an OAuth token from a connected third-party OAuth provider. Only used in the
+                                                AWS CodeBuild console
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteProject.html">
+      DeleteProject
+     </a>
+    </td>
+    <td>
+     Deletes a build project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteReport.html">
+      DeleteReport
+     </a>
+    </td>
+    <td>
+     Deletes a report
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteReportGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteReportGroup.html">
+      DeleteReportGroup
+     </a>
+    </td>
+    <td>
+     Deletes a report group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-DeleteResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteResourcePolicy.html">
+      DeleteResourcePolicy
+     </a>
+    </td>
+    <td rowspan="2">
+     Deletes a resource policy for the associated project or report group
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteSourceCredentials">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteSourceCredentials.html">
+      DeleteSourceCredentials
+     </a>
+    </td>
+    <td>
+     Deletes a set of GitHub, GitHub Enterprise, or Bitbucket source credentials
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DeleteWebhook">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DeleteWebhook.html">
+      DeleteWebhook
+     </a>
+    </td>
+    <td>
+     For an existing AWS CodeBuild build project that has its source code stored in a GitHub
+                                                or Bitbucket repository, stops AWS CodeBuild from rebuilding the source code every
+                                                time a code change is pushed to the repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DescribeCodeCoverages">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DescribeCodeCoverages.html">
+      DescribeCodeCoverages
+     </a>
+    </td>
+    <td>
+     Returns an array of CodeCoverage objects
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-DescribeTestCases">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_DescribeTestCases.html">
+      DescribeTestCases
+     </a>
+    </td>
+    <td>
+     Returns an array of TestCase objects
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-GetReportGroupTrend">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_GetReportGroupTrend.html">
+      GetReportGroupTrend
+     </a>
+    </td>
+    <td>
+     Analyzes and accumulates test report values for the test reports in the specified
+                                                report group
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-GetResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_GetResourcePolicy.html">
+      GetResourcePolicy
+     </a>
+    </td>
+    <td rowspan="2">
+     Returns a resource policy for the specified project or report group
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ImportSourceCredentials">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ImportSourceCredentials.html">
+      ImportSourceCredentials
+     </a>
+    </td>
+    <td>
+     Imports the source repository credentials for an AWS CodeBuild project that has its
+                                                source code stored in a GitHub, GitHub Enterprise, or Bitbucket repository
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-InvalidateProjectCache">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_InvalidateProjectCache.html">
+      InvalidateProjectCache
+     </a>
+    </td>
+    <td>
+     Resets the cache for a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListBuildBatches">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListBuildBatches.html">
+      ListBuildBatches
+     </a>
+    </td>
+    <td>
+     Gets a list of build batch IDs, with each build batch ID representing a single build
+                                                batch
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListBuildBatchesForProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListBuildBatchesForProject.html">
+      ListBuildBatchesForProject
+     </a>
+    </td>
+    <td>
+     Gets a list of build batch IDs for the specified build project, with each build batch
+                                                ID representing a single build batch
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListBuilds">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListBuilds.html">
+      ListBuilds
+     </a>
+    </td>
+    <td>
+     Gets a list of build IDs, with each build ID representing a single build
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListBuildsForProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListBuildsForProject.html">
+      ListBuildsForProject
+     </a>
+    </td>
+    <td>
+     Gets a list of build IDs for the specified build project, with each build ID representing
+                                                a single build
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListConnectedOAuthAccounts">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      ListConnectedOAuthAccounts
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Lists connected third-party OAuth providers. Only used in the AWS CodeBuild console
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListCuratedEnvironmentImages">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListCuratedEnvironmentImages.html">
+      ListCuratedEnvironmentImages
+     </a>
+    </td>
+    <td>
+     Gets information about Docker images that are managed by AWS CodeBuild
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListProjects.html">
+      ListProjects
+     </a>
+    </td>
+    <td>
+     Gets a list of build project names, with each build project name representing a single
+                                                build project
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListReportGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListReportGroups.html">
+      ListReportGroups
+     </a>
+    </td>
+    <td>
+     Returns a list of report group ARNs. Each report group ARN represents one report group
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListReports">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListReports.html">
+      ListReports
+     </a>
+    </td>
+    <td>
+     Returns a list of report ARNs. Each report ARN representing one report
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListReportsForReportGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListReportsForReportGroup.html">
+      ListReportsForReportGroup
+     </a>
+    </td>
+    <td>
+     Returns a list of report ARNs that belong to the specified report group. Each report
+                                                ARN represents one report
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListRepositories">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      ListRepositories
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Lists source code repositories from a connected third-party OAuth provider. Only used
+                                                in the AWS CodeBuild console
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListSharedProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListSharedProjects.html">
+      ListSharedProjects
+     </a>
+    </td>
+    <td>
+     Returns a list of project ARNs that have been shared with the requester. Each project
+                                                ARN represents one project
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListSharedReportGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListSharedReportGroups.html">
+      ListSharedReportGroups
+     </a>
+    </td>
+    <td>
+     Returns a list of report group ARNs that have been shared with the requester. Each
+                                                report group ARN represents one report group
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-ListSourceCredentials">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ListSourceCredentials.html">
+      ListSourceCredentials
+     </a>
+    </td>
+    <td>
+     Returns a list of SourceCredentialsInfo objects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-PersistOAuthToken">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      PersistOAuthToken
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Saves an OAuth token from a connected third-party OAuth provider. Only used in the
+                                                AWS CodeBuild console
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-PutResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_PutResourcePolicy.html">
+      PutResourcePolicy
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a resource policy for the associated project or report group
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-RetryBuild">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_RetryBuild.html">
+      RetryBuild
+     </a>
+    </td>
+    <td>
+     Retries a build
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-RetryBuildBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_RetryBuildBatch.html">
+      RetryBuildBatch
+     </a>
+    </td>
+    <td>
+     Retries a build batch
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-StartBuild">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_StartBuild.html">
+      StartBuild
+     </a>
+    </td>
+    <td rowspan="2">
+     Starts running a build
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-codebuild_RequestTag___TagKey_">
+       codebuild:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscodebuild-codebuild_TagKeys">
+       codebuild:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-StartBuildBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_StartBuildBatch.html">
+      StartBuildBatch
+     </a>
+    </td>
+    <td>
+     Starts running a build batch
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-StopBuild">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_StopBuild.html">
+      StopBuild
+     </a>
+    </td>
+    <td>
+     Attempts to stop running a build
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-StopBuildBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_StopBuildBatch.html">
+      StopBuildBatch
+     </a>
+    </td>
+    <td>
+     Attempts to stop running a build batch
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-UpdateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_UpdateProject.html">
+      UpdateProject
+     </a>
+    </td>
+    <td rowspan="2">
+     Changes the settings of an existing build project
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscodebuild-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-UpdateProjectVisibility">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_UpdateProjectVisibility.html">
+      UpdateProjectVisibility
+     </a>
+    </td>
+    <td rowspan="2">
+     Changes the public visibility of a project and its builds
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscodebuild-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-UpdateReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html#console-policies">
+      UpdateReport
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Updates information about a report
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscodebuild-UpdateReportGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_UpdateReportGroup.html">
+      UpdateReportGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Changes the settings of an existing report group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-report-group">
+       report-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscodebuild-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-UpdateWebhook">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_UpdateWebhook.html">
+      UpdateWebhook
+     </a>
+    </td>
+    <td>
+     Updates the webhook associated with an AWS CodeBuild build project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d251c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscodebuild-build">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-access-control-identity-based.html#arn-formats">
+      build
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:codebuild:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:build/$
+      <span>
+       {
+      </span>
+      BuildId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-build-batch">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-access-control-identity-based.html#arn-formats">
+      build-batch
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:codebuild:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:build-batch/$
+      <span>
+       {
+      </span>
+      BuildBatchId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-project">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-access-control-identity-based.html#arn-formats">
+      project
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:codebuild:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-report-group">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-access-control-identity-based.html#arn-formats">
+      report-group
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:codebuild:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:report-group/$
+      <span>
+       {
+      </span>
+      ReportGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscodebuild-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-report">
+     </a>
+     <a href="https://docs.aws.amazon.com/codebuild/latest/userguide/auth-and-access-control-iam-access-control-identity-based.html#arn-formats">
+      report
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:codebuild:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:report/$
+      <span>
+       {
+      </span>
+      ReportGroupName}:$
+      <span>
+       {
+      </span>
+      ReportId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d251c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscodebuild-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-codebuild_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      codebuild:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscodebuild-codebuild_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      codebuild:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

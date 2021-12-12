@@ -1,0 +1,299 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d963c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonpolly-DeleteLexicon">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_DeleteLexicon.html">
+      DeleteLexicon
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete the specified pronunciation lexicon stored in an AWS
+                                                Region
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonpolly-lexicon">
+       lexicon*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-DescribeVoices">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_DescribeVoices.html">
+      DescribeVoices
+     </a>
+    </td>
+    <td>
+     Grants permissions to describe the list of voices that are available for use when
+                                                requesting speech synthesis
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-GetLexicon">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_GetLexicon.html">
+      GetLexicon
+     </a>
+    </td>
+    <td>
+     Grants permissions to retrieve the content of the specified pronunciation lexicon
+                                                stored in an AWS Region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonpolly-lexicon">
+       lexicon*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-GetSpeechSynthesisTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_GetSpeechSynthesisTask.html">
+      GetSpeechSynthesisTask
+     </a>
+    </td>
+    <td>
+     Grants permissions to get information about specific speech synthesis task
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-ListLexicons">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_ListLexicons.html">
+      ListLexicons
+     </a>
+    </td>
+    <td>
+     Grants permisions to list the pronunciation lexicons stored in an AWS Region
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-ListSpeechSynthesisTasks">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_ListSpeechSynthesisTasks.html">
+      ListSpeechSynthesisTasks
+     </a>
+    </td>
+    <td>
+     Grants permissions to list requested speech synthesis tasks
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-PutLexicon">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_PutLexicon.html">
+      PutLexicon
+     </a>
+    </td>
+    <td>
+     Grants permissions to store a pronunciation lexicon in an AWS Region
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonpolly-lexicon">
+       lexicon*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-StartSpeechSynthesisTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_StartSpeechSynthesisTask.html">
+      StartSpeechSynthesisTask
+     </a>
+    </td>
+    <td>
+     Grants permissions to synthesize long inputs to the provided S3 location
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonpolly-lexicon">
+       lexicon
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonpolly-SynthesizeSpeech">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/API_SynthesizeSpeech.html">
+      SynthesizeSpeech
+     </a>
+    </td>
+    <td>
+     Grants permissions to synthesize speech
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonpolly-lexicon">
+       lexicon
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d963c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonpolly-lexicon">
+     </a>
+     <a href="https://docs.aws.amazon.com/polly/latest/dg/managing-lexicons.html">
+      lexicon
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:polly:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:lexicon/$
+      <span>
+       {
+      </span>
+      LexiconName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

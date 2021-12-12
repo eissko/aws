@@ -1,0 +1,565 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1139c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssnowball-CancelCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CancelCluster.html">
+      CancelCluster
+     </a>
+    </td>
+    <td>
+     Cancels a cluster job.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-CancelJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CancelJob.html">
+      CancelJob
+     </a>
+    </td>
+    <td>
+     Cancels the specified job.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-CreateAddress">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CreateAddress.html">
+      CreateAddress
+     </a>
+    </td>
+    <td>
+     Creates an address for a Snowball to be shipped to.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-CreateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CreateCluster.html">
+      CreateCluster
+     </a>
+    </td>
+    <td>
+     Creates an empty cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-CreateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CreateJob.html">
+      CreateJob
+     </a>
+    </td>
+    <td>
+     Creates a job to import or export data between Amazon S3 and your on-premises data
+                                                center.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-CreateLongTermPricing">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CreateLongTermPricing.html">
+      CreateLongTermPricing
+     </a>
+    </td>
+    <td>
+     Grants permission to creates a LongTermPricingListEntry for allowing customers to
+                                                add an upfront billing contract for a job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-CreateReturnShippingLabel">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_CreateReturnShippingLabel.html">
+      CreateReturnShippingLabel
+     </a>
+    </td>
+    <td>
+     Creates a shipping label that will be used to return the Snow device to AWS.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-DescribeAddress">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_DescribeAddress.html">
+      DescribeAddress
+     </a>
+    </td>
+    <td>
+     Takes an AddressId and returns specific details about that address in the form of
+                                                an Address object.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-DescribeAddresses">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_DescribeAddresses.html">
+      DescribeAddresses
+     </a>
+    </td>
+    <td>
+     Returns a specified number of ADDRESS objects.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-DescribeCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_DescribeCluster.html">
+      DescribeCluster
+     </a>
+    </td>
+    <td>
+     Returns information about a specific cluster including shipping information, cluster
+                                                status, and other important metadata.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-DescribeJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_DescribeJob.html">
+      DescribeJob
+     </a>
+    </td>
+    <td>
+     Returns information about a specific job including shipping information, job status,
+                                                and other important metadata.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-DescribeReturnShippingLabel">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_DescribeReturnShippingLabel.html">
+      DescribeReturnShippingLabel
+     </a>
+    </td>
+    <td>
+     Information on the shipping label of a Snow device that is being returned to AWS.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-GetJobManifest">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_GetJobManifest.html">
+      GetJobManifest
+     </a>
+    </td>
+    <td>
+     Returns a link to an Amazon S3 presigned URL for the manifest file associated with
+                                                the specified JobId value.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-GetJobUnlockCode">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_GetJobUnlockCode.html">
+      GetJobUnlockCode
+     </a>
+    </td>
+    <td>
+     Returns the UnlockCode code value for the specified job.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-GetSnowballUsage">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_GetSnowballUsage.html">
+      GetSnowballUsage
+     </a>
+    </td>
+    <td>
+     Returns information about the Snowball service limit for your account, and also the
+                                                number of Snowballs your account has in use.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-GetSoftwareUpdates">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_GetSoftwareUpdates.html">
+      GetSoftwareUpdates
+     </a>
+    </td>
+    <td>
+     Returns an Amazon S3 presigned URL for an update file associated with a specified
+                                                JobId.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-ListClusterJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_ListClusterJobs.html">
+      ListClusterJobs
+     </a>
+    </td>
+    <td>
+     Returns an array of JobListEntry objects of the specified length.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-ListClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_ListClusters.html">
+      ListClusters
+     </a>
+    </td>
+    <td>
+     Returns an array of ClusterListEntry objects of the specified length.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-ListCompatibleImages">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_ListCompatibleImages.html">
+      ListCompatibleImages
+     </a>
+    </td>
+    <td>
+     This action returns a list of the different Amazon EC2 Amazon Machine Images (AMIs)
+                                                that are owned by your AWS account that would be supported for use on a Snow device.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-ListJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_ListJobs.html">
+      ListJobs
+     </a>
+    </td>
+    <td>
+     Returns an array of JobListEntry objects of the specified length.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-ListLongTermPricing">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_ListLongTermPricing.html">
+      ListLongTermPricing
+     </a>
+    </td>
+    <td>
+     Grants permission to list LongTermPricingListEntry objects for the account making
+                                                the request
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-UpdateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_UpdateCluster.html">
+      UpdateCluster
+     </a>
+    </td>
+    <td>
+     While a cluster's ClusterState value is in the AwaitingQuorum state, you can update
+                                                some of the information associated with a cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-UpdateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_UpdateJob.html">
+      UpdateJob
+     </a>
+    </td>
+    <td>
+     While a job's JobState value is New, you can update some of the information associated
+                                                with a job.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-UpdateJobShipmentState">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_UpdateJobShipmentState.html">
+      UpdateJobShipmentState
+     </a>
+    </td>
+    <td>
+     Updates the state when a the shipment states changes to a different state.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssnowball-UpdateLongTermPricing">
+     </a>
+     <a href="https://docs.aws.amazon.com/snowball/latest/api-reference/API_UpdateLongTermPricing.html">
+      UpdateLongTermPricing
+     </a>
+    </td>
+    <td>
+     Grants permission to update a specific upfront billing contract for a job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

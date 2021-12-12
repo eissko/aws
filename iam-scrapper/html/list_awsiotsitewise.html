@@ -1,0 +1,2741 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d691c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-AssociateAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_AssociateAssets.html">
+      AssociateAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to associate a child asset with a parent asset through a hierarchy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-AssociateTimeSeriesToAssetProperty">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_AssociateTimeSeriesToAssetProperty.html">
+      AssociateTimeSeriesToAssetProperty
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate a time series with an asset property
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-BatchAssociateProjectAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_BatchAssociateProjectAssets.html">
+      BatchAssociateProjectAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to associate assets to a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-BatchDisassociateProjectAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_BatchDisassociateProjectAssets.html">
+      BatchDisassociateProjectAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate assets from a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-BatchPutAssetPropertyValue">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_BatchPutAssetPropertyValue.html">
+      BatchPutAssetPropertyValue
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to put property values for asset properties
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsiotsitewise-CreateAccessPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateAccessPolicy.html">
+      CreateAccessPolicy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create an access policy for a portal or a project
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-CreateAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateAsset.html">
+      CreateAsset
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an asset from an asset model
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-CreateAssetModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateAssetModel.html">
+      CreateAssetModel
+     </a>
+    </td>
+    <td>
+     Grants permission to create an asset model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-CreateDashboard">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateDashboard.html">
+      CreateDashboard
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a dashboard in a project
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-CreateGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateGateway.html">
+      CreateGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to create a gateway
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-CreatePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreatePortal.html">
+      CreatePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to create a portal
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      sso:CreateManagedApplicationInstance
+     </p>
+     <p>
+      sso:DescribeRegisteredRegions
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-CreateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateProject.html">
+      CreateProject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a project in a portal
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeleteAccessPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteAccessPolicy.html">
+      DeleteAccessPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an access policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-access-policy">
+       access-policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeleteAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteAsset.html">
+      DeleteAsset
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an asset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeleteAssetModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteAssetModel.html">
+      DeleteAssetModel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an asset model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeleteDashboard">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteDashboard.html">
+      DeleteDashboard
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a dashboard
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-dashboard">
+       dashboard*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeleteGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteGateway.html">
+      DeleteGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a gateway
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeletePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeletePortal.html">
+      DeletePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a portal
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      sso:DeleteManagedApplicationInstance
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DeleteProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteProject.html">
+      DeleteProject
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-DeleteTimeSeries">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DeleteTimeSeries.html">
+      DeleteTimeSeries
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a time series
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeAccessPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeAccessPolicy.html">
+      DescribeAccessPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an access policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-access-policy">
+       access-policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeAsset.html">
+      DescribeAsset
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an asset
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeAssetModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeAssetModel.html">
+      DescribeAssetModel
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an asset model
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeAssetProperty">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeAssetProperty.html">
+      DescribeAssetProperty
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an asset property
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeDashboard">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeDashboard.html">
+      DescribeDashboard
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a dashboard
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-dashboard">
+       dashboard*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeDefaultEncryptionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeDefaultEncryptionConfiguration.html">
+      DescribeDefaultEncryptionConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the default encryption configuration for the AWS account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeGateway.html">
+      DescribeGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a gateway
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeGatewayCapabilityConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeGatewayCapabilityConfiguration.html">
+      DescribeGatewayCapabilityConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a capability configuration for a gateway
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeLoggingOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeLoggingOptions.html">
+      DescribeLoggingOptions
+     </a>
+    </td>
+    <td>
+     Grants permission to describe logging options for the AWS account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribePortal.html">
+      DescribePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a portal
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeProject.html">
+      DescribeProject
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a project
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DescribeStorageConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeStorageConfiguration.html">
+      DescribeStorageConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the storage configuration for the AWS account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-DescribeTimeSeries">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeTimeSeries.html">
+      DescribeTimeSeries
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a time series
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-DisassociateAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DisassociateAssets.html">
+      DisassociateAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a child asset from a parent asset by a hierarchy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-DisassociateTimeSeriesFromAssetProperty">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DisassociateTimeSeriesFromAssetProperty.html">
+      DisassociateTimeSeriesFromAssetProperty
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate a time series from an asset property
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-GetAssetPropertyAggregates">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_GetAssetPropertyAggregates.html">
+      GetAssetPropertyAggregates
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve computed aggregates for an asset property
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-GetAssetPropertyValue">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_GetAssetPropertyValue.html">
+      GetAssetPropertyValue
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the latest value for an asset property
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-GetAssetPropertyValueHistory">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_GetAssetPropertyValueHistory.html">
+      GetAssetPropertyValueHistory
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the value history for an asset property
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-GetInterpolatedAssetPropertyValues">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_GetInterpolatedAssetPropertyValues.html">
+      GetInterpolatedAssetPropertyValues
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve interpolated values for an asset property
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-time-series">
+       time-series
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotsitewise-ListAccessPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListAccessPolicies.html">
+      ListAccessPolicies
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list all access policies for an identity or a resource
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListAssetModels">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListAssetModels.html">
+      ListAssetModels
+     </a>
+    </td>
+    <td>
+     Grants permission to list all asset models
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListAssetRelationships">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListAssetRelationships.html">
+      ListAssetRelationships
+     </a>
+    </td>
+    <td>
+     Grants permission to list the asset relationship graph for an asset
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListAssets.html">
+      ListAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to list all assets
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListAssociatedAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListAssociatedAssets.html">
+      ListAssociatedAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to list all assets associated with an asset through a hierarchy
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListDashboards">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListDashboards.html">
+      ListDashboards
+     </a>
+    </td>
+    <td>
+     Grants permission to list all dashboards in a project
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListGateways">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListGateways.html">
+      ListGateways
+     </a>
+    </td>
+    <td>
+     Grants permission to list all gateways
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListPortals">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListPortals.html">
+      ListPortals
+     </a>
+    </td>
+    <td>
+     Grants permission to list all portals
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListProjectAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListProjectAssets.html">
+      ListProjectAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to list all assets associated with a project
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListProjects.html">
+      ListProjects
+     </a>
+    </td>
+    <td>
+     Grants permission to list all projects in a portal
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="awsiotsitewise-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to list all tags for a resource
+    </td>
+    <td rowspan="8">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-access-policy">
+       access-policy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-dashboard">
+       dashboard
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-ListTimeSeries">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_ListTimeSeries.html">
+      ListTimeSeries
+     </a>
+    </td>
+    <td>
+     Grants permission to list time series
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-PutDefaultEncryptionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_PutDefaultEncryptionConfiguration.html">
+      PutDefaultEncryptionConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to set the default encryption configuration for the AWS account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-PutLoggingOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_PutLoggingOptions.html">
+      PutLoggingOptions
+     </a>
+    </td>
+    <td>
+     Grants permission to set logging options for the AWS account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-PutStorageConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_PutStorageConfiguration.html">
+      PutStorageConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to configure storage settings for the AWS account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="awsiotsitewise-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to tag a resource
+    </td>
+    <td rowspan="8">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-access-policy">
+       access-policy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-dashboard">
+       dashboard
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotsitewise-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="awsiotsitewise-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to untag a resource
+    </td>
+    <td rowspan="8">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-access-policy">
+       access-policy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-dashboard">
+       dashboard
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateAccessPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateAccessPolicy.html">
+      UpdateAccessPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to update an access policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-access-policy">
+       access-policy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateAsset.html">
+      UpdateAsset
+     </a>
+    </td>
+    <td>
+     Grants permission to update an asset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateAssetModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateAssetModel.html">
+      UpdateAssetModel
+     </a>
+    </td>
+    <td>
+     Grants permission to update an asset model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateAssetModelPropertyRouting">
+     </a>
+     <a href="${UserGuideDocPage}alarms-iam-permissions.html" rel="noopener noreferrer" target="_blank">
+      UpdateAssetModelPropertyRouting
+     </a>
+    </td>
+    <td>
+     Grants permission to update an AssetModel property routing
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset-model">
+       asset-model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateAssetProperty">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateAssetProperty.html">
+      UpdateAssetProperty
+     </a>
+    </td>
+    <td>
+     Grants permission to update an asset property
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-asset">
+       asset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateDashboard">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateDashboard.html">
+      UpdateDashboard
+     </a>
+    </td>
+    <td>
+     Grants permission to update a dashboard
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-dashboard">
+       dashboard*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateGateway.html">
+      UpdateGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to update a gateway
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateGatewayCapabilityConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateGatewayCapabilityConfiguration.html">
+      UpdateGatewayCapabilityConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update a capability configuration for a gateway
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdatePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdatePortal.html">
+      UpdatePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to update a portal
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-UpdateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateProject.html">
+      UpdateProject
+     </a>
+    </td>
+    <td>
+     Grants permission to update a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d691c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-asset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateAsset.html">
+      asset
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:asset/$
+      <span>
+       {
+      </span>
+      AssetId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-asset-model">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateAssetModel.html">
+      asset-model
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:asset-model/$
+      <span>
+       {
+      </span>
+      AssetModelId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-time-series">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_DescribeTimeSeries.html">
+      time-series
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:time-series/$
+      <span>
+       {
+      </span>
+      TimeSeriesId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-gateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateGateway.html">
+      gateway
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:gateway/$
+      <span>
+       {
+      </span>
+      GatewayId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-portal">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreatePortal.html">
+      portal
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:portal/$
+      <span>
+       {
+      </span>
+      PortalId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-project">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateProject.html">
+      project
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-dashboard">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateDashboard.html">
+      dashboard
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:dashboard/$
+      <span>
+       {
+      </span>
+      DashboardId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-access-policy">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_CreateAccessPolicy.html">
+      access-policy
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotsitewise:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:access-policy/$
+      <span>
+       {
+      </span>
+      AccessPolicyId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotsitewise-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d691c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_assetHierarchyPath">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:assetHierarchyPath
+     </a>
+    </td>
+    <td>
+     Filters access by an asset hierarchy path, which is the string of asset IDs in the
+                                                asset's hierarchy, each separated by a forward slash
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_childAssetId">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:childAssetId
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of a child asset being associated whith a parent asset
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_group">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:group
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of an AWS Single Sign-On group
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_iam">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:iam
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of an AWS IAM identity
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_isAssociatedWithAssetProperty">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:isAssociatedWithAssetProperty
+     </a>
+    </td>
+    <td>
+     Filters access by data streams associated with or not associated with asset properties
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_portal">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:portal
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of a portal
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_project">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:project
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of a project
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_propertyAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:propertyAlias
+     </a>
+    </td>
+    <td>
+     Filters access by the property alias
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_propertyId">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:propertyId
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of an asset property
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotsitewise-iotsitewise_user">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys">
+      iotsitewise:user
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of an AWS Single Sign-On user
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

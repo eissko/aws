@@ -1,0 +1,411 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d991c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrdsdataapi-BatchExecuteStatement">
+     </a>
+     <a href="https://docs.aws.amazon.com/rdsdataservice/latest/APIReference/API_BatchExecuteStatement.html">
+      BatchExecuteStatement
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to run a batch SQL statement over an array of data
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrdsdataapi-BeginTransaction">
+     </a>
+     <a href="https://docs.aws.amazon.com/rdsdataservice/latest/APIReference/API_BeginTransaction.html">
+      BeginTransaction
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to start a SQL transaction
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrdsdataapi-CommitTransaction">
+     </a>
+     <a href="https://docs.aws.amazon.com/rdsdataservice/latest/APIReference/API_CommitTransaction.html">
+      CommitTransaction
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to end a SQL transaction started with the BeginTransaction operation
+                                                and commits the changes
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      rds-data:BeginTransaction
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrdsdataapi-ExecuteSql">
+     </a>
+     <a href="https://docs.aws.amazon.com/rdsdataservice/latest/APIReference/API_ExecuteSql.html">
+      ExecuteSql
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to run one or more SQL statements. This operation is deprecated.
+                                                Use the BatchExecuteStatement or ExecuteStatement operation
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrdsdataapi-ExecuteStatement">
+     </a>
+     <a href="https://docs.aws.amazon.com/rdsdataservice/latest/APIReference/API_ExecuteStatement.html">
+      ExecuteStatement
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to run a SQL statement against a database
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrdsdataapi-RollbackTransaction">
+     </a>
+     <a href="https://docs.aws.amazon.com/rdsdataservice/latest/APIReference/API_RollbackTransaction.html">
+      RollbackTransaction
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to perform a rollback of a transaction. Rolling back a transaction
+                                                cancels its changes
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      rds-data:BeginTransaction
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d991c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonrdsdataapi-cluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Managing.html">
+      cluster
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:rds:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cluster:$
+      <span>
+       {
+      </span>
+      DbClusterInstanceName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrdsdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrdsdataapi-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d991c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonrdsdataapi-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrdsdataapi-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

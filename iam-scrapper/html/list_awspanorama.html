@@ -1,0 +1,2124 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d939c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateApp.html">
+      CreateApp
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to create an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateAppDeployment">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateAppDeployment.html">
+      CreateAppDeployment
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to deploy an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateAppVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateAppVersion.html">
+      CreateAppVersion
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to create a version of an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-appVersion">
+       appVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateApplicationInstance.html">
+      CreateApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Panorama Application Instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awspanorama-CreateDataSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateDataSource.html">
+      CreateDataSource
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="2">
+     Grants permission to create an AWS Panorama datasource
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateDeploymentConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateDeploymentConfiguration.html">
+      CreateDeploymentConfiguration
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to configure a deployment for an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateInputs">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateInputList.html">
+      CreateInputs
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to generate a list of cameras on the same network as an AWS Panorama
+                                                Appliance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateJobForDevices">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateJobForDevices.html">
+      CreateJobForDevices
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to create a job for an AWS Panorama Appliance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateModel.html">
+      CreateModel
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to import a machine learning model into AWS Panorama
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateNodeFromTemplateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateNodeFromTemplateJob.html">
+      CreateNodeFromTemplateJob
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Panorama Node
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreatePackage">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreatePackage.html">
+      CreatePackage
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Panorama Package
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreatePackageImportJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreatePackageImportJob.html">
+      CreatePackageImportJob
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Panorama Package
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-CreateStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_CreateStreamsList.html">
+      CreateStreams
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to generate a list of streams available to an AWS Panorama Appliance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeleteApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeleteApp.html">
+      DeleteApp
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to delete an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeleteAppVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeleteAppVersion.html">
+      DeleteAppVersion
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to delete a version of an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeleteDataSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeleteDataSource.html">
+      DeleteDataSource
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to delete an AWS Panorama datasource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-dataSource">
+       dataSource*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeleteDevice">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeleteDevice.html">
+      DeleteDevice
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to deregister an AWS Panorama Appliance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeleteModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeleteModel.html">
+      DeleteModel
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to delete a machine learning model from AWS Panorama
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeletePackage">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeletePackage.html">
+      DeletePackage
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Panorama Package
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-package">
+       package*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DeregisterPackageVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DeregisterPackageVersion.html">
+      DeregisterPackageVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to deregister an AWS Panorama Package Version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeApp.html">
+      DescribeApp
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama application
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeAppDeployment">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeAppDeployment.html">
+      DescribeAppDeployment
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about a deployment for an AWS Panorama application
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeAppVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeAppVersion.html">
+      DescribeAppVersion
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about a version of an AWS Panorama application
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeApplicationInstance.html">
+      DescribeApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Application Instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-applicationInstance">
+       applicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeApplicationInstanceDetails">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeApplicationInstanceDetails.html">
+      DescribeApplicationInstanceDetails
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Application Instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-applicationInstance">
+       applicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeDataSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeDataSource.html">
+      DescribeDataSource
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about a datasource in AWS Panorama
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-dataSource">
+       dataSource*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeDevice">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeDevice.html">
+      DescribeDevice
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Appliance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeDeviceJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeDeviceJob.html">
+      DescribeDeviceJob
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view job details for an AWS Panorama Appliance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeModel.html">
+      DescribeModel
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about a machine learning model in AWS Panorama
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeNode">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeNode.html">
+      DescribeNode
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Node
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeNodeFromTemplateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeNodeFromTemplateJob.html">
+      DescribeNodeFromTemplateJob
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about AWS Panorama Node
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribePackage">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribePackage.html">
+      DescribePackage
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Package
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-package">
+       package*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribePackageImportJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribePackageImportJob.html">
+      DescribePackageImportJob
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Package
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribePackageVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribePackageVersion.html">
+      DescribePackageVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Panorama Package Version
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-DescribeSoftware">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_DescribeSoftware.html">
+      DescribeSoftware
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about a software version for the AWS Panorama Appliance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-GetDeploymentConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_GetDeploymentConfiguration.html">
+      GetDeploymentConfiguration
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details about a deployment configuration for an AWS Panorama
+                                                application
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-GetInputs">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_GetInputList.html">
+      GetInputs
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of cameras generated with CreateInputs
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-GetStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_GetStreamsList.html">
+      GetStreams
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of streams generated with CreateStreams
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-GetWebSocketURL">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_GetWebSocketURL.html">
+      GetWebSocketURL
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to generate a WebSocket endpoint for communication with AWS Panorama
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListAppDeploymentOperations">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListAppDeploymentOperations.html">
+      ListAppDeploymentOperations
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of deployments for an AWS Panorama application
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListAppVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListAppVersions.html">
+      ListAppVersions
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of application versions in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListApplicationInstanceDependencies">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListApplicationInstanceDependencies.html">
+      ListApplicationInstanceDependencies
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of application instance dependencies in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListApplicationInstanceNodeInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListApplicationInstanceNodeInstances.html">
+      ListApplicationInstanceNodeInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of node instances of application instances in
+                                                AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListApplicationInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListApplicationInstances.html">
+      ListApplicationInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of application instances in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListApps">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListApps.html">
+      ListApps
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of applications in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListDataSources">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListDataSources.html">
+      ListDataSources
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of datasources in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListDeploymentConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListDeploymentConfigurations.html">
+      ListDeploymentConfigurations
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of deployment configurations in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListDevices">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListDevices.html">
+      ListDevices
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of appliances in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListDevicesJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListDevicesJobs.html">
+      ListDevicesJobs
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of jobs for an AWS Panorama Appliance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListModels">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListModels.html">
+      ListModels
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to retrieve a list of models in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListNodeFromTemplateJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListNodeFromTemplateJobs.html">
+      ListNodeFromTemplateJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of Nodes for an AWS Panorama Appliance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListNodes">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListNodes.html">
+      ListNodes
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of nodes in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListPackageImportJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListPackageImportJobs.html">
+      ListPackageImportJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of packages in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ListPackages">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListPackages.html">
+      ListPackages
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of packages in AWS Panorama
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awspanorama-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="4">
+     Grants permission to retrieve a list of tags for a resource in AWS Panorama
+    </td>
+    <td rowspan="4">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-dataSource">
+       dataSource
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-ProvisionDevice">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_ProvisionDevice.html">
+      ProvisionDevice
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to register an AWS Panorama Appliance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-RegisterPackageVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_RegisterPackageVersion.html">
+      RegisterPackageVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to register an AWS Panorama Package Version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-RemoveApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_RemoveApplicationInstance.html">
+      RemoveApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to remove an AWS Panorama Application Instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-applicationInstance">
+       applicationInstance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awspanorama-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_TagResource.html">
+      TagResource
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="5">
+     Grants permission to add tags to a resource in AWS Panorama
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-dataSource">
+       dataSource
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awspanorama-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awspanorama-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_UntagResource.html">
+      UntagResource
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="5">
+     Grants permission to remove tags from a resource in AWS Panorama
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-dataSource">
+       dataSource
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-device">
+       device
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awspanorama-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-UpdateApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_UpdateApp.html">
+      UpdateApp
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to modify an AWS Panorama application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-UpdateAppConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_UpdateAppConfiguration.html">
+      UpdateAppConfiguration
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to modify the version-specific configuration of an AWS Panorama
+                                                application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-app">
+       app*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-UpdateDataSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_UpdateDataSource.html">
+      UpdateDataSource
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to modify an AWS Panorama datasource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-dataSource">
+       dataSource*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-UpdateDeviceMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/API_UpdateDeviceMetadata.html">
+      UpdateDeviceMetadata
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to modify basic settings for an AWS Panorama Appliance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d939c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awspanorama-device">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      device
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:device/$
+      <span>
+       {
+      </span>
+      DeviceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-package">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      package
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:package/$
+      <span>
+       {
+      </span>
+      PackageId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-applicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      applicationInstance
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:applicationInstance/$
+      <span>
+       {
+      </span>
+      ApplicationInstanceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-dataSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      dataSource
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:dataSource/$
+      <span>
+       {
+      </span>
+      DeviceId}/$
+      <span>
+       {
+      </span>
+      DataSourceName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-model">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      model
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:model/$
+      <span>
+       {
+      </span>
+      ModelName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-app">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      app
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:app/$
+      <span>
+       {
+      </span>
+      AppName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awspanorama-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-appVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/panorama/latest/dev/">
+      appVersion
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:panorama:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:app/$
+      <span>
+       {
+      </span>
+      AppName}:$
+      <span>
+       {
+      </span>
+      AppVersion}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d939c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awspanorama-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awspanorama-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,572 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d155c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonbraket-CancelJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_CancelJob.html">
+      CancelJob
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-job">
+       job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-CancelQuantumTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_CancelQuantumTask.html">
+      CancelQuantumTask
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a quantum task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-quantum-task">
+       quantum-task*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-CreateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_CreateJob.html">
+      CreateJob
+     </a>
+    </td>
+    <td>
+     Grants permission to create a job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonbraket-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-CreateQuantumTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_CreateQuantumTask.html">
+      CreateQuantumTask
+     </a>
+    </td>
+    <td>
+     Grants permission to create a quantum task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonbraket-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-GetDevice">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_GetDevice.html">
+      GetDevice
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about the devices available in Amazon Braket
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-GetJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_Job.html">
+      GetJob
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve jobs
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-job">
+       job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-GetQuantumTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_GetQuantumTask.html">
+      GetQuantumTask
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve quantum tasks
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-quantum-task">
+       quantum-task*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonbraket-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to listing the tags that have been applied to the quantum task resource
+                                                or the job
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-job">
+       job
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonbraket-quantum-task">
+       quantum-task
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-SearchDevices">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_SearchDevices.html">
+      SearchDevices
+     </a>
+    </td>
+    <td>
+     Grants permission to search for devices available in Amazon Braket
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-SearchJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_SearchJob.html">
+      SearchJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to search for jobs
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-SearchQuantumTasks">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_SearchQuantumTasks.html">
+      SearchQuantumTasks
+     </a>
+    </td>
+    <td>
+     Grants permission to search for quantum tasks
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonbraket-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add one or more tags to a quantum task
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-quantum-task">
+       quantum-task
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonbraket-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonbraket-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to remove one or more tags from a quantum task resource or a job.
+                                                A tag consists of a key-value pair
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-job">
+       job
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonbraket-quantum-task">
+       quantum-task
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d155c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonbraket-quantum-task">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/developerguide/braket-manage-access.html#resources">
+      quantum-task
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:braket:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:quantum-task/$
+      <span>
+       {
+      </span>
+      RandomId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-job">
+     </a>
+     <a href="https://docs.aws.amazon.com/braket/latest/developerguide/braket-manage-access.html#resources">
+      job
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:braket:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:job/$
+      <span>
+       {
+      </span>
+      JobName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonbraket-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d155c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonbraket-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonbraket-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

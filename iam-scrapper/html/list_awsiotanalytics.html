@@ -1,0 +1,1369 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d651c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-BatchPutMessage">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_BatchPutMessage.html">
+      BatchPutMessage
+     </a>
+    </td>
+    <td>
+     Puts a batch of messages into the specified channel.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-CancelPipelineReprocessing">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_CancelPipelineReprocessing.html">
+      CancelPipelineReprocessing
+     </a>
+    </td>
+    <td>
+     Cancels reprocessing for the specified pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotanalytics-CreateChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_CreateChannel.html">
+      CreateChannel
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a channel.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotanalytics-CreateDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_CreateDataset.html">
+      CreateDataset
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a dataset.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-CreateDatasetContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_CreateDatasetContent.html">
+      CreateDatasetContent
+     </a>
+    </td>
+    <td>
+     Generates content of the specified dataset (by executing the dataset actions).
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotanalytics-CreateDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_CreateDatastore.html">
+      CreateDatastore
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a datastore.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotanalytics-CreatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_CreatePipeline.html">
+      CreatePipeline
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a pipeline.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DeleteChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DeleteChannel.html">
+      DeleteChannel
+     </a>
+    </td>
+    <td>
+     Deletes the specified channel.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DeleteDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DeleteDataset.html">
+      DeleteDataset
+     </a>
+    </td>
+    <td>
+     Deletes the specified dataset.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DeleteDatasetContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DeleteDatasetContent.html">
+      DeleteDatasetContent
+     </a>
+    </td>
+    <td>
+     Deletes the content of the specified dataset.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DeleteDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DeleteDatastore.html">
+      DeleteDatastore
+     </a>
+    </td>
+    <td>
+     Deletes the specified datastore.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DeletePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DeletePipeline.html">
+      DeletePipeline
+     </a>
+    </td>
+    <td>
+     Deletes the specified pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DescribeChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DescribeChannel.html">
+      DescribeChannel
+     </a>
+    </td>
+    <td>
+     Describes the specified channel.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DescribeDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DescribeDataset.html">
+      DescribeDataset
+     </a>
+    </td>
+    <td>
+     Describes the specified dataset.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DescribeDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DescribeDatastore.html">
+      DescribeDatastore
+     </a>
+    </td>
+    <td>
+     Describes the specified datastore.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DescribeLoggingOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DescribeLoggingOptions.html">
+      DescribeLoggingOptions
+     </a>
+    </td>
+    <td>
+     Describes logging options for the the account.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-DescribePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_DescribePipeline.html">
+      DescribePipeline
+     </a>
+    </td>
+    <td>
+     Describes the specified pipeline.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-GetDatasetContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_GetDatasetContent.html">
+      GetDatasetContent
+     </a>
+    </td>
+    <td>
+     Gets the content of the specified dataset.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-ListChannels">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_ListChannels.html">
+      ListChannels
+     </a>
+    </td>
+    <td>
+     Lists the channels for the account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-ListDatasetContents">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_ListDatasetContents.html">
+      ListDatasetContents
+     </a>
+    </td>
+    <td>
+     Lists information about dataset contents that have been created.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-ListDatasets">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_ListDatasets.html">
+      ListDatasets
+     </a>
+    </td>
+    <td>
+     Lists the datasets for the account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-ListDatastores">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_ListDatastores.html">
+      ListDatastores
+     </a>
+    </td>
+    <td>
+     Lists the datastores for the account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-ListPipelines">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_ListPipelines.html">
+      ListPipelines
+     </a>
+    </td>
+    <td>
+     Lists the pipelines for the account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsiotanalytics-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Lists the tags (metadata) which you have assigned to the resource.
+    </td>
+    <td rowspan="4">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-PutLoggingOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_PutLoggingOptions.html">
+      PutLoggingOptions
+     </a>
+    </td>
+    <td>
+     Puts logging options for the the account.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-RunPipelineActivity">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_RunPipelineActivity.html">
+      RunPipelineActivity
+     </a>
+    </td>
+    <td>
+     Runs the specified pipeline activity.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-SampleChannelData">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_SampleChannelData.html">
+      SampleChannelData
+     </a>
+    </td>
+    <td>
+     Samples the specified channel's data.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-StartPipelineReprocessing">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_StartPipelineReprocessing.html">
+      StartPipelineReprocessing
+     </a>
+    </td>
+    <td>
+     Starts reprocessing for the specified pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awsiotanalytics-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Adds to or modifies the tags of the given resource. Tags are metadata which can be
+                                                used to manage a resource.
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awsiotanalytics-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Removes the given tags (metadata) from the resource.
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-UpdateChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_UpdateChannel.html">
+      UpdateChannel
+     </a>
+    </td>
+    <td>
+     Updates the specified channel.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-UpdateDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_UpdateDataset.html">
+      UpdateDataset
+     </a>
+    </td>
+    <td>
+     Updates the specified dataset.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-UpdateDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_UpdateDatastore.html">
+      UpdateDatastore
+     </a>
+    </td>
+    <td>
+     Updates the specified datastore.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-UpdatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/APIReference/API_UpdatePipeline.html">
+      UpdatePipeline
+     </a>
+    </td>
+    <td>
+     Updates the specified pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-pipeline">
+       pipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d651c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-channel">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/userguide/welcome.html#aws-iot-analytics-how">
+      channel
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotanalytics:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:channel/$
+      <span>
+       {
+      </span>
+      ChannelName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-iotanalytics_ResourceTag___TagKey_">
+       iotanalytics:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-dataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/userguide/welcome.html#aws-iot-analytics-how">
+      dataset
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotanalytics:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:dataset/$
+      <span>
+       {
+      </span>
+      DatasetName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-iotanalytics_ResourceTag___TagKey_">
+       iotanalytics:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-datastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/userguide/welcome.html#aws-iot-analytics-how">
+      datastore
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotanalytics:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:datastore/$
+      <span>
+       {
+      </span>
+      DatastoreName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-iotanalytics_ResourceTag___TagKey_">
+       iotanalytics:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-pipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/iotanalytics/latest/userguide/welcome.html#aws-iot-analytics-how">
+      pipeline
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotanalytics:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:pipeline/$
+      <span>
+       {
+      </span>
+      PipelineName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotanalytics-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotanalytics-iotanalytics_ResourceTag___TagKey_">
+       iotanalytics:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d651c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-aws_RequestTag___TagKey_">
+     </a>
+     aws:RequestTag/${TagKey}
+    </td>
+    <td>
+     A tag key that is present in the request that the user makes to IoT Analytics.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-aws_TagKeys">
+     </a>
+     aws:TagKeys
+    </td>
+    <td>
+     The list of all the tag key names associated with the IoT Analytics resource in the
+                                                request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotanalytics-iotanalytics_ResourceTag___TagKey_">
+     </a>
+     iotanalytics:ResourceTag/${TagKey}
+    </td>
+    <td>
+     The preface string for a tag key and value pair attached to an IoT Analytics resource.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

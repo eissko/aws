@@ -1,0 +1,803 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d171c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-CreateCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_CreateCertificateAuthority.html">
+      CreateCertificateAuthority
+     </a>
+    </td>
+    <td>
+     Creates an ACM Private CA and its associated private key and configuration.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-CreateCertificateAuthorityAuditReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_CreateCertificateAuthorityAuditReport.html">
+      CreateCertificateAuthorityAuditReport
+     </a>
+    </td>
+    <td>
+     Creates an audit report for an ACM Private CA.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-CreatePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_CreatePermission.html">
+      CreatePermission
+     </a>
+    </td>
+    <td>
+     Creates a permission for an ACM Private CA.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-DeleteCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_DeleteCertificateAuthority.html">
+      DeleteCertificateAuthority
+     </a>
+    </td>
+    <td>
+     Deletes an ACM Private CA and its associated private key and configuration.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-DeletePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_DeletePermission.html">
+      DeletePermission
+     </a>
+    </td>
+    <td>
+     Deletes a permission for an ACM Private CA.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-DeletePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_DeletePolicy.html">
+      DeletePolicy
+     </a>
+    </td>
+    <td>
+     Deletes the policy for an ACM Private CA.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-DescribeCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_DescribeCertificateAuthority.html">
+      DescribeCertificateAuthority
+     </a>
+    </td>
+    <td>
+     Returns a list of the configuration and status fields contained in the specified ACM
+                                                Private CA.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-DescribeCertificateAuthorityAuditReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_DescribeCertificateAuthorityAuditReport.html">
+      DescribeCertificateAuthorityAuditReport
+     </a>
+    </td>
+    <td>
+     Returns the status and information about an ACM Private CA audit report.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-GetCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_GetCertificate.html">
+      GetCertificate
+     </a>
+    </td>
+    <td>
+     Retrieves an ACM Private CA certificate and certificate chain for the certificate
+                                                authority specified by an ARN.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-GetCertificateAuthorityCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_GetCertificateAuthorityCertificate.html">
+      GetCertificateAuthorityCertificate
+     </a>
+    </td>
+    <td>
+     Retrieves an ACM Private CA certificate and certificate chain for the certificate
+                                                authority specified by an ARN.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-GetCertificateAuthorityCsr">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_GetCertificateAuthorityCsr.html">
+      GetCertificateAuthorityCsr
+     </a>
+    </td>
+    <td>
+     Retrieves an ACM Private CA certificate signing request (CSR) for the certificate-authority
+                                                specified by an ARN.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-GetPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_GetPolicy.html">
+      GetPolicy
+     </a>
+    </td>
+    <td>
+     Retrieves the policy on an ACM Private CA.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-ImportCertificateAuthorityCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_ImportCertificateAuthorityCertificate.html">
+      ImportCertificateAuthorityCertificate
+     </a>
+    </td>
+    <td>
+     Imports an SSL/TLS certificate into ACM Private CA for use as the CA certificate of
+                                                an ACM Private CA.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscertificatemanagerprivatecertificateauthority-IssueCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_IssueCertificate.html">
+      IssueCertificate
+     </a>
+    </td>
+    <td rowspan="2">
+     Issues an ACM Private CA certificate.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-acm-pca_TemplateArn">
+       acm-pca:TemplateArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-ListCertificateAuthorities">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_ListCertificateAuthorities.html">
+      ListCertificateAuthorities
+     </a>
+    </td>
+    <td>
+     Retrieves a list of the ACM Private CA certificate authority ARNs, and a summary of
+                                                the status of each CA in the calling account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-ListPermissions">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_ListPermissions.html">
+      ListPermissions
+     </a>
+    </td>
+    <td>
+     Lists the permissions that have been applied to the ACM Private CA certificate authority.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td>
+     Lists the tags that have been applied to the ACM Private CA certificate authority.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-PutPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_PutPolicy.html">
+      PutPolicy
+     </a>
+    </td>
+    <td>
+     Puts a policy on an ACM Private CA.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-RestoreCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_RestoreCertificateAuthority.html">
+      RestoreCertificateAuthority
+     </a>
+    </td>
+    <td>
+     Restores an ACM Private CA from the deleted state to the state it was in when deleted.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-RevokeCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_RevokeCertificate.html">
+      RevokeCertificate
+     </a>
+    </td>
+    <td>
+     Revokes a certificate issued by an ACM Private CA.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscertificatemanagerprivatecertificateauthority-TagCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_TagCertificateAuthority.html">
+      TagCertificateAuthority
+     </a>
+    </td>
+    <td rowspan="2">
+     Adds one or more tags to an ACM Private CA.
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscertificatemanagerprivatecertificateauthority-UntagCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_UntagCertificateAuthority.html">
+      UntagCertificateAuthority
+     </a>
+    </td>
+    <td rowspan="2">
+     Remove one or more tags from an ACM Private CA.
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-UpdateCertificateAuthority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/APIReference/API_UpdateCertificateAuthority.html">
+      UpdateCertificateAuthority
+     </a>
+    </td>
+    <td>
+     Updates the configuration of an ACM Private CA.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-certificate-authority">
+       certificate-authority*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d171c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-certificate-authority">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm-pca/latest/userguide/authen-overview.html#acm-pca-resources-operations">
+      certificate-authority
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:acm-pca:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:certificate-authority/$
+      <span>
+       {
+      </span>
+      CertificateAuthorityId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanagerprivatecertificateauthority-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d171c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-acm-pca_TemplateArn">
+     </a>
+     acm-pca:TemplateArn
+    </td>
+    <td>
+     Filters issue certificate requests based on the presence of TemplateArn in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-aws_RequestTag___TagKey_">
+     </a>
+     aws:RequestTag/${TagKey}
+    </td>
+    <td>
+     Filters create requests based on the allowed set of values for each of the tags.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-aws_ResourceTag___TagKey_">
+     </a>
+     aws:ResourceTag/${TagKey}
+    </td>
+    <td>
+     Filters actions based on tag-value associated with the resource.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanagerprivatecertificateauthority-aws_TagKeys">
+     </a>
+     aws:TagKeys
+    </td>
+    <td>
+     Filters create requests based on the presence of mandatory tags in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

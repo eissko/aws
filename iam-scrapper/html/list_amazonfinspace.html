@@ -1,0 +1,607 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d543c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonfinspace-CreateEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_CreateEnvironment.html">
+      CreateEnvironment
+     </a>
+    </td>
+    <td>
+     Grants permissions to create a FinSpace environment
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfinspace-CreateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_CreateUser.html">
+      CreateUser
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="2">
+     Grants permissions to create a FinSpace user.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfinspace-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-DeleteEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_DeleteEnvironment.html">
+      DeleteEnvironment
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete a FinSpace environment.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfinspace-DeleteUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_DeleteUser.html">
+      DeleteUser
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="2">
+     Grants permissions to delete a FinSpace user.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfinspace-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-GetEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_GetEnvironment.html">
+      GetEnvironment
+     </a>
+    </td>
+    <td>
+     Grants permissions to describe a FinSpace environment.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-GetLoadSampleDataSetGroupIntoEnvironmentStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_GetLoadSampleDataSetGroupIntoEnvironmentStatus.html">
+      GetLoadSampleDataSetGroupIntoEnvironmentStatus
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to request status of the loading of sample data bundle.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfinspace-GetUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_GetUser.html">
+      GetUser
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="2">
+     Grants permissions to describe a FinSpace user.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfinspace-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-ListEnvironments">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_ListEnvironments.html">
+      ListEnvironments
+     </a>
+    </td>
+    <td>
+     Grants permissions to list FinSpace environments in the AWS account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permissions to return a list of tags for a resource.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfinspace-ListUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_ListUsers.html">
+      ListUsers
+     </a>
+     [permission only]
+    </td>
+    <td rowspan="2">
+     Grants permissions to list FinSpace users in an environment.
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfinspace-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-LoadSampleDataSetGroupIntoEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_LoadSampleDataSetGroupIntoEnvironment.html">
+      LoadSampleDataSetGroupIntoEnvironment
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to load sample data bundle into your FinSpace environment.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permissions to tag a resource.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permissions to untag a resource.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-UpdateEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/management-api/API_UpdateEnvironment.html">
+      UpdateEnvironment
+     </a>
+    </td>
+    <td>
+     Grants permissions to update a FinSpace environment
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d543c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonfinspace-environment">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/userguide/finspace-example-policies.html">
+      environment
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:finspace:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:environment/$
+      <span>
+       {
+      </span>
+      environmentId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-user">
+     </a>
+     <a href="https://docs.aws.amazon.com/finspace/latest/userguide/finspace-example-policies.html">
+      user
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:finspace:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:user/$
+      <span>
+       {
+      </span>
+      userId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfinspace-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d543c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonfinspace-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfinspace-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

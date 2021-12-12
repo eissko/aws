@@ -1,0 +1,221 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d423c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2instanceconnect-SendSSHPublicKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/ec2-instance-connect/latest/APIReference/API_SendSSHPublicKey.html">
+      SendSSHPublicKey
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants access to push an SSH public key to the specified EC2 instance to be used for
+                                                standard SSH
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2instanceconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2instanceconnect-ec2_osuser">
+       ec2:osuser
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2instanceconnect-SendSerialConsoleSSHPublicKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/ec2-instance-connect/latest/APIReference/API_SendSerialConsoleSSHPublicKey.html">
+      SendSerialConsoleSSHPublicKey
+     </a>
+    </td>
+    <td>
+     Grants access to push an SSH public key to the specified EC2 instance to be used for
+                                                serial console SSH
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2instanceconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d423c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonec2instanceconnect-instance">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-policy-structure.html#EC2_ARN_Format">
+      instance
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ec2:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2instanceconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2instanceconnect-ec2_ResourceTag___TagKey_">
+       ec2:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d423c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonec2instanceconnect-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2instanceconnect-ec2_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      ec2:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2instanceconnect-ec2_osuser">
+     </a>
+     <a href="https://docs.aws.amazon.com/ec2-instance-connect/latest/APIReference/API_SendSSHPublicKey.html">
+      ec2:osuser
+     </a>
+    </td>
+    <td>
+     Filters access by specifying the default user name for the AMI that you used to launch
+                                                your instance
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

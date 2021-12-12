@@ -1,0 +1,1447 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d907c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="awsnetworkfirewall-AssociateFirewallPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_AssociateFirewallPolicy.html">
+      AssociateFirewallPolicy
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an association between a firewall policy and a firewall
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-AssociateSubnets">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_AssociateSubnets.html">
+      AssociateSubnets
+     </a>
+    </td>
+    <td>
+     Grants permission to associate VPC subnets to a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-CreateFirewall">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_CreateFirewall.html">
+      CreateFirewall
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create an AWS Network Firewall firewall
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsnetworkfirewall-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsnetworkfirewall-CreateFirewallPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_CreateFirewallPolicy.html">
+      CreateFirewallPolicy
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to create an AWS Network Firewall firewall policy
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsnetworkfirewall-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-CreateRuleGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_CreateRuleGroup.html">
+      CreateRuleGroup
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create an AWS Network Firewall rule group
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsnetworkfirewall-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-DeleteFirewall">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DeleteFirewall.html">
+      DeleteFirewall
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-DeleteFirewallPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DeleteFirewallPolicy.html">
+      DeleteFirewallPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a firewall policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-DeleteResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DeleteResourcePolicy.html">
+      DeleteResourcePolicy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete a resource policy for a firewall policy or rule group
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsnetworkfirewall-DeleteRuleGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DeleteRuleGroup.html">
+      DeleteRuleGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a rule group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-DescribeFirewall">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DescribeFirewall.html">
+      DescribeFirewall
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the data objects that define a firewall
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-DescribeFirewallPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DescribeFirewallPolicy.html">
+      DescribeFirewallPolicy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to retrieve the data objects that define a firewall policy
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-DescribeLoggingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DescribeLoggingConfiguration.html">
+      DescribeLoggingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the logging configuration of a firewall
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-DescribeResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DescribeResourcePolicy.html">
+      DescribeResourcePolicy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to describe a resource policy for a firewall policy or rule group
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsnetworkfirewall-DescribeRuleGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_DescribeRuleGroup.html">
+      DescribeRuleGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the data objects that define a rule group
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-DisassociateSubnets">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/APIReference/API_DisassociateSubnets.html">
+      DisassociateSubnets
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate VPC subnets from a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-ListFirewallPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_ListFirewallPolicies.html">
+      ListFirewallPolicies
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the metadata for firewall policies
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-ListFirewalls">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_ListFirewalls.html">
+      ListFirewalls
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the metadata for firewalls
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-ListRuleGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_ListRuleGroups.html">
+      ListRuleGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the metadata for rule groups
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsnetworkfirewall-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to retrieve the tags for a resource
+    </td>
+    <td rowspan="4">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-PutResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_PutResourcePolicy.html">
+      PutResourcePolicy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to put a resource policy for a firewall policy or rule group
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awsnetworkfirewall-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to attach tags to a resource
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsnetworkfirewall-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="awsnetworkfirewall-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to remove tags from a resource
+    </td>
+    <td rowspan="5">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-UpdateFirewallDeleteProtection">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateFirewallDeleteProtection.html">
+      UpdateFirewallDeleteProtection
+     </a>
+    </td>
+    <td>
+     Grants permission to add or remove delete protection for a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-UpdateFirewallDescription">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateFirewallDescription.html">
+      UpdateFirewallDescription
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the description for a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsnetworkfirewall-UpdateFirewallPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateFirewallPolicy.html">
+      UpdateFirewallPolicy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to modify a firewall policy
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-FirewallPolicy">
+       FirewallPolicy*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-UpdateFirewallPolicyChangeProtection">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateFirewallPolicyChangeProtection.html">
+      UpdateFirewallPolicyChangeProtection
+     </a>
+    </td>
+    <td>
+     Grants permission to add or remove firewall policy change protection for a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-UpdateLoggingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateLoggingConfiguration.html">
+      UpdateLoggingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the logging configuration of a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsnetworkfirewall-UpdateRuleGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateRuleGroup.html">
+      UpdateRuleGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify a rule group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatefulRuleGroup">
+       StatefulRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-StatelessRuleGroup">
+       StatelessRuleGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-UpdateSubnetChangeProtection">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_UpdateSubnetChangeProtection.html">
+      UpdateSubnetChangeProtection
+     </a>
+    </td>
+    <td>
+     Grants permission to add or remove subnet change protection for a firewall
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-Firewall">
+       Firewall*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d907c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-Firewall">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_Firewall.html">
+      Firewall
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:network-firewall:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:firewall/$
+      <span>
+       {
+      </span>
+      Name}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-FirewallPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_FirewallPolicyResponse.html">
+      FirewallPolicy
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:network-firewall:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:firewall-policy/$
+      <span>
+       {
+      </span>
+      Name}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-StatefulRuleGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_RuleGroupResponse.html">
+      StatefulRuleGroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:network-firewall:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:stateful-rulegroup/$
+      <span>
+       {
+      </span>
+      Name}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-StatelessRuleGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/network-firewall/latest/APIReference/API_RuleGroupResponse.html">
+      StatelessRuleGroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:network-firewall:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:stateless-rulegroup/$
+      <span>
+       {
+      </span>
+      Name}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsnetworkfirewall-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d907c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the allowed set of values for each of the tags
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag value associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsnetworkfirewall-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of mandatory tags in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,929 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d407c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-BatchGetItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchGetItem.html">
+      BatchGetItem
+     </a>
+    </td>
+    <td>
+     The BatchGetItem action returns the attributes of one or more items from one or more
+                                                tables.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-BatchWriteItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchWriteItem.html">
+      BatchWriteItem
+     </a>
+    </td>
+    <td>
+     The BatchWriteItem action operation puts or deletes multiple items in one or more
+                                                tables.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-ConditionCheckItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ConditionCheckItem.html">
+      ConditionCheckItem
+     </a>
+    </td>
+    <td>
+     The ConditionCheckItem operation checks the existence of a set of attributes for the
+                                                item with the given primary key
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-CreateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_CreateCluster.html">
+      CreateCluster
+     </a>
+    </td>
+    <td>
+     The CreateCluster action creates a DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      dax:CreateParameterGroup
+     </p>
+     <p>
+      dax:CreateSubnetGroup
+     </p>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSecurityGroups
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      iam:GetRole
+     </p>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-CreateParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_CreateParameterGroup.html">
+      CreateParameterGroup
+     </a>
+    </td>
+    <td>
+     The CreateParameterGroup action creates collection of parameters that you apply to
+                                                all of the nodes in a DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-CreateSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_CreateSubnetGroup.html">
+      CreateSubnetGroup
+     </a>
+    </td>
+    <td>
+     The CreateSubnetGroup action creates a new subnet group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DecreaseReplicationFactor">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DecreaseReplicationFactor.html">
+      DecreaseReplicationFactor
+     </a>
+    </td>
+    <td>
+     The DecreaseReplicationFactor action removes one or more nodes from a DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DeleteCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DeleteCluster.html">
+      DeleteCluster
+     </a>
+    </td>
+    <td>
+     The DeleteCluster action deletes a previously provisioned DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondynamodbacceleratordax-DeleteItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_DeleteItem.html">
+      DeleteItem
+     </a>
+    </td>
+    <td rowspan="2">
+     The DeleteItem action deletes a single item in a table by primary key.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-dax_EnclosingOperation">
+       dax:EnclosingOperation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DeleteParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DeleteParameterGroup.html">
+      DeleteParameterGroup
+     </a>
+    </td>
+    <td>
+     The DeleteParameterGroup action deletes the specified parameter group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DeleteSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DeleteSubnetGroup.html">
+      DeleteSubnetGroup
+     </a>
+    </td>
+    <td>
+     The DeleteSubnetGroup action deletes a subnet group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DescribeClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DescribeClusters.html">
+      DescribeClusters
+     </a>
+    </td>
+    <td>
+     The DescribeClusters action returns information about all provisioned DAX clusters.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DescribeDefaultParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DescribeDefaultParameters.html">
+      DescribeDefaultParameters
+     </a>
+    </td>
+    <td>
+     The DescribeDefaultParameters action returns the default system parameter information
+                                                for DAX.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DescribeEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DescribeEvents.html">
+      DescribeEvents
+     </a>
+    </td>
+    <td>
+     The DescribeEvents action returns events related to DAX clusters and parameter groups.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DescribeParameterGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DescribeParameterGroups.html">
+      DescribeParameterGroups
+     </a>
+    </td>
+    <td>
+     The DescribeParameterGroups action returns a list of parameter group descriptions.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DescribeParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DescribeParameters.html">
+      DescribeParameters
+     </a>
+    </td>
+    <td>
+     The DescribeParameters action returns the detailed parameter list for a particular
+                                                parameter group.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-DescribeSubnetGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_DescribeSubnetGroups.html">
+      DescribeSubnetGroups
+     </a>
+    </td>
+    <td>
+     The DescribeSubnetGroups action returns a list of subnet group descriptions.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondynamodbacceleratordax-GetItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_GetItem.html">
+      GetItem
+     </a>
+    </td>
+    <td rowspan="2">
+     The GetItem action returns a set of attributes for the item with the given primary
+                                                key.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-dax_EnclosingOperation">
+       dax:EnclosingOperation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-IncreaseReplicationFactor">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_IncreaseReplicationFactor.html">
+      IncreaseReplicationFactor
+     </a>
+    </td>
+    <td>
+     The IncreaseReplicationFactor action adds one or more nodes to a DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td>
+     The ListTags action returns a list all of the tags for a DAX cluster.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondynamodbacceleratordax-PutItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_PutItem.html">
+      PutItem
+     </a>
+    </td>
+    <td rowspan="2">
+     The PutItem action creates a new item, or replaces an old item with a new item.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-dax_EnclosingOperation">
+       dax:EnclosingOperation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-Query">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html">
+      Query
+     </a>
+    </td>
+    <td>
+     The Query action finds items based on primary key values. You can query any table
+                                                or secondary index that has a composite primary key (a partition key and a sort key).
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-RebootNode">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_RebootNode.html">
+      RebootNode
+     </a>
+    </td>
+    <td>
+     The RebootNode action reboots a single node of a DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-Scan">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Scan.html">
+      Scan
+     </a>
+    </td>
+    <td>
+     The Scan action returns one or more items and item attributes by accessing every item
+                                                in a table or a secondary index.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     The TagResource action associates a set of tags with a DAX resource.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     The UntagResource action removes the association of tags from a DAX resource.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-UpdateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_UpdateCluster.html">
+      UpdateCluster
+     </a>
+    </td>
+    <td>
+     The UpdateCluster action modifies the settings for a DAX cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazondynamodbacceleratordax-UpdateItem">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_UpdateItem.html">
+      UpdateItem
+     </a>
+    </td>
+    <td rowspan="2">
+     The UpdateItem action edits an existing item's attributes, or adds a new item to the
+                                                table if it does not already exist.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazondynamodbacceleratordax-dax_EnclosingOperation">
+       dax:EnclosingOperation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-UpdateParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_UpdateParameterGroup.html">
+      UpdateParameterGroup
+     </a>
+    </td>
+    <td>
+     The UpdateParameterGroup action modifies the parameters of a parameter group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-UpdateSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_dax_UpdateSubnetGroup.html">
+      UpdateSubnetGroup
+     </a>
+    </td>
+    <td>
+     The UpdateSubnetGroup action modifies an existing subnet group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d407c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-application">
+     </a>
+     <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.access-control.html">
+      application
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:dax:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cache/$
+      <span>
+       {
+      </span>
+      ClusterName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d407c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazondynamodbacceleratordax-dax_EnclosingOperation">
+     </a>
+     dax:EnclosingOperation
+    </td>
+    <td>
+     Used to block Transactions APIs calls and allow the non-Transaction APIs calls and
+                                                vice-versa.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

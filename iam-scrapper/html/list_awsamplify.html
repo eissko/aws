@@ -1,0 +1,1381 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9c35c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="awsamplify-CreateApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      CreateApp
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a new Amplify App.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsamplify-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-CreateBackendEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      CreateBackendEnvironment
+     </a>
+    </td>
+    <td>
+     Creates a new backend environment for an Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsamplify-CreateBranch">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      CreateBranch
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a new Branch for an Amplify App.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsamplify-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-CreateDeployment">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      CreateDeployment
+     </a>
+    </td>
+    <td>
+     Create a deployment for manual deploy apps. (Apps are not connected to repository)
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsamplify-CreateDomainAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      CreateDomainAssociation
+     </a>
+    </td>
+    <td rowspan="2">
+     Create a new DomainAssociation on an App
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsamplify-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-CreateWebHook">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      CreateWebHook
+     </a>
+    </td>
+    <td>
+     Create a new webhook on an App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-DeleteApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      DeleteApp
+     </a>
+    </td>
+    <td>
+     Delete an existing Amplify App by appId.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-DeleteBackendEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      DeleteBackendEnvironment
+     </a>
+    </td>
+    <td>
+     Deletes a branch for an Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-DeleteBranch">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      DeleteBranch
+     </a>
+    </td>
+    <td>
+     Deletes a branch for an Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-DeleteDomainAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      DeleteDomainAssociation
+     </a>
+    </td>
+    <td>
+     Deletes a DomainAssociation.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-DeleteJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      DeleteJob
+     </a>
+    </td>
+    <td>
+     Delete a job, for an Amplify branch, part of Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-DeleteWebHook">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      DeleteWebHook
+     </a>
+    </td>
+    <td>
+     Delete a webhook by id.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GenerateAccessLogs">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GenerateAccessLogs
+     </a>
+    </td>
+    <td>
+     Generate website access logs for a specific time range via a pre-signed URL.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetApp
+     </a>
+    </td>
+    <td>
+     Retrieves an existing Amplify App by appId.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetArtifactUrl">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetArtifactUrl
+     </a>
+    </td>
+    <td>
+     Retrieves artifact info that corresponds to a artifactId.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetBackendEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetBackendEnvironment
+     </a>
+    </td>
+    <td>
+     Retrieves a backend environment for an Amplify App.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetBranch">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetBranch
+     </a>
+    </td>
+    <td>
+     Retrieves a branch for an Amplify App.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetDomainAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetDomainAssociation
+     </a>
+    </td>
+    <td>
+     Retrieves domain info that corresponds to an appId and domainName.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetJob
+     </a>
+    </td>
+    <td>
+     Get a job for a branch, part of an Amplify App.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-GetWebHook">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      GetWebHook
+     </a>
+    </td>
+    <td>
+     Retrieves webhook info that corresponds to a webhookId.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListApps">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListApps
+     </a>
+    </td>
+    <td>
+     Lists existing Amplify Apps.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListArtifacts">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListArtifacts
+     </a>
+    </td>
+    <td>
+     List artifacts with an app, a branch, a job and an artifact type.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListBackendEnvironments">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListBackendEnvironments
+     </a>
+    </td>
+    <td>
+     Lists backend environments for an Amplify App.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListBranches">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListBranches
+     </a>
+    </td>
+    <td>
+     Lists branches for an Amplify App.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListDomainAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListDomainAssociations
+     </a>
+    </td>
+    <td>
+     List domains with an app
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListJobs
+     </a>
+    </td>
+    <td>
+     List Jobs for a branch, part of an Amplify App.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsamplify-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     List tags for an AWS Amplify Console resource.
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-ListWebHooks">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      ListWebHooks
+     </a>
+    </td>
+    <td>
+     List webhooks on an App.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-StartDeployment">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      StartDeployment
+     </a>
+    </td>
+    <td>
+     Start a deployment for manual deploy apps. (Apps are not connected to repository)
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-StartJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      StartJob
+     </a>
+    </td>
+    <td>
+     Starts a new job for a branch, part of an Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-StopJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      StopJob
+     </a>
+    </td>
+    <td>
+     Stop a job that is in progress, for an Amplify branch, part of Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsamplify-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     This action tags an AWS Amplify Console resource.
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsamplify-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsamplify-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     This action removes a tag from an AWS Amplify Console resource.
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsamplify-jobs">
+       jobs
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-UpdateApp">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      UpdateApp
+     </a>
+    </td>
+    <td>
+     Updates an existing Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-UpdateBranch">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      UpdateBranch
+     </a>
+    </td>
+    <td>
+     Updates a branch for an Amplify App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-branches">
+       branches*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-UpdateDomainAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      UpdateDomainAssociation
+     </a>
+    </td>
+    <td>
+     Update a DomainAssociation on an App.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-UpdateWebHook">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      UpdateWebHook
+     </a>
+    </td>
+    <td>
+     Update a webhook.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-apps">
+       apps*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9c35c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsamplify-apps">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      apps
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:amplify:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:apps/$
+      <span>
+       {
+      </span>
+      AppId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-branches">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      branches
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:amplify:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:apps/$
+      <span>
+       {
+      </span>
+      AppId}/branches/$
+      <span>
+       {
+      </span>
+      BranchName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-jobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      jobs
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:amplify:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:apps/$
+      <span>
+       {
+      </span>
+      AppId}/branches/$
+      <span>
+       {
+      </span>
+      BranchName}/jobs/$
+      <span>
+       {
+      </span>
+      JobId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-domains">
+     </a>
+     <a href="https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html">
+      domains
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:amplify:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:apps/$
+      <span>
+       {
+      </span>
+      AppId}/domains/$
+      <span>
+       {
+      </span>
+      DomainName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsamplify-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9c35c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsamplify-aws_RequestTag___TagKey_">
+     </a>
+     aws:RequestTag/${TagKey}
+    </td>
+    <td>
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-aws_ResourceTag___TagKey_">
+     </a>
+     aws:ResourceTag/${TagKey}
+    </td>
+    <td>
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsamplify-aws_TagKeys">
+     </a>
+     aws:TagKeys
+    </td>
+    <td>
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

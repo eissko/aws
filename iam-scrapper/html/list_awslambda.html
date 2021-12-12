@@ -1,0 +1,2158 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d747c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awslambda-AddLayerVersionPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_AddLayerVersionPermission.html">
+      AddLayerVersionPermission
+     </a>
+    </td>
+    <td>
+     Grants permission to add permissions to the resource-based policy of a version of
+                                                an AWS Lambda layer
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-layerVersion">
+       layerVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-AddPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_AddPermission.html">
+      AddPermission
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to give an AWS service or another account permission to use an AWS
+                                                Lambda function
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_Principal">
+       lambda:Principal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-CreateAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_CreateAlias.html">
+      CreateAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to create an alias for a Lambda function version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-CreateCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_CreateCodeSigningConfig.html">
+      CreateCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Lambda code signing config
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-CreateEventSourceMapping">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_CreateEventSourceMapping.html">
+      CreateEventSourceMapping
+     </a>
+    </td>
+    <td>
+     Grants permission to create a mapping between an event source and an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_FunctionArn">
+       lambda:FunctionArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-CreateFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_CreateFunction.html">
+      CreateFunction
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an AWS Lambda function
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_Layer">
+       lambda:Layer
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_VpcIds">
+       lambda:VpcIds
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_SubnetIds">
+       lambda:SubnetIds
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_SecurityGroupIds">
+       lambda:SecurityGroupIds
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_CodeSigningConfigArn">
+       lambda:CodeSigningConfigArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteAlias.html">
+      DeleteAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Lambda function alias
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteCodeSigningConfig.html">
+      DeleteCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Lambda code signing config
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-DeleteEventSourceMapping">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteEventSourceMapping.html">
+      DeleteEventSourceMapping
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an AWS Lambda event source mapping
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-eventSourceMapping">
+       eventSourceMapping*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_FunctionArn">
+       lambda:FunctionArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteFunction.html">
+      DeleteFunction
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteFunctionCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteFunctionCodeSigningConfig.html">
+      DeleteFunctionCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to detach a code signing config from an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteFunctionConcurrency">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteFunctionConcurrency.html">
+      DeleteFunctionConcurrency
+     </a>
+    </td>
+    <td>
+     Grants permission to remove a concurrent execution limit from an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteFunctionEventInvokeConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteFunctionEventInvokeConfig.html">
+      DeleteFunctionEventInvokeConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the configuration for asynchronous invocation for an AWS
+                                                Lambda function, version, or alias
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DeleteLayerVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteLayerVersion.html">
+      DeleteLayerVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a version of an AWS Lambda layer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-layerVersion">
+       layerVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-DeleteProvisionedConcurrencyConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_DeleteProvisionedConcurrencyConfig.html">
+      DeleteProvisionedConcurrencyConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete the provisioned concurrency configuration for an AWS Lambda
+                                                function
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-functionalias">
+       function alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awslambda-functionversion">
+       function version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-DisableReplication">
+     </a>
+     DisableReplication [permission only]
+    </td>
+    <td>
+     Grants permission to disable replication for a Lambda@Edge function
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-EnableReplication">
+     </a>
+     EnableReplication [permission only]
+    </td>
+    <td>
+     Grants permission to enable replication for a Lambda@Edge function
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetAccountSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetAccountSettings.html">
+      GetAccountSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an account's limits and usage in an AWS Region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetAlias.html">
+      GetAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Lambda function alias
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetCodeSigningConfig.html">
+      GetCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Lambda code signing config
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-GetEventSourceMapping">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetEventSourceMapping.html">
+      GetEventSourceMapping
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view details about an AWS Lambda event source mapping
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-eventSourceMapping">
+       eventSourceMapping*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_FunctionArn">
+       lambda:FunctionArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunction.html">
+      GetFunction
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an AWS Lambda function
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetFunctionCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunctionCodeSigningConfig.html">
+      GetFunctionCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to view the code signing config arn attached to an AWS Lambda function
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetFunctionConcurrency">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunctionConcurrency.html">
+      GetFunctionConcurrency
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about the reserved concurrency configuration for
+                                                a function
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetFunctionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunctionConfiguration.html">
+      GetFunctionConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about the version-specific settings of an AWS Lambda
+                                                function or version
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetFunctionEventInvokeConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunctionEventInvokeConfig.html">
+      GetFunctionEventInvokeConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to view the configuration for asynchronous invocation for a function,
+                                                version, or alias
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetLayerVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetLayerVersion.html">
+      GetLayerVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about a version of an AWS Lambda layer. Note this
+                                                action also supports GetLayerVersionByArn API
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-layerVersion">
+       layerVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetLayerVersionPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetLayerVersionPolicy.html">
+      GetLayerVersionPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to view the resource-based policy for a version of an AWS Lambda
+                                                layer
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-layerVersion">
+       layerVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-GetPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetPolicy.html">
+      GetPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to view the resource-based policy for an AWS Lambda function, version,
+                                                or alias
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-GetProvisionedConcurrencyConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_GetProvisionedConcurrencyConfig.html">
+      GetProvisionedConcurrencyConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the provisioned concurrency configuration for an AWS Lambda
+                                                function's alias or version
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-functionalias">
+       function alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awslambda-functionversion">
+       function version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-InvokeAsync">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_InvokeAsync.html">
+      InvokeAsync
+     </a>
+    </td>
+    <td>
+     Grants permission to invoke a function asynchronously (Deprecated)
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-InvokeFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_Invoke.html">
+      InvokeFunction
+     </a>
+    </td>
+    <td>
+     Grants permission to invoke an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListAliases">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListAliases.html">
+      ListAliases
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of aliases for an AWS Lambda function
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListCodeSigningConfigs">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListCodeSigningConfigs.html">
+      ListCodeSigningConfigs
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of AWS Lambda code signing configs
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListEventSourceMappings">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListEventSourceMappings.html">
+      ListEventSourceMappings
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of AWS Lambda event source mappings
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListFunctionEventInvokeConfigs">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListFunctionEventInvokeConfigs.html">
+      ListFunctionEventInvokeConfigs
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of configurations for asynchronous invocation
+                                                for a function
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListFunctions">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListFunctions.html">
+      ListFunctions
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of AWS Lambda functions, with the version-specific
+                                                configuration of each function
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListFunctionsByCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListFunctionsByCodeSigningConfig.html">
+      ListFunctionsByCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of AWS Lambda functions by the code signing config
+                                                assigned
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListLayerVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListLayerVersions.html">
+      ListLayerVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of versions of an AWS Lambda layer
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListLayers">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListLayers.html">
+      ListLayers
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of AWS Lambda layers, with details about the
+                                                latest version of each layer
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListProvisionedConcurrencyConfigs">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListProvisionedConcurrencyConfigs.html">
+      ListProvisionedConcurrencyConfigs
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of provisioned concurrency configurations for
+                                                an AWS Lambda function
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of tags for an AWS Lambda function
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-ListVersionsByFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_ListVersionsByFunction.html">
+      ListVersionsByFunction
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of versions for an AWS Lambda function
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-PublishLayerVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_PublishLayerVersion.html">
+      PublishLayerVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Lambda layer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-layer">
+       layer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-PublishVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_PublishVersion.html">
+      PublishVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Lambda function version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awslambda-PutFunctionCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_PutFunctionCodeSigningConfig.html">
+      PutFunctionCodeSigningConfig
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to attach a code signing config to an AWS Lambda function
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_CodeSigningConfigArn">
+       lambda:CodeSigningConfigArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-PutFunctionConcurrency">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_PutFunctionConcurrency.html">
+      PutFunctionConcurrency
+     </a>
+    </td>
+    <td>
+     Grants permission to configure reserved concurrency for an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-PutFunctionEventInvokeConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_PutFunctionEventInvokeConfig.html">
+      PutFunctionEventInvokeConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to configures options for asynchronous invocation on an AWS Lambda
+                                                function, version, or alias
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-PutProvisionedConcurrencyConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_PutProvisionedConcurrencyConfig.html">
+      PutProvisionedConcurrencyConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to configure provisioned concurrency for an AWS Lambda function's
+                                                alias or version
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-functionalias">
+       function alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awslambda-functionversion">
+       function version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-RemoveLayerVersionPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_RemoveLayerVersionPermission.html">
+      RemoveLayerVersionPermission
+     </a>
+    </td>
+    <td>
+     Grants permission to remove a statement from the permissions policy for a version
+                                                of an AWS Lambda layer
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-layerVersion">
+       layerVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-RemovePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_RemovePermission.html">
+      RemovePermission
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to revoke function-use permission from an AWS service or another
+                                                account
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_Principal">
+       lambda:Principal
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_TagResources.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to add tags to an AWS Lambda function
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to remove tags from an AWS Lambda function
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-UpdateAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateAlias.html">
+      UpdateAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to update the configuration of an AWS Lambda function's alias
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-UpdateCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateCodeSigningConfig.html">
+      UpdateCodeSigningConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to update an AWS Lambda code signing config
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-UpdateEventSourceMapping">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateEventSourceMapping.html">
+      UpdateEventSourceMapping
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the configuration of an AWS Lambda event source mapping
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-eventSourceMapping">
+       eventSourceMapping*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_FunctionArn">
+       lambda:FunctionArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-UpdateFunctionCode">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateFunctionCode.html">
+      UpdateFunctionCode
+     </a>
+    </td>
+    <td>
+     Grants permission to update the code of an AWS Lambda function
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-UpdateFunctionCodeSigningConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateFunctionCodeSigningConfig.html">
+      UpdateFunctionCodeSigningConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the code signing config of an AWS Lambda function
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-codesigningconfig">
+       code signing config*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awslambda-UpdateFunctionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateFunctionConfiguration.html">
+      UpdateFunctionConfiguration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify the version-specific settings of an AWS Lambda function
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-lambda_Layer">
+       lambda:Layer
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_VpcIds">
+       lambda:VpcIds
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_SubnetIds">
+       lambda:SubnetIds
+      </a>
+     </p>
+     <p>
+      <a href="#awslambda-lambda_SecurityGroupIds">
+       lambda:SecurityGroupIds
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-UpdateFunctionEventInvokeConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/API_UpdateFunctionEventInvokeConfig.html">
+      UpdateFunctionEventInvokeConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the configuration for asynchronous invocation for an AWS
+                                                Lambda function, version, or alias
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awslambda-function">
+       function*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d747c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awslambda-codesigningconfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      code signing config
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:code-signing-config:$
+      <span>
+       {
+      </span>
+      CodeSigningConfigId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-eventSourceMapping">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      eventSourceMapping
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:event-source-mapping:$
+      <span>
+       {
+      </span>
+      UUID}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-function">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      function
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:function:$
+      <span>
+       {
+      </span>
+      FunctionName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-functionalias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      function alias
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:function:$
+      <span>
+       {
+      </span>
+      FunctionName}:$
+      <span>
+       {
+      </span>
+      Alias}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-functionversion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      function version
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:function:$
+      <span>
+       {
+      </span>
+      FunctionName}:$
+      <span>
+       {
+      </span>
+      Version}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-layer">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      layer
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:layer:$
+      <span>
+       {
+      </span>
+      LayerName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-layerVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      layerVersion
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:layer:$
+      <span>
+       {
+      </span>
+      LayerName}:$
+      <span>
+       {
+      </span>
+      LayerVersion}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d747c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_CodeSigningConfigArn">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:CodeSigningConfigArn
+     </a>
+    </td>
+    <td>
+     Filters access by the ARN of an AWS Lambda code signing config
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_FunctionArn">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:FunctionArn
+     </a>
+    </td>
+    <td>
+     Filters access by the ARN of an AWS Lambda function
+    </td>
+    <td>
+     ARN
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_Layer">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:Layer
+     </a>
+    </td>
+    <td>
+     Filters access by the ARN of a version of an AWS Lambda layer
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_Principal">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:Principal
+     </a>
+    </td>
+    <td>
+     Filters access by restricting the AWS service or account that can invoke a function
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_SecurityGroupIds">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:SecurityGroupIds
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of security groups configured for the AWS Lambda function
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_SubnetIds">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:SubnetIds
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of subnets configured for the AWS Lambda function
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awslambda-lambda_VpcIds">
+     </a>
+     <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-api-permissions-ref.html">
+      lambda:VpcIds
+     </a>
+    </td>
+    <td>
+     Filters access by the ID of the VPC configured for the AWS Lambda function
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

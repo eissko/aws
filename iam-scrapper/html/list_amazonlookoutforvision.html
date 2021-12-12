@@ -1,0 +1,760 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d783c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-CreateDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_CreateDataset.html">
+      CreateDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to create a dataset manifest
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlookoutforvision-CreateModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_CreateModel.html">
+      CreateModel
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new anomaly detection model
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlookoutforvision-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-CreateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_CreateProject.html">
+      CreateProject
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DeleteDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DeleteDataset.html">
+      DeleteDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a dataset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DeleteModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DeleteModel.html">
+      DeleteModel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a model and all associated assets
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DeleteProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DeleteProject.html">
+      DeleteProject
+     </a>
+    </td>
+    <td>
+     Grants permission to permanently remove a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DescribeDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DescribeDataset.html">
+      DescribeDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to show detailed information about dataset manifest
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DescribeModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DescribeModel.html">
+      DescribeModel
+     </a>
+    </td>
+    <td>
+     Grants permission to show detailed information about a model
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DescribeProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DescribeProject.html">
+      DescribeProject
+     </a>
+    </td>
+    <td>
+     Grants permission to show detailed information about a project
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DescribeTrialDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/developer-guide/trial-detection.html">
+      DescribeTrialDetection
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to provides state information about a running anomaly detection
+                                                job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-DetectAnomalies">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_DetectAnomalies.html">
+      DetectAnomalies
+     </a>
+    </td>
+    <td>
+     Grants permission to invoke detection of anomalies
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-ListDatasetEntries">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_ListDatasetEntries.html">
+      ListDatasetEntries
+     </a>
+    </td>
+    <td>
+     Grants permission to list the contents of dataset manifest
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-ListModels">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_ListModels.html">
+      ListModels
+     </a>
+    </td>
+    <td>
+     Grants permission to list all models associated with a project
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-ListProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_ListProjects.html">
+      ListProjects
+     </a>
+    </td>
+    <td>
+     Grants permission to list all projects
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grant permission to list tags for a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-ListTrialDetections">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/developer-guide/trial-detection.html">
+      ListTrialDetections
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to list all anomaly detection jobs
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-StartModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_StartModel.html">
+      StartModel
+     </a>
+    </td>
+    <td>
+     Grants permission to start anomaly detection model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-StartTrialDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/developer-guide/trial-detection.html">
+      StartTrialDetection
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to start bulk detection of anomalies for a set of images stored
+                                                in an S3 bucket
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-StopModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_StopModel.html">
+      StopModel
+     </a>
+    </td>
+    <td>
+     Grants permission to stop anomaly detection model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlookoutforvision-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grant permission to tag a resource with given key value pairs
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlookoutforvision-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlookoutforvision-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grant permission to remove the tag with the given key from a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-UpdateDatasetEntries">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/API_UpdateDatasetEntries.html">
+      UpdateDatasetEntries
+     </a>
+    </td>
+    <td>
+     Grants permission to update a training or test dataset manifest
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d783c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-model">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/developer-guide/model-create-project.html">
+      model
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lookoutvision:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:model/$
+      <span>
+       {
+      </span>
+      ProjectName}/$
+      <span>
+       {
+      </span>
+      ModelVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforvision-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-project">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-vision/latest/developer-guide/model-create-project.html">
+      project
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lookoutvision:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d783c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforvision-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

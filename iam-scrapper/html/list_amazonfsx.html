@@ -1,0 +1,2179 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d563c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonfsx-AssociateFileGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html">
+      AssociateFileGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to associate a File Gateway instance with an Amazon FSx for Windows
+                                                File Server file system
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-AssociateFileSystemAliases">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_AssociateFileSystemAliases.html">
+      AssociateFileSystemAliases
+     </a>
+    </td>
+    <td>
+     Grants permission to associate DNS aliases with an Amazon FSx for Windows File Server
+                                                file system
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-CancelDataRepositoryTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CancelDataRepositoryTask.html">
+      CancelDataRepositoryTask
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a data repository task
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-task">
+       task*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfsx-CopyBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CopyBackup.html">
+      CopyBackup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to copy a backup
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonfsx-CreateBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateBackup.html">
+      CreateBackup
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to create a new backup of an Amazon FSx file system or an Amazon
+                                                FSx volume
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-CreateDataRepositoryAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateDataRepositoryAssociation.html">
+      CreateDataRepositoryAssociation
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new data respository association for an Amazon FSx for
+                                                Lustre file system
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-association">
+       association*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-CreateDataRepositoryTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateDataRepositoryTask.html">
+      CreateDataRepositoryTask
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new data respository task for an Amazon FSx for Lustre
+                                                file system
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-task">
+       task*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfsx-CreateFileSystem">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateFileSystem.html">
+      CreateFileSystem
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new, empty, Amazon FSx file system
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-CreateFileSystemFromBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateFileSystemFromBackup.html">
+      CreateFileSystemFromBackup
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new Amazon FSx file system from an existing backup
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-CreateSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateSnapshot.html">
+      CreateSnapshot
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new snapshot on a volume
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-CreateStorageVirtualMachine">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateStorageVirtualMachine.html">
+      CreateStorageVirtualMachine
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new storage virtual machine in an Amazon FSx for Ontap
+                                                file system
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-CreateVolume">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateVolume.html">
+      CreateVolume
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new volume
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-fsx_StorageVirtualMachineId">
+       fsx:StorageVirtualMachineId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-fsx_ParentVolumeId">
+       fsx:ParentVolumeId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonfsx-CreateVolumeFromBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CreateVolumeFromBackup.html">
+      CreateVolumeFromBackup
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to create a new volume from backup
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-fsx_StorageVirtualMachineId">
+       fsx:StorageVirtualMachineId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DeleteBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DeleteBackup.html">
+      DeleteBackup
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a backup, deleting its contents. After deletion, the backup
+                                                no longer exists, and its data is no longer available
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DeleteDataRepositoryAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DeleteDataRepositoryAssociation.html">
+      DeleteDataRepositoryAssociation
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a data repository association
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-association">
+       association*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonfsx-DeleteFileSystem">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DeleteFileSystem.html">
+      DeleteFileSystem
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete a file system, deleting its contents and any existing
+                                                automatic backups of the file system
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      fsx:CreateBackup
+     </p>
+     <p>
+      fsx:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DeleteSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DeleteSnapshot.html">
+      DeleteSnapshot
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a snapshot on a volume
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DeleteStorageVirtualMachine">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DeleteStorageVirtualMachine.html">
+      DeleteStorageVirtualMachine
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a storage virtual machine, deleting its contents
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfsx-DeleteVolume">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DeleteVolume.html">
+      DeleteVolume
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a volume, deleting its contents and any existing automatic
+                                                backups of the volume
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-fsx_StorageVirtualMachineId">
+       fsx:StorageVirtualMachineId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-fsx_ParentVolumeId">
+       fsx:ParentVolumeId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeAssociatedFileGateways">
+     </a>
+     <a href="https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html">
+      DescribeAssociatedFileGateways
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the File Gateway instances associated with an Amazon
+                                                FSx for Windows File Server file system
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeBackups">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeBackups.html">
+      DescribeBackups
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all backups owned by your AWS account
+                                                in the AWS Region of the endpoint that you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeDataRepositoryAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeDataRepositoryAssociations.html">
+      DescribeDataRepositoryAssociations
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all data repository associations owned
+                                                by your AWS account in the AWS Region of the endpoint that you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeDataRepositoryTasks">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeDataRepositoryTasks.html">
+      DescribeDataRepositoryTasks
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all data repository tasks owned by
+                                                your AWS account in the AWS Region of the endpoint that you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeFileSystemAliases">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeFileSystemAliases.html">
+      DescribeFileSystemAliases
+     </a>
+    </td>
+    <td>
+     Grants permission to return the description of all DNS aliases owned by your Amazon
+                                                FSx for Windows File Server file system
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeFileSystems">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeFileSystems.html">
+      DescribeFileSystems
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all file systems owned by your AWS
+                                                account in the AWS Region of the endpoint that you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeSnapshots">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeSnapshots.html">
+      DescribeSnapshots
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all snapshots owned by your AWS account
+                                                in the AWS Region of the endpoint you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeStorageVirtualMachines">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeStorageVirtualMachines.html">
+      DescribeStorageVirtualMachines
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all storage virtual machines owned
+                                                by your AWS account in the AWS Region of the endpoint that you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DescribeVolumes">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DescribeVolumes.html">
+      DescribeVolumes
+     </a>
+    </td>
+    <td>
+     Grants permission to return the descriptions of all volumes owned by your AWS account
+                                                in the AWS Region of the endpoint that you're calling
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DisassociateFileGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html">
+      DisassociateFileGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a File Gateway instance from an Amazon FSx for Windows
+                                                File Server file system
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-DisassociateFileSystemAliases">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_DisassociateFileSystemAliases.html">
+      DisassociateFileSystemAliases
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate file system aliases with an Amazon FSx for Windows
+                                                File Server file system
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="amazonfsx-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permission to list tags for an Amazon FSx resource
+    </td>
+    <td rowspan="7">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-association">
+       association
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-task">
+       task
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-ManageBackupPrincipalAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_CopyBackup.html">
+      ManageBackupPrincipalAssociations
+     </a>
+    </td>
+    <td>
+     Grants permission to manage backup principal associations through AWS Backup
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfsx-RestoreVolumeFromSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_RestoreVolumeFromSnapshot.html">
+      RestoreVolumeFromSnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to restore volume state from a snapshot
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="amazonfsx-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to tag an Amazon FSx resource
+    </td>
+    <td rowspan="8">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-association">
+       association
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-task">
+       task
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="amazonfsx-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to remove a tag from an Amazon FSx resource
+    </td>
+    <td rowspan="8">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-association">
+       association
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-task">
+       task
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-UpdateDataRepositoryAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_UpdateDataRepositoryAssociation.html">
+      UpdateDataRepositoryAssociation
+     </a>
+    </td>
+    <td>
+     Grants permission to update data repository association configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-association">
+       association*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-UpdateFileSystem">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_UpdateFileSystem.html">
+      UpdateFileSystem
+     </a>
+    </td>
+    <td>
+     Grants permission to update file system configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-file-system">
+       file-system*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-UpdateSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_UpdateSnapshot.html">
+      UpdateSnapshot
+     </a>
+    </td>
+    <td>
+     Grants permission to update snapshot configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-UpdateStorageVirtualMachine">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_UpdateStorageVirtualMachine.html">
+      UpdateStorageVirtualMachine
+     </a>
+    </td>
+    <td>
+     Grants permission to update storage virtual machine configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-storage-virtual-machine">
+       storage-virtual-machine*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonfsx-UpdateVolume">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/APIReference/API_UpdateVolume.html">
+      UpdateVolume
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update volume configuration
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-volume">
+       volume*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-fsx_StorageVirtualMachineId">
+       fsx:StorageVirtualMachineId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonfsx-fsx_ParentVolumeId">
+       fsx:ParentVolumeId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d563c13b7">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonfsx-file-system">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/WindowsGuide/access-control-overview.html#access-control-resources">
+      file-system
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:file-system/$
+      <span>
+       {
+      </span>
+      FileSystemId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-backup">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/WindowsGuide/access-control-overview.html#access-control-resources">
+      backup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:backup/$
+      <span>
+       {
+      </span>
+      BackupId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-storage-virtual-machine">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/OntapGuide/access-control-overview.html#access-control-resources">
+      storage-virtual-machine
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:storage-virtual-machine/$
+      <span>
+       {
+      </span>
+      FileSystemId}/$
+      <span>
+       {
+      </span>
+      StorageVirtualMachineId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-task">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/LustreGuide/access-control-overview.html#access-control-resources">
+      task
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:task/$
+      <span>
+       {
+      </span>
+      TaskId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-association">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/LustreGuide/access-control-overview.html#access-control-resources">
+      association
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:association/$
+      <span>
+       {
+      </span>
+      DataRepositoryAssociationId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-volume">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/OntapGuide/access-control-overview.html#access-control-resources">
+      volume
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:volume/$
+      <span>
+       {
+      </span>
+      FileSystemId}/$
+      <span>
+       {
+      </span>
+      VolumeId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-snapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/OpenFsGuide/access-control-overview.html#access-control-resources">
+      snapshot
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:fsx:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:snapshot/$
+      <span>
+       {
+      </span>
+      VolumeId}/$
+      <span>
+       {
+      </span>
+      SnapshotId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonfsx-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d563c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonfsx-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-fsx_IsBackupCopyDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/WindowsGuide/access-control-manage-access-intro.htmlAPI_CopyBackup.html">
+      fsx:IsBackupCopyDestination
+     </a>
+    </td>
+    <td>
+     Filters access by whether the backup is a destination backup for a CopyBackup operation
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-fsx_IsBackupCopySource">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/WindowsGuide/access-control-manage-access-intro.htmlAPI_CopyBackup.html">
+      fsx:IsBackupCopySource
+     </a>
+    </td>
+    <td>
+     Filters access by whether the backup is a source backup for a CopyBackup operation
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-fsx_ParentVolumeId">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/WindowsGuide/access-control-manage-access-intro.htmlAPI_CreateVolume.html">
+      fsx:ParentVolumeId
+     </a>
+    </td>
+    <td>
+     Filters access by the containing parent volume for mutating volume operations
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonfsx-fsx_StorageVirtualMachineId">
+     </a>
+     <a href="https://docs.aws.amazon.com/fsx/latest/WindowsGuide/access-control-manage-access-intro.htmlAPI_CreateVolume.html">
+      fsx:StorageVirtualMachineId
+     </a>
+    </td>
+    <td>
+     Filters access by the containing storage virtual machine for a volume for mutating
+                                                volume operations
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

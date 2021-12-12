@@ -1,0 +1,779 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d507c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-ConfigureLogs">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_groups-id-configure_logs.html#packaging_groups-id-configure_logsput">
+      ConfigureLogs
+     </a>
+    </td>
+    <td>
+     Grants permission to configure egress access logs for a PackagingGroup
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-CreateAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/assets.html#assetspost">
+      CreateAsset
+     </a>
+    </td>
+    <td>
+     Grants permission to create an asset in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-CreatePackagingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_configurations.html#packaging_configurationspost">
+      CreatePackagingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to create a packaging configuration in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-CreatePackagingGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_groups.html#packaging_groupspost">
+      CreatePackagingGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to create a packaging group in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-DeleteAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/assets-id.html#assets-iddelete">
+      DeleteAsset
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an asset in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-assets">
+       assets*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-DeletePackagingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_configurations-id.html#packaging_configurations-iddelete">
+      DeletePackagingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a packaging configuration in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-configurations">
+       packaging-configurations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-DeletePackagingGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_groups-id.html#packaging_groups-iddelete">
+      DeletePackagingGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a packaging group in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-DescribeAsset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/assets-id.html#assets-idget">
+      DescribeAsset
+     </a>
+    </td>
+    <td>
+     Grants permission to view the details of an asset in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-assets">
+       assets*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-DescribePackagingConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_configurations-id.html#packaging_configurations-idget">
+      DescribePackagingConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to view the details of a packaging configuration in AWS Elemental
+                                                MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-configurations">
+       packaging-configurations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-DescribePackagingGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_groups-id.html#packaging_groups-idget">
+      DescribePackagingGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to view the details of a packaging group in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-ListAssets">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/assets.html#assetsget">
+      ListAssets
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of assets in AWS Elemental MediaPackage
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-ListPackagingConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_configurations.html#packaging_configurationsget">
+      ListPackagingConfigurations
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of packaging configurations in AWS Elemental MediaPackage
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-ListPackagingGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_groups.html#packaging_groupsget">
+      ListPackagingGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of packaging groups in AWS Elemental MediaPackage
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awselementalmediapackagevod-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/tags-resource-arn.html#tags-resource-arnget">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list the tags assigned to a PackagingGroup, PackagingConfiguration,
+                                                or Asset.
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-assets">
+       assets
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-configurations">
+       packaging-configurations
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediapackagevod-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/tags-resource-arn.html#tags-resource-arnpost">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to assign tags to a PackagingGroup, PackagingConfiguration, or Asset.
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-assets">
+       assets
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-configurations">
+       packaging-configurations
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediapackagevod-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/tags-resource-arn.html#tags-resource-arndelete">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to delete tags from a PackagingGroup, PackagingConfiguration, or
+                                                Asset.
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-assets">
+       assets
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-configurations">
+       packaging-configurations
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-UpdatePackagingGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/packaging_groups-id.html#packaging_groups-idput">
+      UpdatePackagingGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to update a packaging group in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-packaging-groups">
+       packaging-groups*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d507c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-assets">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/asset.html">
+      assets
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediapackage-vod:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:assets/$
+      <span>
+       {
+      </span>
+      AssetIdentifier}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-packaging-configurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/pkg-cfig.html">
+      packaging-configurations
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediapackage-vod:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:packaging-configurations/$
+      <span>
+       {
+      </span>
+      PackagingConfigurationIdentifier}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-packaging-groups">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/pkg-group.html">
+      packaging-groups
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediapackage-vod:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:packaging-groups/$
+      <span>
+       {
+      </span>
+      PackagingGroupIdentifier}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackagevod-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d507c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackagevod-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

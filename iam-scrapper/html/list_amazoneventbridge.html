@@ -1,0 +1,2155 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d531c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ActivateEventSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ActivateEventSource.html">
+      ActivateEventSource
+     </a>
+    </td>
+    <td>
+     Grants permission to activate partner event sources
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-CancelReplay">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_CancelReplay.html">
+      CancelReplay
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a replay
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-replay">
+       replay*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-CreateApiDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_CreateApiDestination.html">
+      CreateApiDestination
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new api destination
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-api-destination">
+       api-destination*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-CreateArchive">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_CreateArchive.html">
+      CreateArchive
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new archive
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-archive">
+       archive*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-CreateConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_CreateConnection.html">
+      CreateConnection
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new connection
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-CreateEventBus">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_CreateEventBus.html">
+      CreateEventBus
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create event buses
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-CreatePartnerEventSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_CreatePartnerEventSource.html">
+      CreatePartnerEventSource
+     </a>
+    </td>
+    <td>
+     Grants permission to create partner event sources
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeactivateEventSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeactivateEventSource.html">
+      DeactivateEventSource
+     </a>
+    </td>
+    <td>
+     Grants permission to deactivate event sources
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeauthorizeConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeauthorizeConnection.html">
+      DeauthorizeConnection
+     </a>
+    </td>
+    <td>
+     Grants permission to deauthorize a connection, deleting its stored authorization secrets
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeleteApiDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeleteApiDestination.html">
+      DeleteApiDestination
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an api destination
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-api-destination">
+       api-destination*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeleteArchive">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeleteArchive.html">
+      DeleteArchive
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an archive
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-archive">
+       archive*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeleteConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeleteConnection.html">
+      DeleteConnection
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a connection
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeleteEventBus">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeletePartnerEventSource">
+      DeleteEventBus
+     </a>
+    </td>
+    <td>
+     Grants permission to delete event buses
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DeletePartnerEventSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeletePartnerEventSource">
+      DeletePartnerEventSource
+     </a>
+    </td>
+    <td>
+     Grants permission to delete partner event sources
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-DeleteRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DeleteRule.html">
+      DeleteRule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete rules
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_ManagedBy">
+       events:ManagedBy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-DescribeApiDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeApiDestination.html">
+      DescribeApiDestination
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve details about an api destination
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-api-destination">
+       api-destination*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DescribeArchive">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeArchive.html">
+      DescribeArchive
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about an archive
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-archive">
+       archive*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DescribeConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeConnection.html">
+      DescribeConnection
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about a conection
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DescribeEventBus">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeEventBus.html">
+      DescribeEventBus
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about event buses
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DescribeEventSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeEventSource.html">
+      DescribeEventSource
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about event sources
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DescribePartnerEventSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribePartnerEventSource.html">
+      DescribePartnerEventSource
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about partner event sources
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-DescribeReplay">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeReplay.html">
+      DescribeReplay
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the details of a replay
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-replay">
+       replay*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-DescribeRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DescribeRule.html">
+      DescribeRule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve details about rules
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-DisableRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_DisableRule.html">
+      DisableRule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disable rules
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_ManagedBy">
+       events:ManagedBy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-EnableRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_EnableRule.html">
+      EnableRule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to enable rules
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_ManagedBy">
+       events:ManagedBy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-InvokeApiDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-identity-based-access-control-eventbridge.html">
+      InvokeApiDestination
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to invoke an api destination
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-api-destination">
+       api-destination*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListApiDestinations">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListApiDestinations.html">
+      ListApiDestinations
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of api destinations
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListArchives">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListArchives.html">
+      ListArchives
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of archives
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListConnections">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListConnections.html">
+      ListConnections
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of connections
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListEventBuses">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListEventBuses.html">
+      ListEventBuses
+     </a>
+    </td>
+    <td>
+     Grants permission to to retrieve a list of the event buses in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListEventSources">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListEventSources.html">
+      ListEventSources
+     </a>
+    </td>
+    <td>
+     Grants permission to to retrieve a list of event sources shared with this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListPartnerEventSourceAccounts">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListPartnerEventSourceAccounts.html">
+      ListPartnerEventSourceAccounts
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of AWS account IDs associated with an event source
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-source">
+       event-source*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListPartnerEventSources">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListPartnerEventSources.html">
+      ListPartnerEventSources
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list partner event sources
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListReplays">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListReplays.html">
+      ListReplays
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of replays
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListRuleNamesByTarget">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListRuleNamesByTarget.html">
+      ListRuleNamesByTarget
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of the names of the rules associated with a target
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-ListRules">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListRules.html">
+      ListRules
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of the Amazon EventBridge rules in the account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazoneventbridge-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to retrieve a list of tags associated with an Amazon EventBridge
+                                                resource
+    </td>
+    <td rowspan="3">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-ListTargetsByRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_ListTargetsByRule.html">
+      ListTargetsByRule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve a list of targets defined for a rule
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-PutEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_PutEvents.html">
+      PutEvents
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to send custom events to Amazon EventBridge
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_detail-type">
+       events:detail-type
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_source">
+       events:source
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_eventBusInvocation">
+       events:eventBusInvocation
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-aws_SourceArn">
+       aws:SourceArn
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-aws_SourceAccount">
+       aws:SourceAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-PutPartnerEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_PutPartnerEvents.html">
+      PutPartnerEvents
+     </a>
+    </td>
+    <td>
+     Grants permission to sends custom events to Amazon EventBridge
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-PutPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_PutPermission.html">
+      PutPermission
+     </a>
+    </td>
+    <td>
+     Grants permission to use the PutPermission action to grants permission to another
+                                                AWS account to put events to your default event bus
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-PutRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_PutRule.html">
+      PutRule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create or updates rules
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_detail.userIdentity.principalId">
+       events:detail.userIdentity.principalId
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_detail-type">
+       events:detail-type
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_source">
+       events:source
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_detail.service">
+       events:detail.service
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_detail.eventTypeCode">
+       events:detail.eventTypeCode
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_ManagedBy">
+       events:ManagedBy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-PutTargets">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_PutTargets.html">
+      PutTargets
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add targets to a rule
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_TargetArn">
+       events:TargetArn
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_ManagedBy">
+       events:ManagedBy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-RemovePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_RemovePermission.html">
+      RemovePermission
+     </a>
+    </td>
+    <td>
+     Grants permission to revoke the permission of another AWS account to put events to
+                                                your default event bus
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoneventbridge-RemoveTargets">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_RemoveTargets.html">
+      RemoveTargets
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to removes targets from a rule
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_ManagedBy">
+       events:ManagedBy
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-StartReplay">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_StartReplay.html">
+      StartReplay
+     </a>
+    </td>
+    <td>
+     Grants permission to start a replay of an archive
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-archive">
+       archive*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazoneventbridge-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to add a tag to an Amazon EventBridge resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-TestEventPattern">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_TestEventPattern.html">
+      TestEventPattern
+     </a>
+    </td>
+    <td>
+     Grants permission to test whether an event pattern matches the provided event
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazoneventbridge-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to remove a tag from an Amazon EventBridge resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-event-bus">
+       event-bus
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-rule">
+       rule
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazoneventbridge-events_creatorAccount">
+       events:creatorAccount
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-UpdateApiDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_UpdateApiDestination.html">
+      UpdateApiDestination
+     </a>
+    </td>
+    <td>
+     Grants permission to update an api destination
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-api-destination">
+       api-destination*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-UpdateArchive">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_UpdateArchive.html">
+      UpdateArchive
+     </a>
+    </td>
+    <td>
+     Grants permission to update an archive
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-archive">
+       archive*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-UpdateConnection">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/APIReference/API_UpdateConnection.html">
+      UpdateConnection
+     </a>
+    </td>
+    <td>
+     Grants permission to update a connection
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-connection">
+       connection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d531c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-event-source">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      event-source
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}::event-source/$
+      <span>
+       {
+      </span>
+      EventSourceName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-event-bus">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      event-bus
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:event-bus/$
+      <span>
+       {
+      </span>
+      EventBusName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-rule">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      rule
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:rule/[$
+      <span>
+       {
+      </span>
+      EventBusName}/]$
+      <span>
+       {
+      </span>
+      RuleName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoneventbridge-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-archive">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      archive
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:archive/$
+      <span>
+       {
+      </span>
+      ArchiveName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-replay">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      replay
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:replay/$
+      <span>
+       {
+      </span>
+      ReplayName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-connection">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      connection
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:connection/$
+      <span>
+       {
+      </span>
+      ConnectionName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-api-destination">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/iam-access-control-identity-based-eventbridge.html#eventbridge-arn-format">
+      api-destination
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:events:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:api-destination/$
+      <span>
+       {
+      </span>
+      ApiDestinationName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d531c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the allowed set of values for each of the tags to event bus and
+                                                rule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tag-value associated with the resource to event bus and rule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-aws_SourceAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-sourceaccount">
+      aws:SourceAccount
+     </a>
+    </td>
+    <td>
+     Filters access by the source account of the request to PutEvents actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-aws_SourceArn">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-sourcearn">
+      aws:SourceArn
+     </a>
+    </td>
+    <td>
+     Filters access by the Amazon Resource Name (ARN) of the source making the request
+                                                to PutEvents actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tags in the request to event bus and rule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_ManagedBy">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html">
+      events:ManagedBy
+     </a>
+    </td>
+    <td>
+     Filters access by AWS services. If a rule is created by an AWS service on your behalf,
+                                                the value is the principal name of the service that created the rule
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_TargetArn">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#limiting-access-to-targets">
+      events:TargetArn
+     </a>
+    </td>
+    <td>
+     Filters access by the ARN of a target that can be put to a rule to PutTargets actions
+    </td>
+    <td>
+     ARN
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_creatorAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#events-creator-account">
+      events:creatorAccount
+     </a>
+    </td>
+    <td>
+     Filters access by the account the rule was created in to rule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_detail-type">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#events-pattern-detail-type">
+      events:detail-type
+     </a>
+    </td>
+    <td>
+     Filters access by the literal string of the detail-type of the event to PutEvents
+                                                and PutRule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_detail.eventTypeCode">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#limit-rule-by-type-code">
+      events:detail.eventTypeCode
+     </a>
+    </td>
+    <td>
+     Filters access by the literal string for the detail.eventTypeCode field of the event
+                                                to PutRule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_detail.service">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#limit-rule-by-service">
+      events:detail.service
+     </a>
+    </td>
+    <td>
+     Filters access by the literal string for the detail.service field of the event to
+                                                PutRule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_detail.userIdentity.principalId">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#consume-specific-events">
+      events:detail.userIdentity.principalId
+     </a>
+    </td>
+    <td>
+     Filters access by the literal string for the detail.useridentity.principalid field
+                                                of the event to PutRule actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_eventBusInvocation">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#events-bus-invocation">
+      events:eventBusInvocation
+     </a>
+    </td>
+    <td>
+     Filters access by whether the event was generated via API or cross-account bus invocation
+                                                to PutEvents actions
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoneventbridge-events_source">
+     </a>
+     <a href="https://docs.aws.amazon.com/eventbridge/latest/userguide/policy-keys-eventbridge.html#events-limit-access-control">
+      events:source
+     </a>
+    </td>
+    <td>
+     Filters access by the AWS service or AWS partner event source that generated the event
+                                                to PutEvents and PutRule actions. Matches the literal string of the source field of
+                                                the event
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

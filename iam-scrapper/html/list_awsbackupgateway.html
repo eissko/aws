@@ -1,0 +1,843 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d139c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="awsbackupgateway-AssociateGatewayToServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_AssociateGatewayToServer.html">
+      AssociateGatewayToServer
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to AssociateGatewayToServer
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsbackupgateway-Backup">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_Backup.html">
+      Backup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to Backup
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-virtualmachine">
+       virtualmachine*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsbackupgateway-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-CreateGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_CreateGateway.html">
+      CreateGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to to CreateGateway
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsbackupgateway-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-DeleteGateway">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_DeleteGateway.html">
+      DeleteGateway
+     </a>
+    </td>
+    <td>
+     Grants permission to DeleteGateway
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-DeleteHypervisor">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_DeleteHypervisor.html">
+      DeleteHypervisor
+     </a>
+    </td>
+    <td>
+     Grants permission to DeleteHypervisor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-DisassociateGatewayFromServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_DisassociateGatewayFromServer.html">
+      DisassociateGatewayFromServer
+     </a>
+    </td>
+    <td>
+     Grants permission to DisassociateGatewayFromServer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-ImportHypervisorConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_ImportHypervisorConfiguration.html">
+      ImportHypervisorConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to ImportHypervisorConfiguration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-ListGateways">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_ListGateways.html">
+      ListGateways
+     </a>
+    </td>
+    <td>
+     Grants permission to ListGateways
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-ListHypervisors">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_ListHypervisors.html">
+      ListHypervisors
+     </a>
+    </td>
+    <td>
+     Grants permission to ListHypervisors
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsbackupgateway-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to ListTagsForResource
+    </td>
+    <td rowspan="4">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-virtualmachine">
+       virtualmachine
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsbackupgateway-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-ListVirtualMachines">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_ListVirtualMachines.html">
+      ListVirtualMachines
+     </a>
+    </td>
+    <td>
+     Grants permission to ListVirtualMachines
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-PutMaintenanceStartTime">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_PutMaintenanceStartTime.html">
+      PutMaintenanceStartTime
+     </a>
+    </td>
+    <td>
+     Grants permission to PutMaintenanceStartTime
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsbackupgateway-Restore">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_Restore.html">
+      Restore
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to Restore
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsbackupgateway-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsbackupgateway-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to TagResource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-virtualmachine">
+       virtualmachine
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsbackupgateway-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-TestHypervisorConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_TestHypervisorConfiguration.html">
+      TestHypervisorConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to TestHypervisorConfiguration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awsbackupgateway-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to UntagResource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-hypervisor">
+       hypervisor
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-virtualmachine">
+       virtualmachine
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsbackupgateway-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-UpdateGatewayInformation">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_UpdateGatewayInformation.html">
+      UpdateGatewayInformation
+     </a>
+    </td>
+    <td>
+     Grants permission to UpdateGatewayInformation
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-UpdateHypervisor">
+     </a>
+     <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/API_UpdateHypervisor.html">
+      UpdateHypervisor
+     </a>
+    </td>
+    <td>
+     Grants permission to UpdateHypervisor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-gateway">
+       gateway*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d139c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-gateway">
+     </a>
+     gateway
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:backup-gateway::$
+      <span>
+       {
+      </span>
+      Account}:gateway/$
+      <span>
+       {
+      </span>
+      GatewayId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-hypervisor">
+     </a>
+     hypervisor
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:backup-gateway::$
+      <span>
+       {
+      </span>
+      Account}:hypervisor/$
+      <span>
+       {
+      </span>
+      HypervisorId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-virtualmachine">
+     </a>
+     virtualmachine
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:backup-gateway::$
+      <span>
+       {
+      </span>
+      Account}:vm/$
+      <span>
+       {
+      </span>
+      VirtualmachineId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsbackupgateway-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d139c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the allowed set of values for each of the tags
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tag-value associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsbackupgateway-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of mandatory tags in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

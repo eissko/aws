@@ -1,0 +1,2417 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d419c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-CancelImageCreation">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CancelImageCreation.html">
+      CancelImageCreation
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel an image creation
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonec2imagebuilder-CreateComponent">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateComponent.html">
+      CreateComponent
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a new component
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+     <p>
+      kms:Encrypt
+     </p>
+     <p>
+      kms:GenerateDataKey
+     </p>
+     <p>
+      kms:GenerateDataKeyWithoutPlaintext
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-kmsKey">
+       kmsKey
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-CreateContainerRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateContainerRecipe.html">
+      CreateContainerRecipe
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new Container Recipe
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ecr:DescribeImages
+     </p>
+     <p>
+      ecr:DescribeRepositories
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:GetComponent
+     </p>
+     <p>
+      imagebuilder:GetImage
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+     <p>
+      kms:Encrypt
+     </p>
+     <p>
+      kms:GenerateDataKey
+     </p>
+     <p>
+      kms:GenerateDataKeyWithoutPlaintext
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-CreateDistributionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateDistributionConfiguration.html">
+      CreateDistributionConfiguration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new distribution configuration
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-CreateImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateImage.html">
+      CreateImage
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new image
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:GetContainerRecipe
+     </p>
+     <p>
+      imagebuilder:GetDistributionConfiguration
+     </p>
+     <p>
+      imagebuilder:GetImageRecipe
+     </p>
+     <p>
+      imagebuilder:GetInfrastructureConfiguration
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-CreateImagePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateImagePipeline.html">
+      CreateImagePipeline
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new image pipeline
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:GetContainerRecipe
+     </p>
+     <p>
+      imagebuilder:GetImageRecipe
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-CreateImageRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateImageRecipe.html">
+      CreateImageRecipe
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new Image Recipe
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:DescribeImages
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:GetComponent
+     </p>
+     <p>
+      imagebuilder:GetImage
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-CreateInfrastructureConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_CreateInfrastructureConfiguration.html">
+      CreateInfrastructureConfiguration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new infrastructure configuration
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PassRole
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+     <p>
+      sns:Publish
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-imagebuilder_CreatedResourceTagKeys">
+       imagebuilder:CreatedResourceTagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-imagebuilder_CreatedResourceTag_key">
+       imagebuilder:CreatedResourceTag/&lt;key&gt;
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteComponent">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteComponent.html">
+      DeleteComponent
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a component
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteContainerRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteContainerRecipe.html">
+      DeleteContainerRecipe
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a container recipe
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteDistributionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteDistributionConfiguration.html">
+      DeleteDistributionConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a distribution configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteImage.html">
+      DeleteImage
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an image
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteImagePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteImagePipeline.html">
+      DeleteImagePipeline
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an image pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteImageRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteImageRecipe.html">
+      DeleteImageRecipe
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an image recipe
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-DeleteInfrastructureConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DeleteInfrastructureConfiguration.html">
+      DeleteInfrastructureConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an infrastructure configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetComponent">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetComponent.html">
+      GetComponent
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about a component
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      kms:Decrypt
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetComponentPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetComponentPolicy.html">
+      GetComponentPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to view the resource policy associated with a component
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetContainerRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetContainerRecipe.html">
+      GetContainerRecipe
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about a container recipe
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetContainerRecipePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetContainerRecipePolicy.html">
+      GetContainerRecipePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to view the resource policy associated with a container recipe
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetDistributionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetDistributionConfiguration.html">
+      GetDistributionConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about a distribution configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-GetImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetImage.html">
+      GetImage
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view details about an image
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetImagePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetImagePipeline.html">
+      GetImagePipeline
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an image pipeline
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetImagePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetImagePolicy.html">
+      GetImagePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to view the resource policy associated with an image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetImageRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetImageRecipe.html">
+      GetImageRecipe
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an image recipe
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetImageRecipePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetImageRecipePolicy.html">
+      GetImageRecipePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to view the resource policy associated with an image recipe
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-GetInfrastructureConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_GetInfrastructureConfiguration.html">
+      GetInfrastructureConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to view details about an infrastructure configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonec2imagebuilder-ImportComponent">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ImportComponent.html">
+      ImportComponent
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to import a new component
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:TagResource
+     </p>
+     <p>
+      kms:Encrypt
+     </p>
+     <p>
+      kms:GenerateDataKey
+     </p>
+     <p>
+      kms:GenerateDataKeyWithoutPlaintext
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-kmsKey">
+       kmsKey
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListComponentBuildVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListComponentBuildVersions.html">
+      ListComponentBuildVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to list the component build versions in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-componentVersion">
+       componentVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListComponents">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListComponents.html">
+      ListComponents
+     </a>
+    </td>
+    <td>
+     Grants permission to list the component versions owned by or shared with your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListContainerRecipes">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListContainerRecipes.html">
+      ListContainerRecipes
+     </a>
+    </td>
+    <td>
+     Grants permission to list the container recipes owned by or shared with your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListDistributionConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListDistributionConfigurations.html">
+      ListDistributionConfigurations
+     </a>
+    </td>
+    <td>
+     Grants permission to list the distribution configurations in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListImageBuildVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListImageBuildVersions.html">
+      ListImageBuildVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to list the image build versions in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageVersion">
+       imageVersion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-ListImagePackages">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListImagePackages.html">
+      ListImagePackages
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to returns a list of packages installed on the specified image
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListImagePipelineImages">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListImagePipelineImages.html">
+      ListImagePipelineImages
+     </a>
+    </td>
+    <td>
+     Grants permission to returns a list of images created by the specified pipeline
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListImagePipelines">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListImagePipelines.html">
+      ListImagePipelines
+     </a>
+    </td>
+    <td>
+     Grants permission to list the image pipelines in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListImageRecipes">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListImageRecipes.html">
+      ListImageRecipes
+     </a>
+    </td>
+    <td>
+     Grants permission to list the image recipes owned by or shared with your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListImages">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListImages.html">
+      ListImages
+     </a>
+    </td>
+    <td>
+     Grants permission to list the image versions owned by or shared with your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-ListInfrastructureConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListInfrastructureConfigurations.html">
+      ListInfrastructureConfigurations
+     </a>
+    </td>
+    <td>
+     Grants permission to list the infrastructure configurations in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="amazonec2imagebuilder-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permission to list tag for an Image Builder resource
+    </td>
+    <td rowspan="7">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-PutComponentPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_PutComponentPolicy.html">
+      PutComponentPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to set the resource policy associated with a component
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-PutContainerRecipePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_PutContainerRecipePolicy.html">
+      PutContainerRecipePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to set the resource policy associated with a container recipe
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-PutImagePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_PutImagePolicy.html">
+      PutImagePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to set the resource policy associated with an image
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-PutImageRecipePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_PutImageRecipePolicy.html">
+      PutImageRecipePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to set the resource policy associated with an image recipe
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-StartImagePipelineExecution">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_StartImagePipelineExecution.html">
+      StartImagePipelineExecution
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new image from a pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      imagebuilder:GetImagePipeline
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="amazonec2imagebuilder-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to tag an Image Builder resource
+    </td>
+    <td rowspan="8">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="8">
+     <a id="amazonec2imagebuilder-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="8">
+     Grants permission to untag an Image Builder resource
+    </td>
+    <td rowspan="8">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-component">
+       component
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-containerRecipe">
+       containerRecipe
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-image">
+       image
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imageRecipe">
+       imageRecipe
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-UpdateDistributionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_UpdateDistributionConfiguration.html">
+      UpdateDistributionConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update an existing distribution configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-distributionConfiguration">
+       distributionConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-UpdateImagePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_UpdateImagePipeline.html">
+      UpdateImagePipeline
+     </a>
+    </td>
+    <td>
+     Grants permission to update an existing image pipeline
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-imagePipeline">
+       imagePipeline*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonec2imagebuilder-UpdateInfrastructureConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_UpdateInfrastructureConfiguration.html">
+      UpdateInfrastructureConfiguration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update an existing infrastructure configuration
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-infrastructureConfiguration">
+       infrastructureConfiguration*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+     <p>
+      sns:Publish
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-imagebuilder_CreatedResourceTagKeys">
+       imagebuilder:CreatedResourceTagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonec2imagebuilder-imagebuilder_CreatedResourceTag_key">
+       imagebuilder:CreatedResourceTag/&lt;key&gt;
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d419c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-component">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_Component.html">
+      component
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:component/$
+      <span>
+       {
+      </span>
+      ComponentName}/$
+      <span>
+       {
+      </span>
+      ComponentVersion}/$
+      <span>
+       {
+      </span>
+      ComponentBuildVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-componentVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ComponentVersion">
+      componentVersion
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:component/$
+      <span>
+       {
+      </span>
+      ComponentName}/$
+      <span>
+       {
+      </span>
+      ComponentVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-distributionConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_DistributionConfiguration.html">
+      distributionConfiguration
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:distribution-configuration/$
+      <span>
+       {
+      </span>
+      DistributionConfigurationName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-image">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_Image.html">
+      image
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:image/$
+      <span>
+       {
+      </span>
+      ImageName}/$
+      <span>
+       {
+      </span>
+      ImageVersion}/$
+      <span>
+       {
+      </span>
+      ImageBuildVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-imageVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ImageVersion.html">
+      imageVersion
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:image/$
+      <span>
+       {
+      </span>
+      ImageName}/$
+      <span>
+       {
+      </span>
+      ImageVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-imageRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ImageRecipe.html">
+      imageRecipe
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:image-recipe/$
+      <span>
+       {
+      </span>
+      ImageRecipeName}/$
+      <span>
+       {
+      </span>
+      ImageRecipeVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-containerRecipe">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ContainerRecipe.html">
+      containerRecipe
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:container-recipe/$
+      <span>
+       {
+      </span>
+      ContainerRecipeName}/$
+      <span>
+       {
+      </span>
+      ContainerRecipeVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-imagePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_ImagePipeline.html">
+      imagePipeline
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:image-pipeline/$
+      <span>
+       {
+      </span>
+      ImagePipelineName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-infrastructureConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/APIReference/API_InfrastructureConfiguration.html">
+      infrastructureConfiguration
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:imagebuilder:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:infrastructure-configuration/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-kmsKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys">
+      kmsKey
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:key/$
+      <span>
+       {
+      </span>
+      KeyId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d419c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions by the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions by tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions by the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-imagebuilder_CreatedResourceTag_key">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/userguide/security_iam_service-with-iam.html#image-builder-security-createdresourcetag">
+      imagebuilder:CreatedResourceTag/&lt;key&gt;
+     </a>
+    </td>
+    <td>
+     Filters access by the tag key-value pairs attached to the resource created by Image
+                                                Builder
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonec2imagebuilder-imagebuilder_CreatedResourceTagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/imagebuilder/latest/userguide/security_iam_service-with-iam.html#image-builder-security-createdresourcetagkeys">
+      imagebuilder:CreatedResourceTagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

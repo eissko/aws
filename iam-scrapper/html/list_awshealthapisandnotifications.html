@@ -1,0 +1,476 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d599c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeAffectedAccountsForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeAffectedAccountsForOrganization.html">
+      DescribeAffectedAccountsForOrganization
+     </a>
+    </td>
+    <td>
+     Gets a list of accounts that have been affected by the specified events in organization.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awshealthapisandnotifications-DescribeAffectedEntities">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeAffectedEntities.html">
+      DescribeAffectedEntities
+     </a>
+    </td>
+    <td rowspan="2">
+     Gets a list of entities that have been affected by the specified events.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awshealthapisandnotifications-event">
+       event*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awshealthapisandnotifications-health_eventTypeCode">
+       health:eventTypeCode
+      </a>
+     </p>
+     <p>
+      <a href="#awshealthapisandnotifications-health_service">
+       health:service
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeAffectedEntitiesForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeAffectedEntitiesForOrganization.html">
+      DescribeAffectedEntitiesForOrganization
+     </a>
+    </td>
+    <td>
+     Gets a list of entities that have been affected by the specified events and accounts
+                                                in organization.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeEntityAggregates">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEntityAggregates.html">
+      DescribeEntityAggregates
+     </a>
+    </td>
+    <td>
+     Returns the number of entities that are affected by each of the specified events.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeEventAggregates">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEventAggregates.html">
+      DescribeEventAggregates
+     </a>
+    </td>
+    <td>
+     Returns the number of events of each event type (issue, scheduled change, and account
+                                                notification).
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awshealthapisandnotifications-DescribeEventDetails">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEventDetails.html">
+      DescribeEventDetails
+     </a>
+    </td>
+    <td rowspan="2">
+     Returns detailed information about one or more specified events.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awshealthapisandnotifications-event">
+       event*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awshealthapisandnotifications-health_eventTypeCode">
+       health:eventTypeCode
+      </a>
+     </p>
+     <p>
+      <a href="#awshealthapisandnotifications-health_service">
+       health:service
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeEventDetailsForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEventDetailsForOrganization.html">
+      DescribeEventDetailsForOrganization
+     </a>
+    </td>
+    <td>
+     Returns detailed information about one or more specified events for provided accounts
+                                                in organization.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeEventTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEventTypes.html">
+      DescribeEventTypes
+     </a>
+    </td>
+    <td>
+     Returns the event types that meet the specified filter criteria.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEvents.html">
+      DescribeEvents
+     </a>
+    </td>
+    <td>
+     Returns information about events that meet the specified filter criteria.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeEventsForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeEventsForOrganization.html">
+      DescribeEventsForOrganization
+     </a>
+    </td>
+    <td>
+     Returns information about events that meet the specified filter criteria in organization.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DescribeHealthServiceStatusForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DescribeHealthServiceStatusForOrganization.html">
+      DescribeHealthServiceStatusForOrganization
+     </a>
+    </td>
+    <td>
+     Returns the status of enabling or disabling the Organizational View feature
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-DisableHealthServiceAccessForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_DisableHealthServiceAccessForOrganization.html">
+      DisableHealthServiceAccessForOrganization
+     </a>
+    </td>
+    <td>
+     Disables the Organizational View feature.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:DisableAWSServiceAccess
+     </p>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-EnableHealthServiceAccessForOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/APIReference/API_EnableHealthServiceAccessForOrganization.html">
+      EnableHealthServiceAccessForOrganization
+     </a>
+    </td>
+    <td>
+     Enables the Organizational View feature.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      organizations:EnableAWSServiceAccess
+     </p>
+     <p>
+      organizations:ListAccounts
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d599c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-event">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/ug/supported-operations.html">
+      event
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:health:*::event/$
+      <span>
+       {
+      </span>
+      Service}/$
+      <span>
+       {
+      </span>
+      EventTypeCode}/*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d599c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-health_eventTypeCode">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/ug/controlling-access.html">
+      health:eventTypeCode
+     </a>
+    </td>
+    <td>
+     The type of event.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awshealthapisandnotifications-health_service">
+     </a>
+     <a href="https://docs.aws.amazon.com/health/latest/ug/controlling-access.html">
+      health:service
+     </a>
+    </td>
+    <td>
+     The service of the event.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

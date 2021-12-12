@@ -1,0 +1,1796 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d755c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlex-CreateBotVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_CreateBotVersion.html">
+      CreateBotVersion
+     </a>
+    </td>
+    <td>
+     Creates a new version based on the $LATEST version of the specified bot.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-CreateIntentVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_CreateIntentVersion.html">
+      CreateIntentVersion
+     </a>
+    </td>
+    <td>
+     Creates a new version based on the $LATEST version of the specified intent.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-intentversion">
+       intent version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-CreateSlotTypeVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_CreateSlotTypeVersion.html">
+      CreateSlotTypeVersion
+     </a>
+    </td>
+    <td>
+     Creates a new version based on the $LATEST version of the specified slot type.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-slottypeversion">
+       slottype version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteBot.html">
+      DeleteBot
+     </a>
+    </td>
+    <td>
+     Deletes all versions of a bot.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteBotAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteBotAlias.html">
+      DeleteBotAlias
+     </a>
+    </td>
+    <td>
+     Deletes an alias for a specific bot.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteBotChannelAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteBotChannelAssociation.html">
+      DeleteBotChannelAssociation
+     </a>
+    </td>
+    <td>
+     Deletes the association between a Amazon Lex bot alias and a messaging platform.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteBotVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteBotVersion.html">
+      DeleteBotVersion
+     </a>
+    </td>
+    <td>
+     Deletes a specific version of a bot.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteIntent">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteIntent.html">
+      DeleteIntent
+     </a>
+    </td>
+    <td>
+     Deletes all versions of an intent.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-intentversion">
+       intent version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteIntentVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteIntentVersion.html">
+      DeleteIntentVersion
+     </a>
+    </td>
+    <td>
+     Deletes a specific version of an intent.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-intentversion">
+       intent version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-DeleteSession">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_runtime_DeleteSession.html">
+      DeleteSession
+     </a>
+    </td>
+    <td rowspan="2">
+     Removes session information for a specified bot, alias, and user ID.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteSlotType">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteSlotType.html">
+      DeleteSlotType
+     </a>
+    </td>
+    <td>
+     Deletes all versions of a slot type.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-slottypeversion">
+       slottype version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteSlotTypeVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteSlotTypeVersion.html">
+      DeleteSlotTypeVersion
+     </a>
+    </td>
+    <td>
+     Deletes a specific version of a slot type.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-slottypeversion">
+       slottype version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-DeleteUtterances">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_DeleteUtterances.html">
+      DeleteUtterances
+     </a>
+    </td>
+    <td>
+     Deletes the information Amazon Lex maintains for utterances on a specific bot and
+                                                userId.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-GetBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBot.html">
+      GetBot
+     </a>
+    </td>
+    <td rowspan="2">
+     Returns information for a specific bot. In addition to the bot name, the bot version
+                                                or alias is required.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBotAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBotAlias.html">
+      GetBotAlias
+     </a>
+    </td>
+    <td>
+     Returns information about a Amazon Lex bot alias.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBotAliases">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBotAliases.html">
+      GetBotAliases
+     </a>
+    </td>
+    <td>
+     Returns a list of aliases for a given Amazon Lex bot.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBotChannelAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBotChannelAssociation.html">
+      GetBotChannelAssociation
+     </a>
+    </td>
+    <td>
+     Returns information about the association between a Amazon Lex bot and a messaging
+                                                platform.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBotChannelAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBotChannelAssociations.html">
+      GetBotChannelAssociations
+     </a>
+    </td>
+    <td>
+     Returns a list of all of the channels associated with a single bot.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBotVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBotVersions.html">
+      GetBotVersions
+     </a>
+    </td>
+    <td>
+     Returns information for all versions of a specific bot.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBots">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBots.html">
+      GetBots
+     </a>
+    </td>
+    <td>
+     Returns information for the $LATEST version of all bots, subject to filters provided
+                                                by the client.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBuiltinIntent">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBuiltinIntent.html">
+      GetBuiltinIntent
+     </a>
+    </td>
+    <td>
+     Returns information about a built-in intent.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBuiltinIntents">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBuiltinIntents.html">
+      GetBuiltinIntents
+     </a>
+    </td>
+    <td>
+     Gets a list of built-in intents that meet the specified criteria.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetBuiltinSlotTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetBuiltinSlotTypes.html">
+      GetBuiltinSlotTypes
+     </a>
+    </td>
+    <td>
+     Gets a list of built-in slot types that meet the specified criteria.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetExport">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetExport.html">
+      GetExport
+     </a>
+    </td>
+    <td>
+     Exports Amazon Lex Resource in a requested format.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetImport">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetImport.html">
+      GetImport
+     </a>
+    </td>
+    <td>
+     Gets information about an import job started with StartImport.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetIntent">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetIntent.html">
+      GetIntent
+     </a>
+    </td>
+    <td>
+     Returns information for a specific intent. In addition to the intent name, you must
+                                                also specify the intent version.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-intentversion">
+       intent version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetIntentVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetIntentVersions.html">
+      GetIntentVersions
+     </a>
+    </td>
+    <td>
+     Returns information for all versions of a specific intent.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-intentversion">
+       intent version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetIntents">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetIntents.html">
+      GetIntents
+     </a>
+    </td>
+    <td>
+     Returns information for the $LATEST version of all intents, subject to filters provided
+                                                by the client.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetMigration">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetMigration.html">
+      GetMigration
+     </a>
+    </td>
+    <td>
+     Grants permission to view an ongoing or completed migration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetMigrations">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetMigrations.html">
+      GetMigrations
+     </a>
+    </td>
+    <td>
+     Grants permission to view list of migrations from Amazon Lex v1 to Amazon Lex v2
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-GetSession">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_runtime_GetSession.html">
+      GetSession
+     </a>
+    </td>
+    <td rowspan="2">
+     Returns session information for a specified bot, alias, and user ID.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetSlotType">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetSlotType.html">
+      GetSlotType
+     </a>
+    </td>
+    <td>
+     Returns information about a specific version of a slot type. In addition to specifying
+                                                the slot type name, you must also specify the slot type version.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-slottypeversion">
+       slottype version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetSlotTypeVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetSlotTypeVersions.html">
+      GetSlotTypeVersions
+     </a>
+    </td>
+    <td>
+     Returns information for all versions of a specific slot type.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-slottypeversion">
+       slottype version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetSlotTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetSlotTypes.html">
+      GetSlotTypes
+     </a>
+    </td>
+    <td>
+     Returns information for the $LATEST version of all slot types, subject to filters
+                                                provided by the client.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-GetUtterancesView">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_GetUtterancesView.html">
+      GetUtterancesView
+     </a>
+    </td>
+    <td>
+     Returns a view of aggregate utterance data for versions of a bot for a recent time
+                                                period.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonlex-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Lists tags for a Lex resource
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-bot">
+       bot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-PostContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PostContent.html">
+      PostContent
+     </a>
+    </td>
+    <td rowspan="2">
+     Sends user input (text or speech) to Amazon Lex.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-PostText">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PostText.html">
+      PostText
+     </a>
+    </td>
+    <td rowspan="2">
+     Sends user input (text-only) to Amazon Lex.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-PutBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html">
+      PutBot
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates or updates the $LATEST version of a Amazon Lex conversational bot.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlex-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-PutBotAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_PutBotAlias.html">
+      PutBotAlias
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates or updates an alias for the specific bot.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlex-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-PutIntent">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_PutIntent.html">
+      PutIntent
+     </a>
+    </td>
+    <td>
+     Creates or updates the $LATEST version of an intent.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-intentversion">
+       intent version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlex-PutSession">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_runtime_PutSession.html">
+      PutSession
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a new session or modifies an existing session with an Amazon Lex bot.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-PutSlotType">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_PutSlotType.html">
+      PutSlotType
+     </a>
+    </td>
+    <td>
+     Creates or updates the $LATEST version of a slot type.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-slottypeversion">
+       slottype version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-StartImport">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_StartImport.html">
+      StartImport
+     </a>
+    </td>
+    <td>
+     Starts a job to import a resource to Amazon Lex.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-StartMigration">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_StartMigration.html">
+      StartMigration
+     </a>
+    </td>
+    <td>
+     Grants permission to migrate a bot from Amazon Lex v1 to Amazon Lex v2
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-botversion">
+       bot version*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonlex-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Adds or overwrites tags to a Lex resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-bot">
+       bot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlex-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonlex-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Removes tags from a Lex resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-bot">
+       bot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-botalias">
+       bot alias
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlex-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlex-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d755c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlex-bot">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_BotMetadata.html">
+      bot
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lex:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:bot:$
+      <span>
+       {
+      </span>
+      BotName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-botversion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_BotMetadata.html">
+      bot version
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lex:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:bot:$
+      <span>
+       {
+      </span>
+      BotName}:$
+      <span>
+       {
+      </span>
+      BotVersion}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-botalias">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_BotAliasMetadata.html">
+      bot alias
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lex:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:bot:$
+      <span>
+       {
+      </span>
+      BotName}:$
+      <span>
+       {
+      </span>
+      BotAlias}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-channel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_BotChannelAssociation.html">
+      channel
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lex:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:bot-channel:$
+      <span>
+       {
+      </span>
+      BotName}:$
+      <span>
+       {
+      </span>
+      BotAlias}:$
+      <span>
+       {
+      </span>
+      ChannelName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlex-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-intentversion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_Intent.html">
+      intent version
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lex:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:intent:$
+      <span>
+       {
+      </span>
+      IntentName}:$
+      <span>
+       {
+      </span>
+      IntentVersion}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-slottypeversion">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/API_SlotTypeMetadata.html">
+      slottype version
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lex:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:slottype:$
+      <span>
+       {
+      </span>
+      SlotName}:$
+      <span>
+       {
+      </span>
+      SlotVersion}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d755c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlex-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags attached to a Lex resource.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access based on the set of tag keys in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-lex_associatedIntents">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/security_iam_service-with-iam.html">
+      lex:associatedIntents
+     </a>
+    </td>
+    <td>
+     Enables you to control access based on the intents included in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-lex_associatedSlotTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/security_iam_service-with-iam.html">
+      lex:associatedSlotTypes
+     </a>
+    </td>
+    <td>
+     Enables you to control access based on the slot types included in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlex-lex_channelType">
+     </a>
+     <a href="https://docs.aws.amazon.com/lex/latest/dg/security_iam_service-with-iam.html">
+      lex:channelType
+     </a>
+    </td>
+    <td>
+     Enables you to control access based on the channel type included in the request.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

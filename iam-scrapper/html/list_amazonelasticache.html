@@ -1,0 +1,4235 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d479c11c11">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="10">
+     <a id="amazonelasticache-AddTagsToResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_AddTagsToResource.html">
+      AddTagsToResource
+     </a>
+    </td>
+    <td rowspan="10">
+     Grants permission to add tags to an ElastiCache resource
+    </td>
+    <td rowspan="10">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-reserved-instance">
+       reserved-instance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-AuthorizeCacheSecurityGroupIngress">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_AuthorizeCacheSecurityGroupIngress.html">
+      AuthorizeCacheSecurityGroupIngress
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to authorize an EC2 security group on a ElastiCache security group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:AuthorizeSecurityGroupIngress
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-BatchApplyUpdateAction">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_BatchApplyUpdateAction.html">
+      BatchApplyUpdateAction
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to apply ElastiCache service updates to sets of clusters and replication
+                                                groups
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      s3:GetObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-BatchStopUpdateAction">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_BatchStopUpdateAction.html">
+      BatchStopUpdateAction
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to stop ElastiCache service updates from being executed on a set
+                                                of clusters
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-CompleteMigration">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CompleteMigration.html">
+      CompleteMigration
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to complete an online migration of data from hosted Redis on Amazon
+                                                EC2 to ElastiCache
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-CopySnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CopySnapshot.html">
+      CopySnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to make a copy of an existing snapshot
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+     <p>
+      s3:DeleteObject
+     </p>
+     <p>
+      s3:GetBucketAcl
+     </p>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_KmsKeyId">
+       elasticache:KmsKeyId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="amazonelasticache-CreateCacheCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateCacheCluster.html">
+      CreateCacheCluster
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permission to create a cache cluster
+    </td>
+    <td rowspan="7">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+     <p>
+      s3:GetObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheNodeType">
+       elasticache:CacheNodeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineVersion">
+       elasticache:EngineVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineType">
+       elasticache:EngineType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_MultiAZEnabled">
+       elasticache:MultiAZEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AuthTokenEnabled">
+       elasticache:AuthTokenEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_SnapshotRetentionLimit">
+       elasticache:SnapshotRetentionLimit
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-CreateCacheParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateCacheParameterGroup.html">
+      CreateCacheParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a parameter group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-CreateCacheSecurityGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateCacheSecurityGroup.html">
+      CreateCacheSecurityGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a cache security group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-CreateCacheSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateCacheSubnetGroup.html">
+      CreateCacheSubnetGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a cache subnet group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-CreateGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateGlobalReplicationGroup.html">
+      CreateGlobalReplicationGroup
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a global replication group
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="9">
+     <a id="amazonelasticache-CreateReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateReplicationGroup.html">
+      CreateReplicationGroup
+     </a>
+    </td>
+    <td rowspan="9">
+     Grants permission to create a replication group
+    </td>
+    <td rowspan="9">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+     <p>
+      s3:GetObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_NumNodeGroups">
+       elasticache:NumNodeGroups
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheNodeType">
+       elasticache:CacheNodeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_ReplicasPerNodeGroup">
+       elasticache:ReplicasPerNodeGroup
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineVersion">
+       elasticache:EngineVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineType">
+       elasticache:EngineType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AtRestEncryptionEnabled">
+       elasticache:AtRestEncryptionEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_TransitEncryptionEnabled">
+       elasticache:TransitEncryptionEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AutomaticFailoverEnabled">
+       elasticache:AutomaticFailoverEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_MultiAZEnabled">
+       elasticache:MultiAZEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_ClusterModeEnabled">
+       elasticache:ClusterModeEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AuthTokenEnabled">
+       elasticache:AuthTokenEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_SnapshotRetentionLimit">
+       elasticache:SnapshotRetentionLimit
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_KmsKeyId">
+       elasticache:KmsKeyId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonelasticache-CreateSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateSnapshot.html">
+      CreateSnapshot
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to create a copy of an entire Redis cluster at a specific moment
+                                                in time
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+     <p>
+      s3:DeleteObject
+     </p>
+     <p>
+      s3:GetBucketAcl
+     </p>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_KmsKeyId">
+       elasticache:KmsKeyId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-CreateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateUser.html">
+      CreateUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a Redis user for Redis engine version 6.x and onwards
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-CreateUserGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateUserGroup.html">
+      CreateUserGroup
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a Redis user group for Redis engine version 6.x and onwards
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DecreaseNodeGroupsInGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DecreaseNodeGroupsInGlobalReplicationGroup.html">
+      DecreaseNodeGroupsInGlobalReplicationGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to decrease the number of node groups in global replication groups
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-elasticache_NumNodeGroups">
+       elasticache:NumNodeGroups
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DecreaseReplicaCount">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DecreaseReplicaCount.html">
+      DecreaseReplicaCount
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to decrease the number of replicas in a Redis (cluster mode disabled)
+                                                replication group or the number of replica nodes in one or more node groups (shards)
+                                                of a Redis (cluster mode enabled) replication group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_ReplicasPerNodeGroup">
+       elasticache:ReplicasPerNodeGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-DeleteCacheCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteCacheCluster.html">
+      DeleteCacheCluster
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete a previously provisioned cluster
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DeleteCacheParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteCacheParameterGroup.html">
+      DeleteCacheParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete the specified cache parameter group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DeleteCacheSecurityGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteCacheSecurityGroup.html">
+      DeleteCacheSecurityGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a cache security group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DeleteCacheSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteCacheSubnetGroup.html">
+      DeleteCacheSubnetGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a cache subnet group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DeleteGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteGlobalReplicationGroup.html">
+      DeleteGlobalReplicationGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing global replication group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-DeleteReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteReplicationGroup.html">
+      DeleteReplicationGroup
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete an existing replication group
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DeleteSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteSnapshot.html">
+      DeleteSnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an existing snapshot
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DeleteUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteUser.html">
+      DeleteUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an existing user and thus remove it from all user groups
+                                                and replication groups where it was assigned
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DeleteUserGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DeleteUserGroup.html">
+      DeleteUserGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an existing user group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeCacheClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeCacheClusters.html">
+      DescribeCacheClusters
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list information about provisioned cache clusters
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DescribeCacheEngineVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeCacheEngineVersions.html">
+      DescribeCacheEngineVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to list available cache engines and their versions
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeCacheParameterGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeCacheParameterGroups.html">
+      DescribeCacheParameterGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list cache parameter group descriptions
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeCacheParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeCacheParameters.html">
+      DescribeCacheParameters
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the detailed parameter list for a particular cache parameter
+                                                group
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeCacheSecurityGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeCacheSecurityGroups.html">
+      DescribeCacheSecurityGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list cache security group descriptions
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeCacheSubnetGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeCacheSubnetGroups.html">
+      DescribeCacheSubnetGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list cache subnet group descriptions
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DescribeEngineDefaultParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeEngineDefaultParameters.html">
+      DescribeEngineDefaultParameters
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the default engine and system parameter information
+                                                for the specified cache engine
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DescribeEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeEvents.html">
+      DescribeEvents
+     </a>
+    </td>
+    <td>
+     Grants permission to list events related to clusters, cache security groups, and cache
+                                                parameter groups
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DescribeGlobalReplicationGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeGlobalReplicationGroups.html">
+      DescribeGlobalReplicationGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to list information about global replication groups
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeReplicationGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeReplicationGroups.html">
+      DescribeReplicationGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list information about provisioned replication groups
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeReservedCacheNodes">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeReservedCacheNodes.html">
+      DescribeReservedCacheNodes
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list information about purchased reserved cache nodes
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-reserved-instance">
+       reserved-instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DescribeReservedCacheNodesOfferings">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeReservedCacheNodesOfferings.html">
+      DescribeReservedCacheNodesOfferings
+     </a>
+    </td>
+    <td>
+     Grants permission to list available reserved cache node offerings
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DescribeServiceUpdates">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeServiceUpdates.html">
+      DescribeServiceUpdates
+     </a>
+    </td>
+    <td>
+     Grants permission to list details of the service updates
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeSnapshots">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeSnapshots.html">
+      DescribeSnapshots
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list information about cluster or replication group snapshots
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-DescribeUpdateActions">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeUpdateActions.html">
+      DescribeUpdateActions
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list details of the update actions for a set of clusters or replication
+                                                groups
+    </td>
+    <td rowspan="3">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeUserGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeUserGroups.html">
+      DescribeUserGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list information about Redis user groups
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-DescribeUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeUsers.html">
+      DescribeUsers
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list information about Redis users
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-DisassociateGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DisassociateGlobalReplicationGroup.html">
+      DisassociateGlobalReplicationGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to remove a secondary replication group from the global replication
+                                                group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-FailoverGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_FailoverGlobalReplicationGroup.html">
+      FailoverGlobalReplicationGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to failover the primary region to a selected secondary region of
+                                                a global replication group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-IncreaseNodeGroupsInGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_IncreaseNodeGroupsInGlobalReplicationGroup.html">
+      IncreaseNodeGroupsInGlobalReplicationGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to increase the number of node groups in a global replication group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-elasticache_NumNodeGroups">
+       elasticache:NumNodeGroups
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-IncreaseReplicaCount">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_IncreaseReplicaCount.html">
+      IncreaseReplicaCount
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to increase the number of replicas in a Redis (cluster mode disabled)
+                                                replication group or the number of replica nodes in one or more node groups (shards)
+                                                of a Redis (cluster mode enabled) replication group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_ReplicasPerNodeGroup">
+       elasticache:ReplicasPerNodeGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-ListAllowedNodeTypeModifications">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ListAllowedNodeTypeModifications.html">
+      ListAllowedNodeTypeModifications
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list available node type that can be used to scale a particular
+                                                Redis cluster or replication group
+    </td>
+    <td rowspan="3">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list tags for an ElastiCache resource
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonelasticache-ModifyCacheCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyCacheCluster.html">
+      ModifyCacheCluster
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to modify settings for a cluster
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheNodeType">
+       elasticache:CacheNodeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineVersion">
+       elasticache:EngineVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_MultiAZEnabled">
+       elasticache:MultiAZEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AuthTokenEnabled">
+       elasticache:AuthTokenEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_SnapshotRetentionLimit">
+       elasticache:SnapshotRetentionLimit
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-ModifyCacheParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyCacheParameterGroup.html">
+      ModifyCacheParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify parameters of a cache parameter group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-ModifyCacheSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyCacheSubnetGroup.html">
+      ModifyCacheSubnetGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify an existing cache subnet group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-ModifyGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyGlobalReplicationGroup.html">
+      ModifyGlobalReplicationGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify settings for a global replication group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheNodeType">
+       elasticache:CacheNodeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineVersion">
+       elasticache:EngineVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AutomaticFailoverEnabled">
+       elasticache:AutomaticFailoverEnabled
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazonelasticache-ModifyReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyReplicationGroup.html">
+      ModifyReplicationGroup
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to modify the settings for a replication group
+    </td>
+    <td rowspan="5">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheNodeType">
+       elasticache:CacheNodeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_EngineVersion">
+       elasticache:EngineVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AutomaticFailoverEnabled">
+       elasticache:AutomaticFailoverEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_MultiAZEnabled">
+       elasticache:MultiAZEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_AuthTokenEnabled">
+       elasticache:AuthTokenEnabled
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_SnapshotRetentionLimit">
+       elasticache:SnapshotRetentionLimit
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-ModifyReplicationGroupShardConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyReplicationGroupShardConfiguration.html">
+      ModifyReplicationGroupShardConfiguration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add shards, remove shards, or rebalance the keyspaces among existing
+                                                shards of a replication group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_NumNodeGroups">
+       elasticache:NumNodeGroups
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-ModifyUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyUser.html">
+      ModifyUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to change Redis user password(s) and/or access string
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonelasticache-ModifyUserGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ModifyUserGroup.html">
+      ModifyUserGroup
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to change list of users that belong to the user group
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-PurchaseReservedCacheNodesOffering">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_PurchaseReservedCacheNodesOffering.html">
+      PurchaseReservedCacheNodesOffering
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to purchase a reserved cache node offering
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-reserved-instance">
+       reserved-instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      elasticache:AddTagsToResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-RebalanceSlotsInGlobalReplicationGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_RebalanceSlotsInGlobalReplicationGroup.html">
+      RebalanceSlotsInGlobalReplicationGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to perform a key space rebalance operation to redistribute slots
+                                                and ensure uniform key distribution across existing shards in a global replication
+                                                group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-globalreplicationgroup">
+       globalreplicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-RebootCacheCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_RebootCacheCluster.html">
+      RebootCacheCluster
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to reboot some, or all, of the cache nodes within a provisioned
+                                                cache cluster or replication group (cluster mode disabled)
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="10">
+     <a id="amazonelasticache-RemoveTagsFromResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_RemoveTagsFromResource.html">
+      RemoveTagsFromResource
+     </a>
+    </td>
+    <td rowspan="10">
+     Grants permission to remove tags from a ElastiCache resource
+    </td>
+    <td rowspan="10">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-reserved-instance">
+       reserved-instance
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonelasticache-usergroup">
+       usergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-ResetCacheParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_ResetCacheParameterGroup.html">
+      ResetCacheParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify parameters of a cache parameter group back to their default
+                                                values
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticache-elasticache_CacheParameterGroupName">
+       elasticache:CacheParameterGroupName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-RevokeCacheSecurityGroupIngress">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_RevokeCacheSecurityGroupIngress.html">
+      RevokeCacheSecurityGroupIngress
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove an EC2 security group ingress from a ElastiCache security
+                                                group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-securitygroup">
+       securitygroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-StartMigration">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_StartMigration.html">
+      StartMigration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to start a migration of data from hosted Redis on Amazon EC2 to
+                                                ElastiCache for Redis
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticache-TestFailover">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_TestFailover.html">
+      TestFailover
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to test automatic failover on a specified node group in a replication
+                                                group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-replicationgroup">
+       replicationgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d479c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticache-parametergroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.Components.html#WhatIs.Components.ParameterGroups">
+      parametergroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:parametergroup:$
+      <span>
+       {
+      </span>
+      CacheParameterGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-securitygroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.Components.html#WhatIs.Components.SecurityGroups">
+      securitygroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:securitygroup:$
+      <span>
+       {
+      </span>
+      CacheSecurityGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-subnetgroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.Components.html#WhatIs.Components.SubnetGroups">
+      subnetgroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:subnetgroup:$
+      <span>
+       {
+      </span>
+      CacheSubnetGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-replicationgroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.Components.html#WhatIs.Components.ReplicationGroups">
+      replicationgroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:replicationgroup:$
+      <span>
+       {
+      </span>
+      ReplicationGroupId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-cluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.Components.html#WhatIs.Components.Clusters">
+      cluster
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cluster:$
+      <span>
+       {
+      </span>
+      CacheClusterId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-reserved-instance">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/reserved-nodes.html">
+      reserved-instance
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:reserved-instance:$
+      <span>
+       {
+      </span>
+      ReservedCacheNodeId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-snapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.Components.html#WhatIs.Components.Snapshots">
+      snapshot
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:snapshot:$
+      <span>
+       {
+      </span>
+      SnapshotName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-globalreplicationgroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Redis-Global-Datastore.html">
+      globalreplicationgroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache::$
+      <span>
+       {
+      </span>
+      Account}:globalreplicationgroup:$
+      <span>
+       {
+      </span>
+      GlobalReplicationGroupId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-user">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Clusters.RBAC.html">
+      user
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:user:$
+      <span>
+       {
+      </span>
+      UserId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-usergroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Clusters.RBAC.html">
+      usergroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:elasticache:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:usergroup:$
+      <span>
+       {
+      </span>
+      UserGroupId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticache-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d479c15b9">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticache-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_AtRestEncryptionEnabled">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:AtRestEncryptionEnabled
+     </a>
+    </td>
+    <td>
+     Filters access by the AtRestEncryptionEnabled parameter present in the request or
+                                                default false value if parameter is not present
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_AuthTokenEnabled">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:AuthTokenEnabled
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of non empty AuthToken parameter in the request
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_AutomaticFailoverEnabled">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:AutomaticFailoverEnabled
+     </a>
+    </td>
+    <td>
+     Filters access by the AutomaticFailoverEnabled parameter in the request
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_CacheNodeType">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:CacheNodeType
+     </a>
+    </td>
+    <td>
+     Filters access by the cacheNodeType parameter present in the request. This key can
+                                                be used to restrict which cache node types can be used on cluster creation or scaling
+                                                operations
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_CacheParameterGroupName">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:CacheParameterGroupName
+     </a>
+    </td>
+    <td>
+     Filters access by the the CacheParameterGroupName parameter in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_ClusterModeEnabled">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:ClusterModeEnabled
+     </a>
+    </td>
+    <td>
+     Filters access by the cluster mode parameter present in the request. Default value
+                                                for single node group (shard) creations is false
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_EngineType">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:EngineType
+     </a>
+    </td>
+    <td>
+     Filters access by the engine type present in creation requests. For replication group
+                                                creations, default engine ‘redis’ is used as key if parameter is not present
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_EngineVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:EngineVersion
+     </a>
+    </td>
+    <td>
+     Filters access by the engineVersion parameter present in creation or cluster modification
+                                                requests
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_KmsKeyId">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:KmsKeyId
+     </a>
+    </td>
+    <td>
+     Filters access by the KmsKeyId parameter in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_MultiAZEnabled">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:MultiAZEnabled
+     </a>
+    </td>
+    <td>
+     Filters access by the AZMode parameter, MultiAZEnabled parameter or the number of
+                                                availability zones that the cluster or replication group can be placed in
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_NumNodeGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:NumNodeGroups
+     </a>
+    </td>
+    <td>
+     Filters access by the NumNodeGroups or NodeGroupCount parameter specified in the request.
+                                                This key can be used to restrict the number of node groups (shards) clusters can have
+                                                after creation or scaling operations
+    </td>
+    <td>
+     Numeric
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_ReplicasPerNodeGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:ReplicasPerNodeGroup
+     </a>
+    </td>
+    <td>
+     Filters access by the number of replicas per node group (shards) specified in creations
+                                                or scaling requests
+    </td>
+    <td>
+     Numeric
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_SnapshotRetentionLimit">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:SnapshotRetentionLimit
+     </a>
+    </td>
+    <td>
+     Filters access by the SnapshotRetentionLimit parameter in the request
+    </td>
+    <td>
+     Numeric
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticache-elasticache_TransitEncryptionEnabled">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/IAM.ConditionKeys.html#IAM.SpecifyingConditions">
+      elasticache:TransitEncryptionEnabled
+     </a>
+    </td>
+    <td>
+     Filters access by the TransitEncryptionEnabled parameter present in the request or
+                                                default false value if parameter is not present
+    </td>
+    <td>
+     Bool
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

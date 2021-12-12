@@ -1,0 +1,467 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d431c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticblockstore-CompleteSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/ebs/latest/APIReference/API_CompleteSnapshot.html">
+      CompleteSnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to seal and complete the snapshot after all of the required blocks
+                                                of data have been written to it
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticblockstore-GetSnapshotBlock">
+     </a>
+     <a href="https://docs.aws.amazon.com/ebs/latest/APIReference/API_GetSnapshotBlock.html">
+      GetSnapshotBlock
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return the data of a block in an Amazon Elastic Block Store (EBS)
+                                                snapshot
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticblockstore-ListChangedBlocks">
+     </a>
+     <a href="https://docs.aws.amazon.com/ebs/latest/APIReference/API_ListChangedBlocks.html">
+      ListChangedBlocks
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the blocks that are different between two Amazon Elastic
+                                                Block Store (EBS) snapshots of the same volume/snapshot lineage
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticblockstore-ListSnapshotBlocks">
+     </a>
+     <a href="https://docs.aws.amazon.com/ebs/latest/APIReference/API_ListSnapshotBlocks.html">
+      ListSnapshotBlocks
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the blocks in an Amazon Elastic Block Store (EBS) snapshot
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticblockstore-PutSnapshotBlock">
+     </a>
+     <a href="https://docs.aws.amazon.com/ebs/latest/APIReference/API_PutSnapshotBlock.html">
+      PutSnapshotBlock
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to write a block of data to a snapshot created by the StartSnapshot
+                                                operation
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonelasticblockstore-StartSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/ebs/latest/APIReference/API_StartSnapshot.html">
+      StartSnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a new EBS snapshot
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-ebs_Description">
+       ebs:Description
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-ebs_ParentSnapshot">
+       ebs:ParentSnapshot
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-ebs_VolumeSize">
+       ebs:VolumeSize
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d431c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-snapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-policy-structure.html#EC2_ARN_Format">
+      snapshot
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ec2:$
+      <span>
+       {
+      </span>
+      Region}::snapshot/$
+      <span>
+       {
+      </span>
+      SnapshotId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonelasticblockstore-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-ebs_Description">
+       ebs:Description
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-ebs_ParentSnapshot">
+       ebs:ParentSnapshot
+      </a>
+     </p>
+     <p>
+      <a href="#amazonelasticblockstore-ebs_VolumeSize">
+       ebs:VolumeSize
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d431c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-aws_RequestTag___TagKey_">
+     </a>
+     aws:RequestTag/${TagKey}
+    </td>
+    <td>
+     Filters access by a tag key and value pair that is allowed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on tag key-value pairs assigned to the AWS resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-aws_TagKeys">
+     </a>
+     aws:TagKeys
+    </td>
+    <td>
+     Filters access by a list of tag keys that are allowed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-ebs_Description">
+     </a>
+     ebs:Description
+    </td>
+    <td>
+     Filters access by the description of the snapshot being created
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-ebs_ParentSnapshot">
+     </a>
+     ebs:ParentSnapshot
+    </td>
+    <td>
+     Filters access by the ID of the parent snapshot
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonelasticblockstore-ebs_VolumeSize">
+     </a>
+     ebs:VolumeSize
+    </td>
+    <td>
+     Filters access by the size of the volume for the snapshot being created, in GiB
+    </td>
+    <td>
+     Numeric
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

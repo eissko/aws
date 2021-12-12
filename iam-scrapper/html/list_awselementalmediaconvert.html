@@ -1,0 +1,1199 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d495c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-AssociateCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/certificates.html">
+      AssociateCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to associate an AWS Certificate Manager (ACM) Amazon Resource Name
+                                                (ARN) with AWS Elemental MediaConvert
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-CancelJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobs-id.html">
+      CancelJob
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel an AWS Elemental MediaConvert job that is waiting in queue
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Job">
+       Job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediaconvert-CreateJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobs.html">
+      CreateJob
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to create and submit an AWS Elemental MediaConvert job
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediaconvert-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awselementalmediaconvert-CreateJobTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobs-id.html">
+      CreateJobTemplate
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create an AWS Elemental MediaConvert custom job template
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediaconvert-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-CreatePreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/presets.html">
+      CreatePreset
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Elemental MediaConvert custom output preset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediaconvert-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-CreateQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/queues.html">
+      CreateQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to create an AWS Elemental MediaConvert job queue
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediaconvert-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-DeleteJobTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobtemplates-name.html">
+      DeleteJobTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Elemental MediaConvert custom job template
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-DeletePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/policy.html">
+      DeletePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Elemental MediaConvert policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-DeletePreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/presets-name.html">
+      DeletePreset
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Elemental MediaConvert custom output preset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-DeleteQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/queues-name.html">
+      DeleteQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS Elemental MediaConvert job queue
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-DescribeEndpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/endpoints.html">
+      DescribeEndpoints
+     </a>
+    </td>
+    <td>
+     Grants permission to subscribe to the AWS Elemental MediaConvert service, by sending
+                                                a request for an account-specific endpoint. All transcoding requests must be sent
+                                                to the endpoint that the service returns
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-DisassociateCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/certificates-arn.html">
+      DisassociateCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to remove an association between the Amazon Resource Name (ARN)
+                                                of an AWS Certificate Manager (ACM) certificate and an AWS Elemental MediaConvert
+                                                resource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-GetJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobs-id.html">
+      GetJob
+     </a>
+    </td>
+    <td>
+     Grants permission to get an AWS Elemental MediaConvert job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Job">
+       Job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-GetJobTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobtemplates-name.html">
+      GetJobTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to get an AWS Elemental MediaConvert job template
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-GetPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/policy.html">
+      GetPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to get an AWS Elemental MediaConvert policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-GetPreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/presets-name.html">
+      GetPreset
+     </a>
+    </td>
+    <td>
+     Grants permission to get an AWS Elemental MediaConvert output preset
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-GetQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/queues-name.html">
+      GetQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to get an AWS Elemental MediaConvert job queue
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-ListJobTemplates">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobtemplates.html">
+      ListJobTemplates
+     </a>
+    </td>
+    <td>
+     Grants permission to list AWS Elemental MediaConvert job templates
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-ListJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobs.html">
+      ListJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to list AWS Elemental MediaConvert jobs
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-ListPresets">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/presets.html">
+      ListPresets
+     </a>
+    </td>
+    <td>
+     Grants permission to list AWS Elemental MediaConvert output presets
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-ListQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/queues.html">
+      ListQueues
+     </a>
+    </td>
+    <td>
+     Grants permission to list AWS Elemental MediaConvert job queues
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awselementalmediaconvert-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/tags-arn.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to retrieve the tags for a MediaConvert queue, preset, or job template
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-PutPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/policy.html">
+      PutPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to put an AWS Elemental MediaConvert policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediaconvert-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/tags.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to add tags to a MediaConvert queue, preset, or job template
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediaconvert-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediaconvert-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/tags-arn.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to remove tags from a MediaConvert queue, preset, or job template
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awselementalmediaconvert-UpdateJobTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobtemplates-name.html">
+      UpdateJobTemplate
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to update an AWS Elemental MediaConvert custom job template
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-JobTemplate">
+       JobTemplate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-UpdatePreset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/presets-name.html">
+      UpdatePreset
+     </a>
+    </td>
+    <td>
+     Grants permission to update an AWS Elemental MediaConvert custom output preset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Preset">
+       Preset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-UpdateQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/queues-name.html">
+      UpdateQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to update an AWS Elemental MediaConvert job queue
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-Queue">
+       Queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d495c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-Job">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobs.html">
+      Job
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediaconvert:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:jobs/$
+      <span>
+       {
+      </span>
+      JobId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-Queue">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/queues.html">
+      Queue
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediaconvert:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:queues/$
+      <span>
+       {
+      </span>
+      QueueName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-Preset">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/presets.html">
+      Preset
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediaconvert:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:presets/$
+      <span>
+       {
+      </span>
+      PresetName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-JobTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/jobtemplates.html">
+      JobTemplate
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediaconvert:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:jobTemplates/$
+      <span>
+       {
+      </span>
+      JobTemplateName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediaconvert-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-CertificateAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/certificates.html">
+      CertificateAssociation
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediaconvert:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:certificates/$
+      <span>
+       {
+      </span>
+      CertificateArn}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d495c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/tags.html">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/tags.html">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediaconvert-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediaconvert/latest/apireference/tags.html">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

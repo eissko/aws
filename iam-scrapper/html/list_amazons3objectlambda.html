@@ -1,0 +1,1475 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1063c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-AbortMultipartUpload">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_AbortMultipartUpload.html">
+      AbortMultipartUpload
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to abort a multipart upload
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-DeleteObject">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObject.html">
+      DeleteObject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove the null version of an object and insert a delete marker,
+                                                which becomes the current version of the object
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-DeleteObjectTagging">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObjectTagging.html">
+      DeleteObjectTagging
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to use the tagging subresource to remove the entire tag set from
+                                                the specified object
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-DeleteObjectVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObject.html">
+      DeleteObjectVersion
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove a specific version of an object
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-DeleteObjectVersionTagging">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObjectTagging.html">
+      DeleteObjectVersionTagging
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove the entire tag set for a specific version of the object
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObject">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html">
+      GetObject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve objects from Amazon S3
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObjectAcl.html">
+      GetObjectAcl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return the access control list (ACL) of an object
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectLegalHold">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObjectLegalHold.html">
+      GetObjectLegalHold
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to get an object's current Legal Hold status
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectRetention">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObjectRetention.html">
+      GetObjectRetention
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the retention settings for an object
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectTagging">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObjectTagging.html">
+      GetObjectTagging
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return the tag set of an object
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html">
+      GetObjectVersion
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve a specific version of an object
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectVersionAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObjectAcl.html">
+      GetObjectVersionAcl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return the access control list (ACL) of a specific object version
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-GetObjectVersionTagging">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/setting-repl-config-perm-overview.html">
+      GetObjectVersionTagging
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return the tag set for a specific version of the object
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-ListBucket">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListObjectsV2.html">
+      ListBucket
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list some or all of the objects in an Amazon S3 bucket (up to
+                                                1000)
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-ListBucketMultipartUploads">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListMultipartUploads.html">
+      ListBucketMultipartUploads
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list in-progress multipart uploads
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-ListBucketVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListObjectVersions.html">
+      ListBucketVersions
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list metadata about all the versions of objects in an Amazon
+                                                S3 bucket
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-ListMultipartUploadParts">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListParts.html">
+      ListMultipartUploadParts
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the parts that have been uploaded for a specific multipart
+                                                upload
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObject">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html">
+      PutObject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add an object to a bucket
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObjectAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectAcl.html">
+      PutObjectAcl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to set the access control list (ACL) permissions for new or existing
+                                                objects in an S3 bucket.
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObjectLegalHold">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectLegalHold.html">
+      PutObjectLegalHold
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to apply a Legal Hold configuration to the specified object
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObjectRetention">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectRetention.html">
+      PutObjectRetention
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to place an Object Retention configuration on an object
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObjectTagging">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectTagging.html">
+      PutObjectTagging
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to set the supplied tag-set to an object that already exists in
+                                                a bucket
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObjectVersionAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectAcl.html">
+      PutObjectVersionAcl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to use the acl subresource to set the access control list (ACL)
+                                                permissions for an object that already exists in a bucket
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-PutObjectVersionTagging">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectTagging.html">
+      PutObjectVersionTagging
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to set the supplied tag-set for a specific version of an object
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_versionid">
+       s3-object-lambda:versionid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-RestoreObject">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_RestoreObject.html">
+      RestoreObject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to restore an archived copy of an object back into Amazon S3
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazons3objectlambda-WriteGetObjectResponse">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_WriteGetObjectResponse.html">
+      WriteGetObjectResponse
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to provide data for GetObject requests send to S3 Object Lambda
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-objectlambdaaccesspoint">
+       objectlambdaaccesspoint*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_authType">
+       s3-object-lambda:authType
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_signatureAge">
+       s3-object-lambda:signatureAge
+      </a>
+     </p>
+     <p>
+      <a href="#amazons3objectlambda-s3-object-lambda_TlsVersion">
+       s3-object-lambda:TlsVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1063c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazons3objectlambda-objectlambdaaccesspoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/transforming-objects.html">
+      objectlambdaaccesspoint
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:s3-object-lambda:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:accesspoint/$
+      <span>
+       {
+      </span>
+      AccessPointName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1063c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazons3objectlambda-s3-object-lambda_TlsVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/bucket-policy-s3-sigv4-conditions.html">
+      s3-object-lambda:TlsVersion
+     </a>
+    </td>
+    <td>
+     Filters access by the TLS version used by the client
+    </td>
+    <td>
+     Numeric
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazons3objectlambda-s3-object-lambda_authType">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/bucket-policy-s3-sigv4-conditions.html">
+      s3-object-lambda:authType
+     </a>
+    </td>
+    <td>
+     Filters access by authentication method
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazons3objectlambda-s3-object-lambda_signatureAge">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/bucket-policy-s3-sigv4-conditions.html">
+      s3-object-lambda:signatureAge
+     </a>
+    </td>
+    <td>
+     Filters access by the age in milliseconds of the request signature
+    </td>
+    <td>
+     Numeric
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazons3objectlambda-s3-object-lambda_versionid">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/amazon-s3-policy-keys.html/#getobjectversion-limit-access-to-specific-version-3">
+      s3-object-lambda:versionid
+     </a>
+    </td>
+    <td>
+     Filters access by a specific object version
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

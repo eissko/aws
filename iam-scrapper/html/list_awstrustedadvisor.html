@@ -1,0 +1,576 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1223c11c11">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeAccount
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view the AWS Support plan and various AWS Trusted Advisor preferences
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeAccountAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeAccountAccess
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view if the AWS account has enabled or disabled AWS Trusted Advisor
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeCheckItems">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeCheckItems
+     </a>
+    </td>
+    <td>
+     Grants permission to view details for the check items
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstrustedadvisor-checks">
+       checks*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeCheckRefreshStatuses">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeCheckRefreshStatuses
+     </a>
+    </td>
+    <td>
+     Grants permission to view the refresh statuses for AWS Trusted Advisor checks
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstrustedadvisor-checks">
+       checks*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeCheckSummaries">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeCheckSummaries
+     </a>
+    </td>
+    <td>
+     Grants permission to view AWS Trusted Advisor check summaries
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstrustedadvisor-checks">
+       checks*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeChecks">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeChecks
+     </a>
+    </td>
+    <td>
+     Grants permission to view details for AWS Trusted Advisor checks
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeNotificationPreferences">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeNotificationPreferences
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view the notification preferences for the AWS account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeOrganization">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeOrganization
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view if the AWS account meets the requirements to enable the
+                                                organizational view feature
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeOrganizationAccounts">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeOrganizationAccounts
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view the linked AWS accounts that are in the organization
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeReports">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeReports
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view details for organizational view reports, such as the report
+                                                name, runtime, date created, status, and format
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-DescribeServiceMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      DescribeServiceMetadata
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view information about organizational view reports, such as the
+                                                AWS Regions, check categories, check names, and resource statuses
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-ExcludeCheckItems">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      ExcludeCheckItems
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to exclude recommendations for AWS Trusted Advisor checks
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstrustedadvisor-checks">
+       checks*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-GenerateReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      GenerateReport
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to create a report for AWS Trusted Advisor checks in your organization
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-IncludeCheckItems">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      IncludeCheckItems
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to include recommendations for AWS Trusted Advisor checks
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstrustedadvisor-checks">
+       checks*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-ListAccountsForParent">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      ListAccountsForParent
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view, in the Trusted Advisor console, all of the accounts in
+                                                an AWS organization that are contained by a root or organizational unit (OU)
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-ListOrganizationalUnitsForParent">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      ListOrganizationalUnitsForParent
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view, in the Trusted Advisor console, all of the organizational
+                                                units (OUs) in a parent organizational unit or root
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-ListRoots">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      ListRoots
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to view, in the Trusted Advisor console, all of the roots that are
+                                                defined in an AWS organization
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-RefreshCheck">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      RefreshCheck
+     </a>
+    </td>
+    <td>
+     Grants permission to refresh an AWS Trusted Advisor check
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstrustedadvisor-checks">
+       checks*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-SetAccountAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      SetAccountAccess
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to enable or disable AWS Trusted Advisor for the account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-SetOrganizationAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      SetOrganizationAccess
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to enable the organizational view feature for AWS Trusted Advisor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-UpdateNotificationPreferences">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/user/security-trusted-advisor.html#trusted-advisor-operations">
+      UpdateNotificationPreferences
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to update notification preferences for AWS Trusted Advisor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1223c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awstrustedadvisor-checks">
+     </a>
+     <a href="https://docs.aws.amazon.com/awssupport/latest/APIReference/API_TrustedAdvisorCheckDescription.html">
+      checks
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:trustedadvisor:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:checks/$
+      <span>
+       {
+      </span>
+      CategoryCode}/$
+      <span>
+       {
+      </span>
+      CheckId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

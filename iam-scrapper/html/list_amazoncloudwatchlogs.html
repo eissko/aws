@@ -1,0 +1,1343 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d235c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-AssociateKmsKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_AssociateKmsKey.html">
+      AssociateKmsKey
+     </a>
+    </td>
+    <td>
+     Grants permissions to associate the specified AWS Key Management Service (AWS KMS)
+                                                customer master key (CMK) with the specified log group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-CancelExportTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_CancelExportTask.html">
+      CancelExportTask
+     </a>
+    </td>
+    <td>
+     Grants permissions to cancel an export task if it is in PENDING or RUNNING state
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-CreateExportTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_CreateExportTask.html">
+      CreateExportTask
+     </a>
+    </td>
+    <td>
+     Grants permissions to create an ExportTask which allows you to efficiently export
+                                                data from a Log Group to your Amazon S3 bucket
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-CreateLogDelivery">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AWS-logs-and-resource-policy.html">
+      CreateLogDelivery
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to create the log delivery
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-CreateLogGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_CreateLogGroup.html">
+      CreateLogGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to create a new log group with the specified name
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-CreateLogStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_CreateLogStream.html">
+      CreateLogStream
+     </a>
+    </td>
+    <td>
+     Grants permissions to create a new log stream with the specified name
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteDestination.html">
+      DeleteDestination
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete the destination with the specified name
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteLogDelivery">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AWS-logs-and-resource-policy.html">
+      DeleteLogDelivery
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to delete the log delivery information for specified log delivery
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteLogGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteLogGroup.html">
+      DeleteLogGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete the log group with the specified name
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteLogStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteLogStream.html">
+      DeleteLogStream
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete a log stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-stream">
+       log-stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteMetricFilter">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteMetricFilter.html">
+      DeleteMetricFilter
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete a metric filter associated with the specified log group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteQueryDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteQueryDefinition.html">
+      DeleteQueryDefinition
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete a saved CloudWatch Logs Insights query definition
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteResourcePolicy.html">
+      DeleteResourcePolicy
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete a resource policy from this account
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteRetentionPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteRetentionPolicy.html">
+      DeleteRetentionPolicy
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete the retention policy of the specified log group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DeleteSubscriptionFilter">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DeleteSubscriptionFilter.html">
+      DeleteSubscriptionFilter
+     </a>
+    </td>
+    <td>
+     Grants permissions to delete a subscription filter associated with the specified log
+                                                group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeDestinations">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeDestinations.html">
+      DescribeDestinations
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the destinations that are associated with the AWS
+                                                account making the request
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeExportTasks">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeExportTasks.html">
+      DescribeExportTasks
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the export tasks that are associated with the AWS
+                                                account making the request
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeLogGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeLogGroups.html">
+      DescribeLogGroups
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the log groups that are associated with the AWS account
+                                                making the request
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeLogStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeLogStreams.html">
+      DescribeLogStreams
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the log streams that are associated with the specified
+                                                log group
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeMetricFilters">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeMetricFilters.html">
+      DescribeMetricFilters
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the metrics filters associated with the specified
+                                                log group
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeQueries">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeQueries.html">
+      DescribeQueries
+     </a>
+    </td>
+    <td>
+     Grants permissions to return a list of CloudWatch Logs Insights queries that are scheduled,
+                                                executing, or have been executed recently in this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeQueryDefinitions">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeQueryDefinitions.html">
+      DescribeQueryDefinitions
+     </a>
+    </td>
+    <td>
+     Grants permissions to return a paginated list of your saved CloudWatch Logs Insights
+                                                query definitions
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeResourcePolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeResourcePolicies.html">
+      DescribeResourcePolicies
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the resource policies in this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DescribeSubscriptionFilters">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DescribeSubscriptionFilters.html">
+      DescribeSubscriptionFilters
+     </a>
+    </td>
+    <td>
+     Grants permissions to return all the subscription filters associated with the specified
+                                                log group
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-DisassociateKmsKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_DisassociateKmsKey.html">
+      DisassociateKmsKey
+     </a>
+    </td>
+    <td>
+     Grants permissions to disassociate the associated AWS Key Management Service (AWS
+                                                KMS) customer master key (CMK) from the specified log group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-FilterLogEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_FilterLogEvents.html">
+      FilterLogEvents
+     </a>
+    </td>
+    <td>
+     Grants permissions to retrieve log events, optionally filtered by a filter pattern
+                                                from the specified log group
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-GetLogDelivery">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AWS-logs-and-resource-policy.html">
+      GetLogDelivery
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to get the log delivery information for specified log delivery
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-GetLogEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetLogEvents.html">
+      GetLogEvents
+     </a>
+    </td>
+    <td>
+     Grants permissions to retrieve log events from the specified log stream
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-stream">
+       log-stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-GetLogGroupFields">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetLogGroupFields.html">
+      GetLogGroupFields
+     </a>
+    </td>
+    <td>
+     Grants permissions to return a list of the fields that are included in log events
+                                                in the specified log group, along with the percentage of log events that contain each
+                                                field
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-GetLogRecord">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetLogRecord.html">
+      GetLogRecord
+     </a>
+    </td>
+    <td>
+     Grants permissions to retrieve all the fields and values of a single log event
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-GetQueryResults">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetQueryResults.html">
+      GetQueryResults
+     </a>
+    </td>
+    <td>
+     Grants permissions to return the results from the specified query
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-ListLogDeliveries">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AWS-logs-and-resource-policy.html">
+      ListLogDeliveries
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to list all the log deliveries for specified account and/or log
+                                                source
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-ListTagsLogGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_ListTagsLogGroup.html">
+      ListTagsLogGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to list the tags for the specified log group
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutDestination.html">
+      PutDestination
+     </a>
+    </td>
+    <td>
+     Grants permissions to create or update a Destination
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutDestinationPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutDestinationPolicy.html">
+      PutDestinationPolicy
+     </a>
+    </td>
+    <td>
+     Grants permissions to create or update an access policy associated with an existing
+                                                Destination
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutLogEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutLogEvents.html">
+      PutLogEvents
+     </a>
+    </td>
+    <td>
+     Grants permissions to upload a batch of log events to the specified log stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-stream">
+       log-stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutMetricFilter">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutMetricFilter.html">
+      PutMetricFilter
+     </a>
+    </td>
+    <td>
+     Grants permissions to create or update a metric filter and associates it with the
+                                                specified log group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutQueryDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutQueryDefinition.html">
+      PutQueryDefinition
+     </a>
+    </td>
+    <td>
+     Grants permissions to create or update a query definition
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutResourcePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutResourcePolicy.html">
+      PutResourcePolicy
+     </a>
+    </td>
+    <td>
+     Grants permissions to create or update a resource policy allowing other AWS services
+                                                to put log events to this account
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-PutRetentionPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutRetentionPolicy.html">
+      PutRetentionPolicy
+     </a>
+    </td>
+    <td>
+     Grants permissions to set the retention of the specified log group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazoncloudwatchlogs-PutSubscriptionFilter">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutSubscriptionFilter.html">
+      PutSubscriptionFilter
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to create or update a subscription filter and associates it with
+                                                the specified log group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-destination">
+       destination
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-StartQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_StartQuery.html">
+      StartQuery
+     </a>
+    </td>
+    <td>
+     Grants permissions to schedules a query of a log group using CloudWatch Logs Insights
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-StopQuery">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_StopQuery.html">
+      StopQuery
+     </a>
+    </td>
+    <td>
+     Grants permissions to stop a CloudWatch Logs Insights query that is in progress
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-TagLogGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_TagLogGroup.html">
+      TagLogGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to add or update the specified tags for the specified log group
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-TestMetricFilter">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_TestMetricFilter.html">
+      TestMetricFilter
+     </a>
+    </td>
+    <td>
+     Grants permissions to test the filter pattern of a metric filter against a sample
+                                                of log event messages
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-UntagLogGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_UntagLogGroup.html">
+      UntagLogGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to remove the specified tags from the specified log group
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-log-group">
+       log-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-UpdateLogDelivery">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AWS-logs-and-resource-policy.html">
+      UpdateLogDelivery
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permissions to update the log delivery information for specified log delivery
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d235c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-log-group">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_LogGroup.html">
+      log-group
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:logs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:log-group:$
+      <span>
+       {
+      </span>
+      LogGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudwatchlogs-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-log-stream">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_LogStream.html">
+      log-stream
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:logs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:log-group:$
+      <span>
+       {
+      </span>
+      LogGroupName}:log-stream:$
+      <span>
+       {
+      </span>
+      LogStreamName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-destination">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_Destination.html">
+      destination
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:logs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:destination:$
+      <span>
+       {
+      </span>
+      DestinationName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d235c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoncloudwatchlogs-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

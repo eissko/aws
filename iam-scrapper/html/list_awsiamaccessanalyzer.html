@@ -1,0 +1,957 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d615c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ApplyArchiveRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ApplyArchiveRule.html">
+      ApplyArchiveRule
+     </a>
+    </td>
+    <td>
+     Grants permission to apply an archive rule
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-CancelPolicyGeneration">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_CancelPolicyGeneration.html">
+      CancelPolicyGeneration
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a policy generation
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-CreateAccessPreview">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_CreateAccessPreview.html">
+      CreateAccessPreview
+     </a>
+    </td>
+    <td>
+     Grants permission to create an access preview for the specified analyzer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiamaccessanalyzer-CreateAnalyzer">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_CreateAnalyzer.html">
+      CreateAnalyzer
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an analyzer
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-CreateArchiveRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_CreateArchiveRule.html">
+      CreateArchiveRule
+     </a>
+    </td>
+    <td>
+     Grants permission to create an archive rule for the specified analyzer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-ArchiveRule">
+       ArchiveRule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-DeleteAnalyzer">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_DeleteAnalyzer.html">
+      DeleteAnalyzer
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified analyzer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-DeleteArchiveRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_DeleteArchiveRule.html">
+      DeleteArchiveRule
+     </a>
+    </td>
+    <td>
+     Grants permission to delete archive rules for the specified analyzer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-ArchiveRule">
+       ArchiveRule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-GetAccessPreview">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_GetAccessPreview.html">
+      GetAccessPreview
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about an access preview
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-GetAnalyzedResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_GetAnalyzedResource.html">
+      GetAnalyzedResource
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about an analyzed resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiamaccessanalyzer-GetAnalyzer">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_GetAnalyzer.html">
+      GetAnalyzer
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve information about analyzers
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-GetArchiveRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_GetArchiveRule.html">
+      GetArchiveRule
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about archive rules for the specified analyzer
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-ArchiveRule">
+       ArchiveRule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-GetFinding">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_GetFinding.html">
+      GetFinding
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve findings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-GetGeneratedPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_GetGeneratedPolicy.html">
+      GetGeneratedPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a policy that was generated using StartPolicyGeneration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListAccessPreviewFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListAccessPreviewFindings.html">
+      ListAccessPreviewFindings
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of findings from an access preview
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListAccessPreviews">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListAccessPreviews.html">
+      ListAccessPreviews
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of access previews
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListAnalyzedResources">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListAnalyzedResources.html">
+      ListAnalyzedResources
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of resources that have been analyzed
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListAnalyzers">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListAnalyzers.html">
+      ListAnalyzers
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieves a list of analyzers
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListArchiveRules">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListArchiveRules.html">
+      ListArchiveRules
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of archive rules from an analyzer
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListFindings.html">
+      ListFindings
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of findings from an analyzer
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListPolicyGenerations">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListPolicyGenerations.html">
+      ListPolicyGenerations
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the recently started policy generations
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of tags applied to a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-StartPolicyGeneration">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_StartPolicyGeneration.html">
+      StartPolicyGeneration
+     </a>
+    </td>
+    <td>
+     Grants permission to start a policy generation
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-StartResourceScan">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_StartResourceScan.html">
+      StartResourceScan
+     </a>
+    </td>
+    <td>
+     Grants permission to start a scan of the policies applied to a resource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiamaccessanalyzer-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add a tag to a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiamaccessanalyzer-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove a tag from a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-UpdateArchiveRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_UpdateArchiveRule.html">
+      UpdateArchiveRule
+     </a>
+    </td>
+    <td>
+     Grants permission to modify an archive rule
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-ArchiveRule">
+       ArchiveRule*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-UpdateFindings">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_UpdateFindings.html">
+      UpdateFindings
+     </a>
+    </td>
+    <td>
+     Grants permission to modify findings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-Analyzer">
+       Analyzer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ValidatePolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ValidatePolicy.html">
+      ValidatePolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to validate a policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d615c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-Analyzer">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-getting-started.html#permission-resources">
+      Analyzer
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:access-analyzer:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:analyzer/$
+      <span>
+       {
+      </span>
+      AnalyzerName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiamaccessanalyzer-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-ArchiveRule">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-getting-started.html#permission-resources">
+      ArchiveRule
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:access-analyzer:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:analyzer/$
+      <span>
+       {
+      </span>
+      AnalyzerName}/archive-rule/$
+      <span>
+       {
+      </span>
+      RuleName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d615c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiamaccessanalyzer-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

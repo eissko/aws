@@ -1,0 +1,1188 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1215c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awstransferfamily-CreateAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_CreateAccess.html">
+      CreateAccess
+     </a>
+    </td>
+    <td>
+     Grants permission to add an access associated with a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-CreateServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_CreateServer.html">
+      CreateServer
+     </a>
+    </td>
+    <td>
+     Grants permission to create a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awstransferfamily-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awstransferfamily-CreateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_CreateUser.html">
+      CreateUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add a user associated with a server
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awstransferfamily-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-CreateWorkflow">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_CreateWorkflow.html">
+      CreateWorkflow
+     </a>
+    </td>
+    <td>
+     Grants permission to create a workflow
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awstransferfamily-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DeleteAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DeleteAccess.html">
+      DeleteAccess
+     </a>
+    </td>
+    <td>
+     Grants permission to delete access
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DeleteServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DeleteServer.html">
+      DeleteServer
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DeleteSshPublicKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DeleteSshPublicKey.html">
+      DeleteSshPublicKey
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an SSH public key from a user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DeleteUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DeleteUser.html">
+      DeleteUser
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a user associated with a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DeleteWorkflow">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DeleteWorkflow.html">
+      DeleteWorkflow
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a workflow
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DescribeAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DescribeAccess.html">
+      DescribeAccess
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an access assigned to a server
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DescribeExecution">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DescribeExecution.html">
+      DescribeExecution
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an execution associated with a workflow
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DescribeSecurityPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DescribeSecurityPolicy.html">
+      DescribeSecurityPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a security policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DescribeServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DescribeServer.html">
+      DescribeServer
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a server
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DescribeUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DescribeUser.html">
+      DescribeUser
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a user associated with a server
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-DescribeWorkflow">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_DescribeWorkflow.html">
+      DescribeWorkflow
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a workflow
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ImportSshPublicKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ImportSshPublicKey.html">
+      ImportSshPublicKey
+     </a>
+    </td>
+    <td>
+     Grants permission to add an SSH public key to a user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ListAccesses">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListAccesses.html">
+      ListAccesses
+     </a>
+    </td>
+    <td>
+     Grants permission to list accesses
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ListExecutions">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListExecutions.html">
+      ListExecutions
+     </a>
+    </td>
+    <td>
+     Grants permission to list executions associated with a workflow
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ListSecurityPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListSecurityPolicies.html">
+      ListSecurityPolicies
+     </a>
+    </td>
+    <td>
+     Grants permission to list security policies
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ListServers">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListServers.html">
+      ListServers
+     </a>
+    </td>
+    <td>
+     Grants permission to list servers
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awstransferfamily-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list tags for a server, a user, or a workflow
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ListUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListUsers.html">
+      ListUsers
+     </a>
+    </td>
+    <td>
+     Grants permission to list users associated with a server
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-ListWorkflows">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_ListWorkflows.html">
+      ListWorkflows
+     </a>
+    </td>
+    <td>
+     Grants permission to list workflows
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-SendWorkflowStepState">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_SendWorkflowStepState.html">
+      SendWorkflowStepState
+     </a>
+    </td>
+    <td>
+     Grants permission to send a callback for asynchronous custom steps
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-StartServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_StartServer.html">
+      StartServer
+     </a>
+    </td>
+    <td>
+     Grants permission to start a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-StopServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_StopServer.html">
+      StopServer
+     </a>
+    </td>
+    <td>
+     Grants permission to stop a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awstransferfamily-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to tag a server or a user
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awstransferfamily-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-TestIdentityProvider">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_TestIdentityProvider.html">
+      TestIdentityProvider
+     </a>
+    </td>
+    <td>
+     Grants permission to test a server's custom identity provider
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awstransferfamily-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to untag a server, a user, or a workflow
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awstransferfamily-workflow">
+       workflow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-UpdateAccess">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_UpdateAccess.html">
+      UpdateAccess
+     </a>
+    </td>
+    <td>
+     Grants permission to update access
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-UpdateServer">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_UpdateServer.html">
+      UpdateServer
+     </a>
+    </td>
+    <td>
+     Grants permission to update the configuration of a server
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-server">
+       server*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-UpdateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/API_UpdateUser.html">
+      UpdateUser
+     </a>
+    </td>
+    <td>
+     Grants permission to update the configuration of a user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1215c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awstransferfamily-user">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/create-user.html">
+      user
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:transfer:$
+      <span>
+       {
+      </span>
+      region}:$
+      <span>
+       {
+      </span>
+      account}:user/$
+      <span>
+       {
+      </span>
+      serverId}/$
+      <span>
+       {
+      </span>
+      username}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-server">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/configuring-servers.html">
+      server
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:transfer:$
+      <span>
+       {
+      </span>
+      region}:$
+      <span>
+       {
+      </span>
+      account}:server/$
+      <span>
+       {
+      </span>
+      serverId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-workflow">
+     </a>
+     <a href="https://docs.aws.amazon.com/transfer/latest/userguide/transfer-workflows.html">
+      workflow
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:transfer:$
+      <span>
+       {
+      </span>
+      region}:$
+      <span>
+       {
+      </span>
+      account}:workflow/$
+      <span>
+       {
+      </span>
+      workflowId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awstransferfamily-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1215c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awstransferfamily-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awstransferfamily-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

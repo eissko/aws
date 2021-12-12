@@ -1,0 +1,2100 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d863c11c11">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-BatchUpdateClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_BatchUpdateClusters.html">
+      BatchUpdateClusters
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to apply service updates
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      s3:GetObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-CopySnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CopySnapshot.html">
+      CopySnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to make a copy of an existing snapshot
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      memorydb:TagResource
+     </p>
+     <p>
+      s3:DeleteObject
+     </p>
+     <p>
+      s3:GetBucketAcl
+     </p>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-CreateAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CreateAcl.html">
+      CreateAcl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to create a new access control list
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      memorydb:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazonmemorydb-CreateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CreateCluster.html">
+      CreateCluster
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permissions to create a cluster
+    </td>
+    <td rowspan="5">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      memorydb:TagResource
+     </p>
+     <p>
+      s3:GetObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-CreateParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CreateParameterGroup.html">
+      CreateParameterGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to create a new parameter group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      memorydb:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-CreateSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CreateSnapshot.html">
+      CreateSnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to create a backup of a cluster at the current point in time
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      memorydb:TagResource
+     </p>
+     <p>
+      s3:DeleteObject
+     </p>
+     <p>
+      s3:GetBucketAcl
+     </p>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-CreateSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CreateSubnetGroup.html">
+      CreateSubnetGroup
+     </a>
+    </td>
+    <td>
+     Grants permissions to create a new subnet group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      memorydb:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-CreateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_CreateUser.html">
+      CreateUser
+     </a>
+    </td>
+    <td>
+     Grants permissions to create a new user
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      memorydb:TagResource
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DeleteAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DeleteAcl.html">
+      DeleteAcl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to delete an access control list
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonmemorydb-DeleteCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DeleteCluster.html">
+      DeleteCluster
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permissions to delete a previously provisioned cluster
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DeleteParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DeleteParameterGroup.html">
+      DeleteParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to delete a parameter group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DeleteSnapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DeleteSnapshot.html">
+      DeleteSnapshot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to delete a snapshot
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DeleteSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DeleteSubnetGroup.html">
+      DeleteSubnetGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to delete a subnet group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DeleteUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DeleteUser.html">
+      DeleteUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to delete a user
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeAcls">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeAcls.html">
+      DescribeAcls
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve information about access control lists
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeClusters.html">
+      DescribeClusters
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve information about all provisioned clusters if no cluster
+                                                identifier is specified, or about a specific cluster if a cluster identifier is supplied
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-DescribeEngineVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeEngineVersions.html">
+      DescribeEngineVersions
+     </a>
+    </td>
+    <td>
+     Grants permissions to list of the available engines and their versions
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-DescribeEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeEvents.html">
+      DescribeEvents
+     </a>
+    </td>
+    <td>
+     Grants permissions to retrieve events related to clusters, subnet groups, and parameter
+                                                groups
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeParameterGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeParameterGroups.html">
+      DescribeParameterGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve information about parameter groups
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeParameters.html">
+      DescribeParameters
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve a detailed parameter list for a particular parameter
+                                                group
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-DescribeServiceUpdates">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeServiceUpdates.html">
+      DescribeServiceUpdates
+     </a>
+    </td>
+    <td>
+     Grants permissions to retrieve details of the service updates
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeSnapshots">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeSnapshots.html">
+      DescribeSnapshots
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve information about cluster snapshots
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeSubnetGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeSubnetGroups.html">
+      DescribeSubnetGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve a list of subnet group
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-DescribeUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_DescribeUsers.html">
+      DescribeUsers
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to retrieve information about users
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-FailoverShard">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_FailoverShard.html">
+      FailoverShard
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to test automatic failover on a specified shard in a cluster
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-ListNodeTypeUpdates">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_ListNodeTypeUpdates.html">
+      ListNodeTypeUpdates
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to list available node type updates
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="amazonmemorydb-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permissions to list cost allocation tags
+    </td>
+    <td rowspan="7">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-ResetParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_ResetParameterGroup.html">
+      ResetParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to modify the parameters of a parameter group to the engine or
+                                                system default value
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="amazonmemorydb-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permissions to add up to 10 cost allocation tags to the named resource
+    </td>
+    <td rowspan="7">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="7">
+     <a id="amazonmemorydb-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="7">
+     Grants permissions to remove the tags identified by the TagKeys list from a resource
+    </td>
+    <td rowspan="7">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-snapshot">
+       snapshot
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonmemorydb-UpdateAcl">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_UpdateAcl.html">
+      UpdateAcl
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permissions to update an access control list
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonmemorydb-UpdateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_UpdateCluster.html">
+      UpdateCluster
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permissions to update the settings for a cluster
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DescribeNetworkInterfaces
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-acl">
+       acl
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-UpdateParameterGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_UpdateParameterGroup.html">
+      UpdateParameterGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to update parameters in a parameter group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-parametergroup">
+       parametergroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-UpdateSubnetGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_UpdateSubnetGroup.html">
+      UpdateSubnetGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to update a subnet group
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-subnetgroup">
+       subnetgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmemorydb-UpdateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/APIReference/API_UpdateUser.html">
+      UpdateUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to update a user
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d863c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-parametergroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/devguide/WhatIs.Components.html">
+      parametergroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:memorydb:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:parametergroup/$
+      <span>
+       {
+      </span>
+      ParameterGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-subnetgroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/devguide/WhatIs.Components.html">
+      subnetgroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:memorydb:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:subnetgroup/$
+      <span>
+       {
+      </span>
+      SubnetGroupName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-cluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/devguide/WhatIs.Components.html">
+      cluster
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:memorydb:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cluster/$
+      <span>
+       {
+      </span>
+      ClusterName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-snapshot">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/devguide/WhatIs.Components.html">
+      snapshot
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:memorydb:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:snapshot/$
+      <span>
+       {
+      </span>
+      SnapshotName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-user">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/devguide/WhatIs.Components.html">
+      user
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:memorydb:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:user/$
+      <span>
+       {
+      </span>
+      UserName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-acl">
+     </a>
+     <a href="https://docs.aws.amazon.com/memorydb/latest/devguide/WhatIs.Components.html">
+      acl
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:memorydb:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:acl/$
+      <span>
+       {
+      </span>
+      AclName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmemorydb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d863c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmemorydb-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,521 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1151c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonsqs-AddPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_AddPermission.html">
+      AddPermission
+     </a>
+    </td>
+    <td>
+     Grants permission to a queue for a specific principal
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-ChangeMessageVisibility">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ChangeMessageVisibility.html">
+      ChangeMessageVisibility
+     </a>
+    </td>
+    <td>
+     Grants permission to change the visibility timeout of a specified message in a queue
+                                                to a new value
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-CreateQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_CreateQueue.html">
+      CreateQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new queue, or returns the URL of an existing one
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-DeleteMessage">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_DeleteMessage.html">
+      DeleteMessage
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified message from the specified queue
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-DeleteQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_DeleteQueue.html">
+      DeleteQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the queue specified by the queue URL, regardless of whether
+                                                the queue is empty
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-GetQueueAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_GetQueueAttributes.html">
+      GetQueueAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to get attributes for the specified queue
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-GetQueueUrl">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_GetQueueUrl.html">
+      GetQueueUrl
+     </a>
+    </td>
+    <td>
+     Grants permission to return the URL of an existing queue
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-ListDeadLetterSourceQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ListDeadLetterSourceQueues.html">
+      ListDeadLetterSourceQueues
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of your queues that have the RedrivePolicy queue
+                                                attribute configured with a dead letter queue
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-ListQueueTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ListQueueTags.html">
+      ListQueueTags
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags added to an SQS queue
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-ListQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ListQueues.html">
+      ListQueues
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of your queues
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-PurgeQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_PurgeQueue.html">
+      PurgeQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the messages in a queue specified by the queue URL
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-ReceiveMessage">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ReceiveMessage.html">
+      ReceiveMessage
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve one or more messages, with a maximum limit of 10 messages,
+                                                from the specified queue
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-RemovePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_RemovePermission.html">
+      RemovePermission
+     </a>
+    </td>
+    <td>
+     Grants permission to revoke any permissions in the queue policy that matches the specified
+                                                Label parameter
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-SendMessage">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_SendMessage.html">
+      SendMessage
+     </a>
+    </td>
+    <td>
+     Grants permission to deliver a message to the specified queue
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-SetQueueAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_SetQueueAttributes.html">
+      SetQueueAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to set the value of one or more queue attributes
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-TagQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_TagQueue.html">
+      TagQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to add tags to the specified SQS queue
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsqs-UntagQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_UntagQueue.html">
+      UntagQueue
+     </a>
+    </td>
+    <td>
+     Grants permission to remove tags from the specified SQS queue
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsqs-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1151c13b7">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonsqs-queue">
+     </a>
+     <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-how-it-works.html">
+      queue
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:sqs:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:$
+      <span>
+       {
+      </span>
+      QueueName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,769 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d327c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-CreateDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_CreateDomain.html">
+      CreateDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to create a domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectvoiceid-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DeleteDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DeleteDomain.html">
+      DeleteDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DeleteFraudster">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DeleteFraudster.html">
+      DeleteFraudster
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a fraudster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DeleteSpeaker">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DeleteSpeaker.html">
+      DeleteSpeaker
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a speaker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DescribeComplianceConsent">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-voiceid.html#enable-voiceid-step1">
+      DescribeComplianceConsent
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to describe compliance consent
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DescribeDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DescribeDomain.html">
+      DescribeDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a domain
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DescribeFraudster">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DescribeFraudster.html">
+      DescribeFraudster
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a fraudster
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DescribeFraudsterRegistrationJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DescribeFraudsterRegistrationJob.html">
+      DescribeFraudsterRegistrationJob
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a fraudster registration job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DescribeSpeaker">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DescribeSpeaker.html">
+      DescribeSpeaker
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a speaker
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-DescribeSpeakerEnrollmentJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_DescribeSpeakerEnrollmentJob.html">
+      DescribeSpeakerEnrollmentJob
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a speaker enrollment job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-EvaluateSession">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_EvaluateSession.html">
+      EvaluateSession
+     </a>
+    </td>
+    <td>
+     Grants permission to evaluate a session
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-ListDomains">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_ListDomains.html">
+      ListDomains
+     </a>
+    </td>
+    <td>
+     Grants permission to list domains for an account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-ListFraudsterRegistrationJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_ListFraudsterRegistrationJobs.html">
+      ListFraudsterRegistrationJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to list fraudster registration jobs for a domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-ListSpeakerEnrollmentJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_ListSpeakerEnrollmentJobs.html">
+      ListSpeakerEnrollmentJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to list speaker enrollment jobs for a domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-ListSpeakers">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_ListSpeakers.html">
+      ListSpeakers
+     </a>
+    </td>
+    <td>
+     Grants permission to list speakers for a domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags for a Voice ID resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-OptOutSpeaker">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_OptOutSpeaker.html">
+      OptOutSpeaker
+     </a>
+    </td>
+    <td>
+     Grants permission to opt out a speaker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-RegisterComplianceConsent">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-voiceid.html#enable-voiceid-step1">
+      RegisterComplianceConsent
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to register compliance consent
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-StartFraudsterRegistrationJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_StartFraudsterRegistrationJob.html">
+      StartFraudsterRegistrationJob
+     </a>
+    </td>
+    <td>
+     Grants permission to start a fraudster registration job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-StartSpeakerEnrollmentJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_StartSpeakerEnrollmentJob.html">
+      StartSpeakerEnrollmentJob
+     </a>
+    </td>
+    <td>
+     Grants permission to start a speaker enrollment job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectvoiceid-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag a Voice ID resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectvoiceid-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectvoiceid-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove a tag from a Voice ID resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-UpdateDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/voiceid/latest/APIReference/API_UpdateDomain.html">
+      UpdateDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to update a domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d327c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-domain">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-voiceid.html#voiceid-domain">
+      domain
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:voiceid:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:domain/$
+      <span>
+       {
+      </span>
+      DomainId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectvoiceid-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d327c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectvoiceid-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

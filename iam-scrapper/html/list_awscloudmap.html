@@ -1,0 +1,981 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d191c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudmap-CreateHttpNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_CreateHttpNamespace.html">
+      CreateHttpNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to create an HTTP namespace
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-CreatePrivateDnsNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_CreatePrivateDnsNamespace.html">
+      CreatePrivateDnsNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to create a private namespace based on DNS, which will be visible
+                                                only inside a specified Amazon VPC
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-CreatePublicDnsNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_CreatePublicDnsNamespace.html">
+      CreatePublicDnsNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to create a public namespace based on DNS, which will be visible
+                                                on the internet
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscloudmap-CreateService">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_CreateService.html">
+      CreateService
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a service
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-namespace">
+       namespace*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_NamespaceArn">
+       servicediscovery:NamespaceArn
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-DeleteNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_DeleteNamespace.html">
+      DeleteNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a specified namespace
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-namespace">
+       namespace*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-DeleteService">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_DeleteService.html">
+      DeleteService
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a specified service
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-service">
+       service*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscloudmap-DeregisterInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_DeregisterInstance.html">
+      DeregisterInstance
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete the records and the health check, if any, that Amazon
+                                                Route 53 created for the specified instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-service">
+       service*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceArn">
+       servicediscovery:ServiceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-DiscoverInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_DiscoverInstances.html">
+      DiscoverInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to discover registered instances for a specified namespace and service
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_NamespaceName">
+       servicediscovery:NamespaceName
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceName">
+       servicediscovery:ServiceName
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-GetInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_GetInstance.html">
+      GetInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about a specified instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceArn">
+       servicediscovery:ServiceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-GetInstancesHealthStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_GetInstancesHealthStatus.html">
+      GetInstancesHealthStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to get the current health status (Healthy, Unhealthy, or Unknown)
+                                                of one or more instances
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceArn">
+       servicediscovery:ServiceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-GetNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_GetNamespace.html">
+      GetNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about a namespace
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-namespace">
+       namespace*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-GetOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_GetOperation.html">
+      GetOperation
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about a specific operation
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-GetService">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_GetService.html">
+      GetService
+     </a>
+    </td>
+    <td>
+     Grants permission to get the settings for a specified service
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-service">
+       service*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-ListInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_ListInstances.html">
+      ListInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to get summary information about the instances that were registered
+                                                with a specified service
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceArn">
+       servicediscovery:ServiceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-ListNamespaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_ListNamespaces.html">
+      ListNamespaces
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about the namespaces
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-ListOperations">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_ListOperations.html">
+      ListOperations
+     </a>
+    </td>
+    <td>
+     Grants permission to list operations that match the criteria that you specify
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-ListServices">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_ListServices.html">
+      ListServices
+     </a>
+    </td>
+    <td>
+     Grants permission to get settings for all the services that match specified filters
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to lists tags for the specified resource
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscloudmap-RegisterInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_RegisterInstance.html">
+      RegisterInstance
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to register an instance based on the settings in a specified service
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-service">
+       service*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceArn">
+       servicediscovery:ServiceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to add one or more tags to the specified resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to remove one or more tags from the specified resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudmap-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-UpdateHttpNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_UpdateHttpNamespace.html">
+      UpdateHttpNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to update the settings for a HTTP namespace
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-namespace">
+       namespace*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-UpdateInstanceCustomHealthStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_UpdateInstanceCustomHealthStatus.html">
+      UpdateInstanceCustomHealthStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to update the current health status for an instance that has a custom
+                                                health check
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-servicediscovery_ServiceArn">
+       servicediscovery:ServiceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-UpdatePrivateDnsNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_UpdatePrivateDnsNamespace.html">
+      UpdatePrivateDnsNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to update the settings for a private DNS namespace
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-namespace">
+       namespace*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-UpdatePublicDnsNamespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_UpdatePublicDnsNamespace.html">
+      UpdatePublicDnsNamespace
+     </a>
+    </td>
+    <td>
+     Grants permission to update the settings for a public DNS namespace
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-namespace">
+       namespace*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-UpdateService">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/api/API_UpdateService.html">
+      UpdateService
+     </a>
+    </td>
+    <td>
+     Grants permission to update the settings in a specified service
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-service">
+       service*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d191c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudmap-namespace">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/dg/API_Namespace.html">
+      namespace
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:servicediscovery:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:namespace/$
+      <span>
+       {
+      </span>
+      NamespaceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-service">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/dg/API_Service.html">
+      service
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:servicediscovery:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:service/$
+      <span>
+       {
+      </span>
+      ServiceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudmap-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d191c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudmap-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-servicediscovery_NamespaceArn">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/dg/access-control-overview.html#specifying-conditions">
+      servicediscovery:NamespaceArn
+     </a>
+    </td>
+    <td>
+     Filters access by specifying the Amazon Resource Name (ARN) for the related namespace
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-servicediscovery_NamespaceName">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/dg/access-control-overview.html#specifying-conditions">
+      servicediscovery:NamespaceName
+     </a>
+    </td>
+    <td>
+     Filters access by specifying the name of the related namespace
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-servicediscovery_ServiceArn">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/dg/access-control-overview.html#specifying-conditions">
+      servicediscovery:ServiceArn
+     </a>
+    </td>
+    <td>
+     Filters access by specifying the Amazon Resource Name (ARN) for the related service
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudmap-servicediscovery_ServiceName">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloud-map/latest/dg/access-control-overview.html#specifying-conditions">
+      servicediscovery:ServiceName
+     </a>
+    </td>
+    <td>
+     Filters access by specifying the name of the related service
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,393 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1007c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-BatchExecuteStatement">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_BatchExecuteStatement.html">
+      BatchExecuteStatement
+     </a>
+    </td>
+    <td>
+     Grants permission to execute multiple queries under a single connection.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-CancelStatement">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_CancelStatement.html">
+      CancelStatement
+     </a>
+    </td>
+    <td>
+     Grants permission to cancel a running query
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-redshift-data_statement-owner-iam-userid">
+       redshift-data:statement-owner-iam-userid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-DescribeStatement">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_DescribeStatement.html">
+      DescribeStatement
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve detailed information about a statement execution
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-redshift-data_statement-owner-iam-userid">
+       redshift-data:statement-owner-iam-userid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-DescribeTable">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_DescribeTable.html">
+      DescribeTable
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve metadata about a particular table
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-ExecuteStatement">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_ExecuteStatement.html">
+      ExecuteStatement
+     </a>
+    </td>
+    <td>
+     Grants permission to execute a query
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-GetStatementResult">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_GetStatementResult.html">
+      GetStatementResult
+     </a>
+    </td>
+    <td>
+     Grants permission to fetch the result of a query
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-redshift-data_statement-owner-iam-userid">
+       redshift-data:statement-owner-iam-userid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-ListDatabases">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_ListDatabases.html">
+      ListDatabases
+     </a>
+    </td>
+    <td>
+     Grants permission to list databases for a given cluster
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-ListSchemas">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_ListSchemas.html">
+      ListSchemas
+     </a>
+    </td>
+    <td>
+     Grants permission to list schemas for a given cluster
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-ListStatements">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_ListStatements.html">
+      ListStatements
+     </a>
+    </td>
+    <td>
+     Grants permission to list queries for a given principal
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-redshift-data_statement-owner-iam-userid">
+       redshift-data:statement-owner-iam-userid
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-ListTables">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift-data/latest/APIReference/API_ListTables.html">
+      ListTables
+     </a>
+    </td>
+    <td>
+     Grants permission to list tables for a given cluster
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1007c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-cluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html">
+      cluster
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:redshift:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cluster:$
+      <span>
+       {
+      </span>
+      ClusterName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonredshiftdataapi-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1007c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-overview.html#redshift-policy-resources.conditions">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag-value associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonredshiftdataapi-redshift-data_statement-owner-iam-userid">
+     </a>
+     <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-overview.html#redshift-policy-resources.conditions">
+      redshift-data:statement-owner-iam-userid
+     </a>
+    </td>
+    <td>
+     Filters access by statement owner iam userid
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

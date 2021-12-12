@@ -1,0 +1,141 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1255c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonworkmailmessageflow-GetRawMessageContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/workmail/latest/APIReference/API_messageflow_GetRawMessageContent.html">
+      GetRawMessageContent
+     </a>
+    </td>
+    <td>
+     Grants permission to read the content of email messages with the specified message
+                                                ID
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkmailmessageflow-RawMessage">
+       RawMessage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkmailmessageflow-PutRawMessageContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/workmail/latest/APIReference/API_messageflow_PutRawMessageContent.html">
+      PutRawMessageContent
+     </a>
+    </td>
+    <td>
+     Grants permission to update the content of email messages with the specified message
+                                                ID
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkmailmessageflow-RawMessage">
+       RawMessage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1255c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonworkmailmessageflow-RawMessage">
+     </a>
+     <a href="https://docs.aws.amazon.com/workmail/latest/adminguide/lambda-content.html">
+      RawMessage
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workmailmessageflow:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:message/$
+      <span>
+       {
+      </span>
+      OrganizationId}/$
+      <span>
+       {
+      </span>
+      Context}/$
+      <span>
+       {
+      </span>
+      MessageId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

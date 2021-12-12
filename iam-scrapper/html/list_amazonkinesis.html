@@ -1,0 +1,935 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d723c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesis-AddTagsToStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_AddTagsToStream.html">
+      AddTagsToStream
+     </a>
+    </td>
+    <td>
+     Adds or updates tags for the specified Amazon Kinesis stream. Each stream can have
+                                                up to 10 tags.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-CreateStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_CreateStream.html">
+      CreateStream
+     </a>
+    </td>
+    <td>
+     Creates a Amazon Kinesis stream.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-DecreaseStreamRetentionPeriod">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DecreaseStreamRetentionPeriod.html">
+      DecreaseStreamRetentionPeriod
+     </a>
+    </td>
+    <td>
+     Decreases the stream's retention period, which is the length of time data records
+                                                are accessible after they are added to the stream.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-DeleteStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DeleteStream.html">
+      DeleteStream
+     </a>
+    </td>
+    <td>
+     Deletes a stream and all its shards and data.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesis-DeregisterStreamConsumer">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DeregisterStreamConsumer.html">
+      DeregisterStreamConsumer
+     </a>
+    </td>
+    <td rowspan="2">
+     Deregisters a stream consumer with a Kinesis data stream.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-consumer">
+       consumer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-DescribeLimits">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DescribeLimits.html">
+      DescribeLimits
+     </a>
+    </td>
+    <td>
+     Describes the shard limits and usage for the account.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-DescribeStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DescribeStream.html">
+      DescribeStream
+     </a>
+    </td>
+    <td>
+     Describes the specified stream.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesis-DescribeStreamConsumer">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DescribeStreamConsumer.html">
+      DescribeStreamConsumer
+     </a>
+    </td>
+    <td rowspan="2">
+     Gets the description of a registered stream consumer.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-consumer">
+       consumer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-DescribeStreamSummary">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DescribeStreamSummary.html">
+      DescribeStreamSummary
+     </a>
+    </td>
+    <td>
+     Provides a summarized description of the specified Kinesis data stream without the
+                                                shard list.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-DisableEnhancedMonitoring">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_DisableEnhancedMonitoring.html">
+      DisableEnhancedMonitoring
+     </a>
+    </td>
+    <td>
+     Disables enhanced monitoring.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-EnableEnhancedMonitoring">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_EnableEnhancedMonitoring.html">
+      EnableEnhancedMonitoring
+     </a>
+    </td>
+    <td>
+     API_EnableEnhancedMonitoring.html
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-GetRecords">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_GetRecords.html">
+      GetRecords
+     </a>
+    </td>
+    <td>
+     Gets data records from a shard.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-GetShardIterator">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_GetShardIterator.html">
+      GetShardIterator
+     </a>
+    </td>
+    <td>
+     Gets a shard iterator. A shard iterator expires five minutes after it is returned
+                                                to the requester.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-IncreaseStreamRetentionPeriod">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_IncreaseStreamRetentionPeriod.html">
+      IncreaseStreamRetentionPeriod
+     </a>
+    </td>
+    <td>
+     Increases the stream's retention period, which is the length of time data records
+                                                are accessible after they are added to the stream.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-ListShards">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_ListShards.html">
+      ListShards
+     </a>
+    </td>
+    <td>
+     Lists the shards in a stream and provides information about each shard.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-ListStreamConsumers">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_ListStreamConsumers.html">
+      ListStreamConsumers
+     </a>
+    </td>
+    <td>
+     Lists the stream consumers registered to receive data from a Kinesis stream using
+                                                enhanced fan-out, and provides information about each consumer.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-ListStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_ListStreams.html">
+      ListStreams
+     </a>
+    </td>
+    <td>
+     Lists your streams.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-ListTagsForStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_ListTagsForStream.html">
+      ListTagsForStream
+     </a>
+    </td>
+    <td>
+     Lists the tags for the specified Amazon Kinesis stream.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-MergeShards">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_MergeShards.html">
+      MergeShards
+     </a>
+    </td>
+    <td>
+     Merges two adjacent shards in a stream and combines them into a single shard to reduce
+                                                the stream's capacity to ingest and transport data.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-PutRecord">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_PutRecord.html">
+      PutRecord
+     </a>
+    </td>
+    <td>
+     Writes a single data record from a producer into an Amazon Kinesis stream.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-PutRecords">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_PutRecords.html">
+      PutRecords
+     </a>
+    </td>
+    <td>
+     Writes multiple data records from a producer into an Amazon Kinesis stream in a single
+                                                call (also referred to as a PutRecords request).
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesis-RegisterStreamConsumer">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_RegisterStreamConsumer.html">
+      RegisterStreamConsumer
+     </a>
+    </td>
+    <td rowspan="2">
+     Registers a stream consumer with a Kinesis data stream.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-consumer">
+       consumer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-RemoveTagsFromStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_RemoveTagsFromStream.html">
+      RemoveTagsFromStream
+     </a>
+    </td>
+    <td>
+     Description for SplitShard
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-SplitShard">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_SplitShard.html">
+      SplitShard
+     </a>
+    </td>
+    <td>
+     Description for SplitShard
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesis-StartStreamEncryption">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_StartStreamEncryption.html">
+      StartStreamEncryption
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to enable or update server-side encryption using an AWS KMS key
+                                                for a specified stream.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-kmsKey">
+       kmsKey*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesis-StopStreamEncryption">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_StopStreamEncryption.html">
+      StopStreamEncryption
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disable server-side encryption for a specified stream.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-kmsKey">
+       kmsKey*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesis-SubscribeToShard">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_SubscribeToShard.html">
+      SubscribeToShard
+     </a>
+    </td>
+    <td rowspan="2">
+     Listening to a specific shard with enhanced fan-out.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesis-consumer">
+       consumer*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesis-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-UpdateShardCount">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/APIReference/API_UpdateShardCount.html">
+      UpdateShardCount
+     </a>
+    </td>
+    <td>
+     Updates the shard count of the specified stream to the specified number of shards.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d723c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesis-stream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/dev/amazon-kinesis-streams.html">
+      stream
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kinesis:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:stream/$
+      <span>
+       {
+      </span>
+      StreamName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-consumer">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesis/latest/dev/amazon-kinesis-consumers.html">
+      consumer
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kinesis:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:$
+      <span>
+       {
+      </span>
+      StreamType}/$
+      <span>
+       {
+      </span>
+      StreamName}/consumer/$
+      <span>
+       {
+      </span>
+      ConsumerName}:$
+      <span>
+       {
+      </span>
+      ConsumerCreationTimpstamp}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesis-kmsKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys">
+      kmsKey
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kms:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:key/$
+      <span>
+       {
+      </span>
+      KeyId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

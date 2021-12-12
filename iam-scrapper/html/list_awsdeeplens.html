@@ -1,0 +1,669 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d375b7b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsdeeplens-AssociateServiceRoleToAccount">
+     </a>
+     AssociateServiceRoleToAccount
+    </td>
+    <td>
+     Associates the user's account with IAM roles controlling various permissions needed
+                                                by AWS DeepLens for proper functionality.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-BatchGetDevice">
+     </a>
+     BatchGetDevice
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens devices.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-BatchGetModel">
+     </a>
+     BatchGetModel
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens Models.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-BatchGetProject">
+     </a>
+     BatchGetProject
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens Projects.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-CreateDeviceCertificates">
+     </a>
+     CreateDeviceCertificates
+    </td>
+    <td>
+     Creates a certificate package that is used to successfully authenticate and Register
+                                                an AWS DeepLens device.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-CreateModel">
+     </a>
+     CreateModel
+    </td>
+    <td>
+     Creates a new AWS DeepLens Model.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-CreateProject">
+     </a>
+     CreateProject
+    </td>
+    <td>
+     Creates a new AWS DeepLens Project.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-DeleteModel">
+     </a>
+     DeleteModel
+    </td>
+    <td>
+     Deletes an AWS DeepLens Model.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-DeleteProject">
+     </a>
+     DeleteProject
+    </td>
+    <td>
+     Deletes an AWS DeepLens Project.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsdeeplens-DeployProject">
+     </a>
+     DeployProject
+    </td>
+    <td rowspan="2">
+     Deploys an AWS DeepLens project to a registered AWS DeepLens device.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsdeeplens-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-DeregisterDevice">
+     </a>
+     DeregisterDevice
+    </td>
+    <td>
+     Begins a device de-registration workflow for a registered AWS DeepLens device.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-GetAssociatedResources">
+     </a>
+     GetAssociatedResources
+    </td>
+    <td>
+     Retrieves the account level resources associated with the user's account.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-GetDeploymentStatus">
+     </a>
+     GetDeploymentStatus
+    </td>
+    <td>
+     Retrieves the the deployment status of a particular AWS DeepLens device, along with
+                                                any associated metadata.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-GetDevice">
+     </a>
+     GetDevice
+    </td>
+    <td>
+     Retrieves information about an AWS DeepLens device.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-GetModel">
+     </a>
+     GetModel
+    </td>
+    <td>
+     Retrieves an AWS DeepLens Model.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-GetProject">
+     </a>
+     GetProject
+    </td>
+    <td>
+     Retrieves an AWS DeepLens Project.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-ImportProjectFromTemplate">
+     </a>
+     ImportProjectFromTemplate
+    </td>
+    <td>
+     Creates a new AWS DeepLens project from a sample project template.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-ListDeployments">
+     </a>
+     ListDeployments
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens Deployment identifiers.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-ListDevices">
+     </a>
+     ListDevices
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens device identifiers.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-ListModels">
+     </a>
+     ListModels
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens Model identifiers.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-ListProjects">
+     </a>
+     ListProjects
+    </td>
+    <td>
+     Retrieves a list of AWS DeepLens Project identifiers.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-RegisterDevice">
+     </a>
+     RegisterDevice
+    </td>
+    <td>
+     Begins a device registration workflow for an AWS DeepLens device.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-RemoveProject">
+     </a>
+     RemoveProject
+    </td>
+    <td>
+     Removes a deployed AWS DeepLens project from an AWS DeepLens device.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-device">
+       device*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-UpdateProject">
+     </a>
+     UpdateProject
+    </td>
+    <td>
+     Updates an existing AWS DeepLens Project.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsdeeplens-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d375b9b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsdeeplens-device">
+     </a>
+     device
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:deeplens:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:device/$
+      <span>
+       {
+      </span>
+      DeviceName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-project">
+     </a>
+     project
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:deeplens:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsdeeplens-model">
+     </a>
+     model
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:deeplens:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:model/$
+      <span>
+       {
+      </span>
+      ModelName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

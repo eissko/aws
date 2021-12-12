@@ -1,0 +1,976 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d775c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonlookoutforequipment-CreateDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_CreateDataset.html">
+      CreateDataset
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a dataset
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonlookoutforequipment-CreateInferenceScheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_CreateInferenceScheduler.html">
+      CreateInferenceScheduler
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create an inference scheduler for a trained model
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonlookoutforequipment-CreateModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_CreateModel.html">
+      CreateModel
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a model that is trained on a dataset
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DeleteDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DeleteDataset.html">
+      DeleteDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a dataset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DeleteInferenceScheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DeleteInferenceScheduler.html">
+      DeleteInferenceScheduler
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an inference scheduler
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DeleteModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DeleteModel.html">
+      DeleteModel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DescribeDataIngestionJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DescribeDataIngestionJob">
+      DescribeDataIngestionJob
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a data ingestion job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DescribeDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DescribeDataset.html">
+      DescribeDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a dataset
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DescribeInferenceScheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DescribeInferenceScheduler.html">
+      DescribeInferenceScheduler
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an inference scheduler
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-DescribeModel">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_DescribeModel.html">
+      DescribeModel
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a model
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-ListDataIngestionJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_ListDataIngestionJobs.html">
+      ListDataIngestionJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to list the data ingestion jobs in your account or for a particular
+                                                dataset
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-ListDatasets">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_ListDatasets.html">
+      ListDatasets
+     </a>
+    </td>
+    <td>
+     Grants permission to list the datasets in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-ListInferenceExecutions">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_ListInferenceExecutions.html">
+      ListInferenceExecutions
+     </a>
+    </td>
+    <td>
+     Grants permission to list the inference executions for an inference scheduler
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-ListInferenceSchedulers">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_ListInferenceSchedulers.html">
+      ListInferenceSchedulers
+     </a>
+    </td>
+    <td>
+     Grants permission to list the inference schedulers in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-ListModels">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_ListModels.html">
+      ListModels
+     </a>
+    </td>
+    <td>
+     Grants permission to list the models in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonlookoutforequipment-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list the tags for a resource
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-StartDataIngestionJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_StartDataIngestionJob.html">
+      StartDataIngestionJob
+     </a>
+    </td>
+    <td>
+     Grants permission to start a data ingestion job for a dataset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-StartInferenceScheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_StartInferenceScheduler.html">
+      StartInferenceScheduler
+     </a>
+    </td>
+    <td>
+     Grants permission to start an inference scheduler
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-StopInferenceScheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_StopInferenceScheduler.html">
+      StopInferenceScheduler
+     </a>
+    </td>
+    <td>
+     Grants permission to stop an inference scheduler
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonlookoutforequipment-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to tag a resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonlookoutforequipment-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to untag a resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-dataset">
+       dataset
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-model">
+       model
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-UpdateInferenceScheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/API_UpdateInferenceScheduler.html">
+      UpdateInferenceScheduler
+     </a>
+    </td>
+    <td>
+     Grants permission to update an inference scheduler
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-inference-scheduler">
+       inference-scheduler*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d775c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-dataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/dataset.html">
+      dataset
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lookoutequipment:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      AccountId}:dataset/$
+      <span>
+       {
+      </span>
+      DatasetName}/$
+      <span>
+       {
+      </span>
+      DatasetId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-model">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/model.html">
+      model
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lookoutequipment:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:model/$
+      <span>
+       {
+      </span>
+      ModelName}/$
+      <span>
+       {
+      </span>
+      ModelId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-inference-scheduler">
+     </a>
+     <a href="https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/inference-scheduler.html">
+      inference-scheduler
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:lookoutequipment:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:inference-scheduler/$
+      <span>
+       {
+      </span>
+      InferenceSchedulerName}/$
+      <span>
+       {
+      </span>
+      InferenceSchedulerId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonlookoutforequipment-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d775c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonlookoutforequipment-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,709 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d603c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-CreateFHIRDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_CreateFHIRDatastore.html">
+      CreateFHIRDatastore
+     </a>
+    </td>
+    <td>
+     Grants permission to create a datastore that can ingest and export FHIR data
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonhealthlake-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-CreateResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/crud-healthlake.html">
+      CreateResource
+     </a>
+    </td>
+    <td>
+     Grants permission to create resource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-DeleteFHIRDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_DeleteFHIRDatastore.html">
+      DeleteFHIRDatastore
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a datastore
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-DeleteResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/crud-healthlake.html">
+      DeleteResource
+     </a>
+    </td>
+    <td>
+     Grants permission to delete resource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-DescribeFHIRDatastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_DescribeFHIRDatastore.html">
+      DescribeFHIRDatastore
+     </a>
+    </td>
+    <td>
+     Grants permission to get the properties associated with the FHIR datastore, including
+                                                the datastore ID, datastore ARN, datastore name, datastore status, created at, datastore
+                                                type version, and datastore endpoint
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-DescribeFHIRExportJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_DescribeFHIRExportJob.html">
+      DescribeFHIRExportJob
+     </a>
+    </td>
+    <td>
+     Grants permission to display the properties of a FHIR export job, including the ID,
+                                                ARN, name, and the status of the datastore
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-DescribeFHIRImportJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_DescribeFHIRImportJob.html">
+      DescribeFHIRImportJob
+     </a>
+    </td>
+    <td>
+     Grants permission to display the properties of a FHIR import job, including the ID,
+                                                ARN, name, and the status of the datastore
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-GetCapabilities">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/crud-healthlake.html">
+      GetCapabilities
+     </a>
+    </td>
+    <td>
+     Grants permission to get the capabilities of a FHIR datastore
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-ListFHIRDatastores">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_ListFHIRDatastores.html">
+      ListFHIRDatastores
+     </a>
+    </td>
+    <td>
+     Grants permission to list all FHIR datastores that are in the user’s account, regardless
+                                                of datastore status
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-ListFHIRExportJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_ListFHIRExportJobs.html">
+      ListFHIRExportJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to get a list of export jobs for the specified datastore
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-ListFHIRImportJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_ListFHIRImportJobs.html">
+      ListFHIRImportJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to get a list of import jobs for the specified datastore
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to get a list of tags for the specified datastore
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-ReadResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/crud-healthlake.html">
+      ReadResource
+     </a>
+    </td>
+    <td>
+     Grants permission to read resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-SearchWithGet">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/search-healthlake.html">
+      SearchWithGet
+     </a>
+    </td>
+    <td>
+     Grants permission to search resources with GET method
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-SearchWithPost">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/search-healthlake.html">
+      SearchWithPost
+     </a>
+    </td>
+    <td>
+     Grants permission to search resources with POST method
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-StartFHIRExportJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_StartFHIRExportJob.html">
+      StartFHIRExportJob
+     </a>
+    </td>
+    <td>
+     Grants permission to begin a FHIR Export job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-StartFHIRImportJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_StartFHIRImportJob.html">
+      StartFHIRImportJob
+     </a>
+    </td>
+    <td>
+     Grants permission to begin a FHIR Import job
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonhealthlake-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add tags to a datastore
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonhealthlake-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonhealthlake-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonhealthlake-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove tags associated with a datastore
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-UpdateResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/devguide/crud-healthlake.html">
+      UpdateResource
+     </a>
+    </td>
+    <td>
+     Grants permission to update resource
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-datastore">
+       datastore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d603c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-datastore">
+     </a>
+     <a href="https://docs.aws.amazon.com/healthlake/latest/APIReference/API_DatastoreProperties.html">
+      datastore
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:healthlake:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      AccountId}:datastore/fhir/$
+      <span>
+       {
+      </span>
+      DatastoreId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonhealthlake-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d603c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonhealthlake-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,1517 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1267c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspacesweb-AssociateBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_AssociateBrowserSettings.html">
+      AssociateBrowserSettings
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate browser settings to web portals
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-browserSettings">
+       browserSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspacesweb-AssociateNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_AssociateNetworkSettings.html">
+      AssociateNetworkSettings
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate network settings to web portals
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-networkSettings">
+       networkSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:CreateNetworkInterface
+     </p>
+     <p>
+      ec2:CreateNetworkInterfacePermission
+     </p>
+     <p>
+      ec2:CreateTags
+     </p>
+     <p>
+      ec2:DeleteNetworkInterface
+     </p>
+     <p>
+      ec2:DeleteNetworkInterfacePermission
+     </p>
+     <p>
+      ec2:ModifyNetworkInterfaceAttribute
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspacesweb-AssociateTrustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_AssociateTrustStore.html">
+      AssociateTrustStore
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate trust stores with web portals
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-trustStore">
+       trustStore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspacesweb-AssociateUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_AssociateUserSettings.html">
+      AssociateUserSettings
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate user settings with web portals
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-userSettings">
+       userSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-CreateBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateBrowserSettings.html">
+      CreateBrowserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to create browser settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      kms:CreateGrant
+     </p>
+     <p>
+      kms:Decrypt
+     </p>
+     <p>
+      kms:DescribeKey
+     </p>
+     <p>
+      kms:GenerateDataKey
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-CreateIdentityProvider">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateIdentityProvider.html">
+      CreateIdentityProvider
+     </a>
+    </td>
+    <td>
+     Grants permission to create identity providers
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-CreateNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateNetworkSettings.html">
+      CreateNetworkSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to create network settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-CreatePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreatePortal.html">
+      CreatePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to create web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      kms:CreateGrant
+     </p>
+     <p>
+      kms:Decrypt
+     </p>
+     <p>
+      kms:DescribeKey
+     </p>
+     <p>
+      kms:GenerateDataKey
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-CreateTrustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateTrustStore.html">
+      CreateTrustStore
+     </a>
+    </td>
+    <td>
+     Grants permission to create trust stores
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-CreateUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateUserSettings.html">
+      CreateUserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to create user settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DeleteBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DeleteBrowserSettings.html">
+      DeleteBrowserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to delete browser settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-browserSettings">
+       browserSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DeleteIdentityProvider">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DeleteIdentityProvider.html">
+      DeleteIdentityProvider
+     </a>
+    </td>
+    <td>
+     Grants permission to delete identity providers
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DeleteNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DeleteNetworkSettings.html">
+      DeleteNetworkSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to delete network settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-networkSettings">
+       networkSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DeletePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DeletePortal.html">
+      DeletePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to delete web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DeleteTrustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DeleteTrustStore.html">
+      DeleteTrustStore
+     </a>
+    </td>
+    <td>
+     Grants permission to delete trust stores
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-trustStore">
+       trustStore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DeleteUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DeleteUserSettings.html">
+      DeleteUserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to delete user settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-userSettings">
+       userSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DisassociateBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DisassociateBrowserSettings.html">
+      DisassociateBrowserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate browser settings from web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DisassociateNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DisassociateNetworkSettings.html">
+      DisassociateNetworkSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate network settings from web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DisassociateTrustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DisassociateTrustStore.html">
+      DisassociateTrustStore
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate trust stores from web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-DisassociateUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_DisassociateUserSettings.html">
+      DisassociateUserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate user settings from web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetBrowserSettings.html">
+      GetBrowserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to get details on browser settings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-browserSettings">
+       browserSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetIdentityProvider">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetIdentityProvider.html">
+      GetIdentityProvider
+     </a>
+    </td>
+    <td>
+     Grants permission to get details on identity providers
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetNetworkSettings.html">
+      GetNetworkSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to get details on network settings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-networkSettings">
+       networkSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetPortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetPortal.html">
+      GetPortal
+     </a>
+    </td>
+    <td>
+     Grants permission to get details on web portals
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetPortalServiceProviderMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetPortalServiceProviderMetadata.html">
+      GetPortalServiceProviderMetadata
+     </a>
+    </td>
+    <td>
+     Grants permission to get service provider metadata information for web portals
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetTrustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetTrustStore.html">
+      GetTrustStore
+     </a>
+    </td>
+    <td>
+     Grants permission to get details on trust stores
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-trustStore">
+       trustStore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetTrustStoreCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetTrustStoreCertificate.html">
+      GetTrustStoreCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to get certificates from trust stores
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-trustStore">
+       trustStore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-GetUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_GetUserSettings.html">
+      GetUserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to get details on user settings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-userSettings">
+       userSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListBrowserSettings.html">
+      ListBrowserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to list browser settings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListIdentityProviders">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListIdentityProviders.html">
+      ListIdentityProviders
+     </a>
+    </td>
+    <td>
+     Grants permission to list identity providers
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListNetworkSettings.html">
+      ListNetworkSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to list network settings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListPortals">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListPortals.html">
+      ListPortals
+     </a>
+    </td>
+    <td>
+     Grants permission to list web portals
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags for a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListTrustStoreCertificates">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListTrustStoreCertificates.html">
+      ListTrustStoreCertificates
+     </a>
+    </td>
+    <td>
+     Grants permission to list certificates in a trust store
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListTrustStores">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListTrustStores.html">
+      ListTrustStores
+     </a>
+    </td>
+    <td>
+     Grants permission to list trust stores
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-ListUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_ListUserSettings.html">
+      ListUserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to list user settings
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to add one or more tags to a resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to remove one or more tags from a resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspacesweb-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UpdateBrowserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UpdateBrowserSettings.html">
+      UpdateBrowserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to update browser settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-browserSettings">
+       browserSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UpdateIdentityProvider">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UpdateIdentityProvider.html">
+      UpdateIdentityProvider
+     </a>
+    </td>
+    <td>
+     Grants permission to update identity provider
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UpdateNetworkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UpdateNetworkSettings.html">
+      UpdateNetworkSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to update network settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-networkSettings">
+       networkSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UpdatePortal">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UpdatePortal.html">
+      UpdatePortal
+     </a>
+    </td>
+    <td>
+     Grants permission to update web portals
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-portal">
+       portal*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UpdateTrustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UpdateTrustStore.html">
+      UpdateTrustStore
+     </a>
+    </td>
+    <td>
+     Grants permission to update trust stores
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-trustStore">
+       trustStore*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-UpdateUserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_UpdateUserSettings.html">
+      UpdateUserSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to update user settings
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-userSettings">
+       userSettings*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1267c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-browserSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateBrowserSettings.html">
+      browserSettings
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces-web:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:browserSettings/$
+      <span>
+       {
+      </span>
+      BrowserSettingsId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-networkSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateNetworkSettings.html">
+      networkSettings
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces-web:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:networkSettings/$
+      <span>
+       {
+      </span>
+      NetworkSettingsId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-portal">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreatePortal.html">
+      portal
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces-web:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:portal/$
+      <span>
+       {
+      </span>
+      PortalId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-trustStore">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateTrustStore.html">
+      trustStore
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces-web:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:trustStore/$
+      <span>
+       {
+      </span>
+      TrustStoreId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-userSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces-web/latest/APIReference/API_CreateUserSettings.html">
+      userSettings
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces-web:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:userSettings/$
+      <span>
+       {
+      </span>
+      UserSettingsId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspacesweb-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1267c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspacesweb-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

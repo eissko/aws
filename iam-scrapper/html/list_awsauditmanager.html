@@ -1,0 +1,1845 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d123c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsauditmanager-AssociateAssessmentReportEvidenceFolder">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_AssociateAssessmentReportEvidenceFolder.html">
+      AssociateAssessmentReportEvidenceFolder
+     </a>
+    </td>
+    <td>
+     Grants permission to associate an evidence folder with an assessment report in AWS
+                                                Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-BatchAssociateAssessmentReportEvidence">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_BatchAssociateAssessmentReportEvidence.html">
+      BatchAssociateAssessmentReportEvidence
+     </a>
+    </td>
+    <td>
+     Grants permission to associate a list of evidence to an assessment report in AWS Audit
+                                                Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-BatchCreateDelegationByAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_BatchCreateDelegationByAssessment.html">
+      BatchCreateDelegationByAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to create delegations for an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-BatchDeleteDelegationByAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_BatchDeleteDelegationByAssessment.html">
+      BatchDeleteDelegationByAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to delete delegations for an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-BatchDisassociateAssessmentReportEvidence">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_BatchDisassociateAssessmentReportEvidence.html">
+      BatchDisassociateAssessmentReportEvidence
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a list of evidence from an assessment report in
+                                                AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-BatchImportEvidenceToAssessmentControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_BatchImportEvidenceToAssessmentControl.html">
+      BatchImportEvidenceToAssessmentControl
+     </a>
+    </td>
+    <td>
+     Grants permission to import a list of evidence to an assessment control in AWS Audit
+                                                Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-CreateAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_CreateAssessment.html">
+      CreateAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to create an assessment to be used with AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-CreateAssessmentFramework">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_CreateAssessmentFramework.html">
+      CreateAssessmentFramework
+     </a>
+    </td>
+    <td>
+     Grants permission to create a framework for use in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-CreateAssessmentReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_CreateAssessmentReport.html">
+      CreateAssessmentReport
+     </a>
+    </td>
+    <td>
+     Grants permission to create an assessment report in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-CreateControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_CreateControl.html">
+      CreateControl
+     </a>
+    </td>
+    <td>
+     Grants permission to create a control to be used in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsauditmanager-DeleteAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DeleteAssessment.html">
+      DeleteAssessment
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an assessment in AWS Audit Manager
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsauditmanager-DeleteAssessmentFramework">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DeleteAssessmentFramework.html">
+      DeleteAssessmentFramework
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an assessment framework in AWS Audit Manager
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentFramework">
+       assessmentFramework*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-DeleteAssessmentFrameworkShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DeleteAssessmentFrameworkShare.html">
+      DeleteAssessmentFrameworkShare
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a share request for a custom framework in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-DeleteAssessmentReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DeleteAssessmentReport.html">
+      DeleteAssessmentReport
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an assessment report in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsauditmanager-DeleteControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DeleteControl.html">
+      DeleteControl
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a control in AWS Audit Manager
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-control">
+       control*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-DeregisterAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ DeregisterAccount.html">
+      DeregisterAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to deregister an account in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-DeregisterOrganizationAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DeregisterOrganizationAdminAccount.html">
+      DeregisterOrganizationAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to deregister the delegated administrator account for AWS Audit
+                                                Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-DisassociateAssessmentReportEvidenceFolder">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_DisassociateAssessmentReportEvidenceFolder.html">
+      DisassociateAssessmentReportEvidenceFolder
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate an evidence folder from an assessment report in
+                                                AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetAccountStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetAccountStatus.html">
+      GetAccountStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to get the status of an account in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetAssessment.html">
+      GetAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to get an assessment created in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetAssessmentFramework">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetAssessmentFramework.html">
+      GetAssessmentFramework
+     </a>
+    </td>
+    <td>
+     Grants permission to get an assessment framework in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentFramework">
+       assessmentFramework*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetAssessmentReportUrl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetAssessmentReportUrl.html">
+      GetAssessmentReportUrl
+     </a>
+    </td>
+    <td>
+     Grants permission to get the URL for an assessment report in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetChangeLogs">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetChangeLogs.html">
+      GetChangeLogs
+     </a>
+    </td>
+    <td>
+     Grants permission to get changelogs for an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetControl.html">
+      GetControl
+     </a>
+    </td>
+    <td>
+     Grants permission to get a control in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-control">
+       control*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetDelegations">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetDelegations.html">
+      GetDelegations
+     </a>
+    </td>
+    <td>
+     Grants permission to get all delegations in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetEvidence">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetEvidence.html">
+      GetEvidence
+     </a>
+    </td>
+    <td>
+     Grants permission to get evidence from AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetEvidenceByEvidenceFolder">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetEvidenceByEvidenceFolder.html">
+      GetEvidenceByEvidenceFolder
+     </a>
+    </td>
+    <td>
+     Grants permission to get all the evidence from an evidence folder in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetEvidenceFolder">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetEvidenceFolder.html">
+      GetEvidenceFolder
+     </a>
+    </td>
+    <td>
+     Grants permission to get the evidence folder from AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetEvidenceFoldersByAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetEvidenceFoldersByAssessment.html">
+      GetEvidenceFoldersByAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to get the evidence folders from an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetEvidenceFoldersByAssessmentControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetEvidenceFoldersByAssessmentControl.html">
+      GetEvidenceFoldersByAssessmentControl
+     </a>
+    </td>
+    <td>
+     Grants permission to get the evidence folders from an assessment control in AWS Audit
+                                                Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetInsights">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetInsights.html">
+      GetInsights
+     </a>
+    </td>
+    <td>
+     Grants permission to get analytics data for all active assessments
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetInsightsByAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetInsightsByAssessment.html">
+      GetInsightsByAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to get analytics data for a specific active assessment
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetOrganizationAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetOrganizationAdminAccount.html">
+      GetOrganizationAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to get the delegated administrator account in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetServicesInScope">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetServicesInScope.html">
+      GetServicesInScope
+     </a>
+    </td>
+    <td>
+     Grants permission to get the services in scope for an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-GetSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_GetSettings.html">
+      GetSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to get all settings configured in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListAssessmentControlInsightsByControlDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListAssessmentControlInsightsByControlDomain.html">
+      ListAssessmentControlInsightsByControlDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to list analytics data for controls in a specific control domain
+                                                and active assessment
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListAssessmentFrameworkShareRequests">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListAssessmentFrameworkShareRequests.html">
+      ListAssessmentFrameworkShareRequests
+     </a>
+    </td>
+    <td>
+     Grants permission to list all sent or received share requests for custom frameworks
+                                                in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListAssessmentFrameworks">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListAssessmentFrameworks.html">
+      ListAssessmentFrameworks
+     </a>
+    </td>
+    <td>
+     Grants permission to list all assessment frameworks in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListAssessmentReports">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListAssessmentReports.html">
+      ListAssessmentReports
+     </a>
+    </td>
+    <td>
+     Grants permission to list all assessment reports in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListAssessments">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListAssessments.html">
+      ListAssessments
+     </a>
+    </td>
+    <td>
+     Grants permission to list all assessments in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListControlDomainInsights">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListControlDomainInsights.html">
+      ListControlDomainInsights
+     </a>
+    </td>
+    <td>
+     Grants permission to list analytics data for control domains across all active assessments
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListControlDomainInsightsByAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListControlDomainInsightsByAssessment.html">
+      ListControlDomainInsightsByAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to list analytics data for control domains in a specific active
+                                                assessment
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListControlInsightsByControlDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListControlInsightsByControlDomain.html">
+      ListControlInsightsByControlDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to list analytics data for controls in a specific control domain
+                                                across all active assessments
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListControls">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListControls.html">
+      ListControls
+     </a>
+    </td>
+    <td>
+     Grants permission to list all controls in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListKeywordsForDataSource">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListKeywordsForDataSource.html">
+      ListKeywordsForDataSource
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the data source keywords in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ListNotifications">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListNotifications.html">
+      ListNotifications
+     </a>
+    </td>
+    <td>
+     Grants permission to list all notifications in AWS Audit Manager
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsauditmanager-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list tags for an AWS Audit Manager resource
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsauditmanager-control">
+       control
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-RegisterAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_RegisterAccount.html">
+      RegisterAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to register an account in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-RegisterOrganizationAdminAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_RegisterOrganizationAdminAccount.html">
+      RegisterOrganizationAdminAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to register an account within the organization as the delegated
+                                                administrator for AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-StartAssessmentFrameworkShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_StartAssessmentFrameworkShare.html">
+      StartAssessmentFrameworkShare
+     </a>
+    </td>
+    <td>
+     Grants permission to create a share request for a custom framework in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentFramework">
+       assessmentFramework*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsauditmanager-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to tag an AWS Audit Manager resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsauditmanager-control">
+       control
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsauditmanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awsauditmanager-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to untag an AWS Audit Manager resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsauditmanager-control">
+       control
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateAssessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateAssessment.html">
+      UpdateAssessment
+     </a>
+    </td>
+    <td>
+     Grants permission to update an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateAssessmentControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateAssessmentControl.html">
+      UpdateAssessmentControl
+     </a>
+    </td>
+    <td>
+     Grants permission to update an assessment control in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateAssessmentControlSetStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateAssessmentControlSetStatus.html">
+      UpdateAssessmentControlSetStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to update the status of an assessment control set in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentControlSet">
+       assessmentControlSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateAssessmentFramework">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateAssessmentFramework.html">
+      UpdateAssessmentFramework
+     </a>
+    </td>
+    <td>
+     Grants permission to update an assessment framework in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessmentFramework">
+       assessmentFramework*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateAssessmentFrameworkShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateAssessmentFrameworkShare.html">
+      UpdateAssessmentFrameworkShare
+     </a>
+    </td>
+    <td>
+     Grants permission to update a share request for a custom framework in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateAssessmentStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateAssessmentStatus.html">
+      UpdateAssessmentStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to update the status of an assessment in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-assessment">
+       assessment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateControl">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateControl.html">
+      UpdateControl
+     </a>
+    </td>
+    <td>
+     Grants permission to update a control in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-control">
+       control*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-UpdateSettings">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_UpdateSettings.html">
+      UpdateSettings
+     </a>
+    </td>
+    <td>
+     Grants permission to update settings in AWS Audit Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-ValidateAssessmentReportIntegrity">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/APIReference/API_ValidateAssessmentReportIntegrity.html">
+      ValidateAssessmentReportIntegrity
+     </a>
+    </td>
+    <td>
+     Grants permission to validate the integrity of an assessment report in AWS Audit Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d123c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsauditmanager-assessment">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/userguide/API_Assessment.html">
+      assessment
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:auditmanager:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:assessment/$
+      <span>
+       {
+      </span>
+      AssessmentId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-assessmentFramework">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/userguide/API_AssessmentFramework.html">
+      assessmentFramework
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:auditmanager:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:assessmentFramework/$
+      <span>
+       {
+      </span>
+      AssessmentFrameworkId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-assessmentControlSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/userguide/API_AssessmentControlSet.html">
+      assessmentControlSet
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:auditmanager:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:assessment/$
+      <span>
+       {
+      </span>
+      AssessmentId}/ControlSet/$
+      <span>
+       {
+      </span>
+      ControlSetId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-control">
+     </a>
+     <a href="https://docs.aws.amazon.com/audit-manager/latest/userguide/API_Control.html">
+      control
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:auditmanager:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:control/$
+      <span>
+       {
+      </span>
+      ControlId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsauditmanager-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d123c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsauditmanager-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsauditmanager-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

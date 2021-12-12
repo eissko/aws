@@ -1,0 +1,586 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d167c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="awscertificatemanager-AddTagsToCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_AddTagsToCertificate.html">
+      AddTagsToCertificate
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add one or more tags to a certificate
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscertificatemanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-DeleteCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_DeleteCertificate.html">
+      DeleteCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a certificate and its associated private key
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-DescribeCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_DescribeCertificate.html">
+      DescribeCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to retreive a certificates and its metadata
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-ExportCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_ExportCertificate.html">
+      ExportCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to export a private certificate issued by a private certificate
+                                                authority (CA) for use anywhere
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-GetAccountConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_GetAccountConfiguration.html">
+      GetAccountConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve account level configuration from AWS Certificate Manager
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-GetCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_GetCertificate.html">
+      GetCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a certificate and certificate chain for a certificate
+                                                ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscertificatemanager-ImportCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_ImportCertificate.html">
+      ImportCertificate
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to import a 3rd party certificate into AWS Certificate Manager (ACM)
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscertificatemanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-ListCertificates">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_ListCertificates.html">
+      ListCertificates
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list of the certificate ARNs and the domain name for
+                                                each ARN
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-ListTagsForCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_ListTagsForCertificate.html">
+      ListTagsForCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to lists the tags that have been associated with a certificate
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-PutAccountConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_PutAccountConfiguration.html">
+      PutAccountConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update account level configuration in AWS Certificate Manager
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscertificatemanager-RemoveTagsFromCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_RemoveTagsFromCertificate.html">
+      RemoveTagsFromCertificate
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove one or more tags from a certificate
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscertificatemanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-RenewCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_RenewCertificate.html">
+      RenewCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to renew an eligible private certificate
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-RequestCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_RequestCertificate.html">
+      RequestCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to requests a public or private certificate
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscertificatemanager-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-ResendValidationEmail">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_ResendValidationEmail.html">
+      ResendValidationEmail
+     </a>
+    </td>
+    <td>
+     Grants permission to resend an email to request domain ownership validation
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-UpdateCertificateOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/APIReference/API_UpdateCertificateOptions.html">
+      UpdateCertificateOptions
+     </a>
+    </td>
+    <td>
+     Grants permission to update a certificate configuration. Use this to specify whether
+                                                to opt in to or out of certificate transparency logging
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-certificate">
+       certificate*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d167c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-certificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/acm/latest/userguide/authen-overview.html#acm-resources-operations">
+      certificate
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:acm:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:certificate/$
+      <span>
+       {
+      </span>
+      CertificateId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscertificatemanager-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d167c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filter access by the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filter access by tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscertificatemanager-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filter access by the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

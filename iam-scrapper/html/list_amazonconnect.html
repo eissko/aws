@@ -1,0 +1,7240 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d319c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-AssociateApprovedOrigin">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateApprovedOrigin
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate approved origin for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-AssociateBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateBot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate a Lex bot for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      lex:CreateResourcePolicy
+     </p>
+     <p>
+      lex:DescribeBotAlias
+     </p>
+     <p>
+      lex:GetBot
+     </p>
+     <p>
+      lex:UpdateResourcePolicy
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-AssociateCustomerProfilesDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateCustomerProfilesDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to associate a Customer Profiles domain for an existing Amazon Connect
+                                                instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      profile:GetDomain
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-AssociateInstanceStorageConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateInstanceStorageConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate instance storage for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      firehose:DescribeDeliveryStream
+     </p>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      kinesis:DescribeStream
+     </p>
+     <p>
+      kms:CreateGrant
+     </p>
+     <p>
+      kms:DescribeKey
+     </p>
+     <p>
+      s3:GetBucketAcl
+     </p>
+     <p>
+      s3:GetBucketLocation
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_StorageResourceType">
+       connect:StorageResourceType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-AssociateLambdaFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateLambdaFunction
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate a Lambda function for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      lambda:AddPermission
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-AssociateLexBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateLexBot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate a Lex bot for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      lex:GetBot
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-AssociateQueueQuickConnects">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_AssociateQueueQuickConnects.html">
+      AssociateQueueQuickConnects
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to associate quick connects with a queue in an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-AssociateRoutingProfileQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_AssociateRoutingProfileQueues.html">
+      AssociateRoutingProfileQueues
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to associate queues with a routing profile in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-AssociateSecurityKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      AssociateSecurityKey
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate a security key for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-CreateAgentStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateAgentStatus.html">
+      CreateAgentStatus
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create agent status in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-agent-status">
+       agent-status*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-CreateContactFlow">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateContactFlow.html">
+      CreateContactFlow
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a contact flow in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-CreateContactFlowModule">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateContactFlowModule.html">
+      CreateContactFlowModule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a contact flow module in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-CreateHoursOfOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateHoursOfOperation.html">
+      CreateHoursOfOperation
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create hours of operation in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-CreateInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      CreateInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new Amazon Connect instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      ds:AuthorizeApplication
+     </p>
+     <p>
+      ds:CheckAlias
+     </p>
+     <p>
+      ds:CreateAlias
+     </p>
+     <p>
+      ds:CreateDirectory
+     </p>
+     <p>
+      ds:CreateIdentityPoolDirectory
+     </p>
+     <p>
+      ds:DeleteDirectory
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      ds:UnauthorizeApplication
+     </p>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-CreateIntegrationAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateIntegrationAssociation.html">
+      CreateIntegrationAssociation
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create an integration association with an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      app-integrations:CreateEventIntegrationAssociation
+     </p>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      events:PutRule
+     </p>
+     <p>
+      events:PutTargets
+     </p>
+     <p>
+      mobiletargeting:GetApp
+     </p>
+     <p>
+      voiceid:DescribeDomain
+     </p>
+     <p>
+      wisdom:GetAssistant
+     </p>
+     <p>
+      wisdom:GetKnowledgeBase
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-integration-association">
+       integration-association*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="6">
+     <a id="amazonconnect-CreateQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateQueue.html">
+      CreateQueue
+     </a>
+    </td>
+    <td rowspan="6">
+     Grants permission to create a queue in an Amazon Connect instance
+    </td>
+    <td rowspan="6">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-phone-number">
+       phone-number
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazonconnect-CreateQuickConnect">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateQuickConnect.html">
+      CreateQuickConnect
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to create a quick connect in an Amazon Connect instance
+    </td>
+    <td rowspan="5">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-CreateRoutingProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateRoutingProfile.html">
+      CreateRoutingProfile
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create a routing profile in an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-CreateSecurityProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateSecurityProfile.html">
+      CreateSecurityProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a security profile for the specified Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonconnect-CreateUseCase">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateUseCase.html">
+      CreateUseCase
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to create a use case for an integration association
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-integration-association">
+       integration-association*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-use-case">
+       use-case*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazonconnect-CreateUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateUser.html">
+      CreateUser
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to create a user for the specified Amazon Connect instance
+    </td>
+    <td rowspan="5">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-hierarchy-group">
+       hierarchy-group
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-CreateUserHierarchyGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateUserHierarchyGroup.html">
+      CreateUserHierarchyGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a user hierarchy group in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hierarchy-group">
+       hierarchy-group
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteContactFlow">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteContactFlow.html">
+      DeleteContactFlow
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a contact flow in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteContactFlowModule">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteContactFlowModule.html">
+      DeleteContactFlowModule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a contact flow module in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteHoursOfOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteHoursOfOperation.html">
+      DeleteHoursOfOperation
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete hours of operation in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DeleteInstance
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an Amazon Connect instance. When you remove an instance,
+                                                the link to an existing AWS directory is also removed
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DeleteDirectory
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      ds:UnauthorizeApplication
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-DeleteIntegrationAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteIntegrationAssociation.html">
+      DeleteIntegrationAssociation
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete an integration association from an Amazon Connect instance.
+                                                The association must not have any use cases associated with it
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      app-integrations:DeleteEventIntegrationAssociation
+     </p>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      events:DeleteRule
+     </p>
+     <p>
+      events:ListTargetsByRule
+     </p>
+     <p>
+      events:RemoveTargets
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-integration-association">
+       integration-association*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteQuickConnect">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteQuickConnect.html">
+      DeleteQuickConnect
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a quick connect in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteSecurityProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteSecurityProfile.html">
+      DeleteSecurityProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a security profile in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-DeleteUseCase">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteUseCase.html">
+      DeleteUseCase
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete a use case from an integration association
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-use-case">
+       use-case*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteUser.html">
+      DeleteUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a user in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DeleteUserHierarchyGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DeleteUserHierarchyGroup.html">
+      DeleteUserHierarchyGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a user hierarchy group in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hierarchy-group">
+       hierarchy-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeAgentStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeAgentStatus.html">
+      DescribeAgentStatus
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe agent status in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-agent-status">
+       agent-status*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeContact.html">
+      DescribeContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a contact in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeContactFlow">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeContactFlow.html">
+      DescribeContactFlow
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a contact flow in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeContactFlowModule">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeContactFlowModule.html">
+      DescribeContactFlowModule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a contact flow module in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeHoursOfOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeHoursOfOperation.html">
+      DescribeHoursOfOperation
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe hours of operation in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DescribeInstance
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view details of an Amazon Connect instance and is also required
+                                                to create an instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeInstanceAttribute">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DescribeInstanceAttribute
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the attribute details of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_AttributeType">
+       connect:AttributeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeInstanceStorageConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DescribeInstanceStorageConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the instance storage configuration for an existing Amazon
+                                                Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_StorageResourceType">
+       connect:StorageResourceType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeQueue.html">
+      DescribeQueue
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a queue in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeQuickConnect">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeQuickConnect.html">
+      DescribeQuickConnect
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a quick connect in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeRoutingProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeRoutingProfile.html">
+      DescribeRoutingProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a routing profile in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeSecurityProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeSecurityProfile.html">
+      DescribeSecurityProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a security profile in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeUser">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeUser.html">
+      DescribeUser
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a user in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeUserHierarchyGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeUserHierarchyGroup.html">
+      DescribeUserHierarchyGroup
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a hierarchy group for an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hierarchy-group">
+       hierarchy-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DescribeUserHierarchyStructure">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeUserHierarchyStructure.html">
+      DescribeUserHierarchyStructure
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe the hierarchy structure for an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateApprovedOrigin">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateApprovedOrigin
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate approved origin for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateBot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate a Lex bot for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      lex:DeleteResourcePolicy
+     </p>
+     <p>
+      lex:UpdateResourcePolicy
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-DisassociateCustomerProfilesDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateCustomerProfilesDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a Customer Profiles domain for an existing Amazon
+                                                Connect instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:DeleteRolePolicy
+     </p>
+     <p>
+      iam:DetachRolePolicy
+     </p>
+     <p>
+      iam:GetPolicy
+     </p>
+     <p>
+      iam:GetPolicyVersion
+     </p>
+     <p>
+      iam:GetRolePolicy
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateInstanceStorageConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateInstanceStorageConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate instance storage for an existing Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_StorageResourceType">
+       connect:StorageResourceType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateLambdaFunction">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateLambdaFunction
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate a Lambda function for an existing Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      lambda:RemovePermission
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateLexBot">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateLexBot
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate a Lex bot for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-DisassociateQueueQuickConnects">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DisassociateQueueQuickConnects.html">
+      DisassociateQueueQuickConnects
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to disassociate quick connects from a queue in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateRoutingProfileQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DisassociateRoutingProfileQueues.html">
+      DisassociateRoutingProfileQueues
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate queues from a routing profile in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-DisassociateSecurityKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      DisassociateSecurityKey
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate the security key for an existing Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-GetContactAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_GetContactAttributes.html">
+      GetContactAttributes
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the contact attributes for the specified contact
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-GetCurrentMetricData">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_GetCurrentMetricData.html">
+      GetCurrentMetricData
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve current metric data for the queues in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-GetFederationToken">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_GetFederationToken.html">
+      GetFederationToken
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to federate into an Amazon Connect instance when using SAML-based
+                                                authentication for identity management
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-GetFederationTokens">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/emergency-admin-login.html">
+      GetFederationTokens
+     </a>
+    </td>
+    <td>
+     Grants permission to federate into an Amazon Connect instance (Log in for emergency
+                                                access functionality in the Amazon Connect console)
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      connect:ListInstances
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-GetMetricData">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_GetMetricData.html">
+      GetMetricData
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve historical metric data for queues in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListAgentStatuses">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListAgentStatuses.html">
+      ListAgentStatuses
+     </a>
+    </td>
+    <td>
+     Grants permission to list agent statuses in an Amazon Connect instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-wildcard-agent-status">
+       wildcard-agent-status*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListApprovedOrigins">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListApprovedOrigins
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view approved origins of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListBots">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListBots
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the Lex bots of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListContactFlowModules">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListContactFlowModules.html">
+      ListContactFlowModules
+     </a>
+    </td>
+    <td>
+     Grants permission to list contact flow module resources in an Amazon Connect instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListContactFlows">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListContactFlows.html">
+      ListContactFlows
+     </a>
+    </td>
+    <td>
+     Grants permission to list contact flow resources in an Amazon Connect instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-wildcard-contact-flow">
+       wildcard-contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListContactReferences">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListContactReferences.html">
+      ListContactReferences
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list references associated with a contact in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListHoursOfOperations">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListHoursOfOperations.html">
+      ListHoursOfOperations
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list hours of operation resources in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListInstanceAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListInstanceAttributes
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the attributes of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListInstanceStorageConfigs">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListInstanceStorageConfigs
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view storage configurations of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to view the Amazon Connect instances associated with an AWS account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListIntegrationAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListIntegrationAssociations.html">
+      ListIntegrationAssociations
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list summary information about the integration associations for
+                                                the specified Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListLambdaFunctions">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListLambdaFunctions
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the Lambda functions of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListLexBots">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListLexBots
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the Lex bots of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListPhoneNumbers">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListPhoneNumbers.html">
+      ListPhoneNumbers
+     </a>
+    </td>
+    <td>
+     Grants permission to list phone number resources in an Amazon Connect instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-wildcard-phone-number">
+       wildcard-phone-number*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListPrompts">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListPrompts.html">
+      ListPrompts
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list prompt resources in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListQueueQuickConnects">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListQueueQuickConnects.html">
+      ListQueueQuickConnects
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list quick connect resources in a queue in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListQueues.html">
+      ListQueues
+     </a>
+    </td>
+    <td>
+     Grants permission to list queue resources in an Amazon Connect instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-wildcard-queue">
+       wildcard-queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListQuickConnects">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListQuickConnects.html">
+      ListQuickConnects
+     </a>
+    </td>
+    <td>
+     Grants permission to list quick connect resources in an Amazon Connect instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-wildcard-quick-connect">
+       wildcard-quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ListRealtimeContactAnalysisSegments">
+     </a>
+     <a href="https://docs.aws.amazon.com/contact-lens/latest/APIReference/API_ListRealtimeContactAnalysisSegments.html">
+      ListRealtimeContactAnalysisSegments
+     </a>
+    </td>
+    <td>
+     Grants permission to list the analysis segments for a real-time analysis session
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListRoutingProfileQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListRoutingProfileQueues.html">
+      ListRoutingProfileQueues
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list queue resources in a routing profile in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListRoutingProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListRoutingProfiles.html">
+      ListRoutingProfiles
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list routing profile resources in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListSecurityKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      ListSecurityKeys
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view the security keys of an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListSecurityProfilePermissions">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListSecurityProfilePermissions.html">
+      ListSecurityProfilePermissions
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list permissions associated with security profile in an Amazon
+                                                Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListSecurityProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListSecurityProfiles.html">
+      ListSecurityProfiles
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list security profile resources in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="12">
+     <a id="amazonconnect-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="12">
+     Grants permission to list tags for an Amazon Connect resource
+    </td>
+    <td rowspan="12">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-agent-status">
+       agent-status
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-integration-association">
+       integration-association
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-use-case">
+       use-case
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListUseCases">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListUseCases.html">
+      ListUseCases
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the use cases of an integration association
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      connect:DescribeInstance
+     </p>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListUserHierarchyGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListUserHierarchyGroups.html">
+      ListUserHierarchyGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the hierarchy group resources in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-ListUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListUsers.html">
+      ListUsers
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list user resources in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-ResumeContactRecording">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ResumeContactRecording.html">
+      ResumeContactRecording
+     </a>
+    </td>
+    <td>
+     Grants permission to resume recording for the specified contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-StartChatContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StartChatContact.html">
+      StartChatContact
+     </a>
+    </td>
+    <td>
+     Grants permission to initiate a chat using the Amazon Connect API
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-StartContactRecording">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StartContactRecording.html">
+      StartContactRecording
+     </a>
+    </td>
+    <td>
+     Grants permission to start recording for the specified contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-StartOutboundVoiceContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StartOutboundVoiceContact.html">
+      StartOutboundVoiceContact
+     </a>
+    </td>
+    <td>
+     Grants permission to initiate outbound calls using the Amazon Connect API
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-StartTaskContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StartTaskContact.html">
+      StartTaskContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to initiate a task using the Amazon Connect API
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-StopContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StopContact.html">
+      StopContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to stop contacts that were initiated using the Amazon Connect API.
+                                                If you use this operation on an active contact the contact ends, even if the agent
+                                                is active on a call with a customer
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-StopContactRecording">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StopContactRecording.html">
+      StopContactRecording
+     </a>
+    </td>
+    <td>
+     Grants permission to stop recording for the specified contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-SuspendContactRecording">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_SuspendContactRecording.html">
+      SuspendContactRecording
+     </a>
+    </td>
+    <td>
+     Grants permission to suspend recording for the specified contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="12">
+     <a id="amazonconnect-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="12">
+     Grants permission to tag an Amazon Connect resource
+    </td>
+    <td rowspan="12">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-agent-status">
+       agent-status
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-integration-association">
+       integration-association
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-use-case">
+       use-case
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="12">
+     <a id="amazonconnect-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="12">
+     Grants permission to untag an Amazon Connect resource
+    </td>
+    <td rowspan="12">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-agent-status">
+       agent-status
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-integration-association">
+       integration-association
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-use-case">
+       use-case
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateAgentStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateAgentStatus.html">
+      UpdateAgentStatus
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update agent status in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-agent-status">
+       agent-status*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContact.html">
+      UpdateContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update a contact in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContactAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactAttributes.html">
+      UpdateContactAttributes
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create or update the contact attributes associated with the specified
+                                                contact
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContactFlowContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactFlowContent.html">
+      UpdateContactFlowContent
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update contact flow content in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContactFlowMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactFlowMetadata.html">
+      UpdateContactFlowMetadata
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the metadata of a contact flow in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContactFlowModuleMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactFlowModuleMetadata.html">
+      UpdateContactFlowModuleMetadata
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the metadata of a contact flow module in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContactFlowName">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactFlowName.html">
+      UpdateContactFlowName
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the name and description of a contact flow in an Amazon
+                                                Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateContactSchedule">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactSchedule.html">
+      UpdateContactSchedule
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the schedule of a contact that is already scheduled in
+                                                an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateHoursOfOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateHoursOfOperation.html">
+      UpdateHoursOfOperation
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update hours of operation in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateInstanceAttribute">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      UpdateInstanceAttribute
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the attribute for an existing Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      logs:CreateLogGroup
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_AttributeType">
+       connect:AttributeType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateInstanceStorageConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/console/connect/amazon-connect-console/grant-instance-permissions">
+      UpdateInstanceStorageConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the storage configuration for an existing Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+     <p>
+      firehose:DescribeDeliveryStream
+     </p>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      kinesis:DescribeStream
+     </p>
+     <p>
+      kms:CreateGrant
+     </p>
+     <p>
+      kms:DescribeKey
+     </p>
+     <p>
+      s3:GetBucketAcl
+     </p>
+     <p>
+      s3:GetBucketLocation
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_StorageResourceType">
+       connect:StorageResourceType
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-UpdateQueueHoursOfOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQueueHoursOfOperation.html">
+      UpdateQueueHoursOfOperation
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to update queue hours of operation in an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hours-of-operation">
+       hours-of-operation*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateQueueMaxContacts">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQueueMaxContacts.html">
+      UpdateQueueMaxContacts
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update queue capacity in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateQueueName">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQueueName.html">
+      UpdateQueueName
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update a queue name and description in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonconnect-UpdateQueueOutboundCallerConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQueueOutboundCallerConfig.html">
+      UpdateQueueOutboundCallerConfig
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to update queue outbound caller config in an Amazon Connect instance
+    </td>
+    <td rowspan="4">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-phone-number">
+       phone-number
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateQueueStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQueueStatus.html">
+      UpdateQueueStatus
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update queue status in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5">
+     <a id="amazonconnect-UpdateQuickConnectConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQuickConnectConfig.html">
+      UpdateQuickConnectConfig
+     </a>
+    </td>
+    <td rowspan="5">
+     Grants permission to update the configuration of a quick connect in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="5">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow">
+       contact-flow
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateQuickConnectName">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateQuickConnectName.html">
+      UpdateQuickConnectName
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update a quick connect name and description in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-quick-connect">
+       quick-connect*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateRoutingProfileConcurrency">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileConcurrency.html">
+      UpdateRoutingProfileConcurrency
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the concurrency in a routing profile in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-UpdateRoutingProfileDefaultOutboundQueue">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileDefaultOutboundQueue.html">
+      UpdateRoutingProfileDefaultOutboundQueue
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to update the outbound queue in a routing profile in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-queue">
+       queue*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateRoutingProfileName">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileName.html">
+      UpdateRoutingProfileName
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update a routing profile name and description in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateRoutingProfileQueues">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileQueues.html">
+      UpdateRoutingProfileQueues
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the queues in routing profile in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateSecurityProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateSecurityProfile.html">
+      UpdateSecurityProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update a security profile group for a user in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-UpdateUserHierarchy">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserHierarchy.html">
+      UpdateUserHierarchy
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to update a hierarchy group for a user in an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-hierarchy-group">
+       hierarchy-group
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateUserHierarchyGroupName">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserHierarchyGroupName.html">
+      UpdateUserHierarchyGroupName
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update a user hierarchy group name in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-hierarchy-group">
+       hierarchy-group*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateUserHierarchyStructure">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserHierarchyStructure.html">
+      UpdateUserHierarchyStructure
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update user hierarchy structure in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-instance">
+       instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateUserIdentityInfo">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserIdentityInfo.html">
+      UpdateUserIdentityInfo
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update identity information for a user in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdateUserPhoneConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserPhoneConfig.html">
+      UpdateUserPhoneConfig
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update phone configuration settings for a user in an Amazon Connect
+                                                instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-UpdateUserRoutingProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserRoutingProfile.html">
+      UpdateUserRoutingProfile
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to update a routing profile for a user in an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-routing-profile">
+       routing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnect-UpdateUserSecurityProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateUserSecurityProfiles.html">
+      UpdateUserSecurityProfiles
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to update security profiles for a user in an Amazon Connect instance
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-security-profile">
+       security-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnect-user">
+       user*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnect-UpdatedescribeContent">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdatedescribeContent.html">
+      UpdatedescribeContent
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update contact flow module content in an Amazon Connect instance
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-contact-flow-module">
+       contact-flow-module*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnect-connect_InstanceId">
+       connect:InstanceId
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d319c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnect-instance">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-instances.html">
+      instance
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-contact">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/connect-contact-attributes.html">
+      contact
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/contact/$
+      <span>
+       {
+      </span>
+      ContactId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-user">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/connect-agents.html">
+      user
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/agent/$
+      <span>
+       {
+      </span>
+      UserId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-routing-profile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/routing-profiles.html">
+      routing-profile
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/routing-profile/$
+      <span>
+       {
+      </span>
+      RoutingProfileId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-security-profile">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/connect-security-profiles.html">
+      security-profile
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/security-profile/$
+      <span>
+       {
+      </span>
+      SecurityProfileId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-hierarchy-group">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/agent-hierarchy.html">
+      hierarchy-group
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/agent-group/$
+      <span>
+       {
+      </span>
+      HierarchyGroupId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-queue">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/API_Queue.html">
+      queue
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/queue/$
+      <span>
+       {
+      </span>
+      QueueId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-wildcard-queue">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/API_Queue.html">
+      wildcard-queue
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/queue/*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-quick-connect">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/quick-connects.html">
+      quick-connect
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/transfer-destination/$
+      <span>
+       {
+      </span>
+      QuickConnectId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-wildcard-quick-connect">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/quick-connects.html">
+      wildcard-quick-connect
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/transfer-destination/*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-contact-flow">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/connect-contact-flows.html">
+      contact-flow
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/contact-flow/$
+      <span>
+       {
+      </span>
+      ContactFlowId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-contact-flow-module">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/contact-flow-modules.html">
+      contact-flow-module
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/flow-module/$
+      <span>
+       {
+      </span>
+      ContactFlowModuleId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-wildcard-contact-flow">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/connect-contact-flows.html">
+      wildcard-contact-flow
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/contact-flow/*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-hours-of-operation">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/API_HoursOfOperation.html">
+      hours-of-operation
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/operating-hours/$
+      <span>
+       {
+      </span>
+      HoursOfOperationId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-agent-status">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/agent-status.html">
+      agent-status
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/agent-status/$
+      <span>
+       {
+      </span>
+      AgentStatusId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-wildcard-agent-status">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/agent-status.html">
+      wildcard-agent-status
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/agent-status/*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-phone-number">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/contact-center-phone-number.html">
+      phone-number
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/phone-numbers/$
+      <span>
+       {
+      </span>
+      PhoneNumberId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-wildcard-phone-number">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/contact-center-phone-number.html">
+      wildcard-phone-number
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/phone-numbers/*
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-integration-association">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/API_IntegrationAssociationSummary.html">
+      integration-association
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/integration-association/$
+      <span>
+       {
+      </span>
+      IntegrationAssociationId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-use-case">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/API_UseCase.html">
+      use-case
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:instance/$
+      <span>
+       {
+      </span>
+      InstanceId}/use-case/$
+      <span>
+       {
+      </span>
+      UseCaseId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d319c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnect-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by using tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by using tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by using tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-connect_AttributeType">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/security_iam_service-with-iam.html">
+      connect:AttributeType
+     </a>
+    </td>
+    <td>
+     Filters access by the attribute type of the Amazon Connect instance
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-connect_InstanceId">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/security_iam_service-with-iam.html">
+      connect:InstanceId
+     </a>
+    </td>
+    <td>
+     Filters access by restricting federation into specified Amazon Connect instances
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnect-connect_StorageResourceType">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/security_iam_service-with-iam.html">
+      connect:StorageResourceType
+     </a>
+    </td>
+    <td>
+     Filters access by restricting the storage resource type of the Amazon Connect instance
+                                                storage configuration
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,1233 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d323c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-AddProfileKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_AddProfileKey.html">
+      AddProfileKey
+     </a>
+    </td>
+    <td>
+     Grants permission to add a profile key
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-CreateDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_CreateDomain.html">
+      CreateDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to create a Domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-CreateProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_CreateProfile.html">
+      CreateProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to create a profile in the domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-DeleteDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_DeleteDomain.html">
+      DeleteDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a Domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-DeleteIntegration">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_DeleteIntegration.html">
+      DeleteIntegration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a integration in a domain
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-integrations">
+       integrations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-DeleteProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_DeleteProfile.html">
+      DeleteProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a profile
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-DeleteProfileKey">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_DeleteProfileKey.html">
+      DeleteProfileKey
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a profile key
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-DeleteProfileObject">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_DeleteProfileObject.html">
+      DeleteProfileObject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a profile object
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-object-types">
+       object-types*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-DeleteProfileObjectType">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_DeleteProfileObjectType.html">
+      DeleteProfileObjectType
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a specific profile object type in the domain
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-object-types">
+       object-types*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-GetAutoMergingPreview">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetAutoMergingPreview.html">
+      GetAutoMergingPreview
+     </a>
+    </td>
+    <td>
+     Grants permission to get a preview of auto merging in a domain
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-GetDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetDomain.html">
+      GetDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to get a specific domain in an account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-GetIdentityResolutionJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetIdentityResolutionJob.html">
+      GetIdentityResolutionJob
+     </a>
+    </td>
+    <td>
+     Grants permission to get an identity resolution job in a domain
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-GetIntegration">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetIntegration.html">
+      GetIntegration
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to get a specific integrations in a domain
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-integrations">
+       integrations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-GetMatches">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetMatches.html">
+      GetMatches
+     </a>
+    </td>
+    <td>
+     Grants permission to get profile matches in a domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-GetProfileObjectType">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetProfileObjectType.html">
+      GetProfileObjectType
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to get a specific profile object type in the domain
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-object-types">
+       object-types*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-GetProfileObjectTypeTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_GetProfileObjectTypeTemplate.html">
+      GetProfileObjectTypeTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to get a specific object type template
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListAccountIntegrations">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListAccountIntegrations.html">
+      ListAccountIntegrations
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the integrations in the account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListDomains">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListDomains.html">
+      ListDomains
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the domains in an account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListIdentityResolutionJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListIdentityResolutionJobs.html">
+      ListIdentityResolutionJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to list identity resolution jobs in a domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListIntegrations">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListIntegrations.html">
+      ListIntegrations
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the integrations in a specific domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListProfileObjectTypeTemplates">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListProfileObjectTypeTemplates.html">
+      ListProfileObjectTypeTemplates
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the profile object type templates in the account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListProfileObjectTypes">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListProfileObjectTypes.html">
+      ListProfileObjectTypes
+     </a>
+    </td>
+    <td>
+     Grants permission to list all the profile object types in the domain
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-ListProfileObjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListProfileObjects.html">
+      ListProfileObjects
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list all the profile objects for a profile
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-object-types">
+       object-types*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags for a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-MergeProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_MergeProfiles.html">
+      MergeProfiles
+     </a>
+    </td>
+    <td>
+     Grants permission to merge profiles in a domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnectcustomerprofiles-PutIntegration">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_PutIntegration.html">
+      PutIntegration
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to put a integration in a domain
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-integrations">
+       integrations*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonconnectcustomerprofiles-PutProfileObject">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_PutProfileObject.html">
+      PutProfileObject
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to put an object for a profile
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-object-types">
+       object-types*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonconnectcustomerprofiles-PutProfileObjectType">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_PutProfileObjectType.html">
+      PutProfileObjectType
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to put a specific profile object type in the domain
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-object-types">
+       object-types*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-SearchProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_SearchProfiles.html">
+      SearchProfiles
+     </a>
+    </td>
+    <td>
+     Grants permission to search for profiles in a domain
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to adds tags to a resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to remove tags from a resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-UpdateDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_UpdateDomain.html">
+      UpdateDomain
+     </a>
+    </td>
+    <td>
+     Grants permission to update a Domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-UpdateProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/API_UpdateProfile.html">
+      UpdateProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to update a profile in the domain
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-domains">
+       domains*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d323c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-domains">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/">
+      domains
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:profile:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:domains/$
+      <span>
+       {
+      </span>
+      DomainName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-object-types">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/">
+      object-types
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:profile:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:domains/$
+      <span>
+       {
+      </span>
+      DomainName}/object-types/$
+      <span>
+       {
+      </span>
+      ObjectTypeName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-integrations">
+     </a>
+     <a href="https://docs.aws.amazon.com/customerprofiles/latest/APIReference/">
+      integrations
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:profile:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:domains/$
+      <span>
+       {
+      </span>
+      DomainName}/integrations/$
+      <span>
+       {
+      </span>
+      Uri}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonconnectcustomerprofiles-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d323c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-permissions.html#iam-contextkeys">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by a key that is present in the request the user makes to the customer
+                                                profile service
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-permissions.html#iam-contextkeys">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by a tag key and value pair
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonconnectcustomerprofiles-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-permissions.html#iam-contextkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the list of all the tag key names present in the request the user
+                                                makes to the customer profile service
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

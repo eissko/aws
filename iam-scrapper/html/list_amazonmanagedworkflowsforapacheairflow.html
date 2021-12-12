@@ -1,0 +1,578 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d819c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-CreateCliToken">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      CreateCliToken
+     </a>
+    </td>
+    <td>
+     Grants permission to create a short-lived token that allows a user to invoke Airflow
+                                                CLI via an endpoint on the Apache Airflow Webserver
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-CreateEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      CreateEnvironment
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-CreateWebLoginToken">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      CreateWebLoginToken
+     </a>
+    </td>
+    <td>
+     Grants permission to create a short-lived token that allows a user to log into Apache
+                                                Airflow web UI
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-rbac-role">
+       rbac-role*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-DeleteEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      DeleteEnvironment
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-GetEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      GetEnvironment
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to view details about an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-ListEnvironments">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      ListEnvironments
+     </a>
+    </td>
+    <td>
+     Grants permission to list the Amazon MWAA environments in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to lists tag for an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-PublishMetrics">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      PublishMetrics
+     </a>
+    </td>
+    <td>
+     Grants permission to publish metrics for an Amazon MWAA environment
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to untag an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedworkflowsforapacheairflow-UpdateEnvironment">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html">
+      UpdateEnvironment
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify an Amazon MWAA environment
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-environment">
+       environment*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d819c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-environment">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html#mwaa-resources">
+      environment
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:airflow:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:environment/$
+      <span>
+       {
+      </span>
+      EnvironmentName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-rbac-role">
+     </a>
+     <a href="https://docs.aws.amazon.com/mwaa/latest/userguide/mwaa-actions-resources.html#mwaa-resources">
+      rbac-role
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:airflow:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:role/$
+      <span>
+       {
+      </span>
+      EnvironmentName}/$
+      <span>
+       {
+      </span>
+      RoleName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d819c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedworkflowsforapacheairflow-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

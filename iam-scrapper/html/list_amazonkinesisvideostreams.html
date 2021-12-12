@@ -1,0 +1,1105 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d739c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-ConnectAsMaster">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ConnectAsMaster.html">
+      ConnectAsMaster
+     </a>
+    </td>
+    <td>
+     Grants permission to connect as a master to the signaling channel specified by the
+                                                endpoint
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-ConnectAsViewer">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ConnectAsViewer.html">
+      ConnectAsViewer
+     </a>
+    </td>
+    <td>
+     Grants permission to connect as a viewer to the signaling channel specified by the
+                                                endpoint
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisvideostreams-CreateSignalingChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_CreateSignalingChannel.html">
+      CreateSignalingChannel
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a signaling channel
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisvideostreams-CreateStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_CreateStream.html">
+      CreateStream
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a Kinesis video stream
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-DeleteSignalingChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_DeleteSignalingChannel.html">
+      DeleteSignalingChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing signaling channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-DeleteStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_DeleteStream.html">
+      DeleteStream
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing Kinesis video stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-DescribeSignalingChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_DescribeSignalingChannel.html">
+      DescribeSignalingChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the specified signaling channel
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-DescribeStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_DescribeStream.html">
+      DescribeStream
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the specified Kinesis video stream
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetClip">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetClip.html">
+      GetClip
+     </a>
+    </td>
+    <td>
+     Grants permission to get a media clip from a video stream
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetDASHStreamingSessionURL">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetDASHStreamingSessionURL.html">
+      GetDASHStreamingSessionURL
+     </a>
+    </td>
+    <td>
+     Grants permission to create a URL for MPEG-DASH video streaming
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetDataEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetDataEndpoint.html">
+      GetDataEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to get an endpoint for a specified stream for either reading or
+                                                writing media data to Kinesis Video Streams
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetHLSStreamingSessionURL">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetHLSStreamingSessionURL.html">
+      GetHLSStreamingSessionURL
+     </a>
+    </td>
+    <td>
+     Grants permission to create a URL for HLS video streaming
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetIceServerConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetIceServerConfig.html">
+      GetIceServerConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to get the ICE server configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetMedia">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetMedia.html">
+      GetMedia
+     </a>
+    </td>
+    <td>
+     Grants permission to return media content of a Kinesis video stream
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetMediaForFragmentList">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetMediaForFragmentList.html">
+      GetMediaForFragmentList
+     </a>
+    </td>
+    <td>
+     Grants permission to read and return media data only from persisted storage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-GetSignalingChannelEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_GetSignalingChannelEndpoint.html">
+      GetSignalingChannelEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to get endpoints for a specified combination of protocol and role
+                                                for a signaling channel
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-ListFragments">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ListFragments.html">
+      ListFragments
+     </a>
+    </td>
+    <td>
+     Grants permission to list the fragments from archival storage based on the pagination
+                                                token or selector type with range specified
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-ListSignalingChannels">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ListSignalingChannels.html">
+      ListSignalingChannels
+     </a>
+    </td>
+    <td>
+     Grants permission to list your signaling channels
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-ListStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ListStreams.html">
+      ListStreams
+     </a>
+    </td>
+    <td>
+     Grants permission to list your Kinesis video streams
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisvideostreams-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to fetch the tags associated with your resource
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-ListTagsForStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_ListTagsForStream.html">
+      ListTagsForStream
+     </a>
+    </td>
+    <td>
+     Grants permission to fetch the tags associated with Kinesis video stream
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-PutMedia">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_PutMedia.html">
+      PutMedia
+     </a>
+    </td>
+    <td>
+     Grants permission to send media data to a Kinesis video stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-SendAlexaOfferToMaster">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_SendAlexaOfferToMaster.html">
+      SendAlexaOfferToMaster
+     </a>
+    </td>
+    <td>
+     Grants permission to send the Alexa SDP offer to the master
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonkinesisvideostreams-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to attach set of tags to your resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisvideostreams-TagStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_TagStream.html">
+      TagStream
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to attach set of tags to your Kinesis video streams
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonkinesisvideostreams-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to remove one or more tags from your resource
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisvideostreams-UntagStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_UntagStream.html">
+      UntagStream
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove one or more tags from your Kinesis video streams
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-UpdateDataRetention">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_UpdateDataRetention.html">
+      UpdateDataRetention
+     </a>
+    </td>
+    <td>
+     Grants permission to update the data retention period of your Kinesis video stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-UpdateSignalingChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_UpdateSignalingChannel.html">
+      UpdateSignalingChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to update an existing signaling channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-channel">
+       channel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-UpdateStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_UpdateStream.html">
+      UpdateStream
+     </a>
+    </td>
+    <td>
+     Grants permission to update an existing Kinesis video stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-stream">
+       stream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d739c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-stream">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/how-it-works.html">
+      stream
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kinesisvideo:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:stream/$
+      <span>
+       {
+      </span>
+      StreamName}/$
+      <span>
+       {
+      </span>
+      CreationTime}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-channel">
+     </a>
+     <a href="https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/kinesisvideostreams-webrtc-dg/latest/devguide/kvswebrtc-how-it-works.html">
+      channel
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kinesisvideo:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:channel/$
+      <span>
+       {
+      </span>
+      ChannelName}/$
+      <span>
+       {
+      </span>
+      CreationTime}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisvideostreams-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d739c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters requests based on the allowed set of values for each of the tags
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag-value assoicated with the stream.
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisvideostreams-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters requests based on the presence of mandatory tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,161 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d943c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsperformanceinsights-DescribeDimensionKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/performance-insights/latest/APIReference/API_DescribeDimensionKeys.html">
+      DescribeDimensionKeys
+     </a>
+    </td>
+    <td>
+     For a specific time period, retrieve the top N dimension keys for a metric.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsperformanceinsights-metric-resource">
+       metric-resource*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsperformanceinsights-GetDimensionKeyDetails">
+     </a>
+     <a href="https://docs.aws.amazon.com/performance-insights/latest/APIReference/API_GetDimensionKeyDetails.html">
+      GetDimensionKeyDetails
+     </a>
+    </td>
+    <td>
+     Retrieve the attributes of the specified dimension group.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsperformanceinsights-metric-resource">
+       metric-resource*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsperformanceinsights-GetResourceMetrics">
+     </a>
+     <a href="https://docs.aws.amazon.com/performance-insights/latest/APIReference/API_GetResourceMetrics.html">
+      GetResourceMetrics
+     </a>
+    </td>
+    <td>
+     Retrieve PI metrics for a set of data sources, over a time period.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsperformanceinsights-metric-resource">
+       metric-resource*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d943c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsperformanceinsights-metric-resource">
+     </a>
+     <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.access-control.html">
+      metric-resource
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:pi:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:metrics/$
+      <span>
+       {
+      </span>
+      ServiceType}/$
+      <span>
+       {
+      </span>
+      Identifier}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

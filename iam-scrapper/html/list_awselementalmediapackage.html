@@ -1,0 +1,830 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d503c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-ConfigureLogs">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels-id-configure_logs.html#channels-id-configure_logsput">
+      ConfigureLogs
+     </a>
+    </td>
+    <td>
+     Grants permission to configure access logs for a Channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-CreateChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels.html#channelspost">
+      CreateChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to create a channel in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackage-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-CreateHarvestJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/harvest_jobs.html#harvest_jobspost">
+      CreateHarvestJob
+     </a>
+    </td>
+    <td>
+     Grants permission to create a harvest job in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackage-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-CreateOriginEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/origin_endpoints.html#origin_endpointspost">
+      CreateOriginEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to create an endpoint in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackage-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-DeleteChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels-id.html#channels-iddelete">
+      DeleteChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a channel in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-DeleteOriginEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/origin_endpoints-id.html#origin_endpoints-iddelete">
+      DeleteOriginEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an endpoint in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-origin_endpoints">
+       origin_endpoints*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-DescribeChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels-id.html#channels-idget">
+      DescribeChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to view the details of a channel in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-DescribeHarvestJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/harvest_jobs-id.html#harvest_jobs-idget">
+      DescribeHarvestJob
+     </a>
+    </td>
+    <td>
+     Grants permission to view the details of a harvest job in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-harvest_jobs">
+       harvest_jobs*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-DescribeOriginEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/origin_endpoints-id.html#origin_endpoints-idget">
+      DescribeOriginEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to view the details of an endpoint in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-origin_endpoints">
+       origin_endpoints*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-ListChannels">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels.html#channelsget">
+      ListChannels
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of channels in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-ListHarvestJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/harvest_jobs.html#harvest_jobsget">
+      ListHarvestJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of harvest jobs in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-ListOriginEndpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/origin_endpoints.html#origin_endpointsget">
+      ListOriginEndpoints
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of endpoints in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awselementalmediapackage-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/tags-resource-arn.html#tags-resource-arnget">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list the tags assigned to a Channel or OriginEndpoint
+    </td>
+    <td rowspan="3">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-harvest_jobs">
+       harvest_jobs
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-origin_endpoints">
+       origin_endpoints
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-RotateChannelCredentials">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels-id-credentials.html#channels-id-credentialsput">
+      RotateChannelCredentials
+     </a>
+    </td>
+    <td>
+     Grants permission to rotate credentials for the first IngestEndpoint of a Channel
+                                                in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-RotateIngestEndpointCredentials">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels-id-ingest_endpoints-ingest_endpoint_id-credentials.html#channels-id-ingest_endpoints-ingest_endpoint_id-credentialsput">
+      RotateIngestEndpointCredentials
+     </a>
+    </td>
+    <td>
+     Grants permission to rotate IngestEndpoint credentials for a Channel in AWS Elemental
+                                                MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediapackage-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/hj-create.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to tag a MediaPackage resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-harvest_jobs">
+       harvest_jobs
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-origin_endpoints">
+       origin_endpoints
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awselementalmediapackage-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="awselementalmediapackage-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/tags-resource-arn.html#tags-resource-arndelete">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to delete tags to a Channel or OriginEndpoint
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-harvest_jobs">
+       harvest_jobs
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-origin_endpoints">
+       origin_endpoints
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-UpdateChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/channels-id.html#channels-idput">
+      UpdateChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to make changes to a channel in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-channels">
+       channels*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-UpdateOriginEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/apireference/origin_endpoints-id.html#origin_endpoints-idput">
+      UpdateOriginEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to make changes to an endpoint in AWS Elemental MediaPackage
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-origin_endpoints">
+       origin_endpoints*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d503c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-channels">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/channels.html">
+      channels
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediapackage:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:channels/$
+      <span>
+       {
+      </span>
+      ChannelIdentifier}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-origin_endpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/endpoints.html">
+      origin_endpoints
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediapackage:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:origin_endpoints/$
+      <span>
+       {
+      </span>
+      OriginEndpointIdentifier}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-harvest_jobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/harvest-jobs.html">
+      harvest_jobs
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:mediapackage:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:harvest_jobs/$
+      <span>
+       {
+      </span>
+      HarvestJobIdentifier}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awselementalmediapackage-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d503c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tag for a MediaPackage request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tag for a MediaPackage resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awselementalmediapackage-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the tag keys for a MediaPackage resource or request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

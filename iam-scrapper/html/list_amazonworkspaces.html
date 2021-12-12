@@ -1,0 +1,1888 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1259c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-AssociateConnectionAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_AssociateConnectionAlias.html">
+      AssociateConnectionAlias
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate connection aliases with directories
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-connectionalias">
+       connectionalias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-AssociateIpGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_AssociateIpGroups.html">
+      AssociateIpGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to associate IP access control groups with directories
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-AuthorizeIpRules">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_AuthorizeIpRules.html">
+      AuthorizeIpRules
+     </a>
+    </td>
+    <td>
+     Grants permission to add rules to IP access control groups
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-CopyWorkspaceImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CopyWorkspaceImage.html">
+      CopyWorkspaceImage
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to copy a WorkSpace image
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      workspaces:DescribeWorkspaceImages
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-CreateConnectionAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CreateConnectionAlias.html">
+      CreateConnectionAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to create connection aliases for use with cross-Region redirection
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-CreateIpGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CreateIpGroup.html">
+      CreateIpGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to create IP access control groups
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-CreateTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CreateTags.html">
+      CreateTags
+     </a>
+    </td>
+    <td>
+     Grants permission to create tags for WorkSpaces resources
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-CreateUpdatedWorkspaceImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CreateUpdatedWorkspaceImage.html">
+      CreateUpdatedWorkspaceImage
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an updated WorkSpace image
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-CreateWorkspaceBundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CreateWorkspaceBundle.html">
+      CreateWorkspaceBundle
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a WorkSpace bundle
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      workspaces:CreateTags
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="amazonworkspaces-CreateWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_CreateWorkspaces.html">
+      CreateWorkspaces
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to create one or more WorkSpaces
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspacebundle">
+       workspacebundle*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DeleteConnectionAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DeleteConnectionAlias.html">
+      DeleteConnectionAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to delete connection aliases
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-connectionalias">
+       connectionalias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DeleteIpGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DeleteIpGroup.html">
+      DeleteIpGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to delete IP access control groups
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DeleteTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DeleteTags.html">
+      DeleteTags
+     </a>
+    </td>
+    <td>
+     Grants permission to delete tags from WorkSpaces resources
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DeleteWorkspaceBundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DeleteWorkspaceBundle.html">
+      DeleteWorkspaceBundle
+     </a>
+    </td>
+    <td>
+     Grants permission to delete WorkSpace bundles
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspacebundle">
+       workspacebundle*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DeleteWorkspaceImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DeleteWorkspaceImage.html">
+      DeleteWorkspaceImage
+     </a>
+    </td>
+    <td>
+     Grants permission to delete WorkSpace images
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DeregisterWorkspaceDirectory">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DeregisterWorkspaceDirectory.html">
+      DeregisterWorkspaceDirectory
+     </a>
+    </td>
+    <td>
+     Grants permission to deregister directories from use with Amazon WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeAccount.html">
+      DescribeAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the configuration of Bring Your Own License (BYOL) for
+                                                WorkSpaces accounts
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeAccountModifications">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeAccountModifications.html">
+      DescribeAccountModifications
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve modifications to the configuration of Bring Your Own
+                                                License (BYOL) for WorkSpaces accounts
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeClientProperties">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeClientProperties.html">
+      DescribeClientProperties
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about WorkSpaces clients
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeConnectionAliasPermissions">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeConnectionAliasPermissions.html">
+      DescribeConnectionAliasPermissions
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the permissions that the owners of connection aliases
+                                                have granted to other AWS accounts for connection aliases
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-connectionalias">
+       connectionalias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeConnectionAliases">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeConnectionAliases.html">
+      DescribeConnectionAliases
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a list that describes the connection aliases used for
+                                                cross-Region redirection
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeIpGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeIpGroups.html">
+      DescribeIpGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about IP access control groups
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeTags.html">
+      DescribeTags
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the tags for WorkSpaces resources
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspaceBundles">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspaceBundles.html">
+      DescribeWorkspaceBundles
+     </a>
+    </td>
+    <td>
+     Grants permission to obtain information about WorkSpace bundles
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspaceDirectories">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspaceDirectories.html">
+      DescribeWorkspaceDirectories
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about directories that are registered with
+                                                WorkSpaces
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspaceImagePermissions">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspaceImagePermissions.html">
+      DescribeWorkspaceImagePermissions
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about WorkSpace image permissions
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspaceImages">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspaceImages.html">
+      DescribeWorkspaceImages
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about WorkSpace images
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspaceSnapshots">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspaceSnapshots.html">
+      DescribeWorkspaceSnapshots
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve information about WorkSpace snapshots
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspaces.html">
+      DescribeWorkspaces
+     </a>
+    </td>
+    <td>
+     Grants permission to obtain information about WorkSpaces
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DescribeWorkspacesConnectionStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DescribeWorkspacesConnectionStatus.html">
+      DescribeWorkspacesConnectionStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to obtain the connection status of WorkSpaces
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-DisassociateConnectionAlias">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DisassociateConnectionAlias.html">
+      DisassociateConnectionAlias
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate connection aliases from directories
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-connectionalias">
+       connectionalias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-DisassociateIpGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_DisassociateIpGroups.html">
+      DisassociateIpGroups
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to disassociate IP access control groups from directories
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ImportWorkspaceImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ImportWorkspaceImage.html">
+      ImportWorkspaceImage
+     </a>
+    </td>
+    <td>
+     Grants permission to import Bring Your Own License (BYOL) images into Amazon WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:DescribeImages
+     </p>
+     <p>
+      ec2:ModifyImageAttribute
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ListAvailableManagementCidrRanges">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ListAvailableManagementCidrRanges.html">
+      ListAvailableManagementCidrRanges
+     </a>
+    </td>
+    <td>
+     Grants permission to list the available CIDR ranges for enabling Bring Your Own License
+                                                (BYOL) for WorkSpaces accounts
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-MigrateWorkspace">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_MigrateWorkspace.html">
+      MigrateWorkspace
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to migrate WorkSpaces
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspacebundle">
+       workspacebundle*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifyAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifyAccount.html">
+      ModifyAccount
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the configuration of Bring Your Own License (BYOL) for
+                                                WorkSpaces accounts
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifyClientProperties">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifyClientProperties.html">
+      ModifyClientProperties
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the properties of WorkSpaces clients
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifySelfservicePermissions">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifySelfservicePermissions.html">
+      ModifySelfservicePermissions
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the self-service WorkSpace management capabilities for
+                                                your users
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifyWorkspaceAccessProperties">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifyWorkspaceAccessProperties.html">
+      ModifyWorkspaceAccessProperties
+     </a>
+    </td>
+    <td>
+     Grants permission to specify which devices and operating systems users can use to
+                                                access their WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifyWorkspaceCreationProperties">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifyWorkspaceCreationProperties.html">
+      ModifyWorkspaceCreationProperties
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the default properties used to create WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifyWorkspaceProperties">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifyWorkspaceProperties.html">
+      ModifyWorkspaceProperties
+     </a>
+    </td>
+    <td>
+     Grants permission to modify WorkSpace properties, including the running mode and the
+                                                AutoStop period
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-ModifyWorkspaceState">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_ModifyWorkspaceState.html">
+      ModifyWorkspaceState
+     </a>
+    </td>
+    <td>
+     Grants permission to modify the state of WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-RebootWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_RebootWorkspaces.html">
+      RebootWorkspaces
+     </a>
+    </td>
+    <td>
+     Grants permission to reboot WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-RebuildWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_RebuildWorkspaces.html">
+      RebuildWorkspaces
+     </a>
+    </td>
+    <td>
+     Grants permission to rebuild WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-RegisterWorkspaceDirectory">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_RegisterWorkspaceDirectory.html">
+      RegisterWorkspaceDirectory
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to register directories for use with Amazon WorkSpaces
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-directoryid">
+       directoryid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonworkspaces-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-RestoreWorkspace">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_RestoreWorkspace.html">
+      RestoreWorkspace
+     </a>
+    </td>
+    <td>
+     Grants permission to restore WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-RevokeIpRules">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_RevokeIpRules.html">
+      RevokeIpRules
+     </a>
+    </td>
+    <td>
+     Grants permission to remove rules from IP access control groups
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-StartWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_StartWorkspaces.html">
+      StartWorkspaces
+     </a>
+    </td>
+    <td>
+     Grants permission to start AutoStop WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-StopWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_StopWorkspaces.html">
+      StopWorkspaces
+     </a>
+    </td>
+    <td>
+     Grants permission to stop AutoStop WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-TerminateWorkspaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_TerminateWorkspaces.html">
+      TerminateWorkspaces
+     </a>
+    </td>
+    <td>
+     Grants permission to terminate WorkSpaces
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceid">
+       workspaceid*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-UpdateConnectionAliasPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_UpdateConnectionAliasPermission.html">
+      UpdateConnectionAliasPermission
+     </a>
+    </td>
+    <td>
+     Grants permission to share or unshare connection aliases with other accounts
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-connectionalias">
+       connectionalias*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-UpdateRulesOfIpGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_UpdateRulesOfIpGroup.html">
+      UpdateRulesOfIpGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to replace rules for IP access control groups
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceipgroup">
+       workspaceipgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonworkspaces-UpdateWorkspaceBundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_UpdateWorkspaceBundle.html">
+      UpdateWorkspaceBundle
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the WorkSpace images used in WorkSpace bundles
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspacebundle">
+       workspacebundle*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-UpdateWorkspaceImagePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/api/API_UpdateWorkspaceImagePermission.html">
+      UpdateWorkspaceImagePermission
+     </a>
+    </td>
+    <td>
+     Grants permission to share or unshare WorkSpace images with other accounts by specifying
+                                                whether other accounts have permission to copy the image
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-workspaceimage">
+       workspaceimage*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1259c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-directoryid">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/manage-workspaces-directory.html">
+      directoryid
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:directory/$
+      <span>
+       {
+      </span>
+      DirectoryId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-workspacebundle">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/bundles.html">
+      workspacebundle
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:workspacebundle/$
+      <span>
+       {
+      </span>
+      BundleId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-workspaceid">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/wsp_workspace_management.html">
+      workspaceid
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:workspace/$
+      <span>
+       {
+      </span>
+      WorkspaceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-workspaceimage">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/bundles.html">
+      workspaceimage
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:workspaceimage/$
+      <span>
+       {
+      </span>
+      ImageId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-workspaceipgroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-ip-access-control-groups.html">
+      workspaceipgroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:workspaceipgroup/$
+      <span>
+       {
+      </span>
+      GroupId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-connectionalias">
+     </a>
+     <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/cross-region-redirection.html">
+      connectionalias
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:workspaces:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:connectionalias/$
+      <span>
+       {
+      </span>
+      ConnectionAliasId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonworkspaces-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1259c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonworkspaces-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

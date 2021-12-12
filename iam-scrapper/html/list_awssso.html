@@ -1,0 +1,2470 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1155c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssso-AssociateDirectory">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      AssociateDirectory
+     </a>
+    </td>
+    <td>
+     Grants permission to connect a directory to be used by AWS Single Sign-On
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:AuthorizeApplication
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-AssociateProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      AssociateProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to create an association between a directory user or group and a
+                                                profile
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-AttachManagedPolicyToPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_AttachManagedPolicyToPermissionSet.html">
+      AttachManagedPolicyToPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to attach an AWS managed policy to a permission set.
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awssso-CreateAccountAssignment">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_CreateAccountAssignment.html">
+      CreateAccountAssignment
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to assign access to a Principal for a specified AWS account using
+                                                a specified permission set.
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Account">
+       Account*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-CreateApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      CreateApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to add an application instance to AWS Single Sign-On
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-CreateApplicationInstanceCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      CreateApplicationInstanceCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to add a new certificate for an application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-CreateInstanceAccessControlAttributeConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_CreateInstanceAccessControlAttributeConfiguration.html">
+      CreateInstanceAccessControlAttributeConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to enable the instance for ABAC and specify the attributes
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-CreateManagedApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      CreateManagedApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to add a managed application instance to AWS Single Sign-On
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-CreatePermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_CreatePermissionSet.html">
+      CreatePermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a permission set
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awssso-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-CreateProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      CreateProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to create a profile for an application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-CreateTrust">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      CreateTrust
+     </a>
+    </td>
+    <td>
+     Grants permission to create a federation trust in a target account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awssso-DeleteAccountAssignment">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DeleteAccountAssignment.html">
+      DeleteAccountAssignment
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to delete a Principal's access from a specified AWS account using
+                                                a specified permission set.
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Account">
+       Account*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DeleteApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DeleteApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DeleteApplicationInstanceCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DeleteApplicationInstanceCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an inactive or expired certificate from the application
+                                                instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-DeleteInlinePolicyFromPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DeleteInlinePolicyFromPermissionSet.html">
+      DeleteInlinePolicyFromPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete the inline policy from a specified permission set.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DeleteInstanceAccessControlAttributeConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DeleteInstanceAccessControlAttributeConfiguration.html">
+      DeleteInstanceAccessControlAttributeConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to disable ABAC and remove the attributes list for the instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DeleteManagedApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DeleteManagedApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the managed application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-DeletePermissionSet">
+     </a>
+     <a href="{DocHomeURL}singlesignon/latest/APIReference/API_DeletePermissionSet.html" rel="noopener noreferrer" target="_blank">
+      DeletePermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete a permission set
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DeletePermissionsPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DeletePermissionsPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the permission policy associated with a permission set
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DeleteProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DeleteProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the profile for an application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DescribeAccountAssignmentCreationStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DescribeAccountAssignmentCreationStatus.html">
+      DescribeAccountAssignmentCreationStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the status of the assignment creation request.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DescribeAccountAssignmentDeletionStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DescribeAccountAssignmentDeletionStatus.html">
+      DescribeAccountAssignmentDeletionStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the status of an assignment deletion request.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DescribeInstanceAccessControlAttributeConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DescribeInstanceAccessControlAttributeConfiguration.html">
+      DescribeInstanceAccessControlAttributeConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to get the list of attributes used by the instance for ABAC
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-DescribePermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DescribePermissionSet.html">
+      DescribePermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a permission set
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DescribePermissionSetProvisioningStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DescribePermissionSetProvisioningStatus.html">
+      DescribePermissionSetProvisioningStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the status for the given Permission Set Provisioning
+                                                request.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DescribePermissionsPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DescribePermissionsPolicies
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all the permissions policies associated with a permission
+                                                set
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DescribeRegisteredRegions">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DescribeRegisteredRegions
+     </a>
+    </td>
+    <td>
+     Grants permission to obtain the regions where your organization has enabled AWS Single
+                                                Sign-on
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-DetachManagedPolicyFromPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_DetachManagedPolicyFromPermissionSet.html">
+      DetachManagedPolicyFromPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to detach the attached AWS managed policy from the specified permission
+                                                set.
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DisassociateDirectory">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DisassociateDirectory
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a directory to be used by AWS Single Sign-On
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:UnauthorizeApplication
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-DisassociateProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      DisassociateProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a directory user or group from a profile
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details for an application instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetApplicationTemplate">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetApplicationTemplate
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve application template details
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-GetInlinePolicyForPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_GetInlinePolicyForPermissionSet.html">
+      GetInlinePolicyForPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to obtain the inline policy assigned to the permission set.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetManagedApplicationInstance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetManagedApplicationInstance
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details for an application instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetMfaDeviceManagementForDirectory">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetMfaDeviceManagementForDirectory
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve Mfa Device Management settings for the directory
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetPermissionSet
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details of a permission set
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetPermissionsPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetPermissionsPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all permission policies associated with a permission
+                                                set
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      sso:DescribePermissionsPolicies
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a profile for an application instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetSSOStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetSSOStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to check if AWS Single Sign-On is enabled
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetSharedSsoConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetSharedSsoConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve shared configuration for the current SSO instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetSsoConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetSsoConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve configuration for the current SSO instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-GetTrust">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      GetTrust
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the federation trust in a target account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ImportApplicationInstanceServiceProviderMetadata">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ImportApplicationInstanceServiceProviderMetadata
+     </a>
+    </td>
+    <td>
+     Grants permission to update the application instance by uploading an application SAML
+                                                metadata file provided by the service provider
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListAccountAssignmentCreationStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListAccountAssignmentCreationStatus.html">
+      ListAccountAssignmentCreationStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to list the status of the AWS account assignment creation requests
+                                                for a specified SSO instance.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListAccountAssignmentDeletionStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListAccountAssignmentDeletionStatus.html">
+      ListAccountAssignmentDeletionStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to list the status of the AWS account assignment deletion requests
+                                                for a specified SSO instance.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awssso-ListAccountAssignments">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListAccountAssignments.html">
+      ListAccountAssignments
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to list the assignee of the specified AWS account with the specified
+                                                permission set.
+    </td>
+    <td rowspan="3">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Account">
+       Account*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-ListAccountsForProvisionedPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListAccountsForProvisionedPermissionSet.html">
+      ListAccountsForProvisionedPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list all the AWS accounts where the specified permission set
+                                                is provisioned.
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListApplicationInstanceCertificates">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListApplicationInstanceCertificates
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all of the certificates for a given application instance
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListApplicationInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListApplicationInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all application instances
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      sso:GetApplicationInstance
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListApplicationTemplates">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListApplicationTemplates
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all supported application templates
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      sso:GetApplicationTemplate
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListApplications">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListApplications
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all supported applications
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListDirectoryAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListDirectoryAssociations
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve details about the directory connected to AWS Single
+                                                Sign-On
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListInstances">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListInstances.html">
+      ListInstances
+     </a>
+    </td>
+    <td>
+     Grants permission to list the SSO Instances that the caller has access to.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-ListManagedPoliciesInPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListManagedPoliciesInPermissionSet.html">
+      ListManagedPoliciesInPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the AWS managed policies that are attached to a specified
+                                                permission set.
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListPermissionSetProvisioningStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListPermissionSetProvisioningStatus.html">
+      ListPermissionSetProvisioningStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to list the status of the Permission Set Provisioning requests for
+                                                a specified SSO instance.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListPermissionSets">
+     </a>
+     <a href="{DocHomeURL}singlesignon/latest/APIReference/API_ListPermissionSets.html" rel="noopener noreferrer" target="_blank">
+      ListPermissionSets
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all permission sets
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-ListPermissionSetsProvisionedToAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListPermissionSetsProvisionedToAccount.html">
+      ListPermissionSetsProvisionedToAccount
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list all the permission sets that are provisioned to a specified
+                                                AWS account.
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Account">
+       Account*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListProfileAssociations">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListProfileAssociations
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the directory user or group associated with the profile
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-ListProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      ListProfiles
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve all profiles for an application instance
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      sso:GetProfile
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list the tags that are attached to a specified resource.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awssso-ProvisionPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_ProvisionPermissionSet.html">
+      ProvisionPermissionSet
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to provision a specified permission set to the specified target.
+    </td>
+    <td rowspan="3">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Account">
+       Account*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-PutInlinePolicyToPermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_PutInlinePolicyToPermissionSet.html">
+      PutInlinePolicyToPermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to attach an IAM inline policy to a permission set.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-PutMfaDeviceManagementForDirectory">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      PutMfaDeviceManagementForDirectory
+     </a>
+    </td>
+    <td>
+     Grants permission to put Mfa Device Management settings for the directory
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-PutPermissionsPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      PutPermissionsPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to add a policy to a permission set
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-SearchGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      SearchGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to search for groups within the associated directory
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-SearchUsers">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      SearchUsers
+     </a>
+    </td>
+    <td>
+     Grants permission to search for users within the associated directory
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ds:DescribeDirectories
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-StartSSO">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      StartSSO
+     </a>
+    </td>
+    <td>
+     Grants permission to initialize AWS Single Sign-On
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      organizations:DescribeOrganization
+     </p>
+     <p>
+      organizations:EnableAWSServiceAccess
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awssso-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to associate a set of tags with a specified resource.
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awssso-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awssso-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Grants permission to disassociate a set of tags from a specified resource.
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awssso-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceActiveCertificate">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceActiveCertificate
+     </a>
+    </td>
+    <td>
+     Grants permission to set a certificate as the active one for this application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceDisplayData">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceDisplayData
+     </a>
+    </td>
+    <td>
+     Grants permission to update display data of an application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceResponseConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceResponseConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update federation response configuration for the application
+                                                instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceResponseSchemaConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceResponseSchemaConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update federation response schema configuration for the application
+                                                instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceSecurityConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceSecurityConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update security details for the application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceServiceProviderConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceServiceProviderConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update service provider related configuration for the application
+                                                instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateApplicationInstanceStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateApplicationInstanceStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to update the status of an application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateDirectoryAssociation">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateDirectoryAssociation
+     </a>
+    </td>
+    <td>
+     Grants permission to update the user attribute mappings for your connected directory
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateInstanceAccessControlAttributeConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/APIReference/API_UpdateInstanceAccessControlAttributeConfiguration.html">
+      UpdateInstanceAccessControlAttributeConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update the attributes to use with the instance for ABAC
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateManagedApplicationInstanceStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateManagedApplicationInstanceStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to update the status of a managed application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssso-UpdatePermissionSet">
+     </a>
+     <a href="{DocHomeURL}singlesignon/latest/APIReference/API_UpdatePermissionSet.html" rel="noopener noreferrer" target="_blank">
+      UpdatePermissionSet
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to update the permission set.
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-Instance">
+       Instance*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awssso-PermissionSet">
+       PermissionSet*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to update the profile for an application instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateSSOConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateSSOConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update the configuration for the current SSO instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-UpdateTrust">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/iam-auth-access-using-id-policies.html#policyexample">
+      UpdateTrust
+     </a>
+    </td>
+    <td>
+     Grants permission to update the federation trust in a target account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1155c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssso-PermissionSet">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsetsconcept.html">
+      PermissionSet
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:sso:::permissionSet/$
+      <span>
+       {
+      </span>
+      InstanceId}/$
+      <span>
+       {
+      </span>
+      PermissionSetId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awssso-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-Account">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/manage-your-accounts.html">
+      Account
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:sso:::account/$
+      <span>
+       {
+      </span>
+      AccountId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-Instance">
+     </a>
+     <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/step1.html">
+      Instance
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:sso:::instance/$
+      <span>
+       {
+      </span>
+      InstanceId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1155c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssso-aws_RequestTag___TagKey_">
+     </a>
+     aws:RequestTag/${TagKey}
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-aws_ResourceTag___TagKey_">
+     </a>
+     aws:ResourceTag/${TagKey}
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssso-aws_TagKeys">
+     </a>
+     aws:TagKeys
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

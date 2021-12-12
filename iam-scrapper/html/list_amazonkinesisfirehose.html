@@ -1,0 +1,507 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d735c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisfirehose-CreateDeliveryStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_CreateDeliveryStream.html">
+      CreateDeliveryStream
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to create a delivery stream
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonkinesisfirehose-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-DeleteDeliveryStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_DeleteDeliveryStream.html">
+      DeleteDeliveryStream
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a delivery stream and its data
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-DescribeDeliveryStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_DescribeDeliveryStream.html">
+      DescribeDeliveryStream
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the specified delivery stream and gets the status
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-ListDeliveryStreams">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_ListDeliveryStreams.html">
+      ListDeliveryStreams
+     </a>
+    </td>
+    <td>
+     Grants permissions to list your delivery streams
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-ListTagsForDeliveryStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_ListTagsForDeliveryStream.html">
+      ListTagsForDeliveryStream
+     </a>
+    </td>
+    <td>
+     Grants permissions to list the tags for the specified delivery stream
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-PutRecord">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_PutRecord.html">
+      PutRecord
+     </a>
+    </td>
+    <td>
+     Grants permissions to write a single data record into an Amazon Kinesis Firehose delivery
+                                                stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-PutRecordBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_PutRecordBatch.html">
+      PutRecordBatch
+     </a>
+    </td>
+    <td>
+     Grants permissions to write multiple data records into a delivery stream in a single
+                                                call, which can achieve higher throughput per producer than when writing single records
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-StartDeliveryStreamEncryption">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_StartDeliveryStreamEncryption.html">
+      StartDeliveryStreamEncryption
+     </a>
+    </td>
+    <td>
+     Grants permissions to enable server-side encryption (SSE) for the delivery stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-StopDeliveryStreamEncryption">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_StopDeliveryStreamEncryption.html">
+      StopDeliveryStreamEncryption
+     </a>
+    </td>
+    <td>
+     Grants permissions to disable the specified destination of the specified delivery
+                                                stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisfirehose-TagDeliveryStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_TagDeliveryStream.html">
+      TagDeliveryStream
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to add or update tags for the specified delivery stream
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonkinesisfirehose-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonkinesisfirehose-UntagDeliveryStream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_UntagDeliveryStream.html">
+      UntagDeliveryStream
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permissions to remove tags from the specified delivery stream
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-UpdateDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/APIReference/API_UpdateDestination.html">
+      UpdateDestination
+     </a>
+    </td>
+    <td>
+     Grants permissions to update the specified destination of the specified delivery stream
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-deliverystream">
+       deliverystream*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d735c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-deliverystream">
+     </a>
+     <a href="https://docs.aws.amazon.com/firehose/latest/dev/basic-create.html">
+      deliverystream
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:firehose:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:deliverystream/$
+      <span>
+       {
+      </span>
+      DeliveryStreamName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonkinesisfirehose-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d735c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonkinesisfirehose-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

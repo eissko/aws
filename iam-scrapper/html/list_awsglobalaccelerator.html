@@ -1,0 +1,1459 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d575c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-AddCustomRoutingEndpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_AddCustomRoutingEndpoints.html">
+      AddCustomRoutingEndpoints
+     </a>
+    </td>
+    <td>
+     Grants permission to add a virtual private cloud (VPC) subnet endpoint to a custom
+                                                routing accelerator endpoint group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-AdvertiseByoipCidr">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_AdvertiseByoipCidr.html">
+      AdvertiseByoipCidr
+     </a>
+    </td>
+    <td>
+     Grants permission to advertises an IPv4 address range that is provisioned for use
+                                                with your accelerator through bring your own IP addresses (BYOIP).
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-AllowCustomRoutingTraffic">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_AllowCustomRoutingTraffic.html">
+      AllowCustomRoutingTraffic
+     </a>
+    </td>
+    <td>
+     Grants permission to allows custom routing of user traffic to a private destination
+                                                IP:PORT in a specific VPC subnet.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-CreateAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_CreateAccelerator.html">
+      CreateAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to create a standard accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsglobalaccelerator-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-CreateCustomRoutingAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_CreateCustomRoutingAccelerator.html">
+      CreateCustomRoutingAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to create a Custom Routing accelerator
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsglobalaccelerator-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-CreateCustomRoutingEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_CreateCustomRoutingEndpointGroup.html">
+      CreateCustomRoutingEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to create an endpoint group for the specified listener for a custom
+                                                routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-CreateCustomRoutingListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_CreateCustomRoutingListener.html">
+      CreateCustomRoutingListener
+     </a>
+    </td>
+    <td>
+     Grants permission to create a listener to process inbound connections from clients
+                                                to a custom routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-CreateEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_CreateEndpointGroup.html">
+      CreateEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to add an endpoint group to a standard accelerator listener.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-CreateListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_CreateListener.html">
+      CreateListener
+     </a>
+    </td>
+    <td>
+     Grants permission to add a listener to a standard accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeleteAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeleteAccelerator.html">
+      DeleteAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a standard accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeleteCustomRoutingAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeleteCustomRoutingAccelerator.html">
+      DeleteCustomRoutingAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a custom routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeleteCustomRoutingEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeleteCustomRoutingEndpointGroup.html">
+      DeleteCustomRoutingEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an endpoint group from a listener for a custom routing
+                                                accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeleteCustomRoutingListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeleteCustomRoutingListener.html">
+      DeleteCustomRoutingListener
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a listener for a custom routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeleteEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeleteEndpointGroup.html">
+      DeleteEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an endpoint group associated with a standard accelerator
+                                                listener.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeleteListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeleteListener.html">
+      DeleteListener
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a listener from a standard accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DenyCustomRoutingTraffic">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DenyCustomRoutingTraffic.html">
+      DenyCustomRoutingTraffic
+     </a>
+    </td>
+    <td>
+     Grants permission to disallows custom routing of user traffic to a private destination
+                                                IP:PORT in a specific VPC subnet.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DeprovisionByoipCidr">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DeprovisionByoipCidr.html">
+      DeprovisionByoipCidr
+     </a>
+    </td>
+    <td>
+     Grants permission to releases the specified address range that you provisioned for
+                                                use with your accelerator through bring your own IP addresses (BYOIP).
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeAccelerator.html">
+      DescribeAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permissions to describe a standard accelerator.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeAcceleratorAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeAcceleratorAttributes.html">
+      DescribeAcceleratorAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a standard accelerator attributes.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeCustomRoutingAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeCustomRoutingAccelerator.html">
+      DescribeCustomRoutingAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a custom routing accelerator.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeCustomRoutingAcceleratorAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeCustomRoutingAcceleratorAttributes.html">
+      DescribeCustomRoutingAcceleratorAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the attributes of a custom routing accelerator.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeCustomRoutingEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeCustomRoutingEndpointGroup.html">
+      DescribeCustomRoutingEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an endpoint group for a custom routing accelerator.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeCustomRoutingListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeCustomRoutingListener.html">
+      DescribeCustomRoutingListener
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a listener for a custom routing accelerator.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeEndpointGroup.html">
+      DescribeEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a standard accelerator endpoint group.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-DescribeListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_DescribeListener.html">
+      DescribeListener
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a standard accelerator listener.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListAccelerators">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListAccelerators.html">
+      ListAccelerators
+     </a>
+    </td>
+    <td>
+     Grants permission to list all standard accelerators.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListByoipCidrs">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListByoipCidrs.html">
+      ListByoipCidrs
+     </a>
+    </td>
+    <td>
+     Grants permission to list the BYOIP cidrs.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListCustomRoutingAccelerators">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListCustomRoutingAccelerators.html">
+      ListCustomRoutingAccelerators
+     </a>
+    </td>
+    <td>
+     Grants permission to list the custom routing accelerators for an AWS account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListCustomRoutingEndpointGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListCustomRoutingEndpointGroups.html">
+      ListCustomRoutingEndpointGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to list the endpoint groups that are associated with a listener
+                                                for a custom routing accelerator.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListCustomRoutingListeners">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListCustomRoutingListeners.html">
+      ListCustomRoutingListeners
+     </a>
+    </td>
+    <td>
+     Grants permission to list the listeners for a custom routing accelerator.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListCustomRoutingPortMappings">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListCustomRoutingPortMappings.html">
+      ListCustomRoutingPortMappings
+     </a>
+    </td>
+    <td>
+     Grants permission to list the port mappings for a custom routing accelerator.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListCustomRoutingPortMappingsByDestination">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListCustomRoutingPortMappingsByDestination.html">
+      ListCustomRoutingPortMappingsByDestination
+     </a>
+    </td>
+    <td>
+     Grants permission to list the port mappings for a specific endpoint IP address (a
+                                                destination address) in a subnet
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListEndpointGroups">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListEndpointGroups.html">
+      ListEndpointGroups
+     </a>
+    </td>
+    <td>
+     Grants permission to list all endpoint groups associated with a standard accelerator
+                                                listener.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListListeners">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListListeners.html">
+      ListListeners
+     </a>
+    </td>
+    <td>
+     Grants permission to list all listeners associated with a standard accelerator.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags for a globalaccelerator resource.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-ProvisionByoipCidr">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_ProvisionByoipCidr.html">
+      ProvisionByoipCidr
+     </a>
+    </td>
+    <td>
+     Grants permission to provisions an address range for use with your accelerator through
+                                                bring your own IP addresses (BYOIP).
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-RemoveCustomRoutingEndpoints">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_RemoveCustomRoutingEndpoints.html">
+      RemoveCustomRoutingEndpoints
+     </a>
+    </td>
+    <td>
+     Grants permission to remove virtual private cloud (VPC) subnet endpoints from a custom
+                                                routing accelerator endpoint group.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsglobalaccelerator-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add tags to a globalaccelerator resource.
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsglobalaccelerator-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsglobalaccelerator-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove tags from a globalaccelerator resource.
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateAccelerator.html">
+      UpdateAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to update a standard accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateAcceleratorAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateAcceleratorAttributes.html">
+      UpdateAcceleratorAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to update a standard accelerator attributes.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateCustomRoutingAccelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateCustomRoutingAccelerator.html">
+      UpdateCustomRoutingAccelerator
+     </a>
+    </td>
+    <td>
+     Grants permission to update a custom routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateCustomRoutingAcceleratorAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateCustomRoutingAcceleratorAttributes.html">
+      UpdateCustomRoutingAcceleratorAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to update the attributes for a custom routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-accelerator">
+       accelerator*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateCustomRoutingListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateCustomRoutingListener.html">
+      UpdateCustomRoutingListener
+     </a>
+    </td>
+    <td>
+     Grants permission to update a listener for a custom routing accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateEndpointGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateEndpointGroup.html">
+      UpdateEndpointGroup
+     </a>
+    </td>
+    <td>
+     Grants permission to update an endpoint group on a standard accelerator listener.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-endpointgroup">
+       endpointgroup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-UpdateListener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_UpdateListener.html">
+      UpdateListener
+     </a>
+    </td>
+    <td>
+     Grants permission to update a listener on a standard accelerator.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-listener">
+       listener*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-WithdrawByoipCidr">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_WithdrawByoipCidr.html">
+      WithdrawByoipCidr
+     </a>
+    </td>
+    <td>
+     Grants permission to stops advertising a BYOIP IPv4 address.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d575c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-accelerator">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_Accelerator.html">
+      accelerator
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:globalaccelerator::$
+      <span>
+       {
+      </span>
+      Account}:accelerator/$
+      <span>
+       {
+      </span>
+      AcceleratorId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-listener">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_Listener.html">
+      listener
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:globalaccelerator::$
+      <span>
+       {
+      </span>
+      Account}:accelerator/$
+      <span>
+       {
+      </span>
+      AcceleratorId}/listener/$
+      <span>
+       {
+      </span>
+      ListenerId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-endpointgroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/global-accelerator/latest/api/API_EndpointGroup.html">
+      endpointgroup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:globalaccelerator::$
+      <span>
+       {
+      </span>
+      Account}:accelerator/$
+      <span>
+       {
+      </span>
+      AcceleratorId}/listener/$
+      <span>
+       {
+      </span>
+      ListenerId}/endpoint-group/$
+      <span>
+       {
+      </span>
+      EndpointGroupId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsglobalaccelerator-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d575c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsglobalaccelerator-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

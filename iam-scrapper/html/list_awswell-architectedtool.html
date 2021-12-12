@@ -1,0 +1,1234 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1239c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-AssociateLenses">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_AssociateLenses.html">
+      AssociateLenses
+     </a>
+    </td>
+    <td>
+     Grants permission to associate a lens to the specified workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-CreateLensShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_CreateLensShare.html">
+      CreateLensShare
+     </a>
+    </td>
+    <td>
+     Grants permission to an owner of a lens to share with other AWS accounts and IAM Users
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-CreateLensVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_CreateLensVersion.html">
+      CreateLensVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new lens version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-CreateMilestone">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_CreateMilestone.html">
+      CreateMilestone
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new milestone for the specified workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-CreateWorkload">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_CreateWorkload.html">
+      CreateWorkload
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awswell-architectedtool-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-CreateWorkloadShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_CreateWorkloadShare.html">
+      CreateWorkloadShare
+     </a>
+    </td>
+    <td>
+     Grants permission to share a workload with another account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-DeleteLens">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_DeleteLens.html">
+      DeleteLens
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a lens
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-DeleteLensShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_DeleteLensShare.html">
+      DeleteLensShare
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing lens share
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-DeleteWorkload">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_DeleteWorkload.html">
+      DeleteWorkload
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-DeleteWorkloadShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_DeleteWorkloadShare.html">
+      DeleteWorkloadShare
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing workload share
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-DisassociateLenses">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_DisassociateLenses.html">
+      DisassociateLenses
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate a lens from the specified workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ExportLens">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ExportLens.html">
+      ExportLens
+     </a>
+    </td>
+    <td>
+     Grants permission to export an existing lens
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-GetAnswer">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_GetAnswer.html">
+      GetAnswer
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the specified answer from the specified lens review
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-GetLens">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_DeleteLensShare.html">
+      GetLens
+     </a>
+    </td>
+    <td>
+     Grants permission to get an existing lens
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-GetLensReview">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_GetLensReview.html">
+      GetLensReview
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the specified lens review of the specified workload
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-GetLensReviewReport">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_GetLensReviewReport.html">
+      GetLensReviewReport
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the report for the specified lens review
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-GetLensVersionDifference">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_GetLensVersionDifference.html">
+      GetLensVersionDifference
+     </a>
+    </td>
+    <td>
+     Grants permission to get the difference between the specified lens version and latest
+                                                available lens version
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-GetMilestone">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_GetMilestone.html">
+      GetMilestone
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the specified milestone of the specified workload
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awswell-architectedtool-GetWorkload">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_GetWorkload.html">
+      GetWorkload
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the specified workload
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ImportLens">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ImportLens.html">
+      ImportLens
+     </a>
+    </td>
+    <td>
+     Grants permission to import a new lens
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListAnswers">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListAnswers.html">
+      ListAnswers
+     </a>
+    </td>
+    <td>
+     Grants permission to list the answers from the specified lens review
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListLensReviewImprovements">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListLensReviewImprovements.html">
+      ListLensReviewImprovements
+     </a>
+    </td>
+    <td>
+     Grants permission to list the improvements of the specified lens review
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListLensReviews">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListLensReviews.html">
+      ListLensReviews
+     </a>
+    </td>
+    <td>
+     Grants permission to list the lens reviews of the specified workload
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListLensShares">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListLensShares.html">
+      ListLensShares
+     </a>
+    </td>
+    <td>
+     Grants permission to list all shares created for a lens
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-lens">
+       lens*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListLenses">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListLenses.html">
+      ListLenses
+     </a>
+    </td>
+    <td>
+     Grants permission to list the lenses available to this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListMilestones">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListMilestones.html">
+      ListMilestones
+     </a>
+    </td>
+    <td>
+     Grants permission to list the milestones of the specified workload
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListNotifications">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListNotifications.html">
+      ListNotifications
+     </a>
+    </td>
+    <td>
+     Grants permission to list notifications related to the account or specified resource
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListShareInvitations">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListShareInvitations.html">
+      ListShareInvitations
+     </a>
+    </td>
+    <td>
+     Grants permission to list the workload share invitations of the specified account
+                                                or user
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awswell-architectedtool-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list tags for a Well-Architected resource
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListWorkloadShares">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListWorkloadShares.html">
+      ListWorkloadShares
+     </a>
+    </td>
+    <td>
+     Grants permission to list the workload shares of the specified workload
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-ListWorkloads">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_ListWorkloads.html">
+      ListWorkloads
+     </a>
+    </td>
+    <td>
+     Grants permission to list the workloads in this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awswell-architectedtool-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag a Well-Architected resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awswell-architectedtool-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awswell-architectedtool-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to untag a Well-Architected resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-UpdateAnswer">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UpdateAnswer.html">
+      UpdateAnswer
+     </a>
+    </td>
+    <td>
+     Grants permission to update properties of the specified answer
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-UpdateLensReview">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UpdateLensReview.html">
+      UpdateLensReview
+     </a>
+    </td>
+    <td>
+     Grants permission to update properties of the specified lens review
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-UpdateShareInvitation">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UpdateShareInvitation.html">
+      UpdateShareInvitation
+     </a>
+    </td>
+    <td>
+     Grants permission to update status of the specified workload share invitation
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-UpdateWorkload">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UpdateWorkload.html">
+      UpdateWorkload
+     </a>
+    </td>
+    <td>
+     Grants permission to update properties of the specified workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-UpdateWorkloadShare">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UpdateWorkloadShare.html">
+      UpdateWorkloadShare
+     </a>
+    </td>
+    <td>
+     Grants permission to update properties of the specified workload
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-UpgradeLensReview">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_UpgradeLensReview.html">
+      UpgradeLensReview
+     </a>
+    </td>
+    <td>
+     Grants permission to upgrade the specified lens review to use the latest version of
+                                                the associated lens
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-workload">
+       workload*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1239c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-workload">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_Workload.html">
+      workload
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:wellarchitected:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:workload/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awswell-architectedtool-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-lens">
+     </a>
+     <a href="https://docs.aws.amazon.com/wellarchitected/latest/APIReference/API_Lens.html">
+      lens
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:wellarchitected:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:lens/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1239c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awswell-architectedtool-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

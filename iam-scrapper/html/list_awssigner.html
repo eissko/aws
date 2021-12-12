@@ -1,0 +1,752 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1119c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-AddProfilePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_AddProfilePermission.html">
+      AddProfilePermission
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add cross-account permissions to a Signing Profile
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-CancelSigningProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_CancelSigningProfile.html">
+      CancelSigningProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to change the state of a Signing Profile to CANCELED
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-DescribeSigningJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_DescribeSigningJob.html">
+      DescribeSigningJob
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about a specific Signing Job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-job">
+       signing-job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-GetSigningPlatform">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_GetSigningPlatform.html">
+      GetSigningPlatform
+     </a>
+    </td>
+    <td>
+     Grants permission to return information about a specific Signing Platform
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-GetSigningProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_GetSigningProfile.html">
+      GetSigningProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to return information about a specific Signing Profile
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-ListProfilePermissions">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_ListProfilePermissions.html">
+      ListProfilePermissions
+     </a>
+    </td>
+    <td>
+     Grants permission to list the cross-account permissions associated with a Signing
+                                                Profile
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-ListSigningJobs">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_ListSigningJobs.html">
+      ListSigningJobs
+     </a>
+    </td>
+    <td>
+     Grants permission to list all Signing Jobs in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-ListSigningPlatforms">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_ListSigningPlatforms.html">
+      ListSigningPlatforms
+     </a>
+    </td>
+    <td>
+     Grants permission to list all available Signing Platforms
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-ListSigningProfiles">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_ListSigningProfiles.html">
+      ListSigningProfiles
+     </a>
+    </td>
+    <td>
+     Grants permission to list all Signing Profiles in your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list the tags associated with a Signing Profile
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-PutSigningProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_PutSigningProfile.html">
+      PutSigningProfile
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new Signing Profile
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awssigner-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-RemoveProfilePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_RemoveProfilePermission.html">
+      RemoveProfilePermission
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove cross-account permissions from a Signing Profile
+    </td>
+    <td rowspan="2">
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-RevokeSignature">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_RevokeSignature.html">
+      RevokeSignature
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to change the state of a Signing Job to REVOKED
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-job">
+       signing-job*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-RevokeSigningProfile">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_RevokeSigningProfile.html">
+      RevokeSigningProfile
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to change the state of a Signing Profile to REVOKED
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-StartSigningJob">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_StartSigningJob.html">
+      StartSigningJob
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to initiate a Signing Job on the provided code
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signer_ProfileVersion">
+       signer:ProfileVersion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add one or more tags to a Signing Profile
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awssigner-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awssigner-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/api/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove one or more tags from a Signing Profile
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-signing-profile">
+       signing-profile*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awssigner-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1119c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssigner-signing-profile">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/developerguide/gs-profile.html">
+      signing-profile
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:signer:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:/signing-profiles/$
+      <span>
+       {
+      </span>
+      profileName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awssigner-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-signing-job">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/developerguide/gs-job.html">
+      signing-job
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:signer:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:/signing-jobs/$
+      <span>
+       {
+      </span>
+      jobId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1119c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssigner-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access for create requests based on the allowed set of values for each of
+                                                the tags
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access based on tag-value associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access for create requests based on the presence of mandatory tags in the
+                                                request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssigner-signer_ProfileVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/signer/latest/developerguide/authen-apipermissions.html">
+      signer:ProfileVersion
+     </a>
+    </td>
+    <td>
+     Filters access based on the version of the Signing Profile
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

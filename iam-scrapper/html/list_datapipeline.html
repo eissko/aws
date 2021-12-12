@@ -1,0 +1,707 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d359c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="datapipeline-ActivatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_ActivatePipeline.html">
+      ActivatePipeline
+     </a>
+    </td>
+    <td>
+     Validates the specified pipeline and starts processing pipeline tasks. If the pipeline
+                                                does not pass validation, activation fails.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_workerGroup">
+       datapipeline:workerGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-AddTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_AddTags.html">
+      AddTags
+     </a>
+    </td>
+    <td>
+     Adds or modifies tags for the specified pipeline.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-CreatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_CreatePipeline.html">
+      CreatePipeline
+     </a>
+    </td>
+    <td>
+     Creates a new, empty pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-DeactivatePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_DeactivatePipeline.html">
+      DeactivatePipeline
+     </a>
+    </td>
+    <td>
+     Deactivates the specified running pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_workerGroup">
+       datapipeline:workerGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-DeletePipeline">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_DeletePipeline.html">
+      DeletePipeline
+     </a>
+    </td>
+    <td>
+     Deletes a pipeline, its pipeline definition, and its run history.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-DescribeObjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_DescribeObjects.html">
+      DescribeObjects
+     </a>
+    </td>
+    <td>
+     Gets the object definitions for a set of objects associated with the pipeline.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-DescribePipelines">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_DescribePipelines.html">
+      DescribePipelines
+     </a>
+    </td>
+    <td>
+     Retrieves metadata about one or more pipelines.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-EvaluateExpression">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_EvaluateExpression.html">
+      EvaluateExpression
+     </a>
+    </td>
+    <td>
+     Task runners call EvaluateExpression to evaluate a string in the context of the specified
+                                                object.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-GetAccountLimits">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_GetAccountLimits.html">
+      GetAccountLimits
+     </a>
+    </td>
+    <td>
+     Description for GetAccountLimits
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-GetPipelineDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_GetPipelineDefinition.html">
+      GetPipelineDefinition
+     </a>
+    </td>
+    <td>
+     Gets the definition of the specified pipeline.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_workerGroup">
+       datapipeline:workerGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-ListPipelines">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_ListPipelines.html">
+      ListPipelines
+     </a>
+    </td>
+    <td>
+     Lists the pipeline identifiers for all active pipelines that you have permission to
+                                                access.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-PollForTask">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_PollForTask.html">
+      PollForTask
+     </a>
+    </td>
+    <td>
+     Task runners call PollForTask to receive a task to perform from AWS Data Pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_workerGroup">
+       datapipeline:workerGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-PutAccountLimits">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_PutAccountLimits.html">
+      PutAccountLimits
+     </a>
+    </td>
+    <td>
+     Description for PutAccountLimits
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-PutPipelineDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_PutPipelineDefinition.html">
+      PutPipelineDefinition
+     </a>
+    </td>
+    <td>
+     Adds tasks, schedules, and preconditions to the specified pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_workerGroup">
+       datapipeline:workerGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-QueryObjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_QueryObjects.html">
+      QueryObjects
+     </a>
+    </td>
+    <td>
+     Queries the specified pipeline for the names of objects that match the specified set
+                                                of conditions.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-RemoveTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_RemoveTags.html">
+      RemoveTags
+     </a>
+    </td>
+    <td>
+     Removes existing tags from the specified pipeline.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-ReportTaskProgress">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_ReportTaskProgress.html">
+      ReportTaskProgress
+     </a>
+    </td>
+    <td>
+     Task runners call ReportTaskProgress when assigned a task to acknowledge that it has
+                                                the task.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-ReportTaskRunnerHeartbeat">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_ReportTaskRunnerHeartbeat.html">
+      ReportTaskRunnerHeartbeat
+     </a>
+    </td>
+    <td>
+     Task runners call ReportTaskRunnerHeartbeat every 15 minutes to indicate that they
+                                                are operational.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-SetStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_SetStatus.html">
+      SetStatus
+     </a>
+    </td>
+    <td>
+     Requests that the status of the specified physical or logical pipeline objects be
+                                                updated in the specified pipeline.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-SetTaskStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_SetTaskStatus.html">
+      SetTaskStatus
+     </a>
+    </td>
+    <td>
+     Task runners call SetTaskStatus to notify AWS Data Pipeline that a task is completed
+                                                and provide information about the final status.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-ValidatePipelineDefinition">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/APIReference/API_ValidatePipelineDefinition.html">
+      ValidatePipelineDefinition
+     </a>
+    </td>
+    <td>
+     Validates the specified pipeline definition to ensure that it is well formed and can
+                                                be run without error.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#datapipeline-datapipeline_PipelineCreator">
+       datapipeline:PipelineCreator
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_Tag">
+       datapipeline:Tag
+      </a>
+     </p>
+     <p>
+      <a href="#datapipeline-datapipeline_workerGroup">
+       datapipeline:workerGroup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d359c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="datapipeline-datapipeline_PipelineCreator">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-example-tag-policies.html#ex3">
+      datapipeline:PipelineCreator
+     </a>
+    </td>
+    <td>
+     The IAM user that created the pipeline.
+    </td>
+    <td>
+     ARN
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-datapipeline_Tag">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-iam-resourcebased-access.html#dp-control-access-tags">
+      datapipeline:Tag
+     </a>
+    </td>
+    <td>
+     A customer-specified key/value pair that can be attached to a resource.
+    </td>
+    <td>
+     ARN
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="datapipeline-datapipeline_workerGroup">
+     </a>
+     <a href="https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-iam-resourcebased-access.html#dp-control-access-workergroup">
+      datapipeline:workerGroup
+     </a>
+    </td>
+    <td>
+     The name of a worker group for which a Task Runner retrieves work.
+    </td>
+    <td>
+     ARN
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

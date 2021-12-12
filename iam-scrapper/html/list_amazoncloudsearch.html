@@ -1,0 +1,918 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d211c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-AddTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_AddTags.html">
+      AddTags
+     </a>
+    </td>
+    <td>
+     Attaches resource tags to an Amazon CloudSearch domain.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-BuildSuggesters">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_BuildSuggesters.html">
+      BuildSuggesters
+     </a>
+    </td>
+    <td>
+     Indexes the search suggestions.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-CreateDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_CreateDomain.html">
+      CreateDomain
+     </a>
+    </td>
+    <td>
+     Creates a new search domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DefineAnalysisScheme">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DefineAnalysisScheme.html">
+      DefineAnalysisScheme
+     </a>
+    </td>
+    <td>
+     Configures an analysis scheme that can be applied to a text or text-array field to
+                                                define language-specific text processing options.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DefineExpression">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DefineExpression.html">
+      DefineExpression
+     </a>
+    </td>
+    <td>
+     Configures an Expression for the search domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DefineIndexField">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DefineIndexField.html">
+      DefineIndexField
+     </a>
+    </td>
+    <td>
+     Configures an IndexField for the search domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DefineSuggester">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DefineSuggester.html">
+      DefineSuggester
+     </a>
+    </td>
+    <td>
+     Configures a suggester for a domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DeleteAnalysisScheme">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DeleteAnalysisScheme.html">
+      DeleteAnalysisScheme
+     </a>
+    </td>
+    <td>
+     Deletes an analysis scheme.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DeleteDomain">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DeleteDomain.html">
+      DeleteDomain
+     </a>
+    </td>
+    <td>
+     Permanently deletes a search domain and all of its data.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DeleteExpression">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DeleteExpression.html">
+      DeleteExpression
+     </a>
+    </td>
+    <td>
+     Removes an Expression from the search domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DeleteIndexField">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DeleteIndexField.html">
+      DeleteIndexField
+     </a>
+    </td>
+    <td>
+     Removes an IndexField from the search domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DeleteSuggester">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DeleteSuggester.html">
+      DeleteSuggester
+     </a>
+    </td>
+    <td>
+     Deletes a suggester.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeAnalysisSchemes">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeAnalysisSchemes.html">
+      DescribeAnalysisSchemes
+     </a>
+    </td>
+    <td>
+     Gets the analysis schemes configured for a domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeAvailabilityOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeAvailabilityOptions.html">
+      DescribeAvailabilityOptions
+     </a>
+    </td>
+    <td>
+     Gets the availability options configured for a domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeDomainEndpointOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeDomainEndpointOptions.html">
+      DescribeDomainEndpointOptions
+     </a>
+    </td>
+    <td>
+     Gets the domain endpoint options configured for a domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeDomains">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeDomains.html">
+      DescribeDomains
+     </a>
+    </td>
+    <td>
+     Gets information about the search domains owned by this account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeExpressions">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeExpressions.html">
+      DescribeExpressions
+     </a>
+    </td>
+    <td>
+     Gets the expressions configured for the search domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeIndexFields">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeIndexFields.html">
+      DescribeIndexFields
+     </a>
+    </td>
+    <td>
+     Gets information about the index fields configured for the search domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeScalingParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeScalingParameters.html">
+      DescribeScalingParameters
+     </a>
+    </td>
+    <td>
+     Gets the scaling parameters configured for a domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeServiceAccessPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeServiceAccessPolicies.html">
+      DescribeServiceAccessPolicies
+     </a>
+    </td>
+    <td>
+     Gets information about the access policies that control access to the domain's document
+                                                and search endpoints.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-DescribeSuggesters">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_DescribeSuggesters.html">
+      DescribeSuggesters
+     </a>
+    </td>
+    <td>
+     Gets the suggesters configured for a domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-IndexDocuments">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_IndexDocuments.html">
+      IndexDocuments
+     </a>
+    </td>
+    <td>
+     Tells the search domain to start indexing its documents using the latest indexing
+                                                options.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-ListDomainNames">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_ListDomainNames.html">
+      ListDomainNames
+     </a>
+    </td>
+    <td>
+     Lists all search domains owned by an account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td>
+     Displays all of the resource tags for an Amazon CloudSearch domain.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-RemoveTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_RemoveTags.html">
+      RemoveTags
+     </a>
+    </td>
+    <td>
+     Removes the specified resource tags from an Amazon ES domain.
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-UpdateAvailabilityOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_UpdateAvailabilityOptions.html">
+      UpdateAvailabilityOptions
+     </a>
+    </td>
+    <td>
+     Configures the availability options for a domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-UpdateDomainEndpointOptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_UpdateDomainEndpointOptions.html">
+      UpdateDomainEndpointOptions
+     </a>
+    </td>
+    <td>
+     Configures the domain endpoint options for a domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-UpdateScalingParameters">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_UpdateScalingParameters.html">
+      UpdateScalingParameters
+     </a>
+    </td>
+    <td>
+     Configures scaling parameters for a domain.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-UpdateServiceAccessPolicies">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/API_UpdateServiceAccessPolicies.html">
+      UpdateServiceAccessPolicies
+     </a>
+    </td>
+    <td>
+     Configures the access rules that control access to the domain's document and search
+                                                endpoints.
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-document">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/configuring-access.html#cloudsearch-actions">
+      document
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Allows access to the document service operations.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-search">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/configuring-access.html#cloudsearch-actions">
+      search
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Allows access to the search operations.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-suggest">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/configuring-access.html#cloudsearch-actions">
+      suggest
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Allows access to the suggest operations.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazoncloudsearch-domain">
+       domain
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d211c13b7">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazoncloudsearch-domain">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudsearch/latest/developerguide/creating-domains.html">
+      domain
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:cloudsearch:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:domain/$
+      <span>
+       {
+      </span>
+      DomainName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

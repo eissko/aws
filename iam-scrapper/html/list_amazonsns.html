@@ -1,0 +1,1129 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1143c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonsns-AddPermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_AddPermission.html">
+      AddPermission
+     </a>
+    </td>
+    <td>
+     Grants permission to add a statement to a topic's access control policy, granting
+                                                access for the specified AWS accounts to the specified actions
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-CheckIfPhoneNumberIsOptedOut">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_CheckIfPhoneNumberIsOptedOut.html">
+      CheckIfPhoneNumberIsOptedOut
+     </a>
+    </td>
+    <td>
+     Grants permission to accept a phone number and indicate whether the phone holder has
+                                                opted out of receiving SMS messages from your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ConfirmSubscription">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ConfirmSubscription.html">
+      ConfirmSubscription
+     </a>
+    </td>
+    <td>
+     Grants permission to verify an endpoint owner's intent to receive messages by validating
+                                                the token sent to the endpoint by an earlier Subscribe action
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-CreatePlatformApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_CreatePlatformApplication.html">
+      CreatePlatformApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to create a platform application object for one of the supported
+                                                push notification services, such as APNS and GCM, to which devices and mobile apps
+                                                may register
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-CreatePlatformEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_CreatePlatformEndpoint.html">
+      CreatePlatformEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to create an endpoint for a device and mobile app on one of the
+                                                supported push notification services, such as GCM and APNS
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-CreateSMSSandboxPhoneNumber">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_CreateSMSSandboxPhoneNumber.html">
+      CreateSMSSandboxPhoneNumber
+     </a>
+    </td>
+    <td>
+     Grants permission to add a destination phone number and send a one-time password (OTP)
+                                                to that phone number for an AWS account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-CreateTopic">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_CreateTopic.html">
+      CreateTopic
+     </a>
+    </td>
+    <td>
+     Grants permission to create a topic to which notifications can be published
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-DeleteEndpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_DeleteEndpoint.html">
+      DeleteEndpoint
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the endpoint for a device and mobile app from Amazon SNS
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-DeletePlatformApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_DeletePlatformApplication.html">
+      DeletePlatformApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a platform application object for one of the supported
+                                                push notification services, such as APNS and GCM
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-DeleteSMSSandboxPhoneNumber">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_DeleteSMSSandboxPhoneNumber.html">
+      DeleteSMSSandboxPhoneNumber
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an AWS account's verified or pending phone number
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-DeleteTopic">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_DeleteTopic.html">
+      DeleteTopic
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a topic and all its subscriptions
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-GetEndpointAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_GetEndpointAttributes.html">
+      GetEndpointAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the endpoint attributes for a device on one of the supported
+                                                push notification services, such as GCM and APNS
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-GetPlatformApplicationAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_GetPlatformApplicationAttributes.html">
+      GetPlatformApplicationAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the attributes of the platform application object for
+                                                the supported push notification services, such as APNS and GCM
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-GetSMSAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_GetSMSAttributes.html">
+      GetSMSAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to return the settings for sending SMS messages from your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-GetSMSSandboxAccountStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_GetSMSSandboxAccountStatus.html">
+      GetSMSSandboxAccountStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve the sandbox status for the calling account in the target
+                                                region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-GetSubscriptionAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_GetSubscriptionAttributes.html">
+      GetSubscriptionAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to return all of the properties of a subscription
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-GetTopicAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_GetTopicAttributes.html">
+      GetTopicAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to return all of the properties of a topic
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListEndpointsByPlatformApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListEndpointsByPlatformApplication.html">
+      ListEndpointsByPlatformApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to list the endpoints and endpoint attributes for devices in a supported
+                                                push notification service, such as GCM and APNS
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListOriginationNumbers">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListOriginationNumbers.html">
+      ListOriginationNumbers
+     </a>
+    </td>
+    <td>
+     Grants permission to list all origination numbers, and their metadata
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListPhoneNumbersOptedOut">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListPhoneNumbersOptedOut.html">
+      ListPhoneNumbersOptedOut
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of phone numbers that are opted out, meaning you
+                                                cannot send SMS messages to them
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListPlatformApplications">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListPlatformApplications.html">
+      ListPlatformApplications
+     </a>
+    </td>
+    <td>
+     Grants permission to list the platform application objects for the supported push
+                                                notification services, such as APNS and GCM
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListSMSSandboxPhoneNumbers">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListSMSSandboxPhoneNumbers.html">
+      ListSMSSandboxPhoneNumbers
+     </a>
+    </td>
+    <td>
+     Grants permission to list the calling account's current pending and verified destination
+                                                phone numbers
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListSubscriptions">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListSubscriptions.html">
+      ListSubscriptions
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of the requester's subscriptions
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListSubscriptionsByTopic">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListSubscriptionsByTopic.html">
+      ListSubscriptionsByTopic
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of the subscriptions to a specific topic
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list all tags added to the specified Amazon SNS topic
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-ListTopics">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_ListTopics.html">
+      ListTopics
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of the requester's topics
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-OptInPhoneNumber">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_OptInPhoneNumber.html">
+      OptInPhoneNumber
+     </a>
+    </td>
+    <td>
+     Grants permission to opt in a phone number that is currently opted out, which enables
+                                                you to resume sending SMS messages to the number
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-Publish">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_Publish.html">
+      Publish
+     </a>
+    </td>
+    <td>
+     Grants permission to send a message to all of a topic's subscribed endpoints
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-RemovePermission">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_RemovePermission.html">
+      RemovePermission
+     </a>
+    </td>
+    <td>
+     Grants permission to remove a statement from a topic's access control policy
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-SetEndpointAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_SetEndpointAttributes.html">
+      SetEndpointAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to set the attributes for an endpoint for a device on one of the
+                                                supported push notification services, such as GCM and APNS
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-SetPlatformApplicationAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_SetPlatformApplicationAttributes.html">
+      SetPlatformApplicationAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to set the attributes of the platform application object for the
+                                                supported push notification services, such as APNS and GCM
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-SetSMSAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_SetSMSAttributes.html">
+      SetSMSAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to set the default settings for sending SMS messages and receiving
+                                                daily SMS usage reports
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-SetSubscriptionAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_SetSubscriptionAttributes.html">
+      SetSubscriptionAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to allow a subscription owner to set an attribute of the topic to
+                                                a new value
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-SetTopicAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_SetTopicAttributes.html">
+      SetTopicAttributes
+     </a>
+    </td>
+    <td>
+     Grants permission to allow a topic owner to set an attribute of the topic to a new
+                                                value
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      iam:PassRole
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonsns-Subscribe">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_Subscribe.html">
+      Subscribe
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to prepare to subscribe an endpoint by sending the endpoint a confirmation
+                                                message
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-sns_Endpoint">
+       sns:Endpoint
+      </a>
+     </p>
+     <p>
+      <a href="#amazonsns-sns_Protocol">
+       sns:Protocol
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonsns-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to add tags to the specified Amazon SNS topic
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonsns-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-Unsubscribe">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_Unsubscribe.html">
+      Unsubscribe
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a subscription
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonsns-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove tags from the specified Amazon SNS topic
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-topic">
+       topic
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonsns-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonsns-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-VerifySMSSandboxPhoneNumber">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/api/API_VerifySMSSandboxPhoneNumber.html">
+      VerifySMSSandboxPhoneNumber
+     </a>
+    </td>
+    <td>
+     Grants permission to verify a destination phone number with a one-time password (OTP)
+                                                for an AWS account
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1143c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonsns-topic">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/dg/CreateTopic.html">
+      topic
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:sns:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:$
+      <span>
+       {
+      </span>
+      TopicName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1143c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonsns-aws_RequestTag___TagKey_">
+     </a>
+     aws:RequestTag/${TagKey}
+    </td>
+    <td>
+     Filters access baded on tags from request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-aws_TagKeys">
+     </a>
+     aws:TagKeys
+    </td>
+    <td>
+     Filters access baded on tag keys from request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-sns_Endpoint">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/dg/UsingIAMwithSNS.html#w2ab1c11c23c19">
+      sns:Endpoint
+     </a>
+    </td>
+    <td>
+     Filters access based on the URL, email address, or ARN from a Subscribe request or
+                                                a previously confirmed subscription
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonsns-sns_Protocol">
+     </a>
+     <a href="https://docs.aws.amazon.com/sns/latest/dg/UsingIAMwithSNS.html#w2ab1c11c23c19">
+      sns:Protocol
+     </a>
+    </td>
+    <td>
+     Filters access based on the protocol value from a Subscribe request or a previously
+                                                confirmed subscription
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

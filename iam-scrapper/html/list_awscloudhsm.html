@@ -1,0 +1,1046 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d207c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudhsm-AddTagsToResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_AddTagsToResource.html">
+      AddTagsToResource
+     </a>
+    </td>
+    <td>
+     Adds or overwrites one or more tags for the specified AWS CloudHSM resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscloudhsm-CopyBackupToRegion">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_CopyBackupToRegion.html">
+      CopyBackupToRegion
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a copy of a backup in the specified region
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudhsm-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscloudhsm-CreateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_CreateCluster.html">
+      CreateCluster
+     </a>
+    </td>
+    <td rowspan="2">
+     Creates a new AWS CloudHSM cluster
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudhsm-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-CreateHapg">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_CreateHapg.html">
+      CreateHapg
+     </a>
+    </td>
+    <td>
+     Creates a high-availability partition group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-CreateHsm">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_CreateHsm.html">
+      CreateHsm
+     </a>
+    </td>
+    <td>
+     Creates a new hardware security module (HSM) in the specified AWS CloudHSM cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-CreateLunaClient">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_CreateLunaClient.html">
+      CreateLunaClient
+     </a>
+    </td>
+    <td>
+     Creates an HSM client
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DeleteBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_DeleteBackup.html">
+      DeleteBackup
+     </a>
+    </td>
+    <td>
+     Deletes the specified CloudHSM backup
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DeleteCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_DeleteCluster.html">
+      DeleteCluster
+     </a>
+    </td>
+    <td>
+     Deletes the specified AWS CloudHSM cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DeleteHapg">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_DeleteHapg.html">
+      DeleteHapg
+     </a>
+    </td>
+    <td>
+     Deletes a high-availability partition group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DeleteHsm">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_DeleteHsm.html">
+      DeleteHsm
+     </a>
+    </td>
+    <td>
+     Deletes the specified HSM
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DeleteLunaClient">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_DeleteLunaClient.html">
+      DeleteLunaClient
+     </a>
+    </td>
+    <td>
+     Deletes a client
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DescribeBackups">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_DescribeBackups.html">
+      DescribeBackups
+     </a>
+    </td>
+    <td>
+     Gets information about backups of AWS CloudHSM clusters
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DescribeClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_DescribeClusters.html">
+      DescribeClusters
+     </a>
+    </td>
+    <td>
+     Gets information about AWS CloudHSM clusters
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DescribeHapg">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_DescribeHapg.html">
+      DescribeHapg
+     </a>
+    </td>
+    <td>
+     Retrieves information about a high-availability partition group
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DescribeHsm">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_DescribeHsm.html">
+      DescribeHsm
+     </a>
+    </td>
+    <td>
+     Retrieves information about an HSM. You can identify the HSM by its ARN or its serial
+                                                number
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-DescribeLunaClient">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_DescribeLunaClient.html">
+      DescribeLunaClient
+     </a>
+    </td>
+    <td>
+     Retrieves information about an HSM client
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-GetConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_GetConfig.html">
+      GetConfig
+     </a>
+    </td>
+    <td>
+     Gets the configuration files necessary to connect to all high availability partition
+                                                groups the client is associated with
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-InitializeCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_InitializeCluster.html">
+      InitializeCluster
+     </a>
+    </td>
+    <td>
+     Claims an AWS CloudHSM cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ListAvailableZones">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ListAvailableZones.html">
+      ListAvailableZones
+     </a>
+    </td>
+    <td>
+     Lists the Availability Zones that have available AWS CloudHSM capacity
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ListHapgs">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ListHapgs.html">
+      ListHapgs
+     </a>
+    </td>
+    <td>
+     Lists the high-availability partition groups for the account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ListHsms">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ListHsms.html">
+      ListHsms
+     </a>
+    </td>
+    <td>
+     Retrieves the identifiers of all of the HSMs provisioned for the current customer
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ListLunaClients">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ListLunaClients.html">
+      ListLunaClients
+     </a>
+    </td>
+    <td>
+     Lists all of the clients
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awscloudhsm-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td rowspan="2">
+     Gets a list of tags for the specified AWS CloudHSM cluster
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Returns a list of all tags for the specified AWS CloudHSM resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ModifyBackupAttributes">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_ModifyBackupAttributes.html">
+      ModifyBackupAttributes
+     </a>
+    </td>
+    <td>
+     Modifies attributes for AWS CloudHSM backup
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ModifyCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_ModifyCluster.html">
+      ModifyCluster
+     </a>
+    </td>
+    <td>
+     Modifies AWS CloudHSM cluster.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ModifyHapg">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ModifyHapg.html">
+      ModifyHapg
+     </a>
+    </td>
+    <td>
+     Modifies an existing high-availability partition group
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ModifyHsm">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ModifyHsm.html">
+      ModifyHsm
+     </a>
+    </td>
+    <td>
+     Modifies an HSM
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-ModifyLunaClient">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_ModifyLunaClient.html">
+      ModifyLunaClient
+     </a>
+    </td>
+    <td>
+     Modifies the certificate used by the client
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-RemoveTagsFromResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/classic/APIReference/API_RemoveTagsFromResource.html">
+      RemoveTagsFromResource
+     </a>
+    </td>
+    <td>
+     Removes one or more tags from the specified AWS CloudHSM resource
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-RestoreBackup">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_RestoreBackup.html">
+      RestoreBackup
+     </a>
+    </td>
+    <td>
+     Restores the specified CloudHSM backup
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awscloudhsm-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Adds or overwrites one or more tags for the specified AWS CloudHSM cluster
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awscloudhsm-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3">
+     <a id="awscloudhsm-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="3">
+     Removes the specified tag or tags from the specified AWS CloudHSM cluster
+    </td>
+    <td rowspan="3">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-backup">
+       backup
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awscloudhsm-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d207c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudhsm-backup">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/userguide/backups.html">
+      backup
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:cloudhsm:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:backup/$
+      <span>
+       {
+      </span>
+      CloudHsmBackupInstanceName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-cluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/cloudhsm/latest/userguide/clusters.html">
+      cluster
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:cloudhsm:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cluster/$
+      <span>
+       {
+      </span>
+      CloudHsmClusterInstanceName}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudhsm-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d207c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudhsm-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudhsm-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

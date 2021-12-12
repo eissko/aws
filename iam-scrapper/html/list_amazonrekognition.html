@@ -1,0 +1,1822 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1011c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonrekognition-CompareFaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CompareFaces.html">
+      CompareFaces
+     </a>
+    </td>
+    <td>
+     Grants permission to compare faces in the source input image with each face detected
+                                                in the target input image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-CreateCollection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateCollection.html">
+      CreateCollection
+     </a>
+    </td>
+    <td>
+     Grants permission to create a collection in an AWS Region
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrekognition-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-CreateDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateDataset.html">
+      CreateDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new Amazon Rekognition Custom Labels dataset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-CreateProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateProject.html">
+      CreateProject
+     </a>
+    </td>
+    <td>
+     Grants permission to create an Amazon Rekognition Custom Labels project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrekognition-CreateProjectVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateProjectVersion.html">
+      CreateProjectVersion
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to begin training a new version of a model
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrekognition-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonrekognition-CreateStreamProcessor">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateStreamProcessor.html">
+      CreateStreamProcessor
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create an Amazon Rekognition stream processor
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrekognition-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DeleteCollection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteCollection.html">
+      DeleteCollection
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified collection
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DeleteDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteDataset.html">
+      DeleteDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an existing Amazon Rekognition Custom Labels dataset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DeleteFaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteFaces.html">
+      DeleteFaces
+     </a>
+    </td>
+    <td>
+     Grants permission to delete faces from a collection
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DeleteProject">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteProject.html">
+      DeleteProject
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DeleteProjectVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteProjectVersion.html">
+      DeleteProjectVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a model
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DeleteStreamProcessor">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteStreamProcessor.html">
+      DeleteStreamProcessor
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified stream processor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DescribeCollection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeCollection.html">
+      DescribeCollection
+     </a>
+    </td>
+    <td>
+     Grants permission to read details about a collection
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DescribeDataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeDataset.html">
+      DescribeDataset
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an Amazon Rekognition Custom Labels dataset
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DescribeProjectVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeProjectVersions.html">
+      DescribeProjectVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to list the versions of a model in an Amazon Rekognition Custom
+                                                Labels project
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-project">
+       project*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DescribeProjects">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeProjects.html">
+      DescribeProjects
+     </a>
+    </td>
+    <td>
+     Grants permission to list Amazon Rekognition Custom Labels projects
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DescribeStreamProcessor">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeStreamProcessorh.html">
+      DescribeStreamProcessor
+     </a>
+    </td>
+    <td>
+     Grants permission to get information about the specified stream processor
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DetectCustomLabels">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectCustomLabels.html">
+      DetectCustomLabels
+     </a>
+    </td>
+    <td>
+     Grants permission to detect custom labels in a supplied image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DetectFaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectFaces.html">
+      DetectFaces
+     </a>
+    </td>
+    <td>
+     Grants permission to detect human faces within an image provided as input
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DetectLabels">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectLabels.html">
+      DetectLabels
+     </a>
+    </td>
+    <td>
+     Grants permission to detect instances of real-world labels within an image provided
+                                                as input
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DetectModerationLabels">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectModerationLabels.html">
+      DetectModerationLabels
+     </a>
+    </td>
+    <td>
+     Grants permission to detect moderation labels within the input image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DetectProtectiveEquipment">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectProtectiveEquipment.html">
+      DetectProtectiveEquipment
+     </a>
+    </td>
+    <td>
+     Grants permission to detect Personal Protective Equipment in the input image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DetectText">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectText.html">
+      DetectText
+     </a>
+    </td>
+    <td>
+     Grants permission to detect text in the input image and convert it into machine-readable
+                                                text
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-DistributeDatasetEntries">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DistributeDatasetEntries.html">
+      DistributeDatasetEntries
+     </a>
+    </td>
+    <td>
+     Grants permission to distribute the entries in a training dataset across the training
+                                                dataset and the test dataset for a project
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetCelebrityInfo">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetCelebrityInfo.html">
+      GetCelebrityInfo
+     </a>
+    </td>
+    <td>
+     Grants permission to read the name, and additional information, of a celebrity
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetCelebrityRecognition">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetCelebrityRecognition.html">
+      GetCelebrityRecognition
+     </a>
+    </td>
+    <td>
+     Grants permission to read the celebrity recognition results found in a stored video
+                                                by an asynchronous celebrity recognition job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetContentModeration">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetContentModeration.html">
+      GetContentModeration
+     </a>
+    </td>
+    <td>
+     Grants permission to read the content moderation analysis results found in a stored
+                                                video by an asynchronous content moderation job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetFaceDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetFaceDetection.html">
+      GetFaceDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to read the faces detection results found in a stored video by an
+                                                asynchronous face detection job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetFaceSearch">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetFaceSearch.html">
+      GetFaceSearch
+     </a>
+    </td>
+    <td>
+     Grants permission to read the matching collection faces found in a stored video by
+                                                an asynchronous face search job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetLabelDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetLabelDetection.html">
+      GetLabelDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to read the label detected resuls found in a stored video by an
+                                                asynchronous label detection job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetPersonTracking">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetPersonTracking.html">
+      GetPersonTracking
+     </a>
+    </td>
+    <td>
+     Grants permission to read the list of persons detected in a stored video by an asynchronous
+                                                person tracking job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetSegmentDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetSegmentDetection.html">
+      GetSegmentDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to get the vdeo segments found in a stored video by an asynchronous
+                                                segment detection job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-GetTextDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetTextDetection.html">
+      GetTextDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to get the text found in a stored video by an asynchronous text
+                                                detection job
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-IndexFaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_IndexFaces.html">
+      IndexFaces
+     </a>
+    </td>
+    <td>
+     Grants permission to update an existing collection with faces detected in the input
+                                                image
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-ListCollections">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListCollections.html">
+      ListCollections
+     </a>
+    </td>
+    <td>
+     Grants permission to read the collection Id's in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-ListDatasetEntries">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListDatasetEntries.html">
+      ListDatasetEntries
+     </a>
+    </td>
+    <td>
+     Grants permission to list the dataset entries in an existing Amazon Rekognition Custom
+                                                Labels dataset
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-ListDatasetLabels">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListDatasetLabels.html">
+      ListDatasetLabels
+     </a>
+    </td>
+    <td>
+     Grants permission to list the labels in a dataset
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-ListFaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListFaces.html">
+      ListFaces
+     </a>
+    </td>
+    <td>
+     Grants permission to read metadata for faces in the specificed collection
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-ListStreamProcessors">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListStreamProcessors.html">
+      ListStreamProcessors
+     </a>
+    </td>
+    <td>
+     Grants permission to get a list of your stream processors
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of tags associated with a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-RecognizeCelebrities">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_RecognizeCelebrities.html">
+      RecognizeCelebrities
+     </a>
+    </td>
+    <td>
+     Grants permission to detect celebrities in the input image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-SearchFaces">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_SearchFaces.html">
+      SearchFaces
+     </a>
+    </td>
+    <td>
+     Grants permission to search the specificed collection for the supplied face ID
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-SearchFacesByImage">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_SearchFacesByImage.html">
+      SearchFacesByImage
+     </a>
+    </td>
+    <td>
+     Grants permission to search the specificed collection for the largest face in the
+                                                input image
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartCelebrityRecognition">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartCelebrityRecognition.html">
+      StartCelebrityRecognition
+     </a>
+    </td>
+    <td>
+     Grants permission to start the asynchronous recognition of celebrities in a stored
+                                                video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartContentModeration">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartContentModeration.html">
+      StartContentModeration
+     </a>
+    </td>
+    <td>
+     Grants permission to start asynchronous detection of explicit or suggestive adult
+                                                content in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartFaceDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartFaceDetection.html">
+      StartFaceDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to start asynchronous detection of faces in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartFaceSearch">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartFaceSearch.html">
+      StartFaceSearch
+     </a>
+    </td>
+    <td>
+     Grants permission to start an asynchronous search for faces in a collection that match
+                                                the faces of persons detected in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartLabelDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartLabelDetection.html">
+      StartLabelDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to start asynchronous detection of labels in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartPersonTracking">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartPersonTracking.html">
+      StartPersonTracking
+     </a>
+    </td>
+    <td>
+     Grants permission to start the asynchronous tracking of persons in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartProjectVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartProjectVersion.html">
+      StartProjectVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to start running a model version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartSegmentDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartSegmentDetection.html">
+      StartSegmentDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to start the asynchronous detection of segments in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartStreamProcessor">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartStreamProcessor.html">
+      StartStreamProcessor
+     </a>
+    </td>
+    <td>
+     Grants permission to start running a stream processor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StartTextDetection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartTextDetection.html">
+      StartTextDetection
+     </a>
+    </td>
+    <td>
+     Grants permission to start the asynchronous detection of text in a stored video
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StopProjectVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StopProjectVersion.html">
+      StopProjectVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to stop a running model version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-StopStreamProcessor">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StopStreamProcessor.html">
+      StopStreamProcessor
+     </a>
+    </td>
+    <td>
+     Grants permission to stop  a running stream processor
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonrekognition-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to add one or more tags to a resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonrekognition-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <a id="amazonrekognition-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="4">
+     Grants permission to remove one or more tags from a resource
+    </td>
+    <td rowspan="4">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-collection">
+       collection
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonrekognition-projectversion">
+       projectversion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#amazonrekognition-streamprocessor">
+       streamprocessor
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-UpdateDatasetEntries">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_UpdateDatasetEntries.html">
+      UpdateDatasetEntries
+     </a>
+    </td>
+    <td>
+     Grants permission to add or update one or more JSON Lines (entries) in a dataset
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#amazonrekognition-dataset">
+       dataset*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1011c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonrekognition-collection">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/howitworks-collection.html">
+      collection
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:rekognition:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:collection/$
+      <span>
+       {
+      </span>
+      CollectionId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-streamprocessor">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/using-rekognition-video-stream-processor.html">
+      streamprocessor
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:rekognition:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:streamprocessor/$
+      <span>
+       {
+      </span>
+      StreamprocessorId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-project">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/cp-create-project.html">
+      project
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:rekognition:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectName}/$
+      <span>
+       {
+      </span>
+      CreationTimestamp}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-projectversion">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateProjectVersion.html">
+      projectversion
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:rekognition:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectName}/version/$
+      <span>
+       {
+      </span>
+      VersionName}/$
+      <span>
+       {
+      </span>
+      CreationTimestamp}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-dataset">
+     </a>
+     <a href="https://docs.aws.amazon.com/rekognition/latest/dg/cd-create-dataset.html">
+      dataset
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:rekognition:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:project/$
+      <span>
+       {
+      </span>
+      ProjectName}/dataset/$
+      <span>
+       {
+      </span>
+      DatasetType}/$
+      <span>
+       {
+      </span>
+      CreationTimestamp}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1011c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonrekognition-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tags that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tags associated with the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonrekognition-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by tag keys that are passed in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

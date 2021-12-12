@@ -1,0 +1,392 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d671c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-CreateApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_CreateApplication.html">
+      CreateApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to create an application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      sso:CreateManagedApplicationInstance
+     </p>
+     <p>
+      sso:DescribeRegisteredRegions
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-DeleteApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_DeleteApplication.html">
+      DeleteApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      sso:DeleteManagedApplicationInstance
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-DescribeApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_DescribeApplication.html">
+      DescribeApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an application
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-ListApplications">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_ListApplications.html">
+      ListApplications
+     </a>
+    </td>
+    <td>
+     Grants permission to list all applications
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list all tags for a resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotfleethubfordevicemanagement-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsiotfleethubfordevicemanagement-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to untag a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-application">
+       application
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-UpdateApplication">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_UpdateApplication.html">
+      UpdateApplication
+     </a>
+    </td>
+    <td>
+     Grants permission to update an application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-application">
+       application*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d671c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-application">
+     </a>
+     <a href="https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_ApplicationSummary.html">
+      application
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:iotfleethub::$
+      <span>
+       {
+      </span>
+      Account}:application/$
+      <span>
+       {
+      </span>
+      ApplicationId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#awsiotfleethubfordevicemanagement-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d671c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the tags attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsiotfleethubfordevicemanagement-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions by the tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

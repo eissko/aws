@@ -1,0 +1,533 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d219c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudtrail-AddTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_AddTags.html">
+      AddTags
+     </a>
+    </td>
+    <td>
+     Grants permission to add one or more tags to a trail, up to a limit of 10
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-CreateTrail">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_CreateTrail.html">
+      CreateTrail
+     </a>
+    </td>
+    <td>
+     Grants permission to create a trail that specifies the settings for delivery of log
+                                                data to an Amazon S3 bucket
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      s3:PutObject
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-DeleteTrail">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_DeleteTrail.html">
+      DeleteTrail
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a trail
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-DescribeTrails">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_DescribeTrails.html">
+      DescribeTrails
+     </a>
+    </td>
+    <td>
+     Grants permission to list settings for the trails associated with the current region
+                                                for your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-GetEventSelectors">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_GetEventSelectors.html">
+      GetEventSelectors
+     </a>
+    </td>
+    <td>
+     Grants permission to list settings for event selectors configured for a trail
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-GetInsightSelectors">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_GetInsightSelectors.html">
+      GetInsightSelectors
+     </a>
+    </td>
+    <td>
+     Grants permission to list CloudTrail Insights selectors that are configured for a
+                                                trail
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-GetTrail">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_GetTrail.html">
+      GetTrail
+     </a>
+    </td>
+    <td>
+     Grants permission to list settings for the trail
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-GetTrailStatus">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_GetTrailStatus.html">
+      GetTrailStatus
+     </a>
+    </td>
+    <td>
+     Grants permission to retrieve a JSON-formatted list of information about the specified
+                                                trail
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-ListPublicKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_ListPublicKeys.html">
+      ListPublicKeys
+     </a>
+    </td>
+    <td>
+     Grants permission to list the public keys whose private keys were used to sign trail
+                                                digest files within a specified time range
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-ListTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_ListTags.html">
+      ListTags
+     </a>
+    </td>
+    <td>
+     Grants permission to list the tags for trails in the current region
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-ListTrails">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_ListTrails.html">
+      ListTrails
+     </a>
+    </td>
+    <td>
+     Grants permission to list trails associated with the current region for your account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-LookupEvents">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_LookupEvents.html">
+      LookupEvents
+     </a>
+    </td>
+    <td>
+     Grants permission to look up API activity events captured by CloudTrail that create,
+                                                update, or delete resources in your account
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-PutEventSelectors">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_PutEventSelectors.html">
+      PutEventSelectors
+     </a>
+    </td>
+    <td>
+     Grants permission to create and update event selectors for a trail
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-PutInsightSelectors">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_PutInsightSelectors.html">
+      PutInsightSelectors
+     </a>
+    </td>
+    <td>
+     Grants permission to create and update CloudTrail Insights selectors for a trail
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-RemoveTags">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_RemoveTags.html">
+      RemoveTags
+     </a>
+    </td>
+    <td>
+     Grants permission to remove tags from a trail
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-StartLogging">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_StartLogging.html">
+      StartLogging
+     </a>
+    </td>
+    <td>
+     Grants permission to start the recording of AWS API calls and log file delivery for
+                                                a trail
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-StopLogging">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_StopLogging.html">
+      StopLogging
+     </a>
+    </td>
+    <td>
+     Grants permission to stop the recording of AWS API calls and log file delivery for
+                                                a trail
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awscloudtrail-UpdateTrail">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_UpdateTrail.html">
+      UpdateTrail
+     </a>
+    </td>
+    <td>
+     Grants permission to update the settings that specify delivery of log files
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awscloudtrail-trail">
+       trail*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d219c13b7">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awscloudtrail-trail">
+     </a>
+     <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/how-cloudtrail-works.html">
+      trail
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:cloudtrail:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:trail/$
+      <span>
+       {
+      </span>
+      TrailName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

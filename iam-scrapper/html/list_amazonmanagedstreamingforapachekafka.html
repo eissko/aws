@@ -1,0 +1,1045 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d811c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-BatchAssociateScramSecret">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-scram-secrets.html#BatchAssociateScramSecret">
+      BatchAssociateScramSecret
+     </a>
+    </td>
+    <td>
+     Grants permission to associate one or more Scram Secrets with an Amazon MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      kms:CreateGrant
+     </p>
+     <p>
+      kms:RetireGrant
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-BatchDisassociateScramSecret">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-scram-secrets.html#BatchDisassociateScramSecret">
+      BatchDisassociateScramSecret
+     </a>
+    </td>
+    <td>
+     Grants permission to disassociate one or more Scram Secrets from an Amazon MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      kms:RetireGrant
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-CreateCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters.html#CreateCluster">
+      CreateCluster
+     </a>
+    </td>
+    <td>
+     Grants permission to create an MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+     <p>
+      ec2:DescribeSecurityGroups
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+     <p>
+      ec2:DescribeVpcs
+     </p>
+     <p>
+      iam:AttachRolePolicy
+     </p>
+     <p>
+      iam:CreateServiceLinkedRole
+     </p>
+     <p>
+      iam:PutRolePolicy
+     </p>
+     <p>
+      kms:CreateGrant
+     </p>
+     <p>
+      kms:DescribeKey
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-CreateConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations.html#CreateConfiguration">
+      CreateConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to create an MSK configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-DeleteCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn.html#DeleteCluster">
+      DeleteCluster
+     </a>
+    </td>
+    <td>
+     Grants permission to delete an MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-DeleteConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations-arn.html#DeleteConfiguration">
+      DeleteConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to delete the specified MSK configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-DescribeCluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn.html#DescribeCluster">
+      DescribeCluster
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an MSK cluster
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-DescribeClusterOperation">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/operations-clusteroperationarn.html#DescribeClusterOperation">
+      DescribeClusterOperation
+     </a>
+    </td>
+    <td>
+     Grants permission to describe the cluster operation that is specified by the given
+                                                ARN
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-DescribeConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations-configurationarn.html#DescribeConfiguration">
+      DescribeConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an MSK configuration
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-DescribeConfigurationRevision">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations-configurationarn-revision.html#DescribeConfigurationRevision">
+      DescribeConfigurationRevision
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an MSK configuration revision
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-GetBootstrapBrokers">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-bootstrap-brokers.html#GetBootstrapBrokers">
+      GetBootstrapBrokers
+     </a>
+    </td>
+    <td>
+     Grants permission to get connection details for the brokers in an MSK cluster
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-GetCompatibleKafkaVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/compatible-kafka-versions.html#GetCompatibleKafkaVersions">
+      GetCompatibleKafkaVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to get a list of the Apache Kafka versions to which you can update
+                                                an MSK cluster
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListClusterOperations">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-operations.html#ListClusterOperations">
+      ListClusterOperations
+     </a>
+    </td>
+    <td>
+     Grants permission to return a list of all the operations that have been performed
+                                                on the specified MSK cluster
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListClusters">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters.html#ListClusters">
+      ListClusters
+     </a>
+    </td>
+    <td>
+     Grants permission to list all MSK clusters in this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListConfigurationRevisions">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations-arn-revisions.html#ListConfigurationRevisions">
+      ListConfigurationRevisions
+     </a>
+    </td>
+    <td>
+     Grants permission to list all revisions for an MSK configuration in this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListConfigurations">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations.html#CreateConfiguration">
+      ListConfigurations
+     </a>
+    </td>
+    <td>
+     Grants permission to list all MSK configurations in this account
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListKafkaVersions">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/kafka-versions.html#ListKafkaVersions">
+      ListKafkaVersions
+     </a>
+    </td>
+    <td>
+     Grants permission to list all Apache Kafka versions supported by Amazon MSK
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListNodes">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-nodes.html#ListNodes">
+      ListNodes
+     </a>
+    </td>
+    <td>
+     Grants permission to list brokers in an MSK cluster
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListScramSecrets">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-scram-secrets.html#ListScramSecrets">
+      ListScramSecrets
+     </a>
+    </td>
+    <td>
+     Grants permission to list the Scram Secrets associated with an Amazon MSK cluster
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/tags-resourcearn.html#ListTagsForResource">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to list tags of an MSK resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-RebootBroker">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-reboot-broker.html#RebootBroker">
+      RebootBroker
+     </a>
+    </td>
+    <td>
+     Grants permission to reboot broker
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedstreamingforapachekafka-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/tags-resourcearn.html#TagResource">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag an MSK resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="amazonmanagedstreamingforapachekafka-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/tags-resourcearn.html#UntagResource">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to remove tags from an MSK resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-cluster">
+       cluster
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateBrokerCount">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-nodes-count.html#UpdateBrokerCount">
+      UpdateBrokerCount
+     </a>
+    </td>
+    <td>
+     Grants permission to update the number of brokers of the MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateBrokerStorage">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-nodes-storage.html#UpdateBrokerStorage">
+      UpdateBrokerStorage
+     </a>
+    </td>
+    <td>
+     Grants permission to update the storage size of the brokers of the MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateBrokerType">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-nodes-type.html#UpdateBrokerType">
+      UpdateBrokerType
+     </a>
+    </td>
+    <td>
+     Grants permission to update the broker type of an Amazon MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateClusterConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-configuration.html#UpdateClusterConfiguration">
+      UpdateClusterConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to update the configuration of the MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateClusterKafkaVersion">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-version.html#UpdateClusterKafkaVersion">
+      UpdateClusterKafkaVersion
+     </a>
+    </td>
+    <td>
+     Grants permission to update the MSK cluster to the specified Apache Kafka version
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateConfiguration">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/configurations-arn.html#updateconfiguration">
+      UpdateConfiguration
+     </a>
+    </td>
+    <td>
+     Grants permission to create a new revision of the MSK configuration
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateConnectivity">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-connectivity.html#UpdateConnectivity">
+      UpdateConnectivity
+     </a>
+    </td>
+    <td>
+     Grants permission to update the connectivity settings for the MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ec2:DescribeRouteTables
+     </p>
+     <p>
+      ec2:DescribeSubnets
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateMonitoring">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-monitoring.html#UpdateMonitoring">
+      UpdateMonitoring
+     </a>
+    </td>
+    <td>
+     Grants permission to update the monitoring settings for the MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-UpdateSecurity">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn-security.html#UpdateSecurity">
+      UpdateSecurity
+     </a>
+    </td>
+    <td>
+     Grants permission to update the security settings for the MSK cluster
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      kms:RetireGrant
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d811c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-cluster">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/1.0/apireference/clusters-clusterarn.html">
+      cluster
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kafka:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:cluster/$
+      <span>
+       {
+      </span>
+      ClusterName}/$
+      <span>
+       {
+      </span>
+      UUID}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmanagedstreamingforapachekafka-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-topic">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/latest/developerguide/topics">
+      topic
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kafka:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:topic/$
+      <span>
+       {
+      </span>
+      ClusterName}/$
+      <span>
+       {
+      </span>
+      ClusterUuid}/$
+      <span>
+       {
+      </span>
+      TopicName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-group">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/latest/developerguide/groups">
+      group
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kafka:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:group/$
+      <span>
+       {
+      </span>
+      ClusterName}/$
+      <span>
+       {
+      </span>
+      ClusterUuid}/$
+      <span>
+       {
+      </span>
+      GroupName}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-transactional-id">
+     </a>
+     <a href="https://docs.aws.amazon.com/msk/latest/developerguide/transactional_ids">
+      transactional-id
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:kafka:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:transactional-id/$
+      <span>
+       {
+      </span>
+      ClusterName}/$
+      <span>
+       {
+      </span>
+      ClusterUuid}/$
+      <span>
+       {
+      </span>
+      TransactionalId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d811c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmanagedstreamingforapachekafka-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters access by the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

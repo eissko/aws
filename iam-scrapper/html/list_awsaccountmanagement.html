@@ -1,0 +1,373 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9c19c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="awsaccountmanagement-DeleteAlternateContact">
+     </a>
+     <a href="${APIReferenceDocPage}API_DeleteAlternateContact.html" rel="noopener noreferrer" target="_blank">
+      DeleteAlternateContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to delete the alternate contacts for an account
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-account">
+       account
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-accountInOrganization">
+       accountInOrganization
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-DisableRegion">
+     </a>
+     <a href="https://docs.aws.amazon.com/general/latest/gr/rande-manage.html">
+      DisableRegion
+     </a>
+    </td>
+    <td>
+     Grants permission to disable use of a Region
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-account_TargetRegion">
+       account:TargetRegion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-EnableRegion">
+     </a>
+     <a href="https://docs.aws.amazon.com/general/latest/gr/rande-manage.html">
+      EnableRegion
+     </a>
+    </td>
+    <td>
+     Grants permission to enable use of a Region
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-account_TargetRegion">
+       account:TargetRegion
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsaccountmanagement-GetAlternateContact">
+     </a>
+     <a href="${APIReferenceDocPage}API_GetAlternateContact.html" rel="noopener noreferrer" target="_blank">
+      GetAlternateContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to retrieve the alternate contacts for an account
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-account">
+       account
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-accountInOrganization">
+       accountInOrganization
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-ListRegions">
+     </a>
+     <a href="https://docs.aws.amazon.com/general/latest/gr/rande-manage.html">
+      ListRegions
+     </a>
+    </td>
+    <td>
+     Grants permission to list the available Regions
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsaccountmanagement-PutAlternateContact">
+     </a>
+     <a href="${APIReferenceDocPage}API_PutAlternateContact.html" rel="noopener noreferrer" target="_blank">
+      PutAlternateContact
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to modify the alternate contacts for an account
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-account">
+       account
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+      <a href="#awsaccountmanagement-accountInOrganization">
+       accountInOrganization
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9c19c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-account">
+     </a>
+     <a href="${UserGuideDocPage}security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-resources" rel="noopener noreferrer" target="_blank">
+      account
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:account::$
+      <span>
+       {
+      </span>
+      Account}:account
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-accountInOrganization">
+     </a>
+     <a href="${UserGuideDocPage}security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-resources" rel="noopener noreferrer" target="_blank">
+      accountInOrganization
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:account::$
+      <span>
+       {
+      </span>
+      ManagementAccountId}:account/o-$
+      <span>
+       {
+      </span>
+      OrganizationId}/$
+      <span>
+       {
+      </span>
+      MemberAccountId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9c19c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-account_AccountResourceOrgPaths">
+     </a>
+     <a href="${UserGuideDocPage}security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys" rel="noopener noreferrer" target="_blank">
+      account:AccountResourceOrgPaths
+     </a>
+    </td>
+    <td>
+     Filters access by the resource path for an account in an organization
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-account_AccountResourceOrgTags___TagKey_">
+     </a>
+     <a href="${UserGuideDocPage}security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys" rel="noopener noreferrer" target="_blank">
+      account:AccountResourceOrgTags/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters access by resource tags for an account in an organization
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-account_AlternateContactTypes">
+     </a>
+     <a href="${UserGuideDocPage}security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys" rel="noopener noreferrer" target="_blank">
+      account:AlternateContactTypes
+     </a>
+    </td>
+    <td>
+     Filters access by alternate contact types
+    </td>
+    <td>
+     ArrayOfString
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsaccountmanagement-account_TargetRegion">
+     </a>
+     <a href="${UserGuideDocPage}security_iam_service-with-iam.html#security_iam_service-with-iam-id-based-policies-conditionkeys" rel="noopener noreferrer" target="_blank">
+      account:TargetRegion
+     </a>
+    </td>
+    <td>
+     Filters access by a list of Regions. Enables or disables all the Regions specified
+                                                here
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

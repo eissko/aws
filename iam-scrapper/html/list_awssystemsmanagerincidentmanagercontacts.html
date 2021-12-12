@@ -1,0 +1,960 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1191c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-AcceptPage">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_AcceptPage.html">
+      AcceptPage
+     </a>
+    </td>
+    <td>
+     Grants permission to accept a page
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-page">
+       page*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ActivateContactChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ActivateContactChannel.html">
+      ActivateContactChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to activate a contact's contact channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contactchannel">
+       contactchannel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-AssociateContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_AssociateContact.html">
+      AssociateContact
+     </a>
+     [permission only]
+    </td>
+    <td>
+     Grants permission to use a contact in an escalation plan
+    </td>
+    <td>
+     Permissions management
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-CreateContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_CreateContact.html">
+      CreateContact
+     </a>
+    </td>
+    <td>
+     Grants permission to create a contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ssm-contacts:AssociateContact
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-CreateContactChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_CreateContactChannel.html">
+      CreateContactChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to create a contact channel for a contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-DeactivateContactChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_DeactivateContactChannel.html">
+      DeactivateContactChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to deactivate a contact's contact channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contactchannel">
+       contactchannel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-DeleteContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_DeleteContact.html">
+      DeleteContact
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-DeleteContactChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_DeleteContactChannel.html">
+      DeleteContactChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a contact's contact channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contactchannel">
+       contactchannel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-DeleteContactPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_DeleteContactPolicy.html">
+      DeleteContactPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a contact's resource policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-DescribeEngagement">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_DescribeEngagement.html">
+      DescribeEngagement
+     </a>
+    </td>
+    <td>
+     Grants permission to describe an engagement
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-engagement">
+       engagement*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-DescribePage">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_DescribePage.html">
+      DescribePage
+     </a>
+    </td>
+    <td>
+     Grants permission to describe a page
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-page">
+       page*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-GetContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_GetContact.html">
+      GetContact
+     </a>
+    </td>
+    <td>
+     Grants permission to get a contact
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-GetContactChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_GetContactChannel.html">
+      GetContactChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to get a contact's contact channel
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contactchannel">
+       contactchannel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-GetContactPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_GetContactPolicy.html">
+      GetContactPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to get a contact's resource policy
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListContactChannels">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListContactChannels.html">
+      ListContactChannels
+     </a>
+    </td>
+    <td>
+     Grants permission to list all of a contact's contact channels
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListContacts">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListContacts.html">
+      ListContacts
+     </a>
+    </td>
+    <td>
+     Grants permission to list all contacts
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListEngagements">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListEngagements.html">
+      ListEngagements
+     </a>
+    </td>
+    <td>
+     Grants permission to list all engagements
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListPageReceipts">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListPageReceipts.html">
+      ListPageReceipts
+     </a>
+    </td>
+    <td>
+     Grants permission to list all receipts of a page
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-page">
+       page*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListPagesByContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListPagesByContacts.html">
+      ListPagesByContact
+     </a>
+    </td>
+    <td>
+     Grants permission to list all pages sent to a contact
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListPagesByEngagement">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListPagesByEngagement.html">
+      ListPagesByEngagement
+     </a>
+    </td>
+    <td>
+     Grants permission to list all pages created in an engagement
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-engagement">
+       engagement*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_ListTagsForResource.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td>
+     Grants permission to view a list of resource tags for a specified resource
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-PutContactPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_PutContactPolicy.html">
+      PutContactPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to add a resource policy to a contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-SendActivationCode">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_SendActivationCode.html">
+      SendActivationCode
+     </a>
+    </td>
+    <td>
+     Grants permission to send the activation code of a contact's contact channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contactchannel">
+       contactchannel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-StartEngagement">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_StartEngagement.html">
+      StartEngagement
+     </a>
+    </td>
+    <td>
+     Grants permission to start an engagement
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-StopEngagement">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_StopEngagement.html">
+      StopEngagement
+     </a>
+    </td>
+    <td>
+     Grants permission to stop an engagement
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-engagement">
+       engagement*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_TagResource.html">
+      TagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to add tags to a response plan
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_UntagResource.html">
+      UntagResource
+     </a>
+    </td>
+    <td>
+     Grants permission to remove tags from a response plan
+    </td>
+    <td>
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-UpdateContact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_UpdateContact.html">
+      UpdateContact
+     </a>
+    </td>
+    <td>
+     Grants permission to update a contact
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      ssm-contacts:AssociateContact
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-UpdateContactChannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_UpdateContactChannel.html">
+      UpdateContactChannel
+     </a>
+    </td>
+    <td>
+     Grants permission to update a contact's contact channel
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contactchannel">
+       contactchannel*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-UpdateContactPolicy">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/APIReference/API_UpdateContactPolicy.html">
+      UpdateContactPolicy
+     </a>
+    </td>
+    <td>
+     Grants permission to update a contact's resource policy
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awssystemsmanagerincidentmanagercontacts-contact">
+       contact*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1191c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-contact">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/UserGuide/contacts.html">
+      contact
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ssm-contacts:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:contact/$
+      <span>
+       {
+      </span>
+      ContactAlias}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-contactchannel">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/UserGuide/contacts.html">
+      contactchannel
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ssm-contacts:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:contactchannel/$
+      <span>
+       {
+      </span>
+      ContactAlias}/$
+      <span>
+       {
+      </span>
+      ContactChannelId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-engagement">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/UserGuide/escalation.html">
+      engagement
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ssm-contacts:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:engagement/$
+      <span>
+       {
+      </span>
+      EngagementId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awssystemsmanagerincidentmanagercontacts-page">
+     </a>
+     <a href="https://docs.aws.amazon.com/incident-manager/latest/UserGuide/escalation.html">
+      page
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:ssm-contacts:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:page/$
+      <span>
+       {
+      </span>
+      ContactAlias}/$
+      <span>
+       {
+      </span>
+      pageId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

@@ -1,0 +1,717 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d607c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-CreateCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      CreateCampaign
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to create a campaign
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-DeleteCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      DeleteCampaign
+     </a>
+    </td>
+    <td>
+     Grants permission to delete a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-DescribeCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      DescribeCampaign
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to describe a specific campaign
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-GetCampaignState">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      GetCampaignState
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to get state of a campaign
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-GetCampaignStateBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      GetCampaignStateBatch
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to get state of campaigns
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-ListCampaigns">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      ListCampaigns
+     </a>
+    </td>
+    <td>
+     Grants permission to provide summary of all campaigns
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-ListTagsForResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      ListTagsForResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to list tags for a resource
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-PauseCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      PauseCampaign
+     </a>
+    </td>
+    <td>
+     Grants permission to pause a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-PutConnectInstanceConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      PutConnectInstanceConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to add configuration information for an Amazon Connect instance
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-PutDialRequestBatch">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      PutDialRequestBatch
+     </a>
+    </td>
+    <td>
+     Grants permission to create dial requests for the specified campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-ResumeCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      ResumeCampaign
+     </a>
+    </td>
+    <td>
+     Grants permission to resume a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-StartCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      StartCampaign
+     </a>
+    </td>
+    <td>
+     Grants permission to start a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-StopCampaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      StopCampaign
+     </a>
+    </td>
+    <td>
+     Grants permission to stop a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-TagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      TagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to tag a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="high-volumeoutboundcommunications-UntagResource">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      UntagResource
+     </a>
+    </td>
+    <td rowspan="2">
+     Grants permission to untag a resource
+    </td>
+    <td rowspan="2">
+     Tagging
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_TagKeys">
+       aws:TagKeys
+      </a>
+     </p>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+       aws:RequestTag/${TagKey}
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-UpdateCampaignDialerConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      UpdateCampaignDialerConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to update the dialer configuration of a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-UpdateCampaignName">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      UpdateCampaignName
+     </a>
+    </td>
+    <td>
+     Grants permission to update the name of a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-UpdateCampaignOutboundCallConfig">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      UpdateCampaignOutboundCallConfig
+     </a>
+    </td>
+    <td>
+     Grants permission to update the outbound call configuration of a campaign
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-campaign">
+       campaign*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d607c13b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-campaign">
+     </a>
+     <a href="https://docs.aws.amazon.com/connect/latest/adminguide/enable-high-volume-outbound-communications.html">
+      campaign
+     </a>
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:connect-campaigns:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:campaign/$
+      <span>
+       {
+      </span>
+      CampaignId}
+     </code>
+    </td>
+    <td>
+     <p>
+      <a href="#high-volumeoutboundcommunications-aws_ResourceTag___TagKey_">
+       aws:ResourceTag/${TagKey}
+      </a>
+     </p>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d607c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-aws_RequestTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
+      aws:RequestTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag key-value pairs in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-aws_ResourceTag___TagKey_">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
+      aws:ResourceTag/${TagKey}
+     </a>
+    </td>
+    <td>
+     Filters actions based on tag key-value pairs attached to the resource
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="high-volumeoutboundcommunications-aws_TagKeys">
+     </a>
+     <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-tagkeys">
+      aws:TagKeys
+     </a>
+    </td>
+    <td>
+     Filters actions based on the presence of tag keys in the request
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

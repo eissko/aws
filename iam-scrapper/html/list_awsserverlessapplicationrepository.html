@@ -1,0 +1,525 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1095b7b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-CreateApplication">
+     </a>
+     CreateApplication
+    </td>
+    <td>
+     Creates an application, optionally including an AWS SAM file to create the first application
+                                                version in the same call.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-CreateApplicationVersion">
+     </a>
+     CreateApplicationVersion
+    </td>
+    <td>
+     Creates an application version.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsserverlessapplicationrepository-CreateCloudFormationChangeSet">
+     </a>
+     CreateCloudFormationChangeSet
+    </td>
+    <td rowspan="2">
+     Creates an AWS CloudFormation ChangeSet for the given application.
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-serverlessrepo_applicationType">
+       serverlessrepo:applicationType
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsserverlessapplicationrepository-CreateCloudFormationTemplate">
+     </a>
+     CreateCloudFormationTemplate
+    </td>
+    <td rowspan="2">
+     Creates an AWS CloudFormation template
+    </td>
+    <td rowspan="2">
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-serverlessrepo_applicationType">
+       serverlessrepo:applicationType
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-DeleteApplication">
+     </a>
+     DeleteApplication
+    </td>
+    <td>
+     Deletes the specified application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsserverlessapplicationrepository-GetApplication">
+     </a>
+     GetApplication
+    </td>
+    <td rowspan="2">
+     Gets the specified application.
+    </td>
+    <td rowspan="2">
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-serverlessrepo_applicationType">
+       serverlessrepo:applicationType
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-GetApplicationPolicy">
+     </a>
+     GetApplicationPolicy
+    </td>
+    <td>
+     Gets the policy for the specified application.
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-GetCloudFormationTemplate">
+     </a>
+     GetCloudFormationTemplate
+    </td>
+    <td>
+     Gets the specified AWS CloudFormation template
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsserverlessapplicationrepository-ListApplicationDependencies">
+     </a>
+     ListApplicationDependencies
+    </td>
+    <td rowspan="2">
+     Retrieves the list of applications nested in the containing application
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-serverlessrepo_applicationType">
+       serverlessrepo:applicationType
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2">
+     <a id="awsserverlessapplicationrepository-ListApplicationVersions">
+     </a>
+     ListApplicationVersions
+    </td>
+    <td rowspan="2">
+     Lists versions for the specified application owned by the requester.
+    </td>
+    <td rowspan="2">
+     List
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-serverlessrepo_applicationType">
+       serverlessrepo:applicationType
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-ListApplications">
+     </a>
+     ListApplications
+    </td>
+    <td>
+     Lists applications owned by the requester.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-PutApplicationPolicy">
+     </a>
+     PutApplicationPolicy
+    </td>
+    <td>
+     Puts the policy for the specified application.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-SearchApplications">
+     </a>
+     SearchApplications
+    </td>
+    <td>
+     Gets all applications authorized for this user
+    </td>
+    <td>
+     Read
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-serverlessrepo_applicationType">
+       serverlessrepo:applicationType
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-UnshareApplication">
+     </a>
+     UnshareApplication
+    </td>
+    <td>
+     Unshares the specified application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-UpdateApplication">
+     </a>
+     UpdateApplication
+    </td>
+    <td>
+     Updates meta-data of the application
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+     <p>
+      <a href="#awsserverlessapplicationrepository-applications">
+       applications*
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1095b9b5">
+   <thead>
+    <tr>
+     <th>
+      Resource types
+     </th>
+     <th>
+      ARN
+     </th>
+     <th>
+      Condition keys
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-applications">
+     </a>
+     applications
+    </td>
+    <td>
+     <code class="code">
+      arn:$
+      <span>
+       {
+      </span>
+      Partition}:serverlessrepo:$
+      <span>
+       {
+      </span>
+      Region}:$
+      <span>
+       {
+      </span>
+      Account}:applications/$
+      <span>
+       {
+      </span>
+      ResourceId}
+     </code>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9e1095c11b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="awsserverlessapplicationrepository-serverlessrepo_applicationType">
+     </a>
+     serverlessrepo:applicationType
+    </td>
+    <td>
+     Application type
+    </td>
+    <td>
+     String
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>

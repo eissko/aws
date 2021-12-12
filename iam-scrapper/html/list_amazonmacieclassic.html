@@ -1,0 +1,226 @@
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d795c11b9">
+   <thead>
+    <tr>
+     <th>
+      Actions
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Access level
+     </th>
+     <th>
+      Resource types (*required)
+     </th>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Dependent actions
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-AssociateMemberAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_AssociateMemberAccount.html">
+      AssociateMemberAccount
+     </a>
+    </td>
+    <td>
+     Enables the user to associate a specified AWS account with Amazon Macie as a member
+                                                account.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-AssociateS3Resources">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_AssociateS3Resources.html">
+      AssociateS3Resources
+     </a>
+    </td>
+    <td>
+     Enables the user to associate specified S3 resources with Amazon Macie for monitoring
+                                                and data classification.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmacieclassic-aws_SourceArn">
+       aws:SourceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-DisassociateMemberAccount">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_DisassociateMemberAccount.html">
+      DisassociateMemberAccount
+     </a>
+    </td>
+    <td>
+     Enables the user to remove the specified member account from Amazon Macie.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-DisassociateS3Resources">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_DisassociateS3Resources.html">
+      DisassociateS3Resources
+     </a>
+    </td>
+    <td>
+     Enables the user to remove specified S3 resources from being monitored by Amazon Macie.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmacieclassic-aws_SourceArn">
+       aws:SourceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-ListMemberAccounts">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_ListMemberAccounts.html">
+      ListMemberAccounts
+     </a>
+    </td>
+    <td>
+     Enables the user to list all Amazon Macie member accounts for the current Macie master
+                                                account.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-ListS3Resources">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_ListS3Resources.html">
+      ListS3Resources
+     </a>
+    </td>
+    <td>
+     Enables the user to list all the S3 resources associated with Amazon Macie.
+    </td>
+    <td>
+     List
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-UpdateS3Resources">
+     </a>
+     <a href="https://docs.aws.amazon.com/macie/1.0/APIReference/API_UpdateS3Resources.html">
+      UpdateS3Resources
+     </a>
+    </td>
+    <td>
+     Enables the user to update the classification types for the specified S3 resources.
+    </td>
+    <td>
+     Write
+    </td>
+    <td>
+    </td>
+    <td>
+     <p>
+      <a href="#amazonmacieclassic-aws_SourceArn">
+       aws:SourceArn
+      </a>
+     </p>
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
+<div class="table-container">
+ <div class="table-contents">
+  <table id="w86aab5b9d795c15b7">
+   <thead>
+    <tr>
+     <th>
+      Condition keys
+     </th>
+     <th>
+      Description
+     </th>
+     <th>
+      Type
+     </th>
+    </tr>
+   </thead>
+   <tr>
+    <td>
+     <a id="amazonmacieclassic-aws_SourceArn">
+     </a>
+     aws:SourceArn
+    </td>
+    <td>
+     Allow access to the specified actions only when the request operates on the specified
+                                                aws resource
+    </td>
+    <td>
+     Arn
+    </td>
+   </tr>
+  </table>
+ </div>
+</div>
